@@ -1,0 +1,14 @@
+﻿Table 1.
+        General features of the model iWZ663.
+Features,Number
+Genome features,
+ Genome size (bp),3<comma>288<comma>404
+ Total open reading frames (ORFs)a,3096
+Metabolic model,
+ Total reactions,830
+ Biochemical reactions,576
+ Transport reactions,137
+ Exchange reactions,117
+ Metabolites,649
+ ORFs associated in model,663
+ ORF coverageb (%),21.4
