@@ -1,0 +1,11 @@
+﻿Table 1.
+        Comparison of general features of iMZ1055<comma> Oh et al. model<comma> and iBsu1103.
+Model,iMZ1055,Oh et al. model,iBsu1103
+Total genesa,5317,4114,4114
+ Genes,1055,844,1103
+ Gene coverage (%)b,19.8,20.5,26.8
+Reactions,1112,1020,1443
+ Biochemical transformations,915,776,1164
+ Transport reactions,197,244,279
+ Gene-associated reactions,959,904,1258
+Metabolites,993,988,1145

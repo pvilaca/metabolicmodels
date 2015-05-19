@@ -1,0 +1,9 @@
+﻿Table 1.
+        Growth rate and hydrogen production from glucose and glycerol for different mutant strains. Growth rate (h−1). H2<comma> CO2<comma> acetate<comma> PFK<comma> EDD<comma> GND<comma> RPE represent flux values of the corresponding reactions (mmol/gDW/h). The PFK reaction represents EM pathway<comma> EDD represents the ED pathway<comma> GND represents the OPP pathway and RPE represents the non-oxidative branch of the pentose phosphate pathway. BPCY is the biomass-coupled product yield (mmol/gDW/h2) and ΔH2 is the fractional increase in H2 production over the wild type.
+Carbon source,Glucose,Glucose,Glucose,Glycerol
+Knock in,Wild type,NADP_H2,FNOR_HT,FNOR_HT
+Knockout,–,FBA,TPI,ACKr/LDH_L,–,FBA,TPI,HEX7/PGI,ACKr/LDH_L,–,FBA,TPI,HEX7/PGI,FBA/EDA_R,ACKr/LDH_L,–,ACKr/LDH_L,FBA/EDA_R/TPI
+Growth rate,0.35,0.13,0.25,0.14,0.35,0.24,0.25,0.28,0.14,0.35,0.24,0.25,0.28,0.12,0.14,0.34,0.18,0.12
+H2,32.53,36.83,34.74,37.07,32.95,35.07,35.03,46.45,37.22,34.06,34.62,35.03,47.57,76.36,37.63,67.65,70.33,96.83
+BPCY,11.35,4.84,8.54,5.08,11.50,8.42,8.61,12.94,5.10,12.09,8.31,8.61,13.42,9.32,5.33,22.97,12.61,11.82
+ΔH2,1.00,1.13,1.07,1.14,1.00,1.06,1.06,1.41,1.13,1.00,1.02,1.03,1.40,2.24,1.10,1.00,1.04,1.43

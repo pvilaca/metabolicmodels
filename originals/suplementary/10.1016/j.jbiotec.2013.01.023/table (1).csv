@@ -1,0 +1,15 @@
+﻿Table 1.
+        Bacterial strains and plasmids used in this study.
+Strain/plasmid,Relevant characteristics,Reference
+Bacterial strains
+E. coli DH5α:MCR,[F-]mcrA Δ(mrr-hsdRMS-mcrBC) Φ80dlacZ M15 Δ(lacZYA-argF)U169 endA1 recA1 deoR thi-1 supE44 λ-gyrA96 relA1,Gibco-BRL<comma> CeBiTec strain collection
+X. campestris pv. campestris B100,Wild type<comma> Smr,Vorhölter et al.<comma> 2008
+B100ΔpfkA,pfkA deletion mutant of strain B100<comma> Smr<comma> ΔpfkA::loxP,This work
+B100Δpgi,pgi deletion mutant of strain B100<comma> Smr<comma> Δpgi::loxP,This work
+B100Δedd,edd deletion mutant of strain B100<comma> Smr<comma> Δedd::loxP,This work
+B100Δtkt,tkt deletion mutant of strain B100<comma> Smr<comma> Δtkt::loxP,This work
+B100ΔgumD,gumD deletion mutant of strain B100<comma> Smr<comma> Kmr<comma> ΔgumD::nptII::loxP,This work
+Plasmids
+pFV7,Cloning vector<comma> derivative of pZErO-1<comma> aacC1 from pHGW32<comma> lacZα-ccdB<comma> Gmr,Vorhölter et al.<comma> 2001
+pSAWloxP-K,Cloning vector<comma> pFV7 derivative<comma> aacC1 from pHGW32<comma> lacZα-ccdB<comma> nptII<comma> loxP Gmr<comma> Kmr,This work
+pBBR1:mcs5:cre,pBBR1MCS-5 (Kovach et al.<comma> 1995) derivative<comma> aacC1 (Gmr)<comma> carrying cre ( Liu et al.<comma> 1998),Zudi Uzeini<comma> CeBiTec strain collection

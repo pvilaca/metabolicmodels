@@ -1,0 +1,12 @@
+﻿Table 2.
+        Predictions of the growth rate under different carbon sources.
+Condition (mmol/gDW/h)a,Growth rate (1/h),Ref.
+,In silico,Experimental,
+,Without regulationb,With regulation,,
+vglc = 1.31; vac = 0.17,0.113,0.093,0.096,Fürch et al. (2007a)
+vglc = 1.47; vac = 0.13,0.13,0.108,0.108c,Fürch et al. (2007a)
+vglc = 1.52; vac = 0.15,0.135,0.113,0.103,Fürch et al. (2007a)
+vglc = 1.53; vac = 0.16,0.136,0.113,0.107,Fürch et al. (2007a)
+vglc = 1.62; vac = 0.17,0.145,0.121,0.11,Fürch et al. (2007a)
+vglc = 5.17; vac = 0.60,0.504,0.44,0.426,Fürch et al. (2007a)
+vpyr = 3.4; vac = 0.16,0.108,0.084,0.103,Fürch et al. (2007b)
