@@ -1,0 +1,1087 @@
+abbreviation	name	equation	reversible	compartement	lowbnd	uppbnd	obj_coef	rule	subsystem
+Trans_tagd	D-Tagaturonate transporter 	tagd[e] + h2o[c] + atp[c] --> tagd[c] + pi[c] + adp[c]	false	C_c, C_e	0	1000	0		ATP driven transport
+Trans_ppat	phosphonate ABC transporter ATP-binding protein	ppat[e] + atp[c] + h2o[c] --> ppat[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(phnL) or (phnK)	ATP-driven transport
+Trans_gluL	amino-acid ABC transport (L-glutamate)	gluL[e] + atp[c] + h2o[c] --> gluL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_asnL	L-asparagine transporter	asnL[e] + atp[c] + h2o[c] --> asnL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_glyb	glycine betaine ABC transporter	glyb[e] + atp[c] + h2o[c] --> glyb[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(opuCA) and (opuCC) and (CD3215)	ATP-driven transport
+Trans_aspL2	L-aspartate transporter	aspL[e] + atp[c] + h2o[c] --> aspL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_ptrc	putrescine ABC transport	ptrc[e] + atp[c] + h2o[c] --> ptrc[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(potA) and (potC) and (potB) and (potD)	ATP-driven transport
+Trans_metD	D-methionine ABC transporter	metD[e] + atp[c] + h2o[c] --> metD[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(metN) and (metI) and (metQ) and (CD1653)	ATP-driven transport
+Trans_chol	choline ABC transporter	chol[e] + atp[c] + h2o[c] --> chol[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(opuCA) and (opuCC) and (CD3215)	ATP-driven transport
+Trans_atp	sodium extrusion ABC transporter	na[e] + atp[c] + h2o[c] --> na[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1614) or (CD1659) or (CD0591) or (CD1615)	ATP-driven transport
+Trans_glnL	amino-acid ABC transport (L-glutamine)	glnL[e] + atp[c] + h2o[c] --> glnL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_pi2	phosphate active transporter	pi[e] + atp[c] + h2o[c] --> pi[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD3263) or (pstA) or (pstS) or (pstB)	ATP-driven transport
+Trans_argL	L-arginine transporter	argL[e] + atp[c] + h2o[c] --> argL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_his	amino-acid ABC transport (L-histidine)	his[e] + atp[c] + h2o[c] --> his[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_tyrL	amino-acid ABC transport (L-tyrosine)	tyrL[e] + atp[c] + h2o[c] --> tyrL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_zn2	zinc exporter ABC transport	zn2[c] + atp[c] + h2o[c] --> zn2[e] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD0313)	ATP-driven transport
+Trans_g3p	glycerol-3-phosphate-transporting ATPase	g3p[e] + atp[c] + h2o[c] --> g3p[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD3417) and (CD3416) and (CD3415) and (CD3414)	ATP-driven transport
+Trans_fe2	Iron atp driven transport	fe2[e] + atp[c] + h2o[c] --> adp[c] + pi[c] + fe2[c]	false	C_c, C_e	0	1000	0	(CD1647) or (CD1648) or (CD1649) or (CD1650)	ATP-driven transport
+Trans_no2	Nitrate ATP transporter	no3[e] + atp[c] + h2o[c] --> no3[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1000) and (CD1001) and (CD0999) or (CD1979) and (CD1978) and (CD1980) or (CD2361) or (CD2365) or (CD1904) and (CD2989) and (CD2990)	ATP-driven transport
+Trans_cysL	amino-acid ABC transport (L-cysteine)	cysL[e] + atp[c] + h2o[c] --> cysL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_c1ala	Vitamin B12 transport	c1ala[e] + h2o[c] + atp[c] --> c1ala[c] + pi[c] + adp[c]	false	C_c, C_e	0	1000	0	(CD2875) and (CD2876) and (CD2878) or (CD2975) and (CD2877) and (CD2878)	ATP-driven transport
+Trans_metL	amino-acid ABC transport (L-methionine)	metL[e] + atp[c] + h2o[c] --> metL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_trpL	amino-acid ABC transport (L-tryptophan)	trpL[e] + atp[c] + h2o[c] --> trpL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_spmd	spermine ABC transport	spmd[e] + atp[c] + h2o[c] --> spmd[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(potA) or (potC)	ATP-driven transport
+Trans_lysL	amino-acid ABC transport (L-lysine)	lysL[e] + atp[c] + h2o[c] --> lysL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_leuL	amino-acid ABC transport (L-leucine)	leuL[e] + atp[c] + h2o[c] --> leuL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_alaL2	L-alanine transporter	alaL[e] + atp[c] + h2o[c] --> alaL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_pheL	amino-acid ABC transport (L-phenylalanine)	pheL[e] + atp[c] + h2o[c] --> pheL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_cobalt	The ATP-binding Cassette (ABC) Superfamily	cobalt[e] + atp[c] + h2o[c] --> adp[c] + cobalt[c] + pi[c]	false	C_c, C_e	0	1000	0	(cbiO2) and (cbiO1) and (cbiQ) and (cbiN) and (cbiM) or (cbiO) and (CD0326) and (cbiN) and (cbiM) or (CD0431) and (CD0430)	ATP-driven transport
+Trans_ca	Calcium ATP dependent transport	ca2[e] + atp[c] + h2o[c] --> ca2[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1824) or (CD2503) or (CD1637) or (CD2833)	ATP-driven transport
+Trans_valL	amino-acid ABC transport (L-valine)	valL[e] + atp[c] + h2o[c] --> valL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_proL	amino-acid ABC transport (L-proline)	proL[e] + atp[c] + h2o[c] --> proL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_mg3	P-type magnesium transporter	mg2[e] + atp[c] + h2o[c] --> mg2[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(mgtA) or (mgtB)	ATP-driven transport
+Trans_thrL	amino-acid ABC transport (L-threonine)	thrL[e] + atp[c] + h2o[c] --> thrL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_k	potassium transport	k[e] + atp[c] + h2o[c] --> k[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(kdpA) and (kdpB) and (kdpC)	ATP-driven transport
+Trans_gly	amino-acid ABC transport (glycine)	gly[e] + atp[c] + h2o[c] --> gly[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_mg2	magnesium ABC transporter	mg2[e] + atp[c] + h2o[c] --> mg2[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(mgtC) or (CD1659) or (CD0591)	ATP-driven transport
+Trans_serL	amino-acid ABC transport (L-serine)	serL[e] + atp[c] + h2o[c] --> serL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_ileL	amino-acid ABC transport (L-isoleucine)	ileL[e] + atp[c] + h2o[c] --> ileL[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(CD1775) or (CD1776) or (CD2172) or (CD0752) or (CD0751)	ATP-driven transport
+Trans_ribD	ribose ABC transporter	ribD[e] + atp[c] + h2o[c] --> ribD[c] + adp[c] + pi[c]	false	C_c, C_e	0	1000	0	(rbsA) and (rbsC) and (rbsB) or (CD1587) and (CD1588) and (CD1589)	ATP-driven transport
+ID_470	asparagine synthase (glutamine-hydrolysing)	[c]: aspL + glnL + atp + h2o <==> asnL + gluL + ppi + amp	true	C_c	-1000	1000	0	(CD0391) or (CD1632) or (asnB)	Alanine, aspartate and glutamate metabolism
+ID_222	aspartate-ammonia ligase	[c]: aspL + nh3 + atp --> asnL + ppi + amp	false	C_c	0	1000	0	(asnA)	Alanine, aspartate and glutamate metabolism
+ID_88	succinate semialdehyde:NAD+ oxidoreductase	[c]: sucsald + h2o + nad --> succ + nadh + h	false	C_c	0	1000	0	(sucD)	Alanine, aspartate and glutamate metabolism
+ID_317	Acetamide amidohydrolase	[c]: actid + h2o <==> ac + nh3	true	C_c	-1000	1000	0	(CD2737)	Alanine, aspartate and glutamate metabolism
+ID_575	L-glutamate:NAD+ oxidoreductase (deaminating)	[c]: gluL + nad + h2o --> nh3 + 2oglut + nadh + h	false	C_c	0	1000	0	(gluD)	Alanine, aspartate and glutamate metabolism
+ID_712	4-aminobutyrate:2-oxoglutarate aminotransferase	[c]: 4abat + 2oglut --> sucsald + gluL	false	C_c	0	1000	0	(gabT)	Alanine, aspartate and glutamate metabolism
+ID_411	succinate semialdehyde:NADP+ oxidoreductase	[c]: sucsald + h2o + nadp --> succ + nadph + h	false	C_c	0	1000	0	(sucD) or (gapN)	Alanine, aspartate and glutamate metabolism
+ID_439	aspartate:2-oxoglutarate aminotransferase	[c]: oxac + gluL --> aspL + 2oglut	false	C_c	0	1000	0	(aspC) or (aspD) or (CD2382) or (aspB) or (CD2828)	Alanine, aspartate and glutamate metabolism
+ID_445	glutamine-fructose-6-phosphate transaminase (isomerizing)	[c]: fru6p + glnL --> ga6p + gluL	false	C_c	0	1000	0	(glmS) or (CD2420) or (CD3331)	Alanine, aspartate and glutamate metabolism
+ID_142	4-aminobutanoate:pyruvate aminotransferase	[c]: 4abat + pyr <==> sucsald + alaL	true	C_c	-1000	1000	0	(CD2532)	Alanine, aspartate and glutamate metabolism
+ID_12	glutamate racemase	[c]: gluL --> gluD	false	C_c	0	1000	0	(murI) or (racX) or (CD2819) or (orr)	Alanine, aspartate and glutamate metabolism
+ID_365	argininosuccinate lyase	[c]: argsuc --> argL + fum	false	C_c	0	1000	0	(argH)	Alanine, aspartate and glutamate metabolism
+ID_92	asparaginase	[c]: asnL + h2o --> aspL + nh3	false	C_c	0	1000	0	(CD0391) or (CD1632) or (asnB)	Alanine, aspartate and glutamate metabolism
+ID_543	glutamate synthase (NADPH)	[c]: glnL + nadph + 2oglut + h --> (2) gluL + nadp	false	C_c	0	1000	0	(aspB) or (CD1537)	Alanine, aspartate and glutamate metabolism
+ID_675	L-glutamine aminohydrolase	[c]: glnL + h2o --> gluL + nh3	false	C_c	0	1000	0	(glsA)	Alanine, aspartate and glutamate metabolism
+ID_688	4-aminobutyrate transaminase	[c]: alaB + 2oglut <==> malsald + gluL	true	C_c	-1000	1000	0	(gabT)	Alanine, aspartate and glutamate metabolism
+ID_336	L-alanine:2-oxoglutarate aminotransferase	[c]: alaL + 2oglut --> gluL + pyr	false	C_c	0	1000	0		Alanine, aspartate and glutamate metabolism
+ID_506	UDP-N-acetylmuramate-L-alanine ligase	[c]: udpamr + alaL + atp --> udpamala + adp + pi	false	C_c	0	1000	0	(murC)	Alanine, aspartate and glutamate metabolism
+ID_3	glutathione gamma-glutamylaminopeptidase	[c]: gth + h2o <==> cysgly + gluL	true	C_c	-1000	1000	0	(CD1534)	Alanine, aspartate and glutamate metabolism
+ID_428	UDP-N-acetylmuramoyl-L-alanine-D-glutamate ligase	[c]: udpamala + gluD + atp --> udpamag + adp + pi	false	C_c	0	1000	0	(murD)	Alanine, aspartate and glutamate metabolism
+ID_526	glutamate-ammonia ligase	[c]: gluL + nh3 + atp --> glnL + pi + adp	false	C_c	0	1000	0	(glnA)	Alanine, aspartate and glutamate metabolism
+ID_357	alanine racemase	[c]: alaL <==> alaD	true	C_c	-1000	1000	0	(CD2623) or (alr) or (CD2819) or (racX) or (orr) or (vanTG)	Alanine, aspartate and glutamate metabolism
+ID_346	D-alanine-D-alanine ligase	[c]: (2) alaD + atp --> alaala + adp + pi	false	C_c	0	1000	0	(ddl)	Alanine, aspartate and glutamate metabolism
+ID_396	L-Serine:pyruvate aminotransferase	[c]: serL + pyr <==> hpyr + alaL	true	C_c	-1000	1000	0	(CD0994)	Alanine, aspartate and glutamate metabolism
+ID_446	argininosuccinate synthase	[c]: citrL + aspL + atp --> argsuc + ppi + amp	false	C_c	0	1000	0	(argG)	Alanine, aspartate and glutamate metabolism
+ID_561	L-glutamate:NAD+ oxidoreductase (transaminating)	[c]: glnL + nadh + 2oglut + h --> (2) gluL + nad	false	C_c	0	1000	0	(aspB) or (CD1537)	Alanine, aspartate and glutamate metabolism
+ID_583	malonate semialdehide decarboxylase	[c]: malsald <==> aald + co2	true	C_c	-1000	1000	0		Alanine, aspartate and glutamate metabolism
+ID_347	aspartate 1-decarboxylase	[c]: aspL --> alaL + co2	false	C_c	0	1000	0	(aspD)	Alanine, aspartate and glutamate metabolism
+ID_759	4-aminobutanoate:glyoxylate aminotransferase	[c]: 4abat + glx <=> sucsald + gly	true	C_c	-1000	1000	0	(CD2532)	Alanine, aspartate and glutamate metabolism
+ID_380	glucosamine-6-phosphate deaminase	[c]: ga6p + h2o --> fru6p + nh3	false	C_c	0	1000	0	(nagB)	Amino sugar and nucleotide sugar metabolism
+ID_571	ATP:N-acetyl-D-glucosamine 6-phosphotransferase	[c]: aga + atp --> aga6p + adp	false	C_c	0	1000	0	(CD1585)	Amino sugar and nucleotide sugar metabolism
+ID_331	UDP-N-acetylglucosamine diphosphorylase	[c]: aga1p + utp --> udpaga + ppi	false	C_c	0	1000	0	(glmU)	Amino sugar and nucleotide sugar metabolism
+ID_227	phosphoglucosamine mutase	[c]: ga6p --> ga1p	false	C_c	0	1000	0	(CD0119)	Amino sugar and nucleotide sugar metabolism
+ID_594	glucosamine-1-phosphate N-acetyltransferase	[c]: ga1p + acoa --> aga1p + coa	false	C_c	0	1000	0	(glmU)	Amino sugar and nucleotide sugar metabolism
+ID_514	N-acetylglucosamine-6-phosphate deacetylase	[c]: aga6p + h2o --> ga6p + ac	false	C_c	0	1000	0	(nagA) or (agaA)	Amino sugar and nucleotide sugar metabolism
+ID_548	UDP-N-acetyl-D-glucosamine 2-epimerase (UDP-forming)	[c]: udpaga + h2o --> ama + udp	false	C_c	0	1000	0	(mnaA)	Amino sugar and nucleotide sugar metabolism
+ID_301	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	[c]: udpaga + pepyr --> udpagaepyr + pi	false	C_c	0	1000	0	(murA)	Amino sugar and nucleotide sugar metabolism
+ID_176	UDP-N-acetylmuramate:NAD+ oxidoreductase	[c]: udpamr + nad <==> udpagaepyr + nadh + h	true	C_c	-1000	1000	0	(murB)	Amino sugar and nucleotide sugar metabolism
+ID_194	N-acetylneuraminate pyruvate-lyase	[c]: acnam --> ama + pyr	false	C_c	0	1000	0	(nanA)	Amino sugar and nucleotide sugar metabolism
+ID_727	N-acetyl-D-glucosamine 6-phosphate 2-epimerase	[c]: ama6p <==> aga6p	true	C_c	-1000	1000	0	(nanE)	Amino sugar and nucleotide sugar metabolism
+ID_741	ATP:N-acetyl-D-mannosamine 6-phosphotransferase	[c]: ama + atp --> ama6p + adp	false	C_c	0	1000	0	(CD2194)	Amino sugar and nucleotide sugar metabolism
+ID_223	UDP-N-acetylmuramate dehydrogenase	[c]: udpagaepyr + nadph + h --> udpamr + nadp	false	C_c	0	1000	0	(murB)	Amino sugar and nucleotide sugar metabolism
+ID_121	UDP-N-acetyl-D-glucosamine 2-epimerase	[c]: udpaga --> udpama	false	C_c	0	1000	0	(mnaA)	Amino sugar and nucleotide sugar metabolism
+ID_602	L-arginine carboxy-lyase	[c]: argL --> agm + co2	false	C_c	0	1000	0	(speA) or (CD3551)	Arginine and proline metabolism
+ID_367	allophanate hydrolase	[c]: urea1c + h2o --> (2) nh3 + (2) co2	false	C_c	0	1000	0	(CD1386) and (CD1387)	Arginine and proline metabolism
+ID_493	acetyl-CoA:putrescine N-acetyltransferase	[c]: acoa + ptrc <==> coa + nacput	true	C_c	-1000	1000	0	(bltD)	Arginine and proline metabolism
+ID_106	N-acetyl-gamma-glutamyl-phosphate reductase	[c]: agmp + nadph + h --> aglu5sald + pi + nadp	false	C_c	0	1000	0	(argC)	Arginine and proline metabolism
+ID_638	agmatine amidinohydrolase	[c]: agm + h2o --> ptrc + urea	false	C_c	0	1000	0	(speB)	Arginine and proline metabolism
+ID_467	ornithine carbamoyltransferase	[c]: cbp + ornL <==> citrL + pi	true	C_c	-1000	1000	0	(argF)	Arginine and proline metabolism
+ID_747	acetylornithine amidohydrolase	[c]: aorn + h2o --> ornL + ac	false	C_c	0	1000	0	(argE)	Arginine and proline metabolism
+ID_278	N2-Acetyl-L-ornithine:L-glutamate N-acetyltransferase	[c]: aorn + gluL <==> ornL + aglu	true	C_c	-1000	1000	0	(argJ)	Arginine and proline metabolism
+ID_42	4-aminobutyraldehyde:NAD+ oxidoreductase	[c]: 4abald + nad + h2o <==> 4abat + nadh + h	true	C_c	-1000	1000	0	(aldH)	Arginine and proline metabolism
+ID_635	acetylglutamate kinase	[c]: aglu + atp --> agmp + adp	false	C_c	0	1000	0	(argB)	Arginine and proline metabolism
+ID_311	amino-acid N-acetyltransferase	[c]: gluL + acoa --> aglu + coa	false	C_c	0	1000	0	(argJ)	Arginine and proline metabolism
+ID_135	proline racemase	[c]: proL --> proD	false	C_c	0	1000	0	(prdF) or (racX) or (CD2819) or (orr)	Arginine and proline metabolism
+ID_627	urea:bicarbonate ligase	[c]: urea + atp + hco3 + h --> urea1c + pi + adp	false	C_c	0	1000	0	(CD1387)	Arginine and proline metabolism
+ID_295	putrescine aminotransferase	[c]: ptrc + pyr --> 4abald + alaL	false	C_c	0	1000	0		Arginine and proline metabolism
+ID_748	acetylornithine transaminase	[c]: aglu5sald + gluL --> aorn + 2oglut	false	C_c	0	1000	0	(argM)	Arginine and proline metabolism
+ID_337	L-arginine iminohydrolase	[c]: argL + h2o <==> citrL + nh3	true	C_c	-1000	1000	0		Arginine and proline metabolism
+Bio_CW	Cell wall synthesis	[c]: (0.363) CLP + (0.019) teichoic --> CW	false	C_c	0	1000	0		Biomass Equation
+Biomass	Biomass Reaction	[c]: (0.4) Prot + (0.12) RNA + (0.03) DNA + (0.07) Lip + (0.24) CW + (0.14) SPs + (40) h2o + (40) atp --> (40) adp + (40) pi	false	C_c	0	1000	1		Biomass Equation
+Bio_RNA	RNA synthesis	[c]: (1.146) atp + (0.329) ctp + (0.892) utp + (0.548) gtp + h2o --> RNA + (1.25) adp + (1.25) pi + ppi	false	C_c	0	1000	0		Biomass Equation
+Bio_DNA	DNA synthesis	[c]: (1.075) datp + (0.440) dctp + (1.075) dttp + (0.440) dgtp + (4.39) atp + h2o --> DNA + (4.39) adp + (4.39) pi + ppi	false	C_c	0	1000	0		Biomass Equation
+Bio_CLP	Peptidoglycan synthesis	[c]: (1.064) udpamagdapaa + (1.064) udpaga + (4.425) atp + h2o --> CLP + (1.106) alaD + (1.106) udp + (4.425) adp + (4.425) pi	false	C_c	0	1000	0	(murG)	Biomass Equation
+Bio_prot	Protein synthesis	[c]: (0.375) alaL + (0.225) argL + (0.441) asnL + (0.399) aspL + (0.087) cysL + (0.167) glnL + (0.517) gluL + (0.442) gly + (0.095) his + (0.693) ileL + (0.636) leuL + (0.637) lysL + (0.190) metL + (0.304) pheL + (0.192) proL + (0.457) serL + (0.344) thrL + (0.043) trpL + (0.286) tyrL + (0.462) valL + (39.94) atp + h2o --> Prot + (39.94) adp + (39.94) pi	false	C_c	0	1000	0		Biomass Equation
+Bio_lip	Lipid composition	[c]: (0.4588) ptgp + (0.0574) cdlp + (0.0574) 3pt13lg + (0.0115) 3g12dag + (0.0688) dgdag + (0.0344) lpteichoic + (0.0765) mqn + (0.1912) 12dag --> Lip	false	C_c	0	1000	0		Biomass Equation
+Bio_SPs	Solute Pool	[c]: (0.0008) atp + (0.1161) alaL + (0.0288) argL + (0.5959) aspL + (0.5256) gluL + (0.0086) glnL + (0.0398) gly + (0.0169) his + (0.0481) ileL + (0.0222) leuL + (0.0405) lysL + (0.0222) metL + (0.0043) pheL + (0.1293) proL + (0.756) serL + (0.0156) thrL + (0.0017) thym + (0.0162) valL + (0.9947) pi + (0.4775) glcAD + (0.00033) acoa + (0.0004) coa + (0.0001) citrL + (0.00067) fad + (0.01433) nad + (0.00033) nadh + (0.00087) nadp + (0.00267) nadph --> SPs	false	C_c	0	1000	0		Biomass Equation
+ID_525	acetyl-CoA:4-hydroxybutanoate CoA-transferase	[c]: 4hbut + acoa --> ac + 4hcoa	false	C_c	0	1000	0	(cat2)	Butanoate metabolism
+ID_616	vinylacetyl-CoA delta3-delta2-isomerase	[c]: vacoa --> ctncoa	false	C_c	0	1000	0	(abfD)	Butanoate metabolism
+ID_530	butanal:NADP+ oxidoreductase (CoA-acylating)	[c]: btcoa + nadph + h --> btal + coa + nadp	false	C_c	0	1000	0	(adhE) or (CD2966)	Butanoate metabolism
+ID_519	(S)-3-hydroxybutanoyl-CoA:NADP+ oxidoreductase	[c]: 3hbcoa + nadp <==> aacoa + nadph + h	true	C_c	-1000	1000	0	(hbd)	Butanoate metabolism
+ID_72	butanoyl-CoA:acetate CoA-transferase	[c]: btcoa + ac --> 2but + acoa	false	C_c	0	1000	0	(scoA) and (scoB)	Butanoate metabolism
+ID_502	(S)-acetoin:NAD+ oxidoreductase	[c]: da + nadh + h --> actnS + nad	false	C_c	0	1000	0	(fabG)	Butanoate metabolism
+ID_156	4-hydroxybutanoyl-CoA hydro-lyase	[c]: 4hcoa --> vacoa + h2o	false	C_c	0	1000	0	(abfD)	Butanoate metabolism
+ID_21	oxidoreductase acting on the CH-OH group of donors with NADP+ as acceptor	[c]: btal + nadph + h --> buta + nadp	false	C_c	0	1000	0	(adhE) or (CD3006)	Butanoate metabolism
+ID_615	(R)-acetoin:NAD+ oxidoreductase	[c]: da + nadh + h --> actnR + nad	false	C_c	0	1000	0	(fabG)	Butanoate metabolism
+ID_251	butyrate kinase	[c]: 2but + atp --> butp + adp	false	C_c	0	1000	0	(buk) or (CD2379) or (buk1)	Butanoate metabolism
+ID_504	trans-2-enoyl-CoA reductase (NADP+)	[c]: ctnycoa + nadph + h --> btcoa + nadp	false	C_c	0	1000	0	(acdB) or (bcd2)	Butanoate metabolism
+ID_507	succinate semialdehyde hydrogenase	[c]: sucsald + nadh + h <==> 4hbut + nad	true	C_c	-1000	1000	0	(abfH)	Butanoate metabolism
+ID_18	(R)-3-hydroxybutanoate:NAD+ oxidoreductase	[c]: r3hbat + nad <==> aac + nadh + h	true	C_c	-1000	1000	0	(bdhA)	Butanoate metabolism
+ID_463	oxidoreductase acting on the CH-OH group of donors with NAD+ as acceptor	[c]: btal + nadh + h --> buta + nad	false	C_c	0	1000	0	(adhE) or (CD3006) or (CD2966)	Butanoate metabolism
+ID_500	carbonate hydro-lyase	[c]: co2 + h2o --> hco3 + h	false	C_c	0	1000	0	(CD2213)	Butanoate metabolism
+ID_379	(R)-acetoin racemase	[c]: actnR <==> actnS	true	C_c	-1000	1000	0		Butanoate metabolism
+ID_175	butanal:NAD+ oxidoreductase (CoA-acylating)	[c]: btcoa + nadh + h --> btal + coa + nad	false	C_c	0	1000	0	(adhE) or (CD2966)	Butanoate metabolism
+ID_6	2-acetolactate decarboxylation	[c]: 2alac + elecaccept-oxi --> da + elecaccept-red + co2	false	C_c	0	1000	0	(Spontaneous)	Butanoate metabolism
+ID_287	Glutaconyl-CoA carboxy-lyase	[c]: gccoa --> ctncoa + co2	false	C_c	0	1000	0		Butanoate metabolism
+ID_272	phosphate butyryltransferase	[c]: btcoa + pi --> butp + coa	false	C_c	0	1000	0	(ptb) or (CD0715) or (CD2425)	Butanoate metabolism
+ID_523	acetolactate decarboxylase	[c]: 2alac <==> actnR + co2	true	C_c	-1000	1000	0		Butanoate metabolism
+Trans_mg	magnesium transporter	mg2[e] --> mg2[c]	false	C_c, C_e	0	1000	0	(CD2436) or (CD0902) or (CD1831) or (CD2122) or (CD2832) or (CD3270) or (CD3520)	Channel-type facilitator
+Trans_k4	potassium:H+ antiporter	k[e] + h[c] --> k[c] + h[e]	false	C_c, C_e	0	1000	0		Channel-type facilitator
+Trans_for	Formate transport	for[e] <==> for[c]	true	C_c, C_e	-1000	1000	0	(CD3403)	Channel-type facilitator
+Trans_no	nitrite transporter	no2[e] --> no2[c]	false	C_c, C_e	0	1000	0	(nirC) or (CD3403)	Channel-type facilitator
+Trans_k3	potassium ion chanel	k[e] --> k[c]	false	C_c, C_e	0	1000	0	(CD0697) or (CD2142)	Channel-type facilitator
+Trans_zn	zinc transporter	zn2[e] --> zn2[c]	false	C_c, C_e	0	1000	0	(zupT) or (CD0902) or (CD1831) or (CD2122) or (CD2832) or (CD3270) or (CD3520)	Channel-type facilitator
+ID_61	isocitrate:NADP+ oxidoreductase	[c]: icit + nadp --> 2oglut + nadph + co2 + h	false	C_c	0	1000	0	(CD0834)	Citrate cycle (TCA cycle)
+ID_708	2-oxoglutarate dehydrogenase complex	[c]: 2oglut + coa + nad --> succoa + co2 + nadh + h	false	C_c	0	1000	0	(CD0723) and (acoL)	Citrate cycle (TCA cycle)
+ID_370	pyruvate carboxylase	[c]: hco3 + pyr + atp + h --> oxac + pi + adp	false	C_c	0	1000	0	(pyc)	Citrate cycle (TCA cycle)
+ID_433	citrate hydro-lyase	[c]: cit <==> acon + h2o	true	C_c	-1000	1000	0	(acnB)	Citrate cycle (TCA cycle)
+ID_171	isocitrate dehydrogenase (NAD+)	[c]: icit + nad --> 2oglut + co2 + nadh + h	false	C_c	0	1000	0	(CD0834)	Citrate cycle (TCA cycle)
+ID_544	acetyl-CoA:oxaloacetate C-acetyltransferase	[c]: oxac + acoa + h2o --> cit + coa	false	C_c	0	1000	0		Citrate cycle (TCA cycle)
+ID_310	succinyl-CoA synthase	[c]: succ + coa + atp <==> succoa + pi + adp	true	C_c	-1000	1000	0	(cat1)	Citrate cycle (TCA cycle)
+ID_606	isocitrate hydro-lyase	[c]: icit <==> acon + h2o	true	C_c	-1000	1000	0	(acnB)	Citrate cycle (TCA cycle)
+ID_198	fumarate hydratase	[c]: malS --> fum + h2o	false	C_c	0	1000	0	(fumA) and (fumB)	Citrate cycle (TCA cycle)
+ID_254	malate:NAD+ oxidoreductase	[c]: malS + nad <==> oxac + nadh + h	true	C_c	-1000	1000	0	(ldh)	Citrate cycle (TCA cycle)
+ID_557	methionine adenosyltransferase	[c]: metL + atp + h2o --> amet + pi + ppi	false	C_c	0	1000	0	(metK)	Cysteine and methionine metabolism
+ID_99	acetyl-CoA:L-homoserine O-acetyltransferase	[c]: hser + acoa --> ahser + coa	false	C_c	0	1000	0		Cysteine and methionine metabolism
+ID_231	adenosylhomocysteinase	[c]: ahcys + h2o --> adn + hcys	false	C_c	0	1000	0	(mtnN)	Cysteine and methionine metabolism
+ID_2	spermine N1-acetyltransferase	[c]: sprm + acoa <==> naspin + coa	true	C_c	-1000	1000	0	(bltD)	Cysteine and methionine metabolism
+ID_562	5-(methylthio)-2,3-dioxopentyl-phosphate phosphohydrolase (isomerizing)	[c]: 5mt23dopp + h2o <==> 12dh5mtp + pi	true	C_c	-1000	1000	0		Cysteine and methionine metabolism
+ID_152	methionine synthase	[c]: hcys + 5mthf --> metL + thf	false	C_c	0	1000	0	(CD3596)	Cysteine and methionine metabolism
+ID_265	2-hydroxy-3-keto-5-methylthio-1-phosphopentene phosphohydrolase	[c]: 2h3k5mt1pp + h2o --> 12dh5mtp + pi	false	C_c	0	1000	0		Cysteine and methionine metabolism
+ID_714	2,3-diketo-5-methylthiopentenyl-1-phosphate enolase	[c]: 5mtr1p --> mthx5p	false	C_c	0	1000	0		Cysteine and methionine metabolism
+ID_687	cystathionine gamma-synthase	[c]: suchser + cysL --> cysthL + succ	false	C_c	0	1000	0	(cysD)	Cysteine and methionine metabolism
+ID_711	S-adenosylmethioninamine:putrescine 3-aminopropyltransferase	[c]: ametam + ptrc --> m5tade + spmd + h	false	C_c	0	1000	0	(speE)	Cysteine and methionine metabolism
+ID_680	S-adenosyl-L-methionine carboxy-lyase	[c]: amet + h --> ametam + co2	false	C_c	0	1000	0	(speD)	Cysteine and methionine metabolism
+ID_469	cystathionine gamma-lyase	[c]: cysL + h2o --> h2s + pyr + nh3	false	C_c	0	1000	0	(malY) or (CD2484) or (CD2696) or (CD2733)	Cysteine and methionine metabolism
+ID_242	L-cystyeine sulfurtransferase	[c]: cysL + unsc + h --> alaL + ssc	false	C_c	0	1000	0	(iscS1) or (iscS2)	Cysteine and methionine metabolism
+ID_418	spermidine N1-acetyltransferase	[c]: spmd + acoa <==> naspdi + coa	true	C_c	-1000	1000	0	(bltD)	Cysteine and methionine metabolism
+ID_155	S-adenosylmethioninamine:spermidine 3-aminopropyltransferase	[c]: ametam + spmd <==> sprm + m5tade + h	true	C_c	-1000	1000	0	(speE)	Cysteine and methionine metabolism
+ID_560	methionine racemase	[c]: metL <==> metD	true	C_c	-1000	1000	0	(orr) or (racX) or (CD2819)	Cysteine and methionine metabolism
+ID_189	S-adenosyl-L-homocysteine homocysteinylribohydrolase	[c]: ahcys + h2o --> s5ddr5lhcys + ade	false	C_c	0	1000	0	(mtnN)	Cysteine and methionine metabolism
+ID_235	5-methylthioribulose-1-phosphate hydro-lyase	[c]: 5mtr1p --> 5mt23dopp + h2o	false	C_c	0	1000	0		Cysteine and methionine metabolism
+ID_136	5-(methylthio)-2,3-dioxopentyl phosphate keto-enol-isomerase	[c]: 5mt23dopp --> 2h3k5mt1pp	false	C_c	0	1000	0		Cysteine and methionine metabolism
+ID_98	L-methionine methanothiol-lyase	[c]: metL + h2o <==> ch4s + 2obut + nh3	true	C_c	-1000	1000	0	(mdeA)	Cysteine and methionine metabolism
+ID_259	homoserine O-succinyltransferase	[c]: hser + succoa --> suchser + coa	false	C_c	0	1000	0	(metA)	Cysteine and methionine metabolism
+ID_358	O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase	[c]: ahser + ch4s --> ac + metL	false	C_c	0	1000	0	(cysD)	Cysteine and methionine metabolism
+ID_309	S-(5-deoxy-D-ribos-5-yl)-L-homocysteine homocysteine-lyase [(4S)-4,5-dihydroxypentan-2,3-dione-forming]indole-3-acetate	[c]: s5ddr5lhcys <==> hcys + 4s45dhp23do	true	C_c	-1000	1000	0	(luxS)	Cysteine and methionine metabolism
+ID_410	ATP:S-methyl-5-thio-D-ribose 1-phosphotransferase	[c]: atp + m5trib --> adp + m5trib1p	false	C_c	0	1000	0		Cysteine and methionine metabolism
+ID_737	S-methyl-5-thio-alpha-D-ribose 1-phosphate ketol-isomerase	[c]: m5trib1p --> 5mtr1p	false	C_c	0	1000	0		Cysteine and methionine metabolism
+ID_127	methylthioadenosine methylthioribohydrolase	[c]: m5tade + h2o --> m5trib + ade	false	C_c	0	1000	0	(mtnN)	Cysteine and methionine metabolism
+ID_94	cystathionine beta-lyase	[c]: cysthL + h2o --> hcys + nh3 + pyr	false	C_c	0	1000	0	(malY) or (CD2484) or (CD2696) or (CD2733)	Cysteine and methionine metabolism
+ID_167	L-homocysteine Methyltransferases	[c]: hcys + amet <==> ahcys + metL	true	C_c	-1000	1000	0	(CD3596)	Cysteine and methionine metabolism
+ID_664	ornithine racemase	[c]: ornL --> ornD	false	C_c	0	1000	0	(racX) or (CD2819) or (orr)	D-Arginine and D-ornithine metabolism
+ID_443	2-amino-4-ketopentanoate thiolase	[c]: 2a4op + coa --> alaD + acoa	false	C_c	0	1000	0	(ortA) and (ortB)	D-Arginine and D-ornithine metabolism
+ID_243	D-ornithine 4,5-aminomutase	[c]: ornD --> 24dap	false	C_c	0	1000	0	(oraS) and (oraE)	D-Arginine and D-ornithine metabolism
+ID_319	D-threo-2,4-diaminopentanoate:NADP+ oxidoreductase	[c]: 24dap + nadp + h2o --> 2a4op + nh3 + nadph + h	false	C_c	0	1000	0	(ord)	D-Arginine and D-ornithine metabolism
+ID_193	D-threo-2,4-diaminopentanoate:NAD+ oxidoreductase	[c]: 24dap + nad + h2o --> 2a4op + nh3 + nadh + h	false	C_c	0	1000	0	(ord)	D-Arginine and D-ornithine metabolism
+Ex_ca2	Exchange Ca2+	--> ca2[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_tyrL	Exchange L-tyrosine	--> tyrL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_chor	Exchange chorismate	--> chor[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_pheL	Exchange L-phenylalanine	--> pheL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_fru	Exchange D-fructose	--> fru[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_serL	Exchange L-serine	--> serL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_cysL	Exchange L-cysteine	--> cysL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_adn	Exchange adenosine	--> adn[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_dcyt	Exchange deoxycytidine	--> dcyt[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_mnl	Exchange mannitol	--> mnl[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_tagd	Exchange D-Tagaturonate	--> tagd[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_k	Exchange K+	--> k[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_so3	Exchange sulfite	--> so3[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_chol	Exchange choline	--> chol[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_uri	Exchange uridine	--> uri[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_ura	Exchange uracil	--> ura[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_glc	Exchange beta-D-glucose	--> glc[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_nac	Exchange nicotinate	--> nac[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_argL	Exchange L-arginine	--> argL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_udpagaepyr	Exchange UDP-N-acetylglucosamine-enolpyruvate	--> udpagaepyr[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_hxan	Exchange hypoxanthine	--> hxan[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_metL	Exchange L-methionine	--> metL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_thm	Exchange thiamin	--> thm[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_proL	Exchange L-proline	--> proL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_aspL	Exchange L-aspartate	--> aspL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_ribflv	Exchange riboflavin	--> ribflv[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_hco3	Exchange bicarbonate	--> hco3[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_h	Exchange H+	--> h[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_valL	Exchange L-valine	--> valL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_4abz	Exchange 4-aminobenzoate	--> 4abz[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_thymd	Exchange thymidine	--> thymd[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_pntoR	Exchange (R)-pantothenate	--> pntoR[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_dad	Exchange deoxyadenosine	--> dad[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_g3p	Exchange sn-glycerol-3-phosphate	--> g3p[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_na	Exchange Na+	--> na[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_gly	Exchange glycine	--> gly[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_h2o	Exchange H2O	--> h2o[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_pyin	Exchange pyridoxine	--> pyin[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_leuL	Exchange L-leucine	--> leuL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_ileL	Exchange L-isoleucine	--> ileL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_cobalt	Exchange Co2+	--> cobalt[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_zn2	Exchange Zn2+	--> zn2[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_pi	Exchange phosphate	--> pi[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_gluL	Exchange L-glutamate	--> gluL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_glnL	Exchange L-glutamine	--> glnL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_asnL	Exchange L-asparagine	--> asnL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_thrL	Exchange L-threonine	--> thrL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_trpL	Exchange L-tryptophan	--> trpL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_nh3	Exchange ammonia	--> nh3[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_co2	Exchange CO2	--> co2[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_alaL	Exchange L-alanine	--> alaL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_ribD	Exchange D-ribose	--> ribD[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_h2	Exchange H2	--> h2[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_his	Exchange L-histidine	--> his[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_bio	Exchange biotin	--> bio[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_mg2	Exchange Mg2+	--> mg2[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_lysL	Exchange L-lysine	--> lysL[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_ins	Exchange inosine	--> ins[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_c1ala	Exchange cob(I)alamin	--> c1ala[e]	FALSE	C_e	0	1000	0		Exchange
+Ex_ncam	Exchange nicotinamide	--> ncam[e]	FALSE	C_e	0	1000	0		Exchange
+ID_400	butanoyl-CoA dehydrogenase (FAD)	[c]: btcoa + fad <==> fadh2 + ctnycoa	true	C_c	-1000	1000	0	(acdB) or (bcd2)	Fatty acid degradation
+ID_325	enoyl-CoA hydratase	[c]: 3hbcoa <==> ctncoa + h2o	true	C_c	-1000	1000	0	(crt1) or (crt2)	Fatty acid degradation
+ID_481	acetyl-CoA C-acetyltransferase	[c]: aacoa + coa <==> (2) acoa	true	C_c	-1000	1000	0	(thlA1) or (thlA2) or (CD2970)	Fatty acid degradation
+ID_390	3-hydroxyacyl-CoA dehydrogenase	[c]: 3hbcoa + nad <==> aacoa + nadh + h	true	C_c	-1000	1000	0	(hbd)	Fatty acid degradation
+ID_471	acyl-CoA hydrolase	[c]: r3hbatcoa + h2o --> r3hbat + coa + h	false	C_c	0	1000	0	(CD1966)	Fatty acid degradation
+ID_60	Beta-Oxidation of Palmitoyl-CoA	[c]: lcacoa + (7) fadh2 + (7) h2o + (7) nad + (7) coa --> (8) acoa + (7) nadh + (7) h + (7) fad	false	C_c	0	1000	0	(crt1) and (CD0803) and (hbd) and (thlA2)	Fatty acid degradation
+ID_409	(S)-3-Hydroxybutanoyl-CoA 3-epimerase	[c]: 3hbcoa <==> r3hbatcoa	true	C_c	-1000	1000	0		Fatty acid degradation
+ID_341	dihydroneopterin monophosphate dephosphorylase	[c]: 78dhnpte3p + h2o --> 78dhnpte + pi	false	C_c	0	1000	0		Folate biosynthesis
+ID_149	6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase	[c]: 6hm78dhpte + 4abz <==> 78dhpte + h2o	true	C_c	-1000	1000	0	(folP)	Folate biosynthesis
+ID_457	dihydroneopterin triphosphate pyrophosphohydrolase	[c]: 78dhnptetp + h2o --> 78dhnpte3p + ppi	false	C_c	0	1000	0		Folate biosynthesis
+ID_180	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	[c]: 6hm78dhpte + atp --> 6hmdhptedp + amp	false	C_c	0	1000	0	(folK)	Folate biosynthesis
+ID_495	4-amino-4-deoxychorismate synthase	[c]: chor + glnL --> 4a4dchor + gluL	false	C_c	0	1000	0	(pabA) and (pabB)	Folate biosynthesis
+ID_75	dihydrofolate synthase	[c]: atp + 78dhpte + gluL --> adp + pi + 78dhfmg	false	C_c	0	1000	0	(folC)	Folate biosynthesis
+ID_438	4-amino-4-deoxychorismate pyruvate-lyase	[c]: 4a4dchor --> 4abz + pyr	false	C_c	0	1000	0	(pabC)	Folate biosynthesis
+ID_104	D-aminocylase	[c]: 4abg + h2o + (2) h <==> gluD + 4abz	true	C_c	-1000	1000	0	(CD2859) or (CD3182)	Folate biosynthesis
+ID_344	dihydropteroate synthase	[c]: 6hmdhptedp + 4abz --> 78dhpte + ppi	false	C_c	0	1000	0	(folP)	Folate biosynthesis
+ID_524	GTP 7,8-8,9-dihydrolase	[c]: gtp + h2o --> 78dhnptetp + for	false	C_c	0	1000	0	(folE)	Folate biosynthesis
+ID_172	dihydroneopterin aldolase	[c]: 78dhnpte --> 6hm78dhpte + gcald	false	C_c	0	1000	0	(folB)	Folate biosynthesis
+ID_64	phosphomannomutase	[c]: man6p --> man1p	false	C_c	0	1000	0	(pgm2)	Fructose and mannose metabolism
+ID_219	1-phosphofructokinase	[c]: fru1p + atp --> fru16bp + adp	false	C_c	0	1000	0	(fruK)	Fructose and mannose metabolism
+ID_545	UTP:D-fructose-6-phosphate 1-phosphotransferase	[c]: fru6p + utp --> fru16bp + udp	false	C_c	0	1000	0	(CD3110) or (pfkA)	Fructose and mannose metabolism
+ID_541	D-sobitol-6-phosphate:NAD+ 2-oxidoreductase	[c]: sor6p + nad --> fru6p + nadh + h	false	C_c	0	1000	0	(gutD)	Fructose and mannose metabolism
+ID_726	mannose-1-phosphate guanylyltransferase (GDP)	[c]: man1p + gdp <==> gdpm + pi	true	C_c	-1000	1000	0	(manC)	Fructose and mannose metabolism
+ID_610	ATP:D-hexose 6 phosphotransferase alpha galactose	[c]: galA + atp --> gal6p + adp	false	C_c	0	1000	0	(CD2236)	Fructose and mannose metabolism
+ID_253	ATP:D-hexose 6 phosphotransferase mannose	[c]: adman + atp --> man6p + adp	false	C_c	0	1000	0	(CD2236)	Fructose and mannose metabolism
+ID_276	fructose-bisphosphatase	[c]: fru16bp + h2o --> fru6p + pi	false	C_c	0	1000	0	(fbp)	Fructose and mannose metabolism
+ID_567	sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase	[c]: shl7p + glyald3p <==> et4p + fru6p	true	C_c	-1000	1000	0	(tal) or (CD2110)	Fructose and mannose metabolism
+ID_542	ATP:D-fructose 6-phosphotransferase	[c]: atp + fru --> adp + fru6p	false	C_c	0	1000	0	(scrK)	Fructose and mannose metabolism
+ID_732	D-fructose 1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase	[c]: dhap + glyald3p <==> fru16bp	true	C_c	-1000	1000	0	(fba)	Fructose and mannose metabolism
+ID_302	ATP:D-hexose 6 phosphotransferase beta galactose	[c]: gal + atp --> gal6p + adp	false	C_c	0	1000	0	(CD2236)	Fructose and mannose metabolism
+ID_353	L-fuculose-1-phosphate lactaldehyde-lyase	[c]: fuc1p <==> dhap + laldS	true	C_c	-1000	1000	0	(CD0045) or (CD2277)	Fructose and mannose metabolism
+ID_290	ITP:D-fructose-6-phosphate 1-phosphotransferase	[c]: fru6p + itp --> fru16bp + idp	false	C_c	0	1000	0	(CD3110) or (pfkA)	Fructose and mannose metabolism
+ID_674	sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase	[c]: sh17bp <==> dhap + et4p	true	C_c	-1000	1000	0	(fba) or (CD3135)	Fructose and mannose metabolism
+ID_613	ATP:sedoheptulose-7-phosphate 1-phosphotransferase	[c]: atp + shl7p --> adp + sh17bp	false	C_c	0	1000	0	(CD3110) or (pfkA)	Fructose and mannose metabolism
+ID_436	alpha-D-Glucose aldose-ketose-isomerase	[c]: glcAD <==> fru	true	C_c	-1000	1000	0	(CD2710)	Fructose and mannose metabolism
+ID_649	mannose-6-phosphate isomerase	[c]: man6p <==> fru6p	true	C_c	-1000	1000	0	(pmi)	Fructose and mannose metabolism
+ID_611	mannitol-1-phosphate 5-dehydrogenase	[c]: mnl1p + nad --> fru6p + nadh + h	false	C_c	0	1000	0	(mtlD)	Fructose and mannose metabolism
+ID_676	sorbitol dehydrogenase	[c]: sor + nad <==> fru + nadh + h	true	C_c	-1000	1000	0	(CD0490) or (CD2323) or (ansB)	Fructose and mannose metabolism
+ID_527	CTP:D-fructose-6-phosphate 1-phosphotransferase	[c]: fru6p + ctp --> fru16bp + cdp	false	C_c	0	1000	0	(CD3110) or (pfkA)	Fructose and mannose metabolism
+ID_199	fructose-bisphosphate aldolase	[c]: fru1p --> dhap + glyald	false	C_c	0	1000	0	(fba) or (CD3135)	Fructose and mannose metabolism
+ID_297	ATP:D-fructose-6-phosphate 1-phosphotransferase	[c]: fru6p + atp --> fru16bp + adp	false	C_c	0	1000	0	(CD3110) or (pfkA)	Fructose and mannose metabolism
+ID_659	mannose-1-phosphate guanylyltransferase (GTP)	[c]: man1p + gtp --> gdpm + ppi	false	C_c	0	1000	0	(manC)	Fructose and mannose metabolism
+ID_173	UTP hexose-1-phosphate uridylyltransferase	[c]: gal1pA + utp --> udpgal + ppi	false	C_c	0	1000	0	(CD1340)	Fructose and mannose metabolism
+ID_333	Fructokinase	[c]: fruf + atp --> fru6p + adp	false	C_c	0	1000	0		Fructose and mannose metabolism
+ID_491	CTP:tagatose-6-phosphate 1-phosphotransferase	[c]: tag6p + ctp --> tag16bp + cdp	false	C_c	0	1000	0	(pfkA) or (CD3110)	Galactose metabolism
+ID_329	D-galactose 1-epimerase	[c]: gal --> galA	false	C_c	0	1000	0	(CD3440)	Galactose metabolism
+ID_255	D-glucose 1-phosphate 1-epimerase	[c]: glc1pA --> glc1p	false	C_c	0	1000	0	(Spontaneous)	Galactose metabolism
+ID_532	ATP:tagatose-6-phosphate 1-phosphotransferase	[c]: tag6p + atp --> tag16bp + adp	false	C_c	0	1000	0	(lacC)	Galactose metabolism
+ID_742	Galactitol-1-phosphate:NAD+ oxidoreductase	[c]: gtol1p + nad <==> tag6p + nadh + h	true	C_c	-1000	1000	0	(gatD)	Galactose metabolism
+ID_417	UDP-D-glucose:alpha-D-galactose 1-phosphate uridylyltransferase	[c]: gal1pA + udpglu --> udpgal + glc1pA	false	C_c	0	1000	0	(CD1340)	Galactose metabolism
+ID_444	UDP-glucose 4-epimerase	[c]: udpgal <==> udpglu	true	C_c	-1000	1000	0	(galE)	Galactose metabolism
+ID_480	UTP:tagatose-6-phosphate 1-phosphotransferase	[c]: tag6p + utp --> tag16bp + udp	false	C_c	0	1000	0	(pfkA) or (CD3110)	Galactose metabolism
+ID_205	tagatose-bisphosphate aldolase	[c]: tag16bp --> dhap + glyald3p	false	C_c	0	1000	0	(gatY) or (CD3074)	Galactose metabolism
+ID_631	ITP:tagatose-6-phosphate 1-phosphotransferase	[c]: tag6p + itp --> tag16bp + idp	false	C_c	0	1000	0	(lacC) or (tagK)	Galactose metabolism
+ID_633	galactose-6-phosphate isomerase	[c]: gal6p --> tag6p	false	C_c	0	1000	0	(rpiB1) and (rpiB2)	Galactose metabolism
+ID_9	glycerol dehydrogenase (NAD+)	[c]: glyo + nad <==> glyald + nadh + h	true	C_c	-1000	1000	0	(adhE) or (CD2966) or (CD3006)	Glycerolipid metabolism
+ID_429	1,2-diacylglycerol 3-glucosyltransferase	[c]: udpglu + 12dag <==> udp + 3g12dag	true	C_c	-1000	1000	0	(CD0019) or (CD1344)	Glycerolipid metabolism
+ID_298	glycerol dehydrogenase (NADP+)	[c]: glyo + nadp <==> glyald + nadph + h	true	C_c	-1000	1000	0	(adhE) or (CD2966) or (CD3006)	Glycerolipid metabolism
+ID_549	acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase	[c]: 1ag3p + lcacoa --> ptd + coa	false	C_c	0	1000	0	(CD1817) or (CD1723)	Glycerolipid metabolism
+ID_455	diacylglycerol kinase	[c]: adp + ptd --> atp + 12dag	false	C_c	0	1000	0	(CD2439)	Glycerolipid metabolism
+ID_678	aldehyde dehydrogenase (NAD+)	[c]: glyald + nad + h2o <==> glyc + nadh + h	true	C_c	-1000	1000	0	(aldH)	Glycerolipid metabolism
+ID_273	palmitate biosynthesis	[c]: acoa + (7) malacp + (7) nadph + (7) nadh + (14) h <==> palm + (7) nadp + (7) nad + (7) co2 + (6) h2o + (7) hacp + coa	true	C_c	-1000	1000	0	(fabH) and (fabF) and (fabG) and (fabZ) or (fabH) and (fabF) and (CD2577) and (fabZ)	Glycerolipid metabolism
+ID_477	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminoheptanedioate:D-alanyl-D-alanine ligase	[c]: udpamagdap + alaala + atp --> udpamagdapaa + adp + pi	false	C_c	0	1000	0	(murF)	Glycerolipid metabolism
+ID_86	hexosyltransferase	[c]: 3g12dag + udpglu <==> dgdag + udp	true	C_c	-1000	1000	0		Glycerolipid metabolism
+ID_564	glycerol kinase	[c]: glyo + atp --> g3p + adp	false	C_c	0	1000	0	(glpK1) or (glpK2)	Glycerolipid metabolism
+ID_224	phosphatidylglycerol-membrane-oligosaccharide	[c]: ptg + dgdag <==> 12dag + gpgl	true	C_c	-1000	1000	0		Glycerolipid metabolism
+ID_740	Acyl-CoA thioesterase	[c]: palm + coa + atp --> lcacoa + h2o + amp + (2) pi	false	C_c	0	1000	0	(CD1966)	Glycerolipid metabolism
+ID_109	glycerol-3-phosphate dehydrogenase (NAD+)	[c]: dhap + nadh + h --> g3p + nad	false	C_c	0	1000	0	(glyC) or (gpsA)	Glycerophospholipid metabolism
+ID_204	CDP-diacylglycerol phosphatidylhydrolase	[c]: cdpdag + h2o --> cmp + ptd	false	C_c	0	1000	0		Glycerophospholipid metabolism
+ID_588	CDP-diacylglycerol-glycerol-3-phosphate 3-phosphatidyltransferase	[c]: cdpdag + g3p --> ptgp + cmp	false	C_c	0	1000	0	(pgsA)	Glycerophospholipid metabolism
+ID_56	glycerol-3-phosphate dehydrogenase (NADP+)	[c]: dhap + nadph + h --> g3p + nadp	false	C_c	0	1000	0	(glyC) or (gpsA)	Glycerophospholipid metabolism
+ID_546	phosphatidate cytidylyltransferase	[c]: ptd + ctp --> cdpdag + ppi	false	C_c	0	1000	0	(cdsA)	Glycerophospholipid metabolism
+ID_78	glycerol-3-phosphate O-acyltransferase	[c]: g3p + lcacoa --> 1ag3p + coa	false	C_c	0	1000	0	(plsX)	Glycerophospholipid metabolism
+ID_185	phosphatidylglycerophosphatase	[c]: ptgp + h2o --> ptg + pi	false	C_c	0	1000	0		Glycerophospholipid metabolism
+ID_232	cardiolipin biosynthesis	[c]: (2) ptg --> cdlp + glyo	false	C_c	0	1000	0	(cls) or (CD3404)	Glycerophospholipid metabolism
+ID_267	glycerol-3-phosphate cytidylyltransferase	[c]: g3p + ctp --> cdpg + ppi	false	C_c	0	1000	0		Glycerophospholipid metabolism
+ID_340	ethanolamine ammonia-lyase	[c]: etoa --> aald + nh3	false	C_c	0	1000	0	(eutB) and (eutC) or (eutA) and (eutB) and (eutC)	Glycerophospholipid metabolism
+ID_249	2-amino-3-oxobutanoate CoA-ligase	[c]: 2a3ob + coa --> gly + acoa	false	C_c	0	1000	0		Glycine, serine and threonine metabolism
+ID_751	Glycine dehydrogenase (aminomethyl-transferring)	[c]: hgcvpllys + gly --> hpsamdhllys + co2	false	C_c	0	1000	0	(gcvTPA) and (gcvPB)	Glycine, serine and threonine metabolism
+ID_501	D-serine ammonia-lyase	[c]: serD --> pyr + nh3	false	C_c	0	1000	0	(CD2819)	Glycine, serine and threonine metabolism
+ID_165	homoserine dehydrogenase (NADP+)	[c]: aspsald + nadph + h --> hser + nadp	false	C_c	0	1000	0	(hom1) or (hom2)	Glycine, serine and threonine metabolism
+ID_283	phosphoserine phosphatase	[c]: 3pser + h2o --> serL + pi	false	C_c	0	1000	0	(CD0241) or (CD0309)	Glycine, serine and threonine metabolism
+ID_494	aspartate kinase	[c]: aspL + atp --> asp4p + adp	false	C_c	0	1000	0	(dapG) or (lysC) or (CD2627)	Glycine, serine and threonine metabolism
+ID_556	threonine aldolase	[c]: thrL --> gly + aald	false	C_c	0	1000	0	(ltaE)	Glycine, serine and threonine metabolism
+ID_625	L-threonine:NAD+ oxidoreductase	[c]: thrL + nad --> 2a3ob + nadh + h	false	C_c	0	1000	0	(CD1792)	Glycine, serine and threonine metabolism
+ID_240	threonine synthase	[c]: phser + h2o --> thrL + pi	false	C_c	0	1000	0	(thrC)	Glycine, serine and threonine metabolism
+ID_130	betaine aldehyde:NAD+ oxidoreductase	[c]: betald + h2o + nad --> glyb + nadh + (2) h	false	C_c	0	1000	0		Glycine, serine and threonine metabolism
+ID_536	L-cysteinylglycine dipeptidase	[c]: cysgly + h2o --> cysL + gly	false	C_c	0	1000	0	(pepD) or (pepA)	Glycine, serine and threonine metabolism
+ID_293	choline dehydrogenase (NADP+)	[c]: chol + nadp --> betald + nadph + h	false	C_c	0	1000	0	(adhE) or (CD3006)	Glycine, serine and threonine metabolism
+ID_330	L-threonine dehydratase	[c]: thrL --> 2obut + nh3	false	C_c	0	1000	0	(tdcB)	Glycine, serine and threonine metabolism
+ID_143	glycine hydroxymethyltransferase	[c]: serL + thf <==> gly + 510mlethf + h2o	true	C_c	-1000	1000	0	(glyA) or (CD2834)	Glycine, serine and threonine metabolism
+ID_452	phosphoglycerate dehydrogenase	[c]: 3pg + nad --> 3phpyr + nadh + h	false	C_c	0	1000	0	(serA)	Glycine, serine and threonine metabolism
+ID_743	serine racemase	[c]: serL <==> serD	true	C_c	-1000	1000	0	(vanTG) or (CD2819) or (racX) or (orr)	Glycine, serine and threonine metabolism
+ID_665	3-phospho-L-serinephosphoserine transaminase	[c]: 3phpyr + gluL --> 3pser + 2oglut	false	C_c	0	1000	0	(CD0994)	Glycine, serine and threonine metabolism
+ID_132	homoserine dehydrogenase (NAD+)	[c]: aspsald + nadh + h --> hser + nad	false	C_c	0	1000	0	(hom1) or (hom2)	Glycine, serine and threonine metabolism
+ID_124	2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate 6-phosphomannohydrolase	[c]: 2o6pamg2d + h2o <==> man6p + glyc	true	C_c	-1000	1000	0	(mngB)	Glycine, serine and threonine metabolism
+ID_609	glycerate kinase	[c]: glyc + atp --> 3pg + adp	false	C_c	0	1000	0	(garK)	Glycine, serine and threonine metabolism
+ID_385	homoserine kinase	[c]: hser + atp --> phser + adp	false	C_c	0	1000	0	(thrB)	Glycine, serine and threonine metabolism
+ID_52	aspartate-semialdehyde dehydrogenase	[c]: asp4p + nadph + h --> aspsald + pi + nadp	false	C_c	0	1000	0	(asd)	Glycine, serine and threonine metabolism
+ID_320	L-serine ammonia-lyase	[c]: serL --> pyr + nh3	false	C_c	0	1000	0	(sdaB)	Glycine, serine and threonine metabolism
+ID_694	succinyl-CoA:glycine C-succinyltransferase	[c]: succoa + gly <==> 5all + coa + co2	true	C_c	-1000	1000	0		Glycine, serine and threonine metabolism
+ID_729	choline dehydrogenase (NAD+)	[c]: chol + nad --> betald + nadh + h	false	C_c	0	1000	0	(CD3006)	Glycine, serine and threonine metabolism
+ID_393	glyceraldehyde-3-phosphate dehydrogenase (phosphorylating) NADP	[c]: 13bpg + nadph + h <==> glyald3p + pi + nadp	true	C_c	-1000	1000	0	(gapA) or (gapB)	Glycolysis / Gluconeogenesis
+ID_55	alpha-D-glucose 6-phosphate ketol-isomerase	[c]: glc6pA <==> fru6p	true	C_c	-1000	1000	0	(pgi)	Glycolysis / Gluconeogenesis
+ID_496	ATP:oxaloacetate carboxylyase	[c]: oxac + atp --> pepyr + adp + co2	false	C_c	0	1000	0		Glycolysis / Gluconeogenesis
+ID_622	D-glyceraldehyde 3-phosphate:NADP+ oxidoreductase	[c]: glyald3p + nadp + h2o <==> 3pg + nadph + h	true	C_c	-1000	1000	0	(gapN)	Glycolysis / Gluconeogenesis
+ID_360	acetaldehyde:NAD+ oxidoreductase (acetate forming)	[c]: aald + nad + h2o --> ac + nadh + h	false	C_c	0	1000	0	(aldH)	Glycolysis / Gluconeogenesis
+ID_401	phosphoglucomutase	[c]: glc6pA <==> glc1pA	true	C_c	-1000	1000	0	(pgm1) or (CD2318) or (pgm2)	Glycolysis / Gluconeogenesis
+ID_221	dihydrolipoamide dehydrogenase	[c]: hgcvpdhllys + nad --> hgcvpllys + nadh + h	false	C_c	0	1000	0	(CD0723) and (acoL)	Glycolysis / Gluconeogenesis
+ID_53	pyruvate:ferredoxin oxidoreductase	[c]: pyr + coa + (2) feroxoxi <==> acoa + co2 + (2) h + (2) feroxred	true	C_c	-1000	1000	0	(CD0118) and (CD2199) and (CD2198)	Glycolysis / Gluconeogenesis
+ID_179	phosphoglycerate mutase	[c]: 2pg <==> 3pg	true	C_c	-1000	1000	0	(gpmI) or (CD1814)	Glycolysis / Gluconeogenesis
+ID_414	ATP:alpha-D-glucose 6-phosphotransferase	[c]: atp + glcAD --> adp + glc6pA	false	C_c	0	1000	0	(glcK) or (CD2236)	Glycolysis / Gluconeogenesis
+ID_621	beta-D-glucose 6-phosphate ketol-isomerase	[c]: fru6p <==> glc6p	true	C_c	-1000	1000	0	(pgi)	Glycolysis / Gluconeogenesis
+ID_498	glucose-6-phosphate 1-epimerase	[c]: glc6p <==> glc6pA	true	C_c	-1000	1000	0	(Spontaneous)	Glycolysis / Gluconeogenesis
+ID_285	glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)	[c]: 13bpg + nadh + h <==> glyald3p + pi + nad	true	C_c	-1000	1000	0	(gapA) or (gapB)	Glycolysis / Gluconeogenesis
+ID_233	phosphoglycerate kinase	[c]: 3pg + atp <==> 13bpg + adp	true	C_c	-1000	1000	0	(pgk)	Glycolysis / Gluconeogenesis
+ID_660	L-lactate dehydrogenase	[c]: pyr + nadh + h --> lacS + nad	false	C_c	0	1000	0	(ldh)	Glycolysis / Gluconeogenesis
+ID_39	D-glucose 1-phosphate phosphohydrolase	[c]: glc1pA + h2o --> glc + pi	false	C_c	0	1000	0		Glycolysis / Gluconeogenesis
+ID_657	ATP:beta-D-glucose 6-phosphotransferase	[c]: glc + atp --> glc6p + adp	false	C_c	0	1000	0	(glcK) or (CD2236)	Glycolysis / Gluconeogenesis
+ID_147	D-glucose 1-epimerase	[c]: glcAD <==> glc	true	C_c	-1000	1000	0	(CD3440)	Glycolysis / Gluconeogenesis
+ID_721	D-glucose aldose-ketose-isomerase	[c]: glc <==> fru	true	C_c	-1000	1000	0	(xylA) or (CD0556)	Glycolysis / Gluconeogenesis
+ID_596	triose-phosphate isomerase	[c]: glyald3p <==> dhap	true	C_c	-1000	1000	0	(tpiA)	Glycolysis / Gluconeogenesis
+ID_391	phosphopyruvate hydratase	[c]: pepyr + h2o <==> 2pg	true	C_c	-1000	1000	0	(eno)	Glycolysis / Gluconeogenesis
+ID_140	acetate:CoA ligase (AMP-forming)	[c]: ac + atp + coa --> acoa + ppi + amp	false	C_c	0	1000	0	(CD2196)	Glycolysis / Gluconeogenesis
+ID_383	ethanol dehydrogenase	[c]: eto + nad <==> aald + nadh + h	true	C_c	-1000	1000	0	(adhE) or (CD3006) or (CD2966)	Glycolysis / Gluconeogenesis
+ID_252	ATP:pyruvate 2-O-phosphotransferase	[c]: pepyr + adp <==> pyr + atp	true	C_c	-1000	1000	0	(pykF)	Glycolysis / Gluconeogenesis
+ID_654	AMP:fructose-1,6-bisphosphate phosphotransferase	[c]: fru16bp + amp --> fru6p + adp	false	C_c	0	1000	0		Glycolysis / Gluconeogenesis
+ID_473	gluconolactonase	[c]: dgo15lac + h2o --> glcn	false	C_c	0	1000	0		Glycolysis / Gluconeogenesis
+ID_339	hydroxypyruvate isomerase	[c]: tartsald <==> hpyr	true	C_c	-1000	1000	0		Glyoxylate and dicarboxylate metabolism
+ID_753	L-Serine:glyoxylate aminotransferase	[c]: glx + serL <=> hpyr + gly	true	C_c	-1000	1000	0	(CD0994)	Glyoxylate and dicarboxylate metabolism
+ID_754	glycolate fermentation	[c]: (6) glyclt + h --> ac + (2) succ + (2) co2 + (4) h2o	false	C_c	0	1000	0		Glyoxylate and dicarboxylate metabolism
+ID_362	(3R)-3-Hydroxybutanoyl-CoA hydro-lyase	[c]: r3hbatcoa <==> ctnycoa + h2o	true	C_c	-1000	1000	0	(crt1) or (crt2)	Glyoxylate and dicarboxylate metabolism
+ID_752	Glycolaldehyde dehydrogenase	[c]: gcald + nad + h2o --> glyclt + nadh + h	false	C_c	0	1000	0	(aldH)	Glyoxylate and dicarboxylate metabolism
+ID_128	D-glycerate:NAD+ oxidoreductase	[c]: tartsald + nadh + h <==> glyc + nad	true	C_c	-1000	1000	0	(garR)	Glyoxylate and dicarboxylate metabolism
+ID_374	glycine cleavage	[c]: thf + gly + nad --> 510mlethf + nh3 + nadh + co2 + h	false	C_c	0	1000	0	(gcvTPA) and (gcvH)	Glyoxylate and dicarboxylate metabolism
+ID_535	2-hydroxy-3-oxopropionate reductase	[c]: tartsald + nadph + h <==> glyc + nadp	true	C_c	-1000	1000	0	(garR)	Glyoxylate and dicarboxylate metabolism
+ID_90	formate dehydrogenase	[c]: for + nad --> co2 + h + nadh	false	C_c	0	1000	0	(fdhF)	Glyoxylate and dicarboxylate metabolism
+ID_230	glycine oxidase	[c]: 2iac + h2o --> glx + nh3	false	C_c	0	1000	0	(CD2868) or (Spontaneous)	Glyoxylate and dicarboxylate metabolism
+ID_211	10-formyltetrahydrofolate aminohydrolase	[c]: 10fthf + h2o --> thf + for	false	C_c	0	1000	0		Glyoxylate and dicarboxylate metabolism
+ID_151	imidazole glycerol phosphate synthase	[c]: prfiaicarp + glnL --> eimzgp + aimzcrnt + gluL	false	C_c	0	1000	0	(hisH) and (hisF)	Histidine metabolism
+ID_196	phosphoribosyl-AMP cyclohydrolase	[c]: 15pramp + h2o --> 15pr55pramai4c	false	C_c	0	1000	0	(hisI)	Histidine metabolism
+ID_361	histidinol:NAD+ oxidoreductase	[c]: histd + nad --> hista + nadh + h	false	C_c	0	1000	0	(hisD)	Histidine metabolism
+ID_215	phosphoribosyl-ATP diphosphatase	[c]: pratp + h2o --> 15pramp + ppi	false	C_c	0	1000	0	(hisI) or (CD3497)	Histidine metabolism
+ID_76	histidinol-phosphatase	[c]: hisp + h2o --> histd + pi	false	C_c	0	1000	0	(hisK) or (CD1069)	Histidine metabolism
+ID_191	N-carbamoul-L-aspartate hydrolase	[c]: aspL + nh3 + co2 <==> casp + h2o	true	C_c	-1000	1000	0	(CD2027)	Histidine metabolism
+ID_268	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase	[c]: 15pr55pramai4c --> prfiaicarp	false	C_c	0	1000	0	(hisA)	Histidine metabolism
+ID_338	ATP phosphoribosyltransferase	[c]: 5pr1dp + atp --> pratp + ppi	false	C_c	0	1000	0	(hisZ) and (hisG)	Histidine metabolism
+ID_713	histidinal:NAD+ oxidoreductase	[c]: hista + nad + h2o --> his + nadh + h	false	C_c	0	1000	0	(hisD)	Histidine metabolism
+ID_164	histidinol-phosphate transaminase	[c]: imzap + gluL --> hisp + 2oglut	false	C_c	0	1000	0	(hisC) or (CD2200) or (CD2502)	Histidine metabolism
+ID_66	imidazoleglycerol-phosphate dehydratase	[c]: eimzgp --> imzap + h2o	false	C_c	0	1000	0	(hisB)	Histidine metabolism
+ID_28	L-Leucine:2-oxoglutarate aminotransferase	[c]: leuL + 2oglut --> gluL + 4m2op	false	C_c	0	1000	0	(pabC)	Leucine Fermentation
+ID_31	acyl-CoA dehydrogenase	[c]: isocaprecoa + nadh + h --> isocapcoa + nad	false	C_c	0	1000	0	(acdB)	Leucine Fermentation
+ID_605	2-hydroxyisocaproate CoA transferase	[c]: 2hisocap + coa --> 2hisocapcoa + h2o	false	C_c	0	1000	0	(hadA)	Leucine Fermentation
+ID_382	2-hydroxyisocaproyl-CoA dehydratase	[c]: 2hisocapcoa + (3) h --> isocaprecoa + h2o	false	C_c	0	1000	0	(hadI) and (hadB) and (hadC)	Leucine Fermentation
+ID_685	2-hydroxyisocaproate dehydrogenase	[c]: 4m2op + nadh + h --> 2hisocap + nad	false	C_c	0	1000	0	(ldhA)	Leucine Fermentation
+ID_20	Isocaprenoyl-CoA CoA transferase	[c]: isocapcoa + h2o --> coa + isocap + (4) h	false	C_c	0	1000	0	(hadA)	Leucine Fermentation
+ID_550	dihydrodipicolinate synthase	[c]: aspsald + pyr --> 4s4h2345th2sdl + h2o	false	C_c	0	1000	0	(dapA1) or (dapA2) or (dapA3) or (dapA4)	Lysine biosynthesis
+ID_181	(R)-2-hydroxybutane-1,2,4-tricarboxylate hydro-lyase [(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate-forming]	[c]: hcit <==> hicit	true	C_c	-1000	1000	0		Lysine biosynthesis
+ID_626	succinyl-diaminopimelate desuccinylase	[c]: s26dap + h2o --> dap + succ	false	C_c	0	1000	0	(CD3102) or (CD2173) or (CD2084)	Lysine biosynthesis
+ID_686	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-2,6-diaminoheptanedioate ligase	[c]: udpamag + dapime + atp --> udpamagdap + adp + pi	false	C_c	0	1000	0	(murE)	Lysine biosynthesis
+ID_115	diaminopimelate epimerase	[c]: dap --> dapime	false	C_c	0	1000	0	(dapF)	Lysine biosynthesis
+ID_82	(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)	[c]: hicit + nad <==> 2oa + co2 + nadh + h	true	C_c	-1000	1000	0	(aksA)	Lysine biosynthesis
+ID_725	acetyl-CoA:2-oxoglutarate C-acetyltransferase (thioester-hydrolysing, carboxymethyl forming)	[c]: acoa + h2o + 2oglut <==> hcit + coa	true	C_c	-1000	1000	0	(aksA)	Lysine biosynthesis
+ID_120	dihydrodipicolinate reductase (NADP+)	[c]: 4s4h2345th2sdl + nadph + h --> 2345thd + nadp + h2o	false	C_c	0	1000	0	(dapB1) or (dapB2)	Lysine biosynthesis
+ID_701	dihydrodipicolinate reductase (NAD+)	[c]: 4s4h2345th2sdl + nadh + h --> 2345thd + nad	false	C_c	0	1000	0	(dapB1) or (dapB2)	Lysine biosynthesis
+ID_462	succinyldiaminopimelate transaminase	[c]: s2a6kp + gluL --> s26dap + 2oglut	false	C_c	0	1000	0		Lysine biosynthesis
+ID_652	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase	[c]: 2345thd + succoa + h2o --> s2a6kp + coa	false	C_c	0	1000	0	(dapH)	Lysine biosynthesis
+ID_479	diaminopimelate decarboxylase	[c]: dapime --> lysL + co2	false	C_c	0	1000	0	(lysA) or (CD1808)	Lysine biosynthesis
+ID_434	L-lysine 2,3-aminomutase	[c]: lysL --> 36dah	false	C_c	0	1000	0	(kamA)	Lysine degradation
+ID_184	(3S,5S)-3,5-diaminohexanoate:NAD+ oxidoreductase	[c]: 35dah + nad + h2o --> 5a3oh + nh3 + nadh + h	false	C_c	0	1000	0		Lysine degradation
+ID_349	3-keto-5-aminohexanoate cleavage	[c]: 5a3oh + acoa --> aac + 3abcoa	false	C_c	0	1000	0		Lysine degradation
+ID_113	L-3-aminobutyryl-CoA amminoa-lyase	[c]: 3abcoa --> ctncoa + nh3	false	C_c	0	1000	0		Lysine degradation
+ID_574	(3S)-3,6-diaminohexanoate 5,6-aminomutase	[c]: 36dah --> 35dah	false	C_c	0	1000	0		Lysine degradation
+ID_288	butyrate-acetoacetate CoA-transferase	[c]: aac + btcoa <==> 2but + aacoa	true	C_c	-1000	1000	0	(scoA) and (scoB)	Lysine degradation
+ID_531	N-Ribosylnicotinamide:orthophosphate ribosyltransferase	[c]: ncamrib + pi <==> ncam + rib1p + h	true	C_c	-1000	1000	0	(deoD)	Nicotinate and nicotinamide metabolism
+ID_174	nicotinate-nucleotide diphosphorylase (carboxylating)	[c]: quln + 5pr1dp + h --> nacmnc + ppi + co2	false	C_c	0	1000	0	(nadC)	Nicotinate and nicotinamide metabolism
+ID_395	Nicotinamide amidohydrolase	[c]: ncam + h2o --> nac + nh3	false	C_c	0	1000	0		Nicotinate and nicotinamide metabolism
+ID_551	nicotinamide-nucleotide adenylyltransferase (NAD+ forming)	[c]: atp + ncammnuc + h --> ppi + nad	false	C_c	0	1000	0	(nadD)	Nicotinate and nicotinamide metabolism
+ID_218	deamino-NAD+:ammonia ligase	[c]: nacaddn + nh3 + atp --> nad + ppi + amp	false	C_c	0	1000	0	(nadE)	Nicotinate and nicotinamide metabolism
+ID_27	nicotinamide-nucleotide adenylyltransferase	[c]: nacmnc + atp --> nacaddn + ppi	false	C_c	0	1000	0	(nadD)	Nicotinate and nicotinamide metabolism
+ID_58	N-ribosylnicotinamide ribohydrolase	[c]: ncamrib + h2o <==> ncam + ribD + h	true	C_c	-1000	1000	0	(iunH)	Nicotinate and nicotinamide metabolism
+ID_294	L-aspartate:NADP+ oxidoreductase (deaminating)	[c]: aspL + nadp <==> isuc + nadph + h	true	C_c	-1000	1000	0	(nadB)	Nicotinate and nicotinamide metabolism
+ID_313	NAD+ synthase (glutamine-hydrolysing)	[c]: nacaddn + glnL + atp + h2o --> nad + gluL + ppi + amp	false	C_c	0	1000	0	(nadE)	Nicotinate and nicotinamide metabolism
+ID_304	L-aspartate:NAD+ oxidoreductase (deaminating)	[c]: aspL + nad <==> isuc + nadh + h	true	C_c	-1000	1000	0	(nadB)	Nicotinate and nicotinamide metabolism
+ID_262	nicotinate mononucleotide:diphosphate phosphoribosyltransferase	[c]: nac + 5pr1dp + atp + h2o + h --> nacmnc + ppi + adp + pi	false	C_c	0	1000	0	(CD3543)	Nicotinate and nicotinamide metabolism
+ID_533	Nicotinamide ribonucleotide phosphohydrolase	[c]: ncammnuc + h + h2o --> ncamrib + pi	false	C_c	0	1000	0	(CD2537)	Nicotinate and nicotinamide metabolism
+ID_580	NAD+ phosphohydrolase	[c]: nad + h2o --> amp + ncammnuc + h	false	C_c	0	1000	0	(CD3413)	Nicotinate and nicotinamide metabolism
+ID_41	NADP+ 2'-phosphohydrolase	[c]: nadp + h2o --> nad + pi	false	C_c	0	1000	0		Nicotinate and nicotinamide metabolism
+ID_399	alpha-iminosucinate:dihydroxyacetone phosphate alkyltransferase	[c]: isuc + dhap --> quln + pi + (2) h2o	false	C_c	0	1000	0	(nadA)	Nicotinate and nicotinamide metabolism
+ID_559	NAD+ glycohydrolase	[c]: nad + h2o <==> ncam + adprib + h	true	C_c	-1000	1000	0		Nicotinate and nicotinamide metabolism
+ID_415	NAD+ kinase	[c]: nad + atp --> nadp + adp	false	C_c	0	1000	0	(CD1049)	Nicotinate and nicotinamide metabolism
+ID_651	L-aspartate:fumarate oxidoreductase	[c]: aspL + fum --> isuc + succ	false	C_c	0	1000	0	(nadB)	Nicotinate and nicotinamide metabolism
+ID_286	ferredoxin-nitrate reductase	[c]: no2 + h2o + (2) feroxoxi <==> no3 + (2) feroxred	true	C_c	-1000	1000	0	(CD2179)	Nitrite metabolism
+ID_386	nitrate reductase	[c]: no3 + nad + (3) h --> no2 + nadh + h2o	false	C_c	0	1000	0	(CD2179)	Nitrite metabolism
+ID_521	ferredoxin-nitrite reductase	[c]: nh3 + (2) h2o + (6) feroxoxi <==> no2 + (6) feroxred + (6) h	true	C_c	-1000	1000	0	(CD2431)	Nitrite metabolism
+ID_662	nitrite reductase [NADPH]	[c]: no2 + (3) nadph + (3) h --> nh3 + (3) nadp + (2) h2o	false	C_c	0	1000	0	(CD2431)	Nitrite metabolism
+ID_22	ammonia:NAD+ oxidoreductase	[c]: nh3 + nad + h2o <==> hoam + nadh + h	true	C_c	-1000	1000	0	(hcp)	Nitrite metabolism
+ID_43	nitrite reductase [NADH]	[c]: no2 + (3) nadh + (3) h --> nh3 + (3) nad + (2) h2o	false	C_c	0	1000	0	(CD2431)	Nitrite metabolism
+ID_697	5,10-Methenyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase	[c]: 5prga + 510methf + h2o --> 5prfga + thf + h	false	C_c	0	1000	0	(purN)	One carbon pool by folate
+ID_482	5-formiminotetrahydrofolate ammonia-lyase	[c]: 5fithf + h --> 510methf + nh3	false	C_c	0	1000	0	(fchA)	One carbon pool by folate
+ID_591	tetrahydrofolate:NADP+ oxidoreductase	[c]: 78dhfmg + nadph + h --> thf + nadp	false	C_c	0	1000	0	(CD2577)	One carbon pool by folate
+ID_723	methylenetetrahydrofolate reductase (ferredoxin)	[c]: 510mlethf + (2) feroxred + (2) h --> 5mthf + (2) feroxoxi	false	C_c	0	1000	0	(metF)	One carbon pool by folate
+ID_326	CO-methylating acetyl-CoA synthase	[c]: co + fesm + coa --> acoa + fes + h	false	C_c	0	1000	0	(CD0728) and (CD0726) and (CD0727) and (CD0717) and (CD0724) or (CD0728) and (CD0725) and (CD0727) and (CD0717) and (CD0724)	One carbon pool by folate
+ID_14	Spontaneous tetrahydrofolate transformation	[c]: fald + thf --> 510mlethf + h2o	false	C_c	0	1000	0	(Spontaneous)	One carbon pool by folate
+ID_758	5,10-Methenyltetrahydrofolate aminomethyltransferase	[c]: 510methf + h2o --> 5fthf + h	false	C_c	0	1000	0	(glyA) or (CD2834)	One carbon pool by folate
+ID_342	5-methyltetrahydrofolate:NAD+ oxidoreductase	[c]: 510mlethf + nadh + h --> 5mthf + nad	false	C_c	0	1000	0	(metF)	One carbon pool by folate
+ID_145	5,10-methenyltetrahydrofolate 5-hydrolase (decyclizing)	[c]: 10fthf + h <==> 510methf + h2o	true	C_c	-1000	1000	0	(fchA)	One carbon pool by folate
+ID_123	methylenetetrahydrofolate dehydrogenase (NAD+)	[c]: 510mlethf + nad --> 510methf + nadh	false	C_c	0	1000	0	(folD)	One carbon pool by folate
+ID_483	5-methyltetrahydrofolate:corrinoid Co-methyltransferase	[c]: 5mthf + fes + h --> thf + fesm	false	C_c	0	1000	0	(CD0727)	One carbon pool by folate
+ID_669	5-formyltetrahydrofolate cyclo-ligase	[c]: 5fthf + atp + h --> 510methf + pi + adp	false	C_c	0	1000	0	(CD3456)	One carbon pool by folate
+ID_499	methylenetetrahydrofolate dehydrogenase (NADP+)	[c]: 510mlethf + nadp <==> 510methf + nadph	true	C_c	-1000	1000	0	(folD)	One carbon pool by folate
+ID_597	aminomethyltransferase (H-Gcv-protein)	[c]: hpsamdhllys + thf --> hgcvpdhllys + nh3 + 510mlethf	false	C_c	0	1000	0	(gcvTPA)	One carbon pool by folate
+ID_623	formate:tetrahydrofolate ligase (ADP-forming)	[c]: thf + for + atp <==> 10fthf + adp + pi	true	C_c	-1000	1000	0	(fhs)	One carbon pool by folate
+ID_427	NADH:ubiquinol-8 oxidoreductase	[c]: uqnl8 + nad <==> uqnn8 + nadh + h	true	C_c	-1000	1000	0	(hymA) and (hymB) and (CD3407)	Oxidoreduction of electron transfer metabolites
+ID_48	succinyl-CoA reductase	[c]: succoa + nadph + h --> sucsald + nadp + coa	false	C_c	0	1000	0	(sucD)	Oxidoreduction of electron transfer metabolites
+ID_378	carbon dioxide:ferredoxin oxidoreductase	[c]: co2 + feroxred + (2) h --> co + h2o + feroxoxi	false	C_c	0	1000	0	(cooS) or (CD0716)	Oxidoreduction of electron transfer metabolites
+ID_566	ferredoxin-NAD+ reductase	[c]: (2) feroxred + nad + h <==> nadh + (2) feroxoxi	true	C_c	-1000	1000	0		Oxidoreduction of electron transfer metabolites
+ID_466	carbon monoxide:acceptor oxidoreductase	[c]: co + h2o + elecaccept-oxi --> elecaccept-red + co2	false	C_c	0	1000	0	(xdhC2)	Oxidoreduction of electron transfer metabolites
+ID_244	ferredoxin-NADP+ reductase	[c]: (2) feroxred + nadp + h --> nadph + (2) feroxoxi	false	C_c	0	1000	0	(CD1536)	Oxidoreduction of electron transfer metabolites
+ID_648	hydrogen:ferredoxin oxidoreductase	[c]: (2) feroxred + (2) h --> h2 + (2) feroxoxi	false	C_c	0	1000	0	(hydA) or (CD0894) or (CD3407)	Oxidoreduction of electron transfer metabolites
+ID_316	carbon dioxide reductase	[c]: co2 + nadph + h --> for + nadp	false	C_c	0	1000	0	(CD0769) or (CD2179)	Oxidoreduction of electron transfer metabolites
+Trans_fru	D-fructose transport phosphotransferase	fru[e] + pepyr[c] --> fru6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD3134) or (CD0206) and (CD0207) and (CD0208) or (CD3278) and (CD3279) and (CD3277) and (CD3276) or (CD1074) and (CD1076) and (CD1077) and (CD1078) or (CD0491) and (CD0492) and (CD0493) and (CD0494) or (CD0286) and (CD0287) and (CD0288) and (CD0289) or (CD0284) and (CD0285) or (CD3629) and (CD3630)	PEP-dependent transporter
+Trans_udpagaepyr	UDP-N-acetylglucosamine-enolpyruvate Transport	udpagaepyr[e] + pepyr[c] + h2o[c] --> pyr[c] + udpagaepyr[c] + pi[c]	false	C_c, C_e	0	1000	0		PEP-dependent transporter
+Trans_gtol	Galactitol pep transporter	gtol[e] + pepyr[c] --> gtol1p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD0043) and (CD0042) and (CD0041) or (CD1083) and (CD2280) and (CD2282) or (CD2327) and (CD2326) and (CD2325)	PEP-dependent transporter
+Trans_malt	maltose transport phosphotranferase	malt[e] + pepyr[c] --> malt6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD3030) and (CD3027)	PEP-dependent transporter
+Trans_tre	trehalose transport phosphotranferase	tre[e] + pepyr[c] --> tre6p[c] + pyr[c]	false	C_c, C_e	0	1000	0		PEP-dependent transporter
+Trans_adman	PEP dependant alpha-D-mannose Transport	adman[e] + pepyr[c] --> man6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD3015) and (CD3014) and (CD3013) or (CD2566) and (CD2567) and (CD2568) or (CD3278) and (CD3279) and (CD3277) and (CD3276) or (CD1074) and (CD1076) and (CD1077) and (CD1078) or (CD0491) and (CD0492) and (CD0493) and (CD0494) or (CD0286) and (CD0287) and (CD0288) and (CD0289) or (CD0284) and (CD0285)	PEP-dependent transporter
+Trans_glcAD2	alpha-D-glucose transport phosphotranferase 	glcAD[e] + pepyr[c] --> glc6pA[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD2512) and (CD2510) or (ptsG-A) and (ptsG-BC) or (CD3027) and (CD3030) or (CD3058) and (CD3061) or (CD3101) and (CD3103)	PEP-dependent transporter
+Trans_2o6pamg2d	2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate Transport	2o6pamg2d[e] + pepyr[c] + h2o[c] --> 2o6pamg2d[c] + pyr[c] + pi[c]	false	C_c, C_e	0	1000	0		PEP-dependent transporter
+Trans_celb	cellobiose transport phosphotranferase	celb[e] + pepyr[c] --> celb6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD0135) and (CD0136) and (CD0137) or (CD0863) and (CD0862) and (CD0861) or (celC) and (celB) and (celA) or (CD3080) and (CD3049) and (CD3048) or (CD3080) and (CD3081) and (CD3082)	PEP-dependent transporter
+Trans_sucr	sucrose transport phosphotranferase	sucr[e] + pepyr[c] --> sucr6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD0469)	PEP-dependent transporter
+Trans_aga	D-glucosamine transporter	aga[e] + pepyr[c] --> aga6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD0469) or (CD0816) or (CD3097)	PEP-dependent transporter
+Trans_mnl	mannitol transport phosphotranferase	mnl[e] + pepyr[c] --> mnl1p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(CD2332) and (CD2334)	PEP-dependent transporter
+Trans_dachi	diacetylchitobiose transport phosphotranferase	dachi[e] + pepyr[c] --> dachi6p[c] + pyr[c] + (2) h[c]	false	C_c, C_e	0	1000	0	(CD3445) and (CD3444) and (CD3443)	PEP-dependent transporter
+Trans_tgt	Tagatose transport	tgt[e] + pepyr[c] --> tag6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(tagABC)	PEP-dependent transporter
+Trans_sor2	D-sorbitol transport phosphotranferase	sor[e] + pepyr[c] --> sor6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(srlA) and (srlEa) and (srlEb) and (srlB) or (gutA) and (srlEa) and (srlEb) and (srlB)	PEP-dependent transporter
+Trans_glc	D-glucose transport phosphotranferase	glc[e] + pepyr[c] --> glc6p[c] + pyr[c]	false	C_c, C_e	0	1000	0	(bglF) or (CD3127) or (CD3125) or (CD3097) or (CD3030) and (CD3027)	PEP-dependent transporter
+Trans_fuc	L-fuculose PTS transporter	fuc[e] + pepyr[c] --> fuc1p[c] + pyr[c]	false	C_c, C_e	0	1000	0		PEP-dependent transporter
+ID_169	acetate CoA-transferase	[c]: aacoa + ac --> acoa + aac	false	C_c	0	1000	0	(scoA) and (scoB)	Pantothenate and CoA biosynthesis
+ID_420	3-methyl-2-oxobutanoate hydroxymethyltransferase	[c]: 2oiv + 510mlethf + h2o --> 2dhp + thf	false	C_c	0	1000	0	(panB)	Pantothenate and CoA biosynthesis
+ID_296	2-dehydropantoate formaldehyde-lyase	[c]: 2dhp <==> 2oiv + fald	true	C_c	-1000	1000	0	(panB)	Pantothenate and CoA biosynthesis
+ID_139	phosphopantothenoylcysteine decarboxylase	[c]: 4ppcys --> 4ppt + co2	false	C_c	0	1000	0	(coaBC)	Pantothenate and CoA biosynthesis
+ID_405	glutaryl-CoA dehydrogenase	[c]: gcoa + fad --> gccoa + fadh2	false	C_c	0	1000	0		Pantothenate and CoA biosynthesis
+ID_756	pantoate--beta-alanine ligase 	[c]: pantR + alaB + atp --> amp + ppi + h + pntoR	false	C_c	0	1000	0	(panC)	Pantothenate and CoA biosynthesis
+ID_464	D-4'-phosphopantothenate:L-cysteine ligase	[c]: atp + 4pptnD + cysL --> amp + ppi + 4ppcys	false	C_c	0	1000	0	(coaBC)	Pantothenate and CoA biosynthesis
+ID_570	pantothenate kinase	[c]: pntoR + atp --> 4pptnD + adp	false	C_c	0	1000	0	(CD3555)	Pantothenate and CoA biosynthesis
+ID_197	[acyl-carrier-protein] phosphodiesterase	[c]: hacp + h2o --> 4ppt + aacp	false	C_c	0	1000	0	(CD1543)	Pantothenate and CoA biosynthesis
+ID_50	N-((R)-pantothenoyl)-L-cysteine carboxy-lyase	[c]: ptcys <==> ptth + co2	true	C_c	-1000	1000	0		Pantothenate and CoA biosynthesis
+ID_34	holo-[acyl-carrier-protein] synthase	[c]: aacp + coa --> pap + hacp	false	C_c	0	1000	0	(acpS)	Pantothenate and CoA biosynthesis
+ID_134	dephospho-CoA kinase	[c]: dpcoa + atp --> coa + adp	false	C_c	0	1000	0	(coaE)	Pantothenate and CoA biosynthesis
+ID_515	phosphopantothenate-cysteine ligase	[c]: 4pptnD + ctp + cysL --> 4ppcys + cmp + ppi	false	C_c	0	1000	0	(coaBC)	Pantothenate and CoA biosynthesis
+ID_125	ATP:pantetheine 4'-phosphotransferase	[c]: atp + ptth --> adp + 4ppt	false	C_c	0	1000	0	(CD3555)	Pantothenate and CoA biosynthesis
+ID_449	2-acetolactate pyruvate-lyase (carboxylating)	[c]: 2alac + co2 <==> (2) pyr	true	C_c	-1000	1000	0	(ilvB)	Pantothenate and CoA biosynthesis
+ID_85	ATP:N-((R)-pantothenoyl)-L-cysteine 4-phosphotransferase	[c]: atp + ptcys --> adp + 4ppcys	false	C_c	0	1000	0	(CD3555)	Pantothenate and CoA biosynthesis
+ID_663	malonyl CoA-acyl carrier protein transacylase	[c]: hacp + malcoa + h --> malacp + coa	false	C_c	0	1000	0	(fabD)	Pantothenate and CoA biosynthesis
+ID_755	2-dehydropantoate reductase	[c]: 2dhp + nadph + h --> nadp + pantR	false	C_c	0	1000	0	(CD0188)	Pantothenate and CoA biosynthesis
+ID_644	pantetheine-phosphate adenylyltransferase	[c]: 4ppt + atp --> dpcoa + ppi	false	C_c	0	1000	0	(coaD)	Pantothenate and CoA biosynthesis
+ID_398	UTP-glucose-1-phosphate uridylyltransferase	[c]: utp + glc1pA <==> ppi + udpglu	true	C_c	-1000	1000	0	(gtaB) or (CD3488)	Pentose and glucuronate interconversions
+ID_592	ribitol-5-phosphate 2-dehydrogenase	[c]: r5p + nadp <==> rl5p + nadph + h	true	C_c	-1000	1000	0		Pentose and glucuronate interconversions
+ID_107	D-ribitol-5-phosphate:NAD+ 2-oxidoreductase	[c]: r5p + nad <==> rl5p + nadh + h	true	C_c	-1000	1000	0		Pentose and glucuronate interconversions
+ID_108	L-arabinose isomerase	[c]: arab --> rblL	false	C_c	0	1000	0		Pentose and glucuronate interconversions
+ID_569	D-altronate:NAD+ 3-oxidoreductase	[c]: altd + nad <==> tagd + nadh + h	true	C_c	-1000	1000	0		Pentose and glucuronate interconversions
+ID_208	D-altronate hydro-lyase (2-dehydro-3-deoxy-D-gluconate-forming)	[c]: altd --> 2dh3dg + h2o	false	C_c	0	1000	0	(uxaA) or (uxaA') or (CD3002)	Pentose and glucuronate interconversions
+ID_624	xylulokinase	[c]: xyl + atp --> xyl5p + adp	false	C_c	0	1000	0	(xylB)	Pentose and glucuronate interconversions
+ID_332	ribulokinase	[c]: rblL + atp --> rbl5p + adp	false	C_c	0	1000	0		Pentose and glucuronate interconversions
+ID_10	L-ribulose-5-phosphate 4-epimerase	[c]: rbl5p --> xyl5p	false	C_c	0	1000	0	(araD)	Pentose and glucuronate interconversions
+ID_384	D-xylose aldose-ketose-isomerase	[c]: xyld <==> xyl	true	C_c	-1000	1000	0	(xylA) or (CD2710)	Pentose and glucuronate interconversions
+ID_368	D-erythrose-4-phosphate:D-xylulose-5-phosphate glycolaldehyde transferase	[c]: et4p + xyl5p --> glyald3p + fru6p	false	C_c	0	1000	0	(tkt') or (tkt) or (CD3460) or (CD3459)	Pentose phosphate pathway
+ID_629	ribulose-phosphate 3-epimerase	[c]: rl5p --> xyl5p	false	C_c	0	1000	0	(rpe) or (CD3109) or (CD2575)	Pentose phosphate pathway
+ID_419	gluconokinase	[c]: atp + glcn --> adp + 6pg	false	C_c	0	1000	0		Pentose phosphate pathway
+ID_402	D-xylulose 5-phosphate D-glyceraldehyde-3-phosphate-lyase	[c]: xyl5p + pi --> glyald3p + ap + h2o	false	C_c	0	1000	0		Pentose phosphate pathway
+ID_513	ribose-phosphate diphosphokinase	[c]: rib5p + atp --> 5pr1dp + amp	false	C_c	0	1000	0	(prs)	Pentose phosphate pathway
+ID_424	ribose-5-phosphate isomerase	[c]: rl5p --> rib5p	false	C_c	0	1000	0	(rpiB1) and (rpiB2)	Pentose phosphate pathway
+ID_160	D-ribose 1,5-phosphomutase	[c]: rib1p --> rib5p	false	C_c	0	1000	0	(deoB)	Pentose phosphate pathway
+ID_656	2-dehydro-3-deoxy-phosphogluconate aldolase	[c]: 2dh3dg6p --> glyald3p + pyr	false	C_c	0	1000	0	(kdgA)	Pentose phosphate pathway
+ID_658	6-phospho-D-gluconate:NADP+ 2-oxidoreductase	[c]: 6pg + nadp --> rl5p + co2 + nadph + h	false	C_c	0	1000	0	(garR)	Pentose phosphate pathway
+ID_68	2-dehydro-3-deoxygluconokinase	[c]: atp + 2dh3dg --> adp + 2dh3dg6p	false	C_c	0	1000	0	(CD3640)	Pentose phosphate pathway
+ID_73	sedoheptulose 1,7-bisphosphate 1-phosphohydrolase	[c]: sh17bp + h2o --> shl7p + pi	false	C_c	0	1000	0	(fbp)	Pentose phosphate pathway
+ID_307	ATP:(D)-glycerate 2-phosphotransferase	[c]: glyc + atp --> 2pg + adp	false	C_c	0	1000	0	(garK)	Pentose phosphate pathway
+ID_620	6-phospho-D-gluconate hydro-lyase	[c]: 6pg --> 2dh3dg6p + h2o	false	C_c	0	1000	0	(ilvD)	Pentose phosphate pathway
+ID_404	deoxyribokinase	[c]: drib + atp --> 2drib5p + adp	false	C_c	0	1000	0	(rbsK)	Pentose phosphate pathway
+ID_312	6-phosphogluconolactonase	[c]: 6pg15l + h2o --> 6pg	false	C_c	0	1000	0	(nagB)	Pentose phosphate pathway
+ID_229	ribokinase	[c]: atp + ribD --> adp + rib5p	false	C_c	0	1000	0	(rbsK)	Pentose phosphate pathway
+ID_577	transketolase	[c]: rib5p + xyl5p --> shl7p + glyald3p	false	C_c	0	1000	0	(tkt) or (tkt') or (CD3460) or (CD3459)	Pentose phosphate pathway
+ID_490	phosphopentomutase	[c]: 2drib1p --> 2drib5p	false	C_c	0	1000	0	(deoB)	Pentose phosphate pathway
+ID_634	phosphate acetyltransferase	[c]: acoa + pi <==> ap + coa	true	C_c	-1000	1000	0		Pentose phosphate pathway
+ID_650	D-glucose:ubiquinone oxidoreductase	[c]: glc + uqnn8 --> dgo15lac + uqnl8	false	C_c	0	1000	0		Pentose phosphate pathway
+ID_397	deoxyribose-phosphate aldolase	[c]: 2drib5p --> aald + glyald3p	false	C_c	0	1000	0	(deoC)	Pentose phosphate pathway
+ID_116	shikimate kinase	[c]: skm + atp --> skm3p + adp	false	C_c	0	1000	0	(aroK)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_558	4-Hydroxyphenylacetaldehyde:NAD+ oxidoreductase	[c]: 4hplald + nad + h2o <==> 4hoplac + nadh + h	true	C_c	-1000	1000	0	(aldH)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_300	prephenate dehydrogenase	[c]: pphn + nad <==> 34hppyr + co2 + nadh + h	true	C_c	-1000	1000	0	(tyrC)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_345	prephenate dehydratase	[c]: pphn <==> phpyr + h2o + co2	true	C_c	-1000	1000	0	(pheA)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_585	L-arogenate:2-oxoglutarate aminotransferase	[c]: pphn + gluL --> aro + 2oglut	false	C_c	0	1000	0		Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_435	shikimate dehydrogenase (NADP+)	[c]: 3dhsk + nadph + h --> skm + nadp	false	C_c	0	1000	0	(aroE) or (aroE1)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_335	chorismate synthase	[c]: 5epyrsk3p --> chor + pi	false	C_c	0	1000	0	(aroC)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_318	3-dehydroquinate synthase	[c]: 3dahs7p --> 3dhq + pi	false	C_c	0	1000	0	(aroB)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_568	shikimate dehydrogenase (NAD+)	[c]: 3dhsk + nadh + h --> skm + nad	false	C_c	0	1000	0	(aroE) or (aroE1)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_7	L-arogenate hydro-lyase	[c]: aro <==> pheL + h2o + co2	true	C_c	-1000	1000	0	(pheA)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_578	L-arogenate:NAD+ oxidoreductase	[c]: aro + nad --> tyrL + nadh + h + co2	false	C_c	0	1000	0	(tyrC)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_96	3-phosphoshikimate 1-carboxyvinyltransferase	[c]: skm3p + pepyr --> 5epyrsk3p + pi	false	C_c	0	1000	0	(aroA)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_161	chorismate mutase	[c]: chor --> pphn	false	C_c	0	1000	0	(pheA)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_79	3-dehydroquinate dehydratase	[c]: 3dhq --> 3dhsk + h2o	false	C_c	0	1000	0	(aroD) or (CD2020) or (CD3641)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_416	4-hydroxyphenylpyruvate carboxy-lyase	[c]: 34hppyr <==> 4hplald + co2	true	C_c	-1000	1000	0	(CD1993)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_476	phenylalanine:2-oxoglutarate aminotransferase	[c]: pheL + 2oglut <==> phpyr + gluL	true	C_c	-1000	1000	0	(aspC) or (aspB) or (CD2828) or (hisC) or (CD2200)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_166	3-deoxy-7-phosphoheptulonate synthase	[c]: et4p + pepyr + h2o --> 3dahs7p + pi	false	C_c	0	1000	0	(aroF) or (CD1832)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_19	2-oxoadipate dehydrogenase complex	[c]: 2oa + coa + nad <==> gcoa + co2 + nadh + h	true	C_c	-1000	1000	0	(CD0723) and (acoL)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_576	4-hydroxyphenylacetate carboxy-lyase	[c]: 4hoplac --> 4mpo + co2	false	C_c	0	1000	0	(hpdC) and (hpdB) and (hpdA)	Phenylalanine, tyrosine and tryptophan biosynthesis
+ID_516	3-phosphonopyruvate carboxy-lyase	[c]: 3ppyr <==> ppacal + co2	true	C_c	-1000	1000	0		Phosphonate and phosphate metabolism
+ID_699	2-aminoethylphosphonate--pyruvate transaminase	[c]: 2aepat + pyr <==> ppacal + alaL	true	C_c	-1000	1000	0	(phnXW)	Phosphonate and phosphate metabolism
+ID_598	2-Phosphonoacetaldehyde phosphonohydrolase	[c]: ppacal + h2o --> aald + pi	false	C_c	0	1000	0	(phnXW)	Phosphonate and phosphate metabolism
+ID_57	phosphoenolpyruvate 2,3-phosphonomutase	[c]: pepyr <==> 3ppyr	true	C_c	-1000	1000	0		Phosphonate and phosphate metabolism
+ID_492	acetaldehyde:NAD+ oxidoreductase (CoA-acylating)	[c]: aald + nad + coa <==> acoa + nadh + h	true	C_c	-1000	1000	0	(adhE) or (eutE) or (CD2966)	Phosphonate and phosphate metabolism
+ID_303	Phosphonoacetate phosphonohydrolase	[c]: ppac + h2o <==> ac + pi	true	C_c	-1000	1000	0	(phnA)	Phosphonate and phosphate metabolism
+ID_248	phosphonate:NAD+ oxidoreductase	[c]: ppat + nad + h2o <==> pi + nadh + h	true	C_c	-1000	1000	0	(phnG) or (phnH) or (phnI) or (phnJ)	Phosphonate and phosphate metabolism
+ID_376	diphosphate phosphohydrolase	[c]: ppi + h2o <==> (2) pi	true	C_c	-1000	1000	0	(ppaC)	Phosphonate and phosphate metabolism
+ID_241	phosphonoacetate hydrolase	[c]: ppacal + nad + h2o <==> ppac + nadh + h	true	C_c	-1000	1000	0	(aldH)	Phosphonate and phosphate metabolism
+ID_693	triphosphate phosphohydrlase	[c]: pppi + h2o <==> ppi + pi	true	C_c	-1000	1000	0		Phosphonate and phosphate metabolism
+ID_586	4-ureido-5-imidazole carboxylate amidohydrolase	[c]: 4u5imzc + h2o <==> 4a5imzc + nh3 + co2	true	C_c	-1000	1000	0		Purine metabolism
+ID_263	ribonucleotide-reductase (ATP)	[c]: atp + fmnh2 --> datp + fmn + h2o	false	C_c	0	1000	0	(nrdD)	Purine metabolism
+ID_192	xanthosine 5'-phosphate phosphohydrolase	[c]: xmp + h2o --> xtsn + pi	false	C_c	0	1000	0	(CD2537)	Purine metabolism
+ID_706	xanthosine ribohydrolase	[c]: xtsn + h2o <==> xan + ribD	true	C_c	-1000	1000	0	(iunH)	Purine metabolism
+ID_77	deoxyadenosine kinase	[c]: atp + dad --> adp + damp	false	C_c	0	1000	0		Purine metabolism
+ID_603	glycine reductase	[c]: gly + pi + thioredoxred --> ap + nh3 + thioredoxoxi + h2o	false	C_c	0	1000	0	(grdA) and (grdE) and (grdD) or (grdC) and (grdB) and (grdX)	Purine metabolism
+ID_226	deoxyinosine:phosphate alpha-D-ribosyltransferase	[c]: din + pi <==> drin1p + hxan	true	C_c	-1000	1000	0	(deoD)	Purine metabolism
+ID_126	GTP:pyruvate 2-O-phosphotransferase	[c]: pepyr + gdp --> pyr + gtp	false	C_c	0	1000	0	(pykF)	Purine metabolism
+ID_26	dGTP:pyruvate 2-O-phosphotransferase	[c]: dgtp + pyr <==> dgdp + pepyr	true	C_c	-1000	1000	0	(pykF)	Purine metabolism
+ID_80	adenosine 5'-monophosphate phosphohydrolase	[c]: amp + h2o <==> adn + pi	true	C_c	-1000	1000	0		Purine metabolism
+ID_350	hypoxanthine:NAD+ oxidoreductase	[c]: hxan + nad + h2o --> xan + nadh + h	false	C_c	0	1000	0	(xdhA1) and (xdhB) and (xdhC1) and (xdhD) or (xdhA1) and (pucC1) and (xdhC1) and (xdhD) or (xdhA1) and (pucC2) and (xdhC1) and (xdhD) or (xdhA1) and (xdhB) and (xdhC2) and (xdhD) or (xdhA1) and (pucC1) and (xdhC2) and (xdhD) or (xdhA1) and (pucC2) and (xdhC2) and (xdhD) or (xdhA1) and (xdhB) and (xdhC3) and (xdhD) or (xdhA1) and (pucC1) and (xdhC3) and (xdhD) or (xdhA1) and (pucC2) and (xdhC3) and (xdhD) or (xdhA2) and (xdhB) and (xdhC1) and (xdhD) or (xdhA2) and (pucC1) and (xdhC1) and (xdhD) or (xdhA2) and (pucC2) and (xdhC1) and (xdhD) or (xdhA2) and (xdhB) and (xdhC2) and (xdhD) or (xdhA2) and (pucC1) and (xdhC2) and (xdhD) or (xdhA2) and (pucC2) and (xdhC2) and (xdhD) or (xdhA2) and (xdhB) and (xdhC3) and (xdhD) or (xdhA2) and (pucC1) and (xdhC3) and (xdhD) or (xdhA2) and (pucC2) and (xdhC3) and (xdhD) or (xdhA3) and (xdhB) and (xdhC1) and (xdhD) or (xdhA3) and (pucC1) and (xdhC1) and (xdhD) or (xdhA3) and (pucC2) and (xdhC1) and (xdhD) or (xdhA3) and (xdhB) and (xdhC2) and (xdhD) or (xdhA3) and (pucC1) and (xdhC2) and (xdhD) or (xdhA3) and (pucC2) and (xdhC2) and (xdhD) or (xdhA3) and (xdhB) and (xdhC3) and (xdhD) or (xdhA3) and (pucC1) and (xdhC3) and (xdhD) or (xdhA3) and (pucC2) and (xdhC3) and (xdhD) or (CD2087) and (xdhB) and (xdhC1) and (xdhD) or (CD2087) and (pucC1) and (xdhC1) and (xdhD) or (CD2087) and (pucC2) and (xdhC1) and (xdhD) or (CD2087) and (xdhB) and (xdhC2) and (xdhD) or (CD2087) and (pucC1) and (xdhC2) and (xdhD) or (CD2087) and (pucC2) and (xdhC2) and (xdhD) or (CD2087) and (xdhB) and (xdhC3) and (xdhD) or (CD2087) and (pucC1) and (xdhC3) and (xdhD) or (CD2087) and (pucC2) and (xdhC3) and (xdhD)	Purine metabolism
+ID_672	ATP:dGDP phosphotransferase	[c]: dgdp + atp --> dgtp + adp	false	C_c	0	1000	0		Purine metabolism
+ID_421	ADP-ribose ribophosphohydrolase	[c]: rib5p + amp <==> h2o + adprib	true	C_c	-1000	1000	0	(nudF)	Purine metabolism
+ID_489	4-aminoimidazole aminohydrolase	[c]: 4aimz + h2o --> 4imzo + nh3	false	C_c	0	1000	0		Purine metabolism
+ID_683	ATP:dGMP phosphotransferase	[c]: atp + dgmp --> adp + dgdp	false	C_c	0	1000	0	(gmk)	Purine metabolism
+ID_451	4-ureido-5-imidazole carboxylate decarboxylase	[c]: 4a5imzc --> 4aimz + co2	false	C_c	0	1000	0		Purine metabolism
+ID_275	XMP:diphosphate phosphoribosyltransferase	[c]: xan + 5pr1dp --> xmp + ppi	false	C_c	0	1000	0	(xpt)	Purine metabolism
+ID_111	adenylate kinase	[c]: amp + atp --> (2) adp	false	C_c	0	1000	0	(adk)	Purine metabolism
+ID_305	amidophosphoribosyltransferase	[c]: 5pr1dp + glnL + h2o --> 5pra + gluL + ppi	false	C_c	0	1000	0	(purF)	Purine metabolism
+ID_83	guanosine ribohydrolase	[c]: gsn + h2o <==> gua + ribD	true	C_c	-1000	1000	0	(iunH)	Purine metabolism
+ID_237	GDP diphosphokinase	[c]: gdp + atp --> ppgpp + amp	false	C_c	0	1000	0	(relA)	Purine metabolism
+ID_589	5-formiminotetrahydrofolate:glycine N-formiminotransferase	[c]: fgly + thf --> gly + 5fithf	false	C_c	0	1000	0		Purine metabolism
+ID_733	guanosine-3',5'-bis(diphosphate) 3'-diphosphohydrolase	[c]: ppgpp + h2o --> gdp + ppi	false	C_c	0	1000	0	(relA) or (CD0345)	Purine metabolism
+ID_392	GMP:diphosphate phosphoribosyltransferase	[c]: gua + 5pr1dp --> gmp + ppi	false	C_c	0	1000	0	(hpt) or (CD3231)	Purine metabolism
+ID_642	phosphoribosylformylglycinamidine cyclo-ligase	[c]: 5prfgad + atp --> 5a15primz + pi + adp	false	C_c	0	1000	0	(purG)	Purine metabolism
+ID_159	Inosine:phosphate alpha-D-ribosyltransferase	[c]: ins + pi --> hxan + rib1p	false	C_c	0	1000	0	(deoD)	Purine metabolism
+ID_632	dATP:pyruvate 2-O-phosphotransferase	[c]: datp + pyr <==> dadp + pepyr	true	C_c	-1000	1000	0	(pykF)	Purine metabolism
+ID_604	guanosine 5'-monophosphate phosphahydrolase	[c]: gmp + h2o --> gsn + pi	false	C_c	0	1000	0		Purine metabolism
+ID_372	xanthine amidohydrolase	[c]: xan + h2o --> 4u5imzc	false	C_c	0	1000	0		Purine metabolism
+ID_406	inosine ribohydrolase	[c]: ins + h2o --> hxan + ribD	false	C_c	0	1000	0	(iunH)	Purine metabolism
+ID_100	deoxyadenosine:phosphate alpha-D-ribosyltransferase	[c]: dad + pi --> drin1p + ade	false	C_c	0	1000	0	(deoD)	Purine metabolism
+ID_537	deoxyadenylate kinase	[c]: atp + damp --> adp + dadp	false	C_c	0	1000	0	(adk)	Purine metabolism
+ID_343	guanosine 3'-diphosphate 5'-triphosphate 5'-phosphohydrolase	[c]: pppgpp + h2o --> ppgpp + pi	false	C_c	0	1000	0	(CD3491) or (CD0345)	Purine metabolism
+ID_475	deoxyadenosine deaminase	[c]: dad + h2o --> din + nh3	false	C_c	0	1000	0	(add) or (CD0015)	Purine metabolism
+ID_30	2'-Deoxyadenosine 5'-monophosphate phosphohydrolase	[c]: damp + h2o --> dad + pi	false	C_c	0	1000	0	(CD2537)	Purine metabolism
+ID_81	ATP:GMP phosphotransferase	[c]: gmp + atp --> gdp + adp	false	C_c	0	1000	0	(gmk)	Purine metabolism
+ID_148	glycinamide ribonucleotide transformylase	[c]: 5prga + for + atp --> 5prfga + pi + adp	false	C_c	0	1000	0	(purN)	Purine metabolism
+ID_730	1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-lyase	[c]: 5pr4sc5ai --> aimzcrnt + fum	false	C_c	0	1000	0	(CD1334)	Purine metabolism
+ID_681	Ap3A synthetase	[c]: atp + adp --> p1p3b5adtp + ppi	false	C_c	0	1000	0	(lysS)	Purine metabolism
+ID_274	phosphoribosylformylglycinamidine synthase	[c]: 5prfga + glnL + atp + h2o --> 5prfgad + gluL + adp + pi	false	C_c	0	1000	0	(purL)	Purine metabolism
+ID_745	IMP:diphosphate phosphoribosyltransferase	[c]: hxan + 5pr1dp --> imp + ppi	false	C_c	0	1000	0	(hpt) or (CD3231)	Purine metabolism
+ID_95	deoxyguanosine:phosphate alpha-D-ribosyltransferase	[c]: dgsn + pi <==> drin1p + gua	true	C_c	-1000	1000	0	(deoD)	Purine metabolism
+ID_724	adenosine deaminase	[c]: adn + h2o --> ins + nh3	false	C_c	0	1000	0	(add) or (CD0015)	Purine metabolism
+ID_666	IMP cyclohydrolase	[c]: prfaca --> imp + h2o	false	C_c	0	1000	0	(purH)	Purine metabolism
+ID_412	10-Formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase	[c]: 5prga + 10fthf --> 5prfga + thf	false	C_c	0	1000	0	(purN)	Purine metabolism
+ID_736	ATP:dADP phosphotransferase	[c]: dadp + atp --> datp + adp	false	C_c	0	1000	0		Purine metabolism
+ID_423	deoxyribose-1-phosphate isomerase	[c]: drin1p <==> 2drib1p	true	C_c	-1000	1000	0		Purine metabolism
+ID_168	adenylosuccinate lyase (fumarate-forming)	[c]: asucc --> amp + fum	false	C_c	0	1000	0	(CD1334)	Purine metabolism
+ID_157	GMP synthase (glutamine-hydrolysing)	[c]: xmp + glnL + atp + h2o --> gmp + gluL + ppi + amp	false	C_c	0	1000	0	(guaA)	Purine metabolism
+ID_183	guanine deaminase	[c]: gua + h2o --> xan + nh3	false	C_c	0	1000	0	(guaD)	Purine metabolism
+ID_728	ribonucleoside-diphosphate reductase (ADP)	[c]: adp + thioredoxred <==> dadp + thioredoxoxi + h2o	true	C_c	-1000	1000	0	(nrdE) and (nrdF) or (CD1261)	Purine metabolism
+ID_682	phosphoribosylaminoimidazolecarboxamide formyltransferase	[c]: aimzcrnt + 10fthf --> prfaca + thf	false	C_c	0	1000	0	(CD0841)	Purine metabolism
+ID_503	phosphoribosylaminoimidazolesuccinocarboxamide synthase	[c]: 5a15pri4c + aspL + atp --> 5pr4sc5ai + adp + pi	false	C_c	0	1000	0	(purC) or (CD0489)	Purine metabolism
+ID_201	P1,P3-bis(5'-adenosyl)-triphosphate adenylohydrolase	[c]: p1p3b5adtp + h2o --> adp + amp	false	C_c	0	1000	0		Purine metabolism
+ID_595	adenylosuccinate synthase	[c]: imp + gtp + aspL --> asucc + gdp + pi	false	C_c	0	1000	0	(purA)	Purine metabolism
+ID_63	AMP:diphosphate phosphoribosyltransferase	[c]: ade + 5pr1dp --> amp + ppi	false	C_c	0	1000	0	(apt)	Purine metabolism
+ID_437	4-imidazolonase	[c]: 4imzo + h2o <==> fgly	true	C_c	-1000	1000	0	(Spontaneous)	Purine metabolism
+ID_170	ribonucleotide-triphosphate reductase (GTP)	[c]: gtp + fmnh2 --> dgtp + fmn + h2o	false	C_c	0	1000	0	(nrdD)	Purine metabolism
+ID_381	ATP:GDP phosphotransferase	[c]: gdp + atp --> gtp + adp	false	C_c	0	1000	0		Purine metabolism
+ID_619	xanthosine:phosphate ribosyltransferase	[c]: xtsn + pi --> xan + rib1p	false	C_c	0	1000	0	(deoD)	Purine metabolism
+ID_282	adenosine:phosphate alpha-D-ribosyltransferase	[c]: adn + pi --> ade + rib1p	false	C_c	0	1000	0	(deoD)	Purine metabolism
+ID_387	phosphoribosylamine-glycine ligase	[c]: 5pra + gly + atp --> 5prga + pi + adp	false	C_c	0	1000	0	(purD)	Purine metabolism
+ID_739	2'-Deoxyguanosine 5'-monophosphate phosphohydrolase	[c]: dgmp + h2o --> dgsn + pi	false	C_c	0	1000	0	(CD2537)	Purine metabolism
+ID_684	guanosine:phosphate alpha-D-ribosyltransferase	[c]: gsn + pi --> gua + rib1p	false	C_c	0	1000	0	(deoD)	Purine metabolism
+ID_118	phosphoribosylaminoimidazole carboxylase	[c]: 5a15primz + co2 <==> 5a15pri4c	true	C_c	-1000	1000	0	(purE)	Purine metabolism
+ID_679	ATP phosphohydrolase (NGAM)	[c]: atp + h2o --> adp + pi	false	C_c	0	1000	0		Purine metabolism
+ID_195	xanthosine 5'-phosphate:ammonia ligase	[c]: xmp + nh3 + atp --> gmp + ppi + amp	false	C_c	0	1000	0	(guaA)	Purine metabolism
+ID_703	ribonucleoside-diphosphate reductase (GDP)	[c]: gdp + thioredoxred --> dgdp + thioredoxoxi + h2o	false	C_c	0	1000	0	(nrdE) and (nrdF) or (CD1261)	Purine metabolism
+ID_512	carbamate kinase	[c]: cbp + adp --> nh3 + co2 + atp	false	C_c	0	1000	0		Purine metabolism
+ID_425	IMP dehydrogenase	[c]: imp + nad + h2o --> xmp + nadh + h	false	C_c	0	1000	0	(guaB)	Purine metabolism
+ID_612	thioredoxin oxydation	[c]: thioredoxred --> thioredoxoxi + (2) h	false	C_c	0	1000	0	(Spontaneous)	Purine metabolism
+ID_673	ATP:GTP 3'-diphosphotransferase	[c]: gtp + atp --> pppgpp + amp	false	C_c	0	1000	0	(relA)	Purine metabolism
+ID_202	guanosine 3'-diphosphate 5'-triphosphate 3'-diphosphatase	[c]: pppgpp + h2o --> gtp + ppi	false	C_c	0	1000	0	(relA)	Purine metabolism
+ID_655	adenosine ribohydrolase	[c]: adn + h2o --> ade + ribD	false	C_c	0	1000	0	(iunH)	Purine metabolism
+ID_271	(S)-dihydroorotate:NAD+ oxidoreductase	[c]: dho + nad <==> orot + nadh + h	true	C_c	-1000	1000	0	(pyrD) and (pyrK) or (pyrK) and (CD2077) or (pyrK) and (CD3179)	Pyrimidine metabolism
+ID_707	(S)-dihydroorotate:fumarate oxidoreductase	[c]: dho + fum <==> orot + succ	true	C_c	-1000	1000	0	(pyrD) and (pyrK) or (CD3179) and (pyrK) or (CD2077) and (pyrK)	Pyrimidine metabolism
+ID_696	dCTP:cytidine 5'-phosphotransferase	[c]: dctp + cytd <==> dcdp + cmp	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_62	ATP:dUMP phosphotransferase	[c]: atp + dump --> adp + dudp	false	C_c	0	1000	0	(CD3350)	Pyrimidine metabolism
+ID_460	ribonucleotide-triphosphate reductase (UTP)	[c]: utp + fmnh2 --> dutp + fmn + h2o	false	C_c	0	1000	0	(nrdD)	Pyrimidine metabolism
+ID_486	3-ureido-isobutyrate amidohydrolase	[c]: 3uib + h2o --> 3a2mp + nh3 + co2	false	C_c	0	1000	0	(CD0487)	Pyrimidine metabolism
+ID_277	ribonucleotide-diphosphate reductase (UDP)	[c]: udp + thioredoxred --> dudp + thioredoxoxi + h2o	false	C_c	0	1000	0	(nrdE) and (nrdF) or (CD1261)	Pyrimidine metabolism
+ID_1	phosphoenolpyruvate kinase (IDP)	[c]: pepyr + idp --> pyr + itp	false	C_c	0	1000	0	(pykF)	Pyrimidine metabolism
+ID_87	ATP:CMP phosphotransferase	[c]: cmp + atp --> cdp + adp	false	C_c	0	1000	0	(cmk)	Pyrimidine metabolism
+ID_715	UTP:uridine 5'-phosphotransferase	[c]: utp + uri <==> udp + uri5p	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_327	dATP:cytidine 5'-phosphotransferase	[c]: datp + cytd <==> dadp + cmp	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_593	orotate phosphoribosyltransferase	[c]: 5pr1dp + orot --> orot5p + ppi	false	C_c	0	1000	0	(pyrE)	Pyrimidine metabolism
+ID_582	phosphoenolpyruvate kinase (CDP)	[c]: pepyr + cdp --> pyr + ctp	false	C_c	0	1000	0	(pykF)	Pyrimidine metabolism
+ID_97	ribonucleotide-diphosphate reductase (CDP)	[c]: cdp + thioredoxred --> dcdp + thioredoxoxi + h2o	false	C_c	0	1000	0	(nrdE) and (nrdF) or (CD1261)	Pyrimidine metabolism
+ID_8	UTP diphosphohydrolase	[c]: utp + (2) h2o --> uri5p + (2) pi	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_641	dCTP:uridine 5'-phosphotransferase	[c]: dctp + uri <==> dcdp + uri5p	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_600	dGTP:cytidine 5'-phosphotransferase	[c]: dgtp + cytd <==> dgdp + cmp	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_206	ATP:cytidine 5'-phosphotransferase	[c]: cytd + atp --> cmp + adp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_102	5,6-Dihydrouracil amidohydrolase	[c]: 56dhura + h2o --> 3uprop	false	C_c	0	1000	0	(CD2083) or (CD3178)	Pyrimidine metabolism
+ID_69	dCTP deaminase	[c]: dctp + h2o --> dutp + nh3	false	C_c	0	1000	0	(CD3477)	Pyrimidine metabolism
+ID_13	nucleoside-phosphate kinase	[c]: uri5p + atp --> udp + adp	false	C_c	0	1000	0	(pyrH)	Pyrimidine metabolism
+ID_216	aspartate carbamoyltransferase	[c]: cbp + aspL --> casp + pi	false	C_c	0	1000	0	(carB)	Pyrimidine metabolism
+ID_363	thymidine phosphorylase	[c]: thymd + pi <==> drin1p + thym	true	C_c	-1000	1000	0	(pdp)	Pyrimidine metabolism
+ID_628	CTP phosphohydrolase	[c]: ctp + h2o --> cdp + pi	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_614	uridine:phosphate alpha-D-ribosyltransferase	[c]: uri + pi --> ura + rib1p	false	C_c	0	1000	0	(pdp)	Pyrimidine metabolism
+ID_511	5,6-dihydrouracil:NADP+ oxidoreductase	[c]: ura + nadph + h --> 56dhura + nadp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_579	cytosine deaminase	[c]: csn + h2o --> ura + nh3	false	C_c	0	1000	0	(CD0015)	Pyrimidine metabolism
+ID_144	CTP synthase	[c]: utp + glnL + atp + h2o --> ctp + gluL + pi + adp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_677	(S)-dihydroorotate:quinone oxidoreductase	[c]: dho + uqnn8 --> orot + uqnl8	false	C_c	0	1000	0	(pyrD) and (pyrK) or (pyrK) and (CD2077) or (pyrK) and (CD3179)	Pyrimidine metabolism
+ID_505	ATP:uridine 5'-phosphotransferase	[c]: uri + atp --> uri5p + adp	false	C_c	0	1000	0	(CD0557)	Pyrimidine metabolism
+ID_289	carbamoyl-phosphate synthase (glutamine-hydrolysing) (part 1)	[c]: hco3 + h + glnL + h2o + (2) atp --> cbp + gluL + pi + (2) adp	false	C_c	0	1000	0	(carB) and (carA) or (carB1) and (carB2) and (carA) or (carB) and (pyrAA2) or (carB1) and (carB2) and (pyrAA2)	Pyrimidine metabolism
+ID_74	thymidine kinase	[c]: thymd + atp --> dtmp + adp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_54	hydantoinase	[c]: 56dhthy + h2o --> 3uib	false	C_c	0	1000	0	(CD2083) or (CD3178)	Pyrimidine metabolism
+ID_661	nucleoside-diphosphate kinase (dTDP)	[c]: dtdp + atp --> dttp + adp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_299	GTP:cytidine 5'-phosphotransferase	[c]: cytd + gtp --> cmp + gdp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_448	nucleoside-diphosphate kinase (dCDP)	[c]: dcdp + atp --> dctp + adp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_38	5,10-methylenetetrahydrofolate,NADPH:dUMP C-methyltransferase	[c]: dump + 510mlethf + nadph + h --> dtmp + thf + nadp	false	C_c	0	1000	0	(thyX)	Pyrimidine metabolism
+ID_377	GTP:uridine 5'-phosphotransferase	[c]: uri + gtp --> uri5p + gdp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_608	pyrimidine-nucleoside phosphorylase	[c]: cytd + pi <==> csn + rib1p	true	C_c	-1000	1000	0	(pdp)	Pyrimidine metabolism
+ID_690	nucleoside-diphosphate kinase (CDP)	[c]: cdp + atp --> ctp + adp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_213	deoxyuridine:phosphate ribosyltransferase	[c]: duri + pi --> drin1p + ura	false	C_c	0	1000	0	(pdp)	Pyrimidine metabolism
+ID_371	dihydroorotase	[c]: casp --> dho + h2o	false	C_c	0	1000	0	(pyrC) or (CD3643)	Pyrimidine metabolism
+ID_695	CTP diphosphohydrolase (diphosphate-forming)	[c]: ctp + (2) h2o <==> cmp + (2) pi	true	C_c	-1000	1000	0		Pyrimidine metabolism
+ID_547	dTTP:uridine 5'-phosphotransferase	[c]: dttp + uri <==> dtdp + uri5p	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_182	deoxycytidine aminohydrolase	[c]: dcyt + h2o --> duri + nh3	false	C_c	0	1000	0	(CD3477)	Pyrimidine metabolism
+ID_653	ITP:cytidine 5'-phosphotransferase	[c]: itp + cytd <==> idp + cmp	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_122	UDP phosphohydrolase	[c]: udp + h2o <==> uri5p + pi	true	C_c	-1000	1000	0		Pyrimidine metabolism
+ID_334	nucleoside-diphosphate kinase (UDP)	[c]: udp + atp --> utp + adp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_65	2'-Deoxycytidine 5'-monophosphate phosphohydrolase	[c]: dcmp + h2o <==> dcyt + pi	true	C_c	-1000	1000	0		Pyrimidine metabolism
+ID_590	nucleoside-triphosphate diphosphatase	[c]: dutp + h2o --> dump + ppi	false	C_c	0	1000	0	(dut)	Pyrimidine metabolism
+ID_522	N-carbamoyl-beta-alanine amidohydrolase	[c]: 3uprop + h2o --> alaB + nh3 + co2	false	C_c	0	1000	0	(CD0487)	Pyrimidine metabolism
+ID_133	carbamoyl-phosphate synthase (glutamine-hydrolysing) (part 2)	[c]: (2) atp + hco3 + h + nh3 --> (2) adp + pi + cbp	false	C_c	0	1000	0	(carB) and (carA) or (carB1) and (carB2) and (carA) or (carB) and (pyrAA2) or (carB1) and (carB2) and (pyrAA2)	Pyrimidine metabolism
+ID_5	dTMP kinase	[c]: dtmp + atp --> dtdp + adp	false	C_c	0	1000	0	(CD3550)	Pyrimidine metabolism
+ID_517	CDP phosphohydrolase	[c]: cdp + h2o <==> cmp + pi	true	C_c	-1000	1000	0		Pyrimidine metabolism
+ID_667	ITP:uridine 5'-phosphotransferase	[c]: itp + uri <==> idp + uri5p	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_441	UTP:cytidine 5'-phosphotransferase Formate acetyltransferase-glycine dihydroflavodoxin:S-adenosyl-L-methionine oxidoreductase (S-adenosyl-L-methionine cleaving)	[c]: utp + cytd <==> udp + cmp	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_407	phosphoenolpyruvate kinase (UDP)	[c]: pepyr + udp --> pyr + utp	false	C_c	0	1000	0	(pykF)	Pyrimidine metabolism
+ID_239	dUTP:uridine 5'-phosphotransferase	[c]: dutp + uri <==> dudp + uri5p	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_137	ribonucleotide-triphosphate reductase (CTP)	[c]: ctp + fmnh2 --> dctp + fmn + h2o	false	C_c	0	1000	0	(nrdD)	Pyrimidine metabolism
+ID_117	uracil phosphoribosyltransferase	[c]: ura + 5pr1dp --> uri5p + ppi	false	C_c	0	1000	0	(pyrR) or (upp)	Pyrimidine metabolism
+ID_29	thymidylate synthase	[c]: 510mlethf + dump <==> 78dhfmg + dtmp	true	C_c	-1000	1000	0		Pyrimidine metabolism
+ID_447	orotidine-5'-phosphate decarboxylase	[c]: orot5p --> uri5p + co2	false	C_c	0	1000	0	(pyrF)	Pyrimidine metabolism
+ID_734	5,6-dihydrothymine:NADP+ oxidoreductase	[c]: thym + nadph + h --> 56dhthy + nadp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_348	dUTP:cytidine 5'-phosphotransferase	[c]: dutp + cytd <==> dudp + cmp	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_413	dATP:uridine 5'-phosphotransferase	[c]: datp + uri <==> dadp + uri5p	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_269	ATP:dCMP phosphotransferase	[c]: dcmp + atp --> dcdp + adp	false	C_c	0	1000	0	(cmk)	Pyrimidine metabolism
+ID_16	UTP phosphohydrolase	[c]: utp + h2o <==> udp + pi	true	C_c	-1000	1000	0		Pyrimidine metabolism
+ID_261	dCMP deaminase	[c]: dcmp + h2o --> dump + nh3	false	C_c	0	1000	0	(CD3477) or (CD1899)	Pyrimidine metabolism
+ID_534	thioredoxin-disulfide reductase	[c]: thioredoxoxi + nadph + h --> thioredoxred + nadp	false	C_c	0	1000	0	(trxB1) or (trxB2) or (trxB3)	Pyrimidine metabolism
+ID_718	pseudouridine-5'-phosphate glycosidase	[c]: psuri5p + h2o --> ura + rib5p	false	C_c	0	1000	0	(truA1) or (CD1060) or (rluB) or (CD2596) or (rluA)	Pyrimidine metabolism
+ID_40	cytidine aminohydrolase	[c]: uri + nh3 <==> cytd + h2o	true	C_c	-1000	1000	0	(cdd)	Pyrimidine metabolism
+ID_528	uridine ribohydrolase	[c]: uri + h2o <==> ura + ribD	true	C_c	-1000	1000	0		Pyrimidine metabolism
+ID_601	ATP:dUTP phosphotransferase	[c]: dudp + atp --> dutp + adp	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_750	Thymidylate 5'-phosphohydrolase	[c]: dtmp + h2o --> thymd + pi	false	C_c	0	1000	0		Pyrimidine metabolism
+ID_442	dGTP:uridine 5'-phosphotransferase	[c]: dgtp + uri <==> dgdp + uri5p	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_432	dTTP:cytidine 5'-phosphotransferase	[c]: dttp + cytd <==> dtdp + cmp	true	C_c	-1000	1000	0	(CD0557)	Pyrimidine metabolism
+ID_153	acetyl-CoA carboxylase	[c]: atp + acoa + hco3 + h --> adp + pi + malcoa	false	C_c	0	1000	0	(accA) and (accD) and (accB) and (accC)	Pyruvate metabolism
+ID_474	V-type sodium ATP synthase	na[e] + adp[c] + pi[c] --> na[c] + atp[c] + h2o[c]	false	C_c, C_e	0	1000	0	(ntpD) and (ntpB) and (ntpA) and (ntpC) and (ntpE) and (ntpF) and (ntpK)	Pyruvate metabolism
+ID_565	oxaloacetate carboxy-lyase	[c]: oxac <==> pyr + co2	true	C_c	-1000	1000	0	(CD1005)	Pyruvate metabolism
+ID_32	pyruvate:NAD+ 2-oxidoreductase	[c]: pyr + nad + coa --> acoa + nadh + co2 + h	false	C_c	0	1000	0	(CD0723) and (acoA) and (acoB)	Pyruvate metabolism
+ID_35	(S)-lactaldehyde dehydrogenase 	[c]: laldS + nad + h2o <==> nadh + h + lacS	true	C_c	-1000	1000	0	(aldH)	Pyruvate metabolism
+ID_49	ATP synthase	adp[c] + pi[c] + (3) h[e] --> atp[c] + h2o[c] + (3) h[c]	false	C_c, C_e	0	1000	0	(atpA) and (atpB) and (atpF) and (atpH) and (atpG) and (atpD) and (atpC) and (atpI) and (atpZ) or (atpA) and (atpB) and (atpF) and (atpH) and (atpG) and (atpD) and (atpE) and (atpI) and (atpZ)	Pyruvate metabolism
+ID_44	lactate:ubiquinone-8 2-oxidoreductase	[c]: lacR + uqnn8 --> uqnl8 + pyr	false	C_c	0	1000	0		Pyruvate metabolism
+ID_322	lactate racemase	[c]: lacS <==> lacR	true	C_c	-1000	1000	0		Pyruvate metabolism
+ID_280	acetate kinase	[c]: ap + adp <==> ac + atp	true	C_c	-1000	1000	0	(ackA)	Pyruvate metabolism
+ID_188	ATP:pyruvate,phosphate phosphotransferase	[c]: atp + pyr + pi --> amp + pepyr + ppi	false	C_c	0	1000	0	(ppdK)	Pyruvate metabolism
+ID_163	oxaloacetate:phosphate carboxy-lyase	[c]: oxac + pi <==> pepyr + hco3 + h	true	C_c	-1000	1000	0		Pyruvate metabolism
+ID_563	pyruvate, water dikinase	[c]: pyr + atp + h2o --> pepyr + amp + pi	false	C_c	0	1000	0	(CD0582)	Pyruvate metabolism
+ID_186	(R)-3-amino-2-methylpropanoate:pyruvate aminotransferase	[c]: 3a2mp + pyr <==> alaL + 2m3op	true	C_c	-1000	1000	0		Pyruvate metabolism
+ID_458	D-lactate dehydrogenase	[c]: pyr + nadh + h --> lacR + nad	false	C_c	0	1000	0	(ldhA)	Pyruvate metabolism
+ID_394	methylglyoxalase	[c]: mthgxl + gth --> lacgth	false	C_c	0	1000	0	(gloA) or (CD1945) or (CD0671) or (CD0451)	Pyruvate metabolism
+ID_177	pyruvaldehyde:NAD+ oxidoreductase	[c]: mthgxl + nad + h2o --> pyr + nadh + h	false	C_c	0	1000	0	(aldH)	Pyruvate metabolism
+ID_89	acetyl:succinate CoA-transferase	[c]: acoa + succ --> ac + succoa	false	C_c	0	1000	0	(cat1)	Pyruvate metabolism
+ID_105	S-lactoyl-glutathione hydrolase	[c]: lacgth + h2o --> lacR + gth	false	C_c	0	1000	0	(CD2742)	Pyruvate metabolism
+ID_306	acetoacetate decarboxylase	[c]: aac --> at + co2	false	C_c	0	1000	0	(Spontaneous)	Pyruvate metabolism
+ID_246	fumarate reductase	[c]: fum + mql --> mqn + succ	false	C_c	0	1000	0		Pyruvate metabolism
+ID_291	malate dehydrogenase (oxaloacetate-decarboxylating) (NAD+)	[c]: malS + nad --> pyr + nadh + co2 + h	false	C_c	0	1000	0	(CD1005)	Pyruvate metabolism
+ID_716	methylglyoxal synthase	[c]: dhap <==> mthgxl + pi	true	C_c	-1000	1000	0	(mgsA)	Pyruvate metabolism
+ID_36	pyruvate formate-lyase	[c]: pyr + coa --> acoa + for	false	C_c	0	1000	0	(plfB) or (pflD) or (CD3282)	Pyruvate metabolism
+ID_710	(R)-2-hydroxy-acid:acceptor 2-oxidoreductase	[c]: lacR + elecaccept-oxi <==> pyr + elecaccept-red	true	C_c	-1000	1000	0	(CD3310)	Pyruvate metabolism
+ID_234	3-mercaptopyruvate:cyanide sulfurtransferase	[c]: hcy + 3mpyr <==> pyr + tcy	true	C_c	-1000	1000	0	(sseA)	Pyruvate metabolism
+ID_643	lactate:menaquinone 2-oxidoreductase	[c]: lacR + mqn --> mql + pyr	false	C_c	0	1000	0		Pyruvate metabolism
+ID_702	FMN adenylyltransferase	[c]: fmn + atp --> fad + ppi	false	C_c	0	1000	0		Riboflavin metabolism
+ID_459	FMNH2:NAD+ oxidoreductase	[c]: fmnh2 + nad <==> fmn + nadh + h	true	C_c	-1000	1000	0	(CD2121) or (CD2396)	Riboflavin metabolism
+ID_692	FMNH2:NADP+ oxidoreductase	[c]: fmnh2 + nadp <==> fmn + nadph + h	true	C_c	-1000	1000	0	(CD1807) or (CD1674)	Riboflavin metabolism
+ID_162	riboflavin kinase	[c]: ribflv + atp --> fmn + adp	false	C_c	0	1000	0	(ribC)	Riboflavin metabolism
+ID_257	D-ribulose 5-phosphate formate-lyase	[c]: rl5p --> 1dgtl4p + for	false	C_c	0	1000	0	(ribA)	Riboflavin metabolism
+ID_375	5-amino-6-(5-phosphoribitylamino)uracil phosphatase	[c]: 5a65praura + h2o --> 5a6raura + pi	false	C_c	0	1000	0		Riboflavin metabolism
+ID_356	GTP cyclohydrolase II	[c]: gtp + (3) h2o --> 25da65prap + for + ppi	false	C_c	0	1000	0	(ribA)	Riboflavin metabolism
+ID_599	5-amino-6-(D-ribitylamino)uracil butanedionetransferase	[c]: 1dgtl4p + 5a6raura --> 67dm81rlum + pi + (2) h2o	false	C_c	0	1000	0	(ribH)	Riboflavin metabolism
+ID_250	5-amino-6-(5-phosphoribosylamino)uracil:NADP+ 1'-oxidoreductase	[c]: 25da65prap + h2o <==> 5a65prsaura + nh3	true	C_c	-1000	1000	0	(ribD)	Riboflavin metabolism
+ID_279	5-amino-6-(5-phosphoribosylamino)uracil reductase	[c]: 5a65prsaura + nadph + h --> 5a65praura + nadp	false	C_c	0	1000	0	(ribD)	Riboflavin metabolism
+ID_110	riboflavin synthase	[c]: (2) 67dm81rlum --> ribflv + 5a6raura	false	C_c	0	1000	0	(ribH) and (ribE)	Riboflavin metabolism
+Sec_na	Secretion Na+	na[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_glyo	Secretion glycerol	glyo[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_tmam	Secretion trimethylamine	tmam[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ribflv	Secretion riboflavin	ribflv[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_dcyt	Secretion deoxycytidine	dcyt[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_aga	Secretion N-acetyl-beta-D-glucosamine	aga[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_h	Secretion H+	h[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_2mbut	Secretion 2-Methylbutyric acid	2mbut[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_co2	Secretion CO2	co2[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_cdpg	Secretion CDP-glycerol	cdpg[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_udpagaepyr	Secretion UDP-N-acetylglucosamine-enolpyruvate	udpagaepyr[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_cobalt	Secretion Co2+	cobalt[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_gtol	Secretion galactitol	gtol[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_2dh3dg	Secretion 2-dehydro-3-deoxy-D-gluconate	2dh3dg[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_no2	Secretion nitrite	no2[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_gly	Secretion glycine	gly[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_sucr	Secretion sucrose	sucr[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_eto	Secretion ethanol	eto[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_g3p	Secretion sn-glycerol-3-phosphate	g3p[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_lysL	Secretion L-lysine	lysL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_proL	Secretion L-proline	proL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_csn	Secretion cytosine	csn[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ribD	Secretion D-ribose	ribD[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_valL	Secretion L-valine	valL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_dachi	Secretion diacetylchitobiose	dachi[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_4abz	Secretion 4-aminobenzoate	4abz[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ac	Secretion acetate	ac[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ival	Secretion Isovalerate	ival[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ca2	Secretion Ca2+	ca2[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_hxan	Secretion hypoxanthine	hxan[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_metL	Secretion L-methionine	metL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_trpL	Secretion L-tryptophan	trpL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_actid	Secretion Acetamide	actid[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_arab	Secretion L-arabinose	arab[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_glcn	Secretion D-gluconate	glcn[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_alaL	Secretion L-alanine	alaL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_leuL	Secretion L-leucine	leuL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_4s45dhp23do	Secretion (4S)-4,5-dihydroxypentan-2,3-dione	4s45dhp23do[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_uri	Secretion uridine	uri[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_2o6pamg2d	Secretion 2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate	2o6pamg2d[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_adn	Secretion adenosine	adn[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ileL	Secretion L-isoleucine	ileL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_dethio	Secretion dethiobiotin	dethio[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_nac	Secretion nicotinate	nac[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_glnL	Secretion L-glutamine	glnL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_escul	Secretion esculin	escul[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_metD	Secretion D-methionine	metD[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_spmd	Secretion spermidine	spmd[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_xan	Secretion xanthine	xan[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ptrc	Secretion putrescine	ptrc[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_thymd	Secretion thymidine	thymd[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_nh3	Secretion ammonia	nh3[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_fru	Secretion D-fructose	fru[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_thm	Secretion thiamin	thm[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_c1ala	Secretion cob(I)alamin	c1ala[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_for	Secretion formate	for[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_fe2	Secretion Fe2+	fe2[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_so3	Secretion sulfite	so3[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_4abg	Secretion 4-aminobenzoate-glutamate	4abg[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_fuc	Secretion L-fuculose	fuc[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_chol	Secretion choline	chol[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_malS	Secretion (S)-malate	malS[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_chor	Secretion chorismate	chor[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_hco3	Secretion bicarbonate	hco3[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_malt	Secretion maltose	malt[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ppat	Secretion phosphonate	ppat[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_h2	Secretion H2	h2[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_bio	Secretion biotin	bio[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_xyld	Secretion D-xylose	xyld[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_pntoR	Secretion (R)-pantothenate	pntoR[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Ex_23dhbz	Secretion of 2,3-dihydroxybenzoate	23dhbz[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_thrL	Secretion L-threonine	thrL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_etoa	Secretion ethanolamine	etoa[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_dad	Secretion deoxyadenosine	dad[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_isobuta	Secretion isobutyric acid	isobuta[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_glyb	Secretion glycine betaine	glyb[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_5apn	Secretion 5-aminopentanoate	5apn[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_adman	Secretion alpha-D-mannose	adman[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_2aepat	Secretion (2-aminoethyl)phosphonate	2aepat[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_gluL	Secretion L-glutamate	gluL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_aspL	Secretion L-aspartate	aspL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_cysL	Secretion L-cysteine	cysL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_escut	Secretion esculetin	escut[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_acnam	Secretion N-acetylneuraminate	acnam[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ura	Secretion uracil	ura[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_tyrL	Secretion L-tyrosine	tyrL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_hoam	Secretion Hydroxylamine	hoam[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_mevR	Secretion (R)-mevalonate	mevR[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_pi	Secretion phosphate	pi[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_raf	Secretion raffinose	raf[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_h2o	Secretion H2O	h2o[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_his	Secretion L-histidine	his[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_zn2	Secretion Zn2+	zn2[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_mg2	Secretion Mg2+	mg2[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_4mpo	Secretion 4-methylphenol	4mpo[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_k	Secretion K+	k[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_argL	Secretion L-arginine	argL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_mnl	Secretion mannitol	mnl[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_gal	Secretion beta-D-galactose	gal[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_no3	Secretion nitrate	no3[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_tgt	Secretion tagatose	tgt[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_tre	Secretion trehalose	tre[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ins	Secretion inosine	ins[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_at	Secretion acetone	at[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_pheL	Secretion L-phenylalanine	pheL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_23diap	Secretion 2,3-diaminopropanoate	23diap[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ncam	Secretion nicotinamide	ncam[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_13pd	Secretion 1,3-propanediol	13pd[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_glc	Secretion beta-D-glucose	glc[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_pyin	Secretion pyridoxine	pyin[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_celb	Secretion cellobiose	celb[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_ibtol	Secretion isobutanol	ibtol[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_asnL	Secretion L-asparagine	asnL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_isocap	Secretion Isocaproate	isocap[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_sor	Secretion D-sorbitol	sor[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_serL	Secretion L-serine	serL[e] --> 	FALSE	C_e	0	1000	0		Secretion
+Sec_glcAD	Secretion alpha-D-glucose	glcAD[e] --> 	FALSE	C_e	0	1000	0		Secretion
+ID_744	ADP-glucose Glucose-1-phosphohydrolase	[c]: adpglu + h2o --> amp + glc1pA	false	C_c	0	1000	0	(CD1765)	Starch and sucrose metabolism
+ID_422	beta-fructofuranosidase	[c]: sucr6p + h2o --> fruf + glc6p	false	C_c	0	1000	0	(sacA)	Starch and sucrose metabolism
+ID_488	cellobiose glucohydrolase	[c]: celb + h2o <==> (2) glc	true	C_c	-1000	1000	0	(CD0818)	Starch and sucrose metabolism
+ID_258	ATP:alpha-D-glucose-1-phosphate adenylyltransferase	[c]: atp + glc1pA --> ppi + adpglu	false	C_c	0	1000	0	(glgC)	Starch and sucrose metabolism
+ID_93	alpha-glucosidase	[c]: sucr + h2o --> fru + glc	false	C_c	0	1000	0	(sacA)	Starch and sucrose metabolism
+ID_646	diacetylchitobiose-6-phosphate hydrolase	[c]: dachi6p + h2o + (2) h --> aga + aga6p	false	C_c	0	1000	0	(celG)	Starch and sucrose metabolism
+Trans_raf	Raffinose transport	raf[e] + atp[c] + h2o[c] --> adp[c] + raf[c] + pi[c]	false	C_c, C_e	0	1000	0		Starch and sucrose metabolism
+ID_450	6-phospho-beta-glucosidase	[c]: celb6p + h2o --> glc + glc6p	false	C_c	0	1000	0	(bglA) or (celF) or (bglA1) or (ascB1) or (bglA2) or (ascB2) or (bglA3) or (CD3130)	Starch and sucrose metabolism
+ID_509	Esculin hydrolase	[c]: escul + h2o <==> glc + escut	true	C_c	-1000	1000	0		Starch and sucrose metabolism
+ID_308	maltose-6'-phosphate glucosidase	[c]: h2o + malt6p <==> glc + glc6p	true	C_c	-1000	1000	0	(glvG) or (CD0864) or (CD3060) or (CD3130)	Starch and sucrose metabolism
+ID_45	glucose-6-phosphate:NADP+ 1-oxidoreductase	[c]: glc6p + nadp --> 6pg15l + nadph + h	false	C_c	0	1000	0		Starch and sucrose metabolism
+ID_408	Raffinose galactohydrolase	[c]: raf + h2o --> galA + sucr	false	C_c	0	1000	0		Starch and sucrose metabolism
+ID_373	beta-phosphoglucomutase	[c]: glc1p --> glc6p	false	C_c	0	1000	0	(pgmB) or (CD3128)	Starch and sucrose metabolism
+ID_573	alpha,alpha-phosphotrehalase	[c]: tre6p + h2o --> glc + glc6p	false	C_c	0	1000	0	(treA)	Starch and sucrose metabolism
+ID_315	maltose phosphorylase	[c]: malt + pi --> glc1p + glc	false	C_c	0	1000	0	(mapA)	Starch and sucrose metabolism
+ID_314	D-proline reductase	[c]: proD + nadh + h --> 5apn + nad	false	C_c	0	1000	0	(prdA) and (prdB) or (prdF) and (prdE) and (prdD)	Stickland Reaction
+ID_321	Isobutyric acid phosphotransferase	[c]: isobutp + adp --> isobuta + atp	false	C_c	0	1000	0		Stickland reaction
+ID_146	2-methylbutanoyl phosphate transferase	[c]: 2mbutp + adp --> atp + 2mbut	false	C_c	0	1000	0		Stickland reaction
+ID_114	betaine reductase	[c]: ap + tmam + thioredoxoxi + h2o <==> glyb + thioredoxred + pi	true	C_c	-1000	1000	0	(grdB) and (grdC) and (grdX) or (grdD) and (grdA) and (grdX)	Stickland reaction
+ID_4	phosphate isopentyltransferase	[c]: ivalcoa + pi --> coa + isop	false	C_c	0	1000	0	(ptb)	Stickland reaction
+ID_71	D-Alanine:2-oxoglutarate aminotransferase	[c]: alaD + 2oglut <==> pyr + gluD	true	C_c	-1000	1000	0	(scrK)	Stickland reaction
+ID_352	phosphate isobutanoyltransferase	[c]: isobutcoa + pi --> isobutp + coa	false	C_c	0	1000	0	(ptb)	Stickland reaction
+ID_178	(S)-3-methyl-2-oxopentanoate:NAD+ 2-oxidoreductase (CoA-methylbutanoylating)	[c]: s3m2op + coa + nad --> 2mbcoa + co2 + nadh + h	false	C_c	0	1000	0		Stickland reaction
+ID_366	 isopentanoylphosphate phosphotransferase	[c]: isop + adp <==> ival + atp	true	C_c	-1000	1000	0		Stickland reaction
+ID_709	isoleucine dehydrogenase 	[c]: ileL + 2oglut --> s3m2op + gluL	false	C_c	0	1000	0		Stickland reaction
+ID_518	2-methylbutanoyl CoA transferase	[c]: 2mbcoa + pi --> 2mbutp + coa	false	C_c	0	1000	0		Stickland reaction
+ID_323	4-methyl-2-oxopentanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating)	[c]: 4m2op + coa + nad --> ivalcoa + co2 + nadh + h	false	C_c	0	1000	0		Stickland reaction
+ID_247	3-methyl-2-oxobutanoate dehydrogenase (ferredoxin)	[c]: 2oiv + feroxoxi + coa <==> isobutcoa + co2 + feroxred	true	C_c	-1000	1000	0	(CD0116)	Stickland reaction
+ID_719	hydrogen-sulfide:NAD+ oxidoreductase	[c]: so3 + (3) nadh + (3) h --> h2s + (3) nad + (3) h2o	false	C_c	0	1000	0	(CD2431) or (asrA) and (asrB) and (asrC)	Sulfite metabolism
+ID_158	Hydrogen-sulfide:ferredoxin oxidoreductase	[c]: h2s + (6) feroxoxi + (3) h2o <==> so3 + (6) feroxred + (6) h	true	C_c	-1000	1000	0	(CD2431)	Sulfite metabolism
+ID_510	3-mercaptopyruvate sulfurtransferase	[c]: 3mpyr + so3 <==> tsul + pyr + h	true	C_c	-1000	1000	0	(CD0121) or (sseA)	Sulfite metabolism
+ID_584	sulfite reduction	[c]: so3 + (6) h --> h2s + (3) h2o	false	C_c	0	1000	0	(Spontaneous)	Sulfite metabolism
+ID_355	thiosulfate sulfurtransferase	[c]: tsul + hcy + h --> tcy + so3	false	C_c	0	1000	0	(CD0121) or (sseA)	Sulfite metabolism
+ID_141	hydrogen-sulfide:NADP+ oxidoreductase	[c]: so3 + (3) nadph + (3) h --> h2s + (3) nadp + (3) h2o	false	C_c	0	1000	0	(CD2431) or (asrA) and (asrB) and (asrC)	Sulfite metabolism
+ID_266	Adenosine 3',5'-bisphosphate 3'-phosphohydrolase	[c]: pap + h2o --> amp + pi	false	C_c	0	1000	0		Sulfite metabolism
+ID_485	trans-hexaprenyltranstransferase	[c]: hexdp + ipdp --> hepdp + ppi	false	C_c	0	1000	0		Teichoic acid biosynthesis
+ID_630	Lipoteichoic acid biosynthesis	[c]: ptg + gpgl + alaD <==> lpteichoic	true	C_c	-1000	1000	0		Teichoic acid biosynthesis
+ID_607	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase	[c]: udpagapp + udpama --> abdmagdpu + udp	false	C_c	0	1000	0		Teichoic acid biosynthesis
+ID_324	UDP-N-acetyl-D-glucosamine:undecaprenyl-phosphate N-acetyl-D-glucosamine phosphotransferase	[c]: udpaga + udpcpp --> udpagapp + uri5p	false	C_c	0	1000	0		Teichoic acid biosynthesis
+ID_200	lysyltransferase	[c]: ptg + lysL <==> 3pt13lg + h2o	true	C_c	-1000	1000	0		Teichoic acid biosynthesis
+ID_59	CDPglycerol:poly(glycerophosphate) glycerophosphotransferase	[c]: abdmagdpu + cdpg --> teichoic + cmp	false	C_c	0	1000	0	(CD0244)	Teichoic acid biosynthesis
+ID_617	geranyltranstransferase	[c]: grdp + ipdp --> fardp + ppi	false	C_c	0	1000	0	(ispA)	Terpenoid backbone biosynthesis
+ID_292	4-hydroxy-3-methylbut-2-enyl diphosphate reductase	[c]: 1h2m2b4dp + nadph + h --> ipdp + nadp + h2o	false	C_c	0	1000	0	(ispH)	Terpenoid backbone biosynthesis
+ID_640	dimethylallyl diphosphate:NADP+ oxidoreductase	[c]: 1h2m2b4dp + nadph + h --> dmadp + nadp + h2o	false	C_c	0	1000	0	(ispH)	Terpenoid backbone biosynthesis
+ID_187	(R)-mevalonate:NAD+ oxidoreductase	[c]: mevR + coa + (2) nad --> 3h3mgcoa + (2) h + (2) nadh	false	C_c	0	1000	0		Terpenoid backbone biosynthesis
+ID_749	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase	[c]: 4cyt5dp2me + atp --> 2p4c5dp2me + adp	false	C_c	0	1000	0	(ispE)	Terpenoid backbone biosynthesis
+ID_645	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	[c]: 2me4p + ctp --> 4cyt5dp2me + ppi	false	C_c	0	1000	0	(ispD)	Terpenoid backbone biosynthesis
+ID_705	2-C-methyl-D-erythritol-2,4-cyclodiphosphate:reduced ferredoxin oxidase	[c]: 2me24cdp + (2) feroxred + (2) h --> 1h2m2b4dp + (2) feroxoxi + h2o	false	C_c	0	1000	0	(ispG)	Terpenoid backbone biosynthesis
+ID_637	1-deoxy-D-xylulose-5-phosphate reductoisomerase	[c]: 1dxyl5p + nadph + h --> 2me4p + nadp	false	C_c	0	1000	0	(dxr)	Terpenoid backbone biosynthesis
+ID_150	(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase	[c]: fardp + (8) ipdp --> udcpdp + (8) ppi	false	C_c	0	1000	0	(uppS) or (CD2762)	Terpenoid backbone biosynthesis
+ID_70	farnesyltranstransferase	[c]: fardp + ipdp --> ppi + grgrdp	false	C_c	0	1000	0	(ispA)	Terpenoid backbone biosynthesis
+ID_431	dimethylallyltranstransferase	[c]: dmadp + ipdp --> grdp + ppi	false	C_c	0	1000	0	(ispA)	Terpenoid backbone biosynthesis
+ID_639	undecaprenyl-diphosphate phosphohydrolase	[c]: udcpdp + h2o <==> udpcpp + pi	true	C_c	-1000	1000	0	(bacA1) or (bacA2)	Terpenoid backbone biosynthesis
+ID_403	geranylgeranyl-diphosphate:isopentenyl-diphosphate transtransferase	[c]: grgrdp + ipdp --> pendp + ppi	false	C_c	0	1000	0	(ispA)	Terpenoid backbone biosynthesis
+ID_24	hydroxymethylglutaryl-CoA lyase	[c]: 3h3mgcoa --> aac + acoa	false	C_c	0	1000	0	(CD0797)	Terpenoid backbone biosynthesis
+ID_587	isopentenyl-diphosphate delta-isomerase	[c]: dmadp <==> ipdp	true	C_c	-1000	1000	0	(CD2377)	Terpenoid backbone biosynthesis
+ID_46	isopentenyl-diphosphate:NAD+ oxidoreductase	[c]: 1h2m2b4dp + nadh + h --> ipdp + nad + h2o	false	C_c	0	1000	0	(ispH)	Terpenoid backbone biosynthesis
+ID_17	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase	[c]: 2p4c5dp2me --> 2me24cdp + cmp	false	C_c	0	1000	0	(ispF)	Terpenoid backbone biosynthesis
+ID_351	dimethylallyl diphosphate:NAD+ oxidoreductase	[c]: 1h2m2b4dp + nadh + h --> dmadp + nad + h2o	false	C_c	0	1000	0	(ispH)	Terpenoid backbone biosynthesis
+ID_689	trans-pentaprenyltranstransferase	[c]: pendp + ipdp --> hexdp + ppi	false	C_c	0	1000	0		Terpenoid backbone biosynthesis
+ID_468	xylulose-5-phosphate : thiamin diphosphate glycolaldehydetransferase	[c]: xyl5p + thmdp <==> dhettp + glyald3p + h	true	C_c	-1000	1000	0	(tkt) or (tkt') or (CD3460) or (CD3459)	Thiamine metabolism
+ID_225	ATP:4-methyl-5-(beta-hydroxyethyl)thiazole 2-phosphotransferase	[c]: 4m5het + atp --> 4m52poet + adp	false	C_c	0	1000	0	(thiM) or (CD2156)	Thiamine metabolism
+ID_214	thiamine-phosphate diphosphorylase	[c]: 4a2m5dpmp + 4m52poet + h --> thmp + ppi	false	C_c	0	1000	0	(thiE1) or (thiE2)	Thiamine metabolism
+ID_720	L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)	[c]: tyrL + amet + elecaccept-red --> 2iac + metL + 5doadn + 4mpo + elecaccept-oxi	false	C_c	0	1000	0	(thiH) or (CD2156)	Thiamine metabolism
+ID_636	phosphomethylpyrimidine synthase (2'deoxyadenosine)	[c]: 5a15primz + amet --> 4a2m5pmp + co + for + metL + dad	false	C_c	0	1000	0	(thiC)	Thiamine metabolism
+ID_668	Phosphomethylpyrimidine synthase (5'deoxyadenosine)	[c]: 5a15primz + amet --> 4a2m5pmp + co + for + metL + 5doadn	false	C_c	0	1000	0	(thiC)	Thiamine metabolism
+ID_238	1-methylthio-xylulose 5-phosphate sulfo-lyase 	[c]: mthx5p + (2) h --> 1dxyl5p + ch4s	false	C_c	0	1000	0		Thiamine metabolism
+ID_264	phosphomethylpyrimidine kinase	[c]: 4a2m5pmp + atp --> 4a2m5dpmp + adp	false	C_c	0	1000	0	(thiD)	Thiamine metabolism
+ID_228	sedoheptulose-7-phosphate : thiamin diphosphate glycolaldehydetransferase	[c]: shl7p + thmdp <==> dhettp + rib5p + h	true	C_c	-1000	1000	0	(tkt) or (tkt') or (CD3460) or (CD3459)	Thiamine metabolism
+ID_15	2,3-diaminopropanoate ammonia-lyase (adding water; pyruvate-forming)	[c]: 23diap + h2o <==> pyr + (2) nh3	true	C_c	-1000	1000	0	(dpaL1) or (dpaL2)	Thiamine metabolism
+ID_478	1-deoxy-D-xylulose-5-phosphate synthase	[c]: glyald3p + pyr --> 1dxyl5p + co2	false	C_c	0	1000	0	(dxs)	Thiamine metabolism
+ID_581	ATP:thiamine phosphotransferase	[c]: thm + atp --> thmp + adp	false	C_c	0	1000	0		Thiamine metabolism
+ID_210	4-methyl-5-(beta-hydroxyethyl)thiazole Biosynthesis	[c]: pyr + glyald3p + gly + cysL --> 4m5het + alaL + (2) h2o + (2) co2 + pi	false	C_c	0	1000	0	(thiF) and (thiS) and (thiG) and (thiH) and (thiI) or (thiF) and (thiS) and (thiG) and (CD2156) and (thiI)	Thiamine metabolism
+ID_388	thiamine diphosphokinase	[c]: atp + thm --> amp + thmdp	false	C_c	0	1000	0	(CD2574)	Thiamine metabolism
+ID_389	thiamine-phosphate kinase	[c]: thmp + atp --> thmdp + adp	false	C_c	0	1000	0		Thiamine metabolism
+Trans_mevR	(R)-mevalonate transport	mevR[e] <==> mevR[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+Trans_xyld	D-xylose import	xyld[e] --> xyld[c]	false	C_c, C_e	0	1000	0	(xynA) and (xynB) and (xynC) and (xynD) or (CD0034)	Transport of unknown mechanism
+Trans_isobuta	Isobutyric acid transport	isobuta[c] --> isobuta[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_fe	Ferrous iron transport 	fe2[e] --> fe2[c]	false	C_c, C_e	0	1000	0	(feoA1) or (feoA2) or (feoA3) or (feoB1) or (feoB2) or (feoB3) or (CD1477) or (CD0902) or (CD1831) or (CD2122) or (CD2832) or (CD3270) or (CD3520)	Transport of unknown mechanism
+Trans_ival	Isovalerate transport	ival[c] --> ival[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_4s45dhp23do	(4S)-4,5-dihydroxypentan-2,3-dione transporter	4s45dhp23do[c] --> 4s45dhp23do[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_h	H+ Transport	h[e] <==> h[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+Trans_23dhbz	2,3-dihydroxybenzoate Transporter	23dhbz[c] --> 23dhbz[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_hoam	Hydroxylamine transporter 	hoam[e] --> hoam[c]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_escul	Esculin transport	escul[e] --> escul[c]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_23diap	2,3-diaminopropanoate transporter	23diap[e] --> 23diap[c]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_pyin	Pyridoxine Transport	pyin[e] <==> pyin[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+Trans_escut	Esculetin transport	escut[c] --> escut[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_2aepat	(2-aminoethyl)phosphonate transporter	2aepat[e] --> 2aepat[c]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_bio	Biotin transport 	bio[e] --> bio[c]	false	C_c, C_e	0	1000	0	(bioY)	Transport of unknown mechanism
+Trans_pntoR	(R)-pantothenate transport	pntoR[e] <==> pntoR[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+Trans_cdpg	CDP-glycerol:poly(glycerophosphate) glycerophosphotransferase	cdpg[e] --> cdpg[c]	false	C_c, C_e	0	1000	0	(CD0244)	Transport of unknown mechanism
+Trans_ibtol	isobutanol transport	ibtol[c] --> ibtol[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_cobalt2	cobalt transporter	cobalt[e] --> cobalt[c]	false	C_c, C_e	0	1000	0	(CD0902) or (CD1831) or (CD2122) or (CD2832) or (CD3520)	Transport of unknown mechanism
+Trans_glyo	glycerol transport	glyo[e] <==> glyo[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+Trans_2mbut	2-Methylbutyric acid transport	2mbut[c] --> 2mbut[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_actid	Acetamide transport	actid[c] --> actid[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_nac	nicotinate transporter	nac[e] --> nac[c]	false	C_c, C_e	0	1000	0	(CD2256)	Transport of unknown mechanism
+Trans_etoa	ethanolamine transporter	etoa[e] --> etoa[c]	false	C_c, C_e	0	1000	0	(eutH) or (CD0742)	Transport of unknown mechanism
+Trans_5apn	5-aminopentanoate transport	5apn[c] --> 5apn[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_dethio	dethiobiotin transport	dethio[e] --> dethio[c]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_thm	thiamin transport	thm[e] <==> thm[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+Trans_4abz	p-Aminobenzoic acid transport	4abz[e] --> 4abz[c]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_4mpo	4-methylphenol	4mpo[c] --> 4mpo[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_pi3	phosphate passive transporter	pi[e] <==> pi[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+Trans_isocap	Isocaproate transport	isocap[c] --> isocap[e]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_nh	ammonia transport	nh3[e] <==> nh3[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+Trans_ncam	nicotinamide transport	ncam[e] --> ncam[c]	false	C_c, C_e	0	1000	0		Transport of unknown mechanism
+Trans_tmam	 trimethylamine transport	tmam[e] <==> tmam[c]	true	C_c, C_e	-1000	1000	0		Transport of unknown mechanism
+ID_284	naphthoate synthase	[c]: 2sucbzcoa <==> 14dh2no + coa	true	C_c	-1000	1000	0	(crt1)	Ubiquinone and other terpenoid-quinone biosynthesis
+ID_119	NADH:menaquinone oxidoreductase	[c]: mqn + h + nadh <==> mql + nad	true	C_c	-1000	1000	0		Ubiquinone and other terpenoid-quinone biosynthesis
+ID_472	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase	[c]: 2oglut + ichor <==> 2s6h24ch1c + pyr + co2	true	C_c	-1000	1000	0		Ubiquinone and other terpenoid-quinone biosynthesis
+ID_722	tyrosine:2-oxoglutarate aminotransferase	[c]: tyrL + 2oglut <==> 34hppyr + gluL	true	C_c	-1000	1000	0	(aspC) or (aspB) or (CD2828) or (hisC) or (CD2200)	Ubiquinone and other terpenoid-quinone biosynthesis
+ID_112	all-trans-polyprenyl diphosphate:1,4-dihydroxy-2-naphthoate polyprenyltransferase	[c]: 14dh2no + octdp --> 2dmmqn + ppi + co2	false	C_c	0	1000	0		Ubiquinone and other terpenoid-quinone biosynthesis
+ID_746	S-adenosyl-L-methione:demethylmenaquinone methyltransferase	[c]: 2dmmqn + amet --> mqn + ahcys	false	C_c	0	1000	0		Ubiquinone and other terpenoid-quinone biosynthesis
+ID_23	all-trans-octaprenyl-diphosphate synthase	[c]: hepdp + ipdp --> octdp + ppi	false	C_c	0	1000	0		Ubiquinone and other terpenoid-quinone biosynthesis
+ID_33	hydro-lyase	[c]: 2s6h24ch1c <==> 2sucbz + h2o	true	C_c	-1000	1000	0		Ubiquinone and other terpenoid-quinone biosynthesis
+ID_209	isochorismate synthase	[c]: chor <==> ichor	true	C_c	-1000	1000	0		Ubiquinone and other terpenoid-quinone biosynthesis
+ID_555	o-succinylbenzoate-CoA ligase	[c]: atp + 2sucbz + coa --> amp + ppi + 2sucbzcoa	false	C_c	0	1000	0		Ubiquinone and other terpenoid-quinone biosynthesis
+ID_51	2-isopropylmalate synthase	[c]: 2oiv + acoa + h2o --> 2ipm + coa	false	C_c	0	1000	0	(leuA)	Valine, leucine and isoleucine metabolism
+ID_212	2-methylcrotonoyl-CoA hydro-lyase	[c]: 2mccoa + h2o --> 2m3hbcoa	false	C_c	0	1000	0	(crt1)	Valine, leucine and isoleucine metabolism
+ID_11	3-isopropylmalate dehydrogenase(step1)	[c]: 3ipm + nad --> 2ip3os + nadh + h	false	C_c	0	1000	0	(leuB) or (CD0834)	Valine, leucine and isoleucine metabolism
+ID_354	2-methyl-3-hydroxybutyryl-CoA:NAD+ oxidoreductase	[c]: 2m3hbcoa + nad --> 2maacoa + nadh + h	false	C_c	0	1000	0	(fabG)	Valine, leucine and isoleucine metabolism
+ID_757	(3S)-3-Methyl-2-oxopentanoate carboxy-lyase	[c]: 2oiv + h --> ibtal + co2	false	C_c	0	1000	0	(ilvB)	Valine, leucine and isoleucine metabolism
+ID_328	2-Isopropylmalate hydro-lyase(step 1)	[c]: 2ipm --> 2ippm + h2o	false	C_c	0	1000	0	(leuC) and (leuD)	Valine, leucine and isoleucine metabolism
+ID_217	leucine transaminase	[c]: valL + 2oglut --> 2oiv + gluL	false	C_c	0	1000	0	(pabC)	Valine, leucine and isoleucine metabolism
+ID_454	2-Isopropylmalate hydro-lyase(step 2)	[c]: 2ippm + h2o --> 3ipm	false	C_c	0	1000	0	(leuC) and (leuD)	Valine, leucine and isoleucine metabolism
+ID_735	2,3-dihydroxy-3-methylvalerate dehydratase	[c]: 23dh3mv --> s3m2op + h2o	false	C_c	0	1000	0	(ilvD)	Valine, leucine and isoleucine metabolism
+ID_369	L-valine:pyruvate aminotransferase	[c]: valL + pyr --> alaL + 2oiv	false	C_c	0	1000	0	(CD3664)	Valine, leucine and isoleucine metabolism
+ID_691	2-methylbutanoyl-CoA:FAD 2,3-oxidoreductase	[c]: 2mbcoa + fad --> 2mccoa + fadh2	false	C_c	0	1000	0	(acdB) or (bcd2)	Valine, leucine and isoleucine metabolism
+ID_731	pyruvate:2-oxobutanoate acetaldehydetransferase	[c]: 2obut + pyr --> 2a2hbut + co2	false	C_c	0	1000	0	(ilvB)	Valine, leucine and isoleucine metabolism
+ID_453	2-aceto-2-hydroxybutanoate oxidoreductase	[c]: 2a2hbut + nadph + h --> 23dh3mv + nadp	false	C_c	0	1000	0	(ilvC)	Valine, leucine and isoleucine metabolism
+ID_154	propanoyl-CoA : acetyl-CoA acetyltransferase	[c]: 2maacoa + coa --> ppcoa + acoa	false	C_c	0	1000	0	(thlA1) or (thlA2)	Valine, leucine and isoleucine metabolism
+ID_359	3-isopropylmalate dehydrogenase(step2)	[c]: 2ip3os --> 4m2op + co2	false	C_c	0	1000	0	(leuB) or (CD0834)	Valine, leucine and isoleucine metabolism
+ID_520	isobutanal hydrogenase	[c]: ibtal + nadh + h --> ibtol + nad	false	C_c	0	1000	0	(adhE) or (CD3006)	Valine, leucine and isoleucine metabolism
+ID_430	2-methyl-3-oxopropanoate:NAD+ oxidoreductase	[c]: 2m3op + coa + nad <==> ppcoa + co2 + nadh + h	true	C_c	-1000	1000	0	(gapN)	Valine, leucine and isoleucine metabolism
+ID_539	propanoyl-CoA:formate C-propanoyltransferase	[c]: 2obut + coa <==> ppcoa + for	true	C_c	-1000	1000	0	(plfB) or (pflD) or (CD3282)	Valine, leucine and isoleucine metabolism
+ID_203	S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase	[c]: pc2 + nad <==> shclin + nadh + h	true	C_c	-1000	1000	0	(sirC)	Vitamin B12 and protoheme metabolism
+ID_497	ATP:cob(I0alamin Co-beta-adenosyltransferase	[c]: c1ala + atp --> coB12 + pppi	false	C_c	0	1000	0	(eutT)	Vitamin B12 and protoheme metabolism
+ID_256	S-adenosyl-L-methionine:precorrin-1 C-methyltransferase	[c]: pc1 + amet --> pc2 + ahcys	false	C_c	0	1000	0	(hemD)	Vitamin B12 and protoheme metabolism
+ID_207	adenosylcobinamide-phosphate guanylyltransferase	[c]: acap + gtp --> acgdp + ppi	false	C_c	0	1000	0	(cobU)	Vitamin B12 and protoheme metabolism
+ID_236	nicotinate mononucleotide:5,6-dimethylbenzimidazole phospho-D-ribosyltransferase	[c]: 56dmbimz + nacmnc --> rz5p + nac + h	false	C_c	0	1000	0	(cobT)	Vitamin B12 and protoheme metabolism
+ID_465	coproporphyrinogen dehydrogenase	[c]: cppogen3 + (2) amet --> ptpphygen + (2) co2 + (2) metL + (2) 5doadn	false	C_c	0	1000	0	(hemN) or (hemZ)	Vitamin B12 and protoheme metabolism
+ID_131	biotin synthase	[c]: dethio + ssc + (2) amet --> bio + (2) metL + (2) 5doadn + unsc	false	C_c	0	1000	0	(bioB) or (CD2155)	Vitamin B12 and protoheme metabolism
+ID_456	hydroxymethylbilane hydro-lyase	[c]: hmb <==> uppg3 + h2o	true	C_c	-1000	1000	0	(hemD)	Vitamin B12 and protoheme metabolism
+ID_529	threonine-phosphate carboxy-lyase	[c]: thr3p <==> 1a2po2p + co2	true	C_c	-1000	1000	0	(CD2692) or (cobD)	Vitamin B12 and protoheme metabolism
+ID_538	adenosylcobinamide kinase	[c]: adcbam + atp --> adcobamp + adp	false	C_c	0	1000	0	(cobU)	Vitamin B12 and protoheme metabolism
+ID_717	S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase	[c]: (2) amet + uppg3 <==> (2) ahcys + pc2	true	C_c	-1000	1000	0	(hemD)	Vitamin B12 and protoheme metabolism
+ID_47	adenosylcobinamide kinase	[c]: adcbam + gtp <==> adcobamp + gdp	true	C_c	-1000	1000	0	(cobU)	Vitamin B12 and protoheme metabolism
+ID_37	S-adenosyl-L-methionine:cobalt-factor-II C20-methyltransferase	[c]: cbshclin + amet --> cbfIII + ahcys	false	C_c	0	1000	0	(cbiK)	Vitamin B12 and protoheme metabolism
+ID_260	Uroporphyrinogen-III carboxy-lyase	[c]: uppg3 --> cppogen3 + (4) co2	false	C_c	0	1000	0	(hemE)	Vitamin B12 and protoheme metabolism
+ID_553	ATP:L-threonine O-phosphotransferase	[c]: thrL + atp --> thr3p + adp	false	C_c	0	1000	0	(CD3431)	Vitamin B12 and protoheme metabolism
+ID_103	ATP:Biotin adenyltransferase	[c]: atp + bio --> ppi + bio5a	false	C_c	0	1000	0	(birA)	Vitamin B12 and protoheme metabolism
+ID_671	S-adenosyl-L-methionine:cobalt-precorrin-5B (C1)-methyltransferase	[c]: cbpcr5b + amet + h --> cbprc6a + ahcys	false	C_c	0	1000	0	(cbiD)	Vitamin B12 and protoheme metabolism
+ID_91	2,3-dihydro-2,3-dihydroxybenzoate:NAD+ oxidoreductase	[c]: 23dh23dhvz + nad --> 23dhbz + nadh + h + h2o	false	C_c	0	1000	0	(fabG)	Vitamin B12 and protoheme metabolism
+ID_540	5-aminolevulinate hydro-lyase	[c]: (2) 5all <==> pbng + (2) h2o	true	C_c	-1000	1000	0	(hemB)	Vitamin B12 and protoheme metabolism
+ID_281	cobalt-precorrin 3 dehydrogenase	[c]: cbfIII + elecaccept-red <==> cbpc3 + elecaccept-oxi	true	C_c	-1000	1000	0	(cbiK)	Vitamin B12 and protoheme metabolism
+ID_25	cobalamin synthase	[c]: acgdp + rz --> coB12 + gmp + h	false	C_c	0	1000	0	(cobS)	Vitamin B12 and protoheme metabolism
+ID_704	Isochorismate pyruvate-hydrolase	[c]: ichor + h2o --> 23dh23dhvz + pyr	false	C_c	0	1000	0	(CD3632)	Vitamin B12 and protoheme metabolism
+ID_426	cobalt-precorrin-7 (C15)-methyltransferase [decarboxylating]	[c]: cbdhpcr6 + amet --> cbpcr7 + ahcys + co2	false	C_c	0	1000	0	(cbiT)	Vitamin B12 and protoheme metabolism
+ID_245	ATP:cob(I)yrinate a,c-diamide cobeta-adenosyltransferase	[c]: c1yda + atp + h --> acbda + pppi	false	C_c	0	1000	0	(eutT)	Vitamin B12 and protoheme metabolism
+ID_440	cob(II)yrinate a,c-diamide:FMN oxidoreductase	[c]: c2yda + fmnh2 --> c1yda + fmn + (2) h	false	C_c	0	1000	0		Vitamin B12 and protoheme metabolism
+ID_84	protoporphyrinogen IX dehydrogenase (menaquinone)	[c]: ptpphygen + (3) mqn --> ptphyrin + (3) mql	false	C_c	0	1000	0	(CD1679)	Vitamin B12 and protoheme metabolism
+ID_552	adenosyl-cobyrate:(R)-1-amino-2-propanol O-2-phosphate ligase	[c]: 1a2po2p + acb + atp --> acap + pi + adp	false	C_c	0	1000	0	(cbiB)	Vitamin B12 and protoheme metabolism
+ID_572	S-adenosyl-L-methionine:precorrin-7 C15-methyltransferase	[c]: cbpcr7 + amet --> cbpcr8x + ahcys	false	C_c	0	1000	0	(cbiE)	Vitamin B12 and protoheme metabolism
+ID_138	porphobilinogen ammonia-lyase	[c]: (4) pbng + h2o <==> hmb + (4) nh3	true	C_c	-1000	1000	0	(hemC)	Vitamin B12 and protoheme metabolism
+ID_618	adenosyl-cobyrate synthase	[c]: acbda + (4) glnL + (4) h2o + (4) atp --> acb + (4) gluL + (4) adp + (4) pi	false	C_c	0	1000	0	(cobQ)	Vitamin B12 and protoheme metabolism
+ID_364	Precorrin-8X methylmutase	[c]: cbpcr8x <==> cobat	true	C_c	-1000	1000	0	(cbiC)	Vitamin B12 and protoheme metabolism
+ID_487	cobalt-precorrin-4 methyltransferase	[c]: cbpc4 + amet --> cbprc5a + ahcys	false	C_c	0	1000	0	(cbiF)	Vitamin B12 and protoheme metabolism
+ID_129	ferrochelatase	[c]: ptphyrin + fe2 --> proheme + (2) h	false	C_c	0	1000	0		Vitamin B12 and protoheme metabolism
+ID_738	precorrin-6A reductase	[c]: cbprc6a + nadph + h <==> cbdhpcr6 + nadp	true	C_c	-1000	1000	0	(cbiJ)	Vitamin B12 and protoheme metabolism
+ID_67	S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase	[c]: uppg3 + amet --> pc1 + ahcys	false	C_c	0	1000	0	(sirC) or (hemD)	Vitamin B12 and protoheme metabolism
+ID_190	S-adenosyl-L-methionine:precorrin-3B C17-methyltransferase	[c]: cbpc3 + amet --> cbpc4 + ahcys	false	C_c	0	1000	0	(cbiH)	Vitamin B12 and protoheme metabolism
+ID_670	cobyrinate:L-glutamine amido-ligase (ADP-forming)	[c]: cobat + (2) glnL + (2) atp + (2) h2o --> c2yda + (2) gluL + (2) adp + (2) pi	false	C_c	0	1000	0	(cbiA)	Vitamin B12 and protoheme metabolism
+ID_484	sirohydrochlorin cobalt-lyase	[c]: shclin + cobalt <==> cbshclin + (2) h	true	C_c	-1000	1000	0	(cbiK)	Vitamin B12 and protoheme metabolism
+ID_101	cobalt-precorrin 5A acylhydrolase	[c]: cbprc5a + h2o --> cbpcr5b + aald	false	C_c	0	1000	0	(cbiG)	Vitamin B12 and protoheme metabolism
+ID_700	adenosylcobalamin phosphatase	[c]: rz5p + h2o --> rz + pi	false	C_c	0	1000	0	(CD3436)	Vitamin B12 and protoheme metabolism
+ID_508	pyridoxamine:pyruvate aminotransferase	[c]: pyam + pyr <==> pyal + alaL	true	C_c	-1000	1000	0		Vitamin B6 metabolism
+ID_554	pyridoxal kinase	[c]: pyam + atp --> pyam5p + adp	false	C_c	0	1000	0	(CD1353)	Vitamin B6 metabolism
+ID_220	Pyridoxamine-5'-phosphate:2-oxoglutarate aminotransferase	[c]: pyam5p + pyr <==> pyal5p + alaD	true	C_c	-1000	1000	0		Vitamin B6 metabolism
+ID_647	Pyridoxine:NADP+ 4-oxidoreductase	[c]: pyal + nadph + h --> pyin + nadp	false	C_c	0	1000	0		Vitamin B6 metabolism
+ID_461	pyridoxamine:oxaloacetate aminotransferase	[c]: pyam + oxac <==> pyal + aspL	true	C_c	-1000	1000	0		Vitamin B6 metabolism
+ID_698	pyridoxal kinase	[c]: pyal + atp --> pyal5p + adp	false	C_c	0	1000	0	(CD1353)	Vitamin B6 metabolism
+ID_270	Pyridoxamine-5'-phosphate:2-oxoglutarate aminotransferase (D-glutamate-forming)	[c]: pyam5p + 2oglut <==> pyal5p + gluD	true	C_c	-1000	1000	0		Vitamin B6 metabolism
+Trans_co	carbon dioxide diffusion	co2[e] <==> co2[c]	true	C_c, C_e	-1000	1000	0		diffusion
+Trans_h2o	water diffusion	h2o[e] <==> h2o[c]	true	C_c, C_e	-1000	1000	0		diffusion
+Trans_eto	ethanol transport	eto[e] <==> eto[c]	true	C_c, C_e	-1000	1000	0		diffusion
+Trans_hco	hco3 transport	hco3[e] <==> hco3[c]	true	C_c, C_e	-1000	1000	0		diffusion
+Trans_at	acetone export	at[c] --> at[e]	false	C_c, C_e	0	1000	0		diffusion
+Trans_h4	hydrogen diffusion	h2[e] <==> h2[c]	true	C_c, C_e	-1000	1000	0		diffusion
+Trans_adman2	alpha-D-mannose Transport	adman[e] + h[e] --> adman[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_glcAD	alpha-D-glucose Transport	glcAD[e] + h[e] --> glcAD[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_uri	uridine transport	uri[e] + h[e] --> h[c] + uri[c]	false	C_c, C_e	0	1000	0		secondary transporters
+Trans_ura	uracil transport	ura[e] + h[e] --> h[c] + ura[c]	false	C_c, C_e	0	1000	0	(uraA) or (CD3180)	secondary transporters
+Trans_h3	sodium ion:proton antiporter	na[e] + h[c] <==> na[c] + h[e]	true	C_c, C_e	-1000	1000	0	(CD0449) or (CD1655) or (CD2734) or (CD2102) or (CD2669a)	secondary transporters
+Trans_ca2	Calcium:Sodium antiport	ca2[e] + na[c] --> ca2[c] + na[e]	false	C_c, C_e	0	1000	0	(CD0760)	secondary transporters
+Trans_xyld2	D-xylose Transport	xyld[e] + h[e] --> xyld[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_ac	Acetate Transport	ac[c] + h[c] <==> ac[e] + h[e]	true	C_c, C_e	-1000	1000	0		secondary transporters
+Trans_glcn	gluconate permease	glcn[e] + h[e] --> glcn[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2812) or (CD1737)	secondary transporters
+Trans_pi	sodium-dependent phosphate transporter	pi[e] + na[e] --> pi[c] + na[c]	false	C_c, C_e	0	1000	0	(CD3286) or (CD1729)	secondary transporters
+Trans_dad	deoxyadenosine transport	dad[e] + h[e] --> h[c] + dad[c]	false	C_c, C_e	0	1000	0		secondary transporters
+Trans_dcyt	deoxycytidine transport	dcyt[e] + h[e] --> h[c] + dcyt[c]	false	C_c, C_e	0	1000	0		secondary transporters
+Trans_celb2	cellobiose import	celb[e] + h[e] --> celb[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_thymd	thymidine transport	thymd[e] + h[e] --> h[c] + thymd[c]	false	C_c, C_e	0	1000	0		secondary transporters
+Trans_malS	(S)-malate transport	malS[e] + h[c] --> malS[c] + h[e]	false	C_c, C_e	0	1000	0	(CD2124) or (CD3169)	secondary transporters
+Trans_ribflv	riboflavin transport	ribflv[e] + h[e] <==> ribflv[c] + h[c]	true	C_c, C_e	-1000	1000	0		secondary transporters
+Trans_hxan	hypoxanthine transport	hxan[e] + h[e] --> h[c] + hxan[c]	false	C_c, C_e	0	1000	0		secondary transporters
+Trans_2dh3dg	2-keto-3-deoxygluconate permease	2dh3dg[e] + h[e] --> 2dh3dg[c] + h[c]	false	C_c, C_e	0	1000	0	(CD3004) or (kdgT)	secondary transporters
+Trans_h2	sodium:H+ symporter	na[e] + h[e] --> na[c] + h[c]	false	C_c, C_e	0	1000	0	(CD3575) or (CD2239) or (CD2202) or (CD0682) or (CD0657) or (CD3616)	secondary transporters
+Trans_sor	D-sorbitol import	sor[e] + h[e] --> sor[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_malt2	maltose import	malt[e] + h[e] --> malt[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_k2	potassium ion uptake	k[e] + h[e] --> k[c] + h[c]	false	C_c, C_e	0	1000	0	(trkH)	secondary transporters
+Trans_csn	cytosine:H+ cotransport	csn[e] + h[e] --> csn[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2738) or (CD1716)	secondary transporters
+Trans_sucr2	sucrose import	sucr[e] + h[e] --> sucr[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_ins	inosine transport	ins[e] + h[e] --> h[c] + ins[c]	false	C_c, C_e	0	1000	0		secondary transporters
+Trans_4abg	aminobenzoyl-glutamate transport	4abg[e] + h[e] --> 4abg[c] + h[c]	false	C_c, C_e	0	1000	0	(abgT) or (CD3100)	secondary transporters
+Trans_arab	L-arabinose import	arab[e] + h[e] --> arab[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_acnam	Transport of N-acetylneuraminate	acnam[e] + h[e] --> acnam[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_xan	xanthine permease	xan[e] + h[e] --> xan[c] + h[c]	false	C_c, C_e	0	1000	0	(pbuX) or (CD2091) or (CD2090)	secondary transporters
+Trans_gal	beta-D-galactose import	gal[e] + h[e] --> gal[c] + h[c]	false	C_c, C_e	0	1000	0	(CD2549)	secondary transporters
+Trans_so	sodium:sulfite symporter	na[e] + so3[e] --> na[c] + so3[c]	false	C_c, C_e	0	1000	0	(CD0798) or (CD2109)	secondary transporters
+Trans_xan2	xanthine:uracil cotransport	xan[e] + ura[e] --> xan[c] + ura[c]	false	C_c, C_e	0	1000	0	(CD2107)	secondary transporters
+Trans_alaL	sodium ion:alanine symporter	na[e] + alaL[e] --> na[c] + alaL[c]	false	C_c, C_e	0	1000	0	(CD1696) or (CD2276) or (CD2422)	secondary transporters
+Trans_adn	adenosine transport	adn[e] + h[e] --> h[c] + adn[c]	false	C_c, C_e	0	1000	0		secondary transporters
+Trans_glc2	beta-D-glucose import	glc[e] + h[e] --> glc[c] + h[c]	false	C_c, C_e	0	1000	0		secondary transporters
+Trans_gluL2	glutamate:sodium cotransport	gluL[e] + (2) na[e] --> gluL[c] + (2) na[c]	false	C_c, C_e	0	1000	0	(gltC) or (CD2541)	secondary transporters
+Trans_chor	chorismate transport	chor[e] + h[e] <==> chor[c] + h[c]	true	C_c, C_e	-1000	1000	0		secondary transporters
+Trans_aspL	proton/sodium ion:glutamate/aspartate symporter	na[e] + aspL[e] --> na[c] + aspL[c]	false	C_c, C_e	0	1000	0	(CD2541)	secondary transporters
