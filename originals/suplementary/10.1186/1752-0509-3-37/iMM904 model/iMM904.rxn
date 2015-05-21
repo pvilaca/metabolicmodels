@@ -1,0 +1,1595 @@
+********************************************************************
+*
+* Database Name     : UCSD1.GENOMATICA.COM
+* Program Name      : Yeast
+* Project Name      : S. cerevisiae
+* Study Owner       : YEAST
+* Study Name        : Final iMM904 simulations
+* Model Version     : Saccharomyces cerevisiae S288C - 4.0 - iMM904 - YEAST - YEAST - (02/19/2006 10:42 AM).
+* Simulation Type   : Single Optimization
+* Simulation Number : 5
+* Simulation Name   : iMM904 GlcMM o2 s10 notrace
+*
+********************************************************************
+Ratio Constraints
+Lower Bound	Upper Bound	Reaction 1	Reaction 2
+
+REACTION NUMBER	ABBREVIATION	OFFICIAL NAME	DIRECTION	LOWER BOUND	UPPER BOUND	OBJECTIVE	FLUX VALUE	REDUCED COST
+
+21758	biomass_SC5_notrace	biomass_SC5_notrace	Irreversible	0	999999	1	.2878657037040153	0
+4146	EX_13BDglcn(e)	1,3-beta-D-Glucan exchange	Reversible	0	999999	0	0	-.023757829741734453
+12491	EX_2hb(e)	2-Hydroxybutyrate exchange	Reversible	0	999999	0	0	-.03741858184323176
+19492	EX_2mbac(e)	2-methylbutyl acetate exchange	Reversible	0	999999	0	0	0
+19493	EX_2mbald(e)	2-methylbutyraldehyde exchange	Reversible	0	999999	0	0	-.04375400310769427
+19494	EX_2mbtoh(e)	2-methyl-1-butanol exchange	Reversible	0	999999	0	0	0
+19495	EX_2mppal(e)	2-methylpropanal exchange	Reversible	0	999999	0	0	-.009305149982179305
+19496	EX_2phetoh(e)	2-phenylethanol exchange	Reversible	0	999999	0	0	0
+21795	EX_3c3hmp(e)	3-Carboxy-3-hydroxy-4-methylpentanoate exchange	Reversible	0	999999	0	0	-.016630480819214068
+19497	EX_3mbald(e)	3-Methylbutanal exchange	Reversible	0	999999	0	0	-.018808281878873054
+21791	EX_3mop(e)	3mop exchange	Reversible	0	999999	0	0	-.04375400310769427
+827	EX_4abut(e)	4-Aminobutanoate exchange	Reversible	0	999999	0	0	-.021382046767560975
+8747	EX_4abz(e)	4-Aminobenzoate exchange	Reversible	0	999999	0	0	0
+1604	EX_5aop(e)	5-Amino-4-oxopentanoate exchange	Reversible	0	999999	0	0	0
+4140	EX_8aonn(e)	8-Amino-7-oxononanoate exchange	Reversible	0	999999	0	0	0
+19439	EX_Nbfortyr(e)	N,N-bisformyl-dityrosine exchange	Reversible	0	999999	0	0	0
+2300	EX_abt(e)	L-Arabinitol exchange	Reversible	0	999999	0	0	0
+828	EX_ac(e)	Acetate exchange	Reversible	0	999999	0	0	-.00019798191451444623
+1456	EX_acald(e)	Acetaldehyde exchange	Reversible	0	999999	0	0	-.002177801059658985
+19498	EX_aces(e)	Acetic ester exchange	Reversible	0	999999	0	0	0
+826	EX_ade(e)	Adenine exchange	Reversible	0	999999	0	0	-.12215484125541756
+758	EX_adn(e)	Adenosine exchange	Reversible	0	999999	0	0	-.15383194757773017
+829	EX_akg(e)	2-Oxoglutarate exchange	Reversible	0	999999	0	0	-.019402227622416435
+830	EX_ala-L(e)	L-Alanine exchange	Reversible	0	999999	0	0	-.004157620204803524
+1126	EX_alltn(e)	Allantoin exchange	Reversible	0	999999	0	0	-.0752331275154924
+1605	EX_alltt(e)	Allantoate exchange	Reversible	0	999999	0	0	-.0752331275154924
+1606	EX_amet(e)	S-Adenosyl-L-methionine exchange	Reversible	0	999999	0	0	-.2791544994653794
+1607	EX_arab-D(e)	D-Arabinose exchange	Reversible	0	999999	0	0	0
+680	EX_arab-L(e)	L-Arabinose exchange	Reversible	0	999999	0	0	0
+831	EX_arg-L(e)	L-Arginine exchange	Reversible	0	999999	0	0	-.09780306577014011
+832	EX_asn-L(e)	L-Asparagine exchange	Reversible	0	999999	0	0	-.05167327968827243
+833	EX_asp-L(e)	L-Aspartate exchange	Reversible	0	999999	0	0	-.01603653507567075
+834	EX_btd-RR(e)	(R,R)-2,3-Butanediol exchange	Reversible	0	999999	0	0	0
+1608	EX_btn(e)	Biotin exchange	Reversible	0	999999	0	0	-.01187891487086723
+1047	EX_chol(e)	Choline exchange	Reversible	0	999999	0	0	-.12987613592148178
+1048	EX_cit(e)	Citrate exchange	Reversible	0	999999	0	0	-.021382046767560975
+805	EX_co2(e)	CO2 exchange	Reversible	0	999999	0	18.021084337403053	0
+706	EX_crn(e)	L-Carnitine exchange	Reversible	0	999999	0	0	0
+835	EX_csn(e)	Cytosine exchange	Reversible	0	999999	0	0	-.08948782536053315
+1065	EX_cys-L(e)	L-Cysteine exchange	Reversible	0	999999	0	0	-.06177035732850958
+836	EX_cytd(e)	Cytidine exchange	Reversible	0	999999	0	0	-.12116493168284576
+4137	EX_dad-2(e)	Deoxyadenosine exchange	Reversible	0	999999	0	0	-.1558117667228747
+1609	EX_dann(e)	7,8-Diaminononanoate exchange	Reversible	0	999999	0	0	0
+8161	EX_dca(e)	Decanoate (n-C10:0) exchange	Reversible	0	999999	0	0	0
+837	EX_dcyt(e)	Deoxycytidine exchange	Reversible	0	999999	0	0	-.11126583595712311
+2588	EX_ddca(e)	Dodecanoate (n-C12:0) exchange	Reversible	0	999999	0	0	0
+1610	EX_dgsn(e)	Deoxyguanosine exchange	Reversible	0	999999	0	0	-.17758977731946463
+1611	EX_din(e)	Deoxyinosine exchange	Reversible	0	999999	0	0	-.13977523164720396
+1612	EX_dttp(e)	dTTP exchange	Reversible	0	999999	0	0	-.1415570688778346
+1066	EX_duri(e)	Deoxyuridine exchange	Reversible	0	999999	0	0	-.09938692108625588
+15298	EX_epist(e)	episterol exchange	Reversible	0	999999	0	0	-.7063994709875698
+15300	EX_epistest_SC(e)	episterol ester, yeast-specific exchange	Reversible	0	999999	0	0	-32.49595952074438
+2038	EX_ergst(e)	Ergosterol exchange	Reversible	0	999999	0	0	-.7394624507114835
+15299	EX_ergstest_SC(e)	ergosterol ester, yeast-specific exchange	Reversible	0	999999	0	0	-32.529022500468294
+8149	EX_etha(e)	Ethanolamine exchange	Reversible	0	999999	0	0	-.003365692546745902
+839	EX_etoh(e)	Ethanol exchange	Reversible	0	999999	0	15.815474819203953	0
+1310	EX_fe2(e)	Fe2+ exchange	Reversible	-999999	999999	0	0	0
+15296	EX_fecost(e)	fecosterol exchange	Reversible	0	999999	0	0	-.7063994709875698
+15297	EX_fecostest_SC(e)	fecosterol ester, yeast-specific exchange	Reversible	0	999999	0	0	-32.495959520744385
+1613	EX_fmn(e)	FMN exchange	Reversible	0	999999	0	0	-.2765807345766915
+1067	EX_for(e)	Formate exchange	Reversible	0	999999	0	.0014882656881497593	0
+681	EX_fru(e)	D-Fructose exchange	Reversible	0	999999	0	0	-.02375782974173446
+840	EX_fum(e)	Fumarate exchange	Reversible	0	999999	0	0	-.011878914870867225
+12288	EX_g3pc(e)	sn-Glycero-3-phosphocholine exchange	Reversible	0	999999	0	0	-.23460856869962798
+12291	EX_g3pi(e)	sn-Glycero-3-phospho-1-inositol exchange	Reversible	0	999999	0	0	0
+682	EX_gal(e)	D-Galactose exchange	Reversible	0	999999	0	0	-.023757829741734453
+2628	EX_galur(e)	D-Galacturonate exchange	Reversible	0	999999	0	0	0
+4141	EX_gam6p(e)	D-Glucosamine 6-phosphate exchange	Reversible	0	999999	0	0	-.04751565948346892
+2039	EX_gcald(e)	Glycolaldehyde exchange	Reversible	0	999999	0	0	0
+99	EX_glc(e)	D-Glucose exchange	Reversible	-10	999999	0	-10	-.023757829741734453
+710	EX_gln-L(e)	L-Glutamine exchange	Reversible	0	999999	0	0	-.033260961638428205
+841	EX_glu-L(e)	L-Glutamate exchange	Reversible	0	999999	0	0	-.021382046767560975
+21796	EX_glx(e)	Glyoxylate exchange	Reversible	0	999999	0	0	-.011680932956352735
+1068	EX_gly(e)	Glycine exchange	Reversible	0	999999	0	0	-.013660752101497274
+711	EX_glyc(e)	Glycerol exchange	Reversible	0	999999	0	0	-.021580028682075474
+1069	EX_gsn(e)	Guanosine exchange	Reversible	0	999999	0	0	-.1756099581743201
+1614	EX_gthox(e)	Oxidized glutathione exchange	Reversible	0	999999	0	0	-.015541580289384575
+2571	EX_gthrd(e)	Reduced glutathione exchange	Reversible	0	999999	0	0	0
+842	EX_gua(e)	Guanine exchange	Reversible	0	999999	0	0	-.1439328518520075
+104	EX_h(e)	H+ exchange	Reversible	-999999	999999	0	1.4495304790593906	0
+100	EX_h2o(e)	H2O exchange	Reversible	-999999	999999	0	5.640454760022918	0
+4143	EX_hdca(e)	Hexadecanoate (n-C16:0) exchange	Reversible	0	999999	0	0	-.278758535636351
+2040	EX_hdcea(e)	hexadecenoate (n-C16:1) exchange	Reversible	0	999999	0	0	-.3118215153602647
+12508	EX_hexc(e)	hexacosanoate (n-C26:0) exchange	Reversible	0	999999	0	0	0
+843	EX_his-L(e)	L-Histidine exchange	Reversible	0	999999	0	0	-.11601740190546994
+844	EX_hxan(e)	Hypoxanthine exchange	Reversible	0	999999	0	0	-.10611830617974682
+19499	EX_iamac(e)	isoamyl acetate exchange	Reversible	0	999999	0	0	0
+19500	EX_iamoh(e)	Isoamyl alcohol exchange	Reversible	0	999999	0	0	0
+19501	EX_ibutac(e)	isobutyl acetate exchange	Reversible	0	999999	0	0	0
+19502	EX_ibutoh(e)	isobutyl alcohol exchange	Reversible	0	999999	0	0	0
+19503	EX_id3acald(e)	Indole-3-acetaldehyde exchange	Reversible	0	999999	0	0	-.12730237103279385
+845	EX_ile-L(e)	L-Isoleucine exchange	Reversible	0	999999	0	0	-.045733822252838806
+19504	EX_ind3eth(e)	Indole-3-ethanol exchange	Reversible	0	999999	0	0	0
+712	EX_inost(e)	myo-Inositol exchange	Reversible	0	999999	0	0	-.03563674461260168
+759	EX_ins(e)	Inosine exchange	Reversible	0	999999	0	0	-.13779541250205943
+846	EX_k(e)	K+ exchange	Reversible	-999999	999999	0	0	0
+3075	EX_lac-D(e)	D-lactate exchange	Reversible	0	999999	0	0	0
+847	EX_lac-L(e)	L-Lactate exchange	Reversible	0	999999	0	0	-.004157620204803524
+15301	EX_lanost(e)	Lanosterol exchange	Reversible	0	999999	0	0	-.3688403067404267
+15302	EX_lanostest_SC(e)	lanosterol ester, yeast-specific exchange	Reversible	0	999999	0	0	-32.15840035649724
+848	EX_leu-L(e)	L-Leucine exchange	Reversible	0	999999	0	0	-.020788101024017597
+1072	EX_lys-L(e)	L-Lysine exchange	Reversible	0	999999	0	0	-.055632917978561486
+849	EX_mal-L(e)	L-Malate exchange	Reversible	0	999999	0	0	-.011878914870867225
+713	EX_malt(e)	Maltose exchange	Reversible	0	999999	0	0	-.047515659483468906
+714	EX_man(e)	D-Mannose exchange	Reversible	0	999999	0	0	-.023757829741734453
+1457	EX_melib(e)	Melibiose exchange	Reversible	0	999999	0	0	-.047515659483468906
+1120	EX_met-L(e)	L-Methionine exchange	Reversible	0	999999	0	0	-.0896858072750476
+3094	EX_mmet(e)	S-Methyl-L-methionine exchange	Reversible	0	999999	0	0	0
+850	EX_na1(e)	Sodium exchange	Reversible	-999999	999999	0	0	0
+2033	EX_nac(e)	Nicotinate exchange	Reversible	0	999999	0	0	0
+10111	EX_nadp(e)	Nicotinamide adenine dinucleotide phosphate exchange	Reversible	0	999999	0	-.000000000000009728329253277934	0
+892	EX_nh4(e)	Ammonia exchange	Reversible	-999999	999999	0	-1.6110288961514074	0
+2924	EX_nmn(e)	NMN exchange	Reversible	0	999999	0	0	0
+804	EX_o2(e)	O2 exchange	Reversible	-2	999999	0	-2	-.03108316057876915
+21799	EX_oaa(e)	Oxaloacetate exchange	Reversible	0	999999	0	0	-.014056715930526209
+2035	EX_ocdca(e)	octadecanoate (n-C18:0) exchange	Reversible	0	999999	0	0	-.3185529004537562
+4144	EX_ocdcea(e)	octadecenoate (n-C18:1) exchange	Reversible	0	999999	0	0	-.35161588017766987
+2041	EX_ocdcya(e)	octadecynoate (n-C18:2) exchange	Reversible	0	999999	0	0	-.38467885990158357
+852	EX_orn(e)	Ornithine exchange	Reversible	0	999999	0	0	-.03425087121100045
+12297	EX_pacald(e)	Phenylacetaldehyde exchange	Reversible	0	999999	0	0	-.06968963390908775
+1615	EX_pap(e)	Adenosine 3',5'-bisphosphate exchange	Reversible	0	999999	0	0	-.16571086244859737
+15199	EX_pc_SC(e)	Phosphatidylcholine, yeast-specific exchange	Reversible	0	999999	0	0	-80.88234346424788
+19466	EX_pectin(e)	Pectin exchange	Reversible	0	999999	0	0	0
+2042	EX_pepd(e)	peptide exchange	Reversible	0	999999	0	0	0
+853	EX_phe-L(e)	L-Phenylalanine exchange	Reversible	0	999999	0	0	-.0716694530542323
+19505	EX_pheac(e)	Phenethyl acetate exchange	Reversible	0	999999	0	0	0
+101	EX_pi(e)	Phosphate exchange	Reversible	-999999	999999	0	-.05691104962229865	0
+1616	EX_pnto-R(e)	(R)-Pantothenate exchange	Reversible	0	999999	0	0	0
+854	EX_pro-L(e)	L-Proline exchange	Reversible	0	999999	0	0	-.033062979723913755
+15200	EX_ptd1ino_SC(e)	phosphatidyl-1D-myo-inositol, yeast-specific exchange	Reversible	0	999999	0	0	-57.42148659428508
+1617	EX_ptrc(e)	Putrescine exchange	Reversible	0	999999	0	0	-.03425087121100045
+855	EX_pyr(e)	Pyruvate exchange	Reversible	0	999999	0	0	-.002177801059658985
+717	EX_rib-D(e)	D-Ribose exchange	Reversible	0	999999	0	0	-.019798191451445374
+991	EX_ribflv(e)	Riboflavin exchange	Reversible	0	999999	0	0	-.2765807345766915
+718	EX_sbt-D(e)	D-Sorbitol exchange	Reversible	0	999999	0	0	-.025737648886878992
+2301	EX_sbt-L(e)	L-Sorbitol exchange	Reversible	0	999999	0	0	0
+1074	EX_ser-L(e)	L-Serine exchange	Reversible	0	999999	0	0	-.018214336135329738
+8749	EX_so3(e)	Sulfite exchange	Reversible	0	999999	0	0	0
+719	EX_so4(e)	Sulfate exchange	Reversible	-999999	999999	0	-.022252018896320388	0
+1618	EX_spmd(e)	Spermidine exchange	Reversible	0	999999	0	0	0
+1619	EX_sprm(e)	Spermine exchange	Reversible	0	999999	0	0	-.06929367008005877
+2043	EX_srb-L(e)	L-Sorbose exchange	Reversible	0	999999	0	0	0
+856	EX_succ(e)	Succinate exchange	Reversible	0	999999	0	0	-.00970111381120824
+720	EX_sucr(e)	Sucrose exchange	Reversible	0	999999	0	0	-.04751565948346891
+2634	EX_taur(e)	Taurine exchange	Reversible	0	999999	0	0	0
+1075	EX_thm(e)	Thiamin exchange	Reversible	0	999999	0	0	-.12314475082799026
+2298	EX_thmmp(e)	Thiamin monophosphate exchange	Reversible	0	999999	0	0	-.12314475082799026
+2299	EX_thmpp(e)	Thiamine diphosphate exchange	Reversible	0	999999	0	0	-.12314475082799026
+857	EX_thr-L(e)	L-Threonine exchange	Reversible	0	999999	0	0	-.03959638290289075
+1621	EX_thym(e)	Thymine exchange	Reversible	0	999999	0	0	-.08414231366864298
+858	EX_thymd(e)	Thymidine exchange	Reversible	0	999999	0	0	-.11779923913610012
+721	EX_tre(e)	Trehalose exchange	Reversible	0	999999	0	0	-.08315240409607061
+1076	EX_trp-L(e)	L-Tryptophan exchange	Reversible	0	999999	0	0	-.12928219017793838
+2037	EX_ttdca(e)	tetradecanoate (n-C14:0) exchange	Reversible	0	999999	0	0	-.2389641708189458
+859	EX_tyr-L(e)	L-Tyrosine exchange	Reversible	0	999999	0	0	-.06968963390908775
+860	EX_ura(e)	Uracil exchange	Reversible	0	999999	0	0	-.06572999561879875
+2925	EX_urea(e)	Urea exchange	Reversible	0	999999	0	0	-.06355219455913966
+861	EX_uri(e)	Uridine exchange	Reversible	0	999999	0	0	-.09740710194111135
+862	EX_val-L(e)	L-Valine exchange	Reversible	0	999999	0	0	-.011284969127323845
+863	EX_xan(e)	Xanthine exchange	Reversible	0	999999	0	0	-.09641719236853855
+1622	EX_xtsn(e)	Xanthosine exchange	Reversible	0	999999	0	0	-.12809429869085115
+684	EX_xyl-D(e)	D-Xylose exchange	Reversible	0	999999	0	0	-.015640571246641848
+4145	EX_xylt(e)	Xylitol exchange	Reversible	0	999999	0	0	-.017620390391786388
+2044	EX_zymst(e)	zymosterol exchange	Reversible	0	999999	0	0	-.6642293231959912
+15303	EX_zymstest_SC(e)	zymosterol ester, yeast-specific exchange	Reversible	0	999999	0	0	-32.4537893729528
+2009	13BGH	Endo-1,3-beta-glucan glucohydrase	Irreversible	0	999999	0	0	-.023757829741734467
+2397	13BGHe	Exo-1,3-beta-glucan glucohydrase	Irreversible	0	999999	0	0	0
+2729	13GS	1,3-beta-glucan synthase	Irreversible	0	999999	0	.3266700005633166	0
+13472	16GS	1,6-beta-glucan synthase	Irreversible	0	999999	0	0	-.04751565948346892
+18758	23CAPPD	ADP-ribose 2,3-cyclic phosphodiesterase	Irreversible	0	999999	0	0	0
+1678	2DDA7Ptm	2-Dehydro-3-deoxy-D-arabino-heptonate7-phohsphate mitochondrial transport via diffusion	Reversible	-999999	999999	0	-.07608290548897124	0
+1769	2DHPtm	2-Dehydropantoate mitochondrial transport	Reversible	-999999	999999	0	0	0
+18757	2DOXG6PP	2-deoxyglucose-6-phosphatase	Irreversible	0	999999	0	0	0
+10742	2HBO	2-Hydroxybutyrate:NAD+ oxidoreductase	Reversible	-999999	999999	0	0	0
+12476	2HBt2	2-hydroxybutyrate cotransport with proton	Reversible	-999999	999999	0	0	0
+19587	2HMHMBQMTm	2-hexaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone methyltransferase, mitochondrial	Irreversible	0	999999	0	0	0
+19585	2HP6MPMOm	2-Hexaprenyl-6-methoxyphenol monooxygenase, mitochondrial	Irreversible	0	999999	0	0	0
+19586	2HPMBQMTm	2-hexaprenyl-6-methoxy-1,4-benzoquinone methyltransferase, mitochondrial	Irreversible	0	999999	0	0	0
+19581	2HPMMBQMOm	2-hexaprenyl-3-methyl-6-methoxy-1,4-benzoquinone monooxygenase, mitochondrial	Irreversible	0	999999	0	0	0
+19473	2MBACt	2-methylbutyl transport (extracellular)	Irreversible	0	999999	0	0	0
+19480	2MBALDt	2-Methylbutanal transport (extracellular)	Reversible	-999999	999999	0	0	0
+19479	2MBALDtm	2-Methylbutanal transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+19475	2MBTOHt	2-methyl-1-butanol transport (extracellular)	Reversible	-999999	999999	0	0	0
+19488	2MBTOHtm	2-methyl-1-butanol transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+19482	2MPPALt	2-methylpropanal transport (extracellular)	Reversible	-999999	999999	0	0	0
+19481	2MPPALtm	2-methylpropanal transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+21415	2OBUTtm	2obut transporter (mitochondrial)	Reversible	-999999	999999	0	.055471721103763756	0
+2662	2OXOADPtim	2-oxoadipate transport out of mitochondria via diffusion	Irreversible	0	999999	0	.08238716440008918	0
+19468	2PHETOHt	2-phenylethanol reversible transport	Reversible	-999999	999999	0	0	0
+19469	2PHETOHtm	2-phenylethanol reversible transport, mitochondrial	Reversible	-999999	999999	0	0	0
+14223	34HPLFM	3-(4-hydroxyphenyl-)lactate formation	Irreversible	0	999999	0	0	0
+2388	34HPPOR	4-Hydroxyphenylpyruvate:oxygen oxidoreductase	Irreversible	0	999999	0	0	-.09879297534271236
+1988	34HPPt2m	3-(4-hydroxyphenyl)pyruvate mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1989	34HPPt2p	3-(4-hydroxyphenyl)pyruvate peroxisomal transport via proton symport	Reversible	-999999	999999	0	0	0
+21793	3C3HMPt	2-Isopropylmalate transport, diffusion	Reversible	-999999	999999	0	0	0
+1508	3C3HMPtm	2-Isopropylmalate transport, diffusion, mitochondrial	Reversible	-999999	999999	0	-.08532339457787014	0
+1501	3C4MOPtm	3-Carboxy-4-methyl-2-oxopentanoate transport, diffusion, mitochondrial	Reversible	-999999	999999	0	0	0
+19577	3DH5HPBMTm	S-adenosyl-L-methionine:3-hexaprenyl-4,5-dihydroxylate O-methyltransferase, mitochondrial	Irreversible	0	999999	0	0	0
+19588	3DH5HPBtm	3-Hexaprenyl-4,5-dihydroxybenzoate transport, mitochondrial	Reversible	-999999	999999	0	0	0
+1879	3DSPHR	3-Dehydrosphinganine reductase	Irreversible	0	999999	0	0	0
+3260	3HAO	3-hydroxyanthranilate 3,4-dioxygenase	Irreversible	0	999999	0	0	0
+19578	3HPH5MBDCm	3-Hexaprenyl-4-hydroxy-5-methoxybenzoate decarboxylase, mitochondrial	Irreversible	0	999999	0	0	0
+18748	3IPM3MT	3-Isopropylmalate 3-methyltransferase	Irreversible	0	999999	0	0	-.05880062861079269
+19483	3MBALDt	3-methylbutanal transport (extracellular)	Reversible	-999999	999999	0	0	0
+19484	3MBALDtm	3-methylbutanal transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+18955	3MOBDC	3-Methyl-2-oxobutanoate decarboxylase	Irreversible	0	999999	0	0	0
+1513	3MOBtm	3-methyl-2-oxobutanoate transport, diffusion, mitochondrial	Reversible	-999999	999999	0	-.07616926520008245	0
+18956	3MOPDC	3-Methyl-2-oxopentanoate decarboxylase	Irreversible	0	999999	0	0	0
+21792	3MOPt	3mop reversible trasport	Reversible	-999999	999999	0	0	0
+2995	3MOPtm	3-Methyl-2-oxopentanoate transport, diffusion, mitochondrial	Reversible	-999999	999999	0	-.055471721103763756	0
+19576	3OPHB5Hm	3-Hexaprenyl-4,5-dihydroxybenzoate hydroxylase, mitochondrial	Irreversible	0	999999	0	0	0
+1775	3OPHB_5tm	3-Octaprenyl-4-hydroxybenzoate mitochondrial transport	Reversible	-999999	999999	0	0	0
+1682	4ABUTNtm	4-aminobutanal mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+1683	4ABUTtm	4-aminobutanoate mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+8695	4ABZt	4-Aminobenzoate mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+2398	4ABZtm	4-Aminobenzoate mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+1674	4H2OGLTtm	4-hydroxy-2-oxoglutarate mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+1314	4H2OGLTtp	4-hydroxy-2-oxoglutarate peroxisomal transport via diffusion	Reversible	-999999	999999	0	0	0
+14222	4HBZCOAFm	4-hydroxybenzoyl-CoA formation	Irreversible	0	999999	0	0	-.01663048081921406
+14227	4HBZFm	4-hydroxybenzoate formation	Irreversible	0	999999	0	0	0
+1766	4HBZtm	4-Hydroxybenzoate mitochondrial transport	Reversible	-999999	999999	0	0	0
+1845	4HGLSDm	L-4-hydroxyglutamate semialdehyde dehydrogenase, mitochondrial	Reversible	-999999	999999	0	0	0
+1676	4HPRO-LTtm	trans-4-hydroxy-L-proline mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+3034	4HTHRS	4-Hydroxy-L-threonine synthase	Irreversible	0	999999	0	0	-.0019798191451445395
+18953	4MOPDC	4-Methyl-2-oxopentanoate decarboxylase	Irreversible	0	999999	0	0	0
+1753	5AOPt2	5-Aminolevulinate transport in via proton symport	Irreversible	0	999999	0	0	0
+1760	5AOPtm	5-Aminolevulinate mitochondrial transport	Reversible	-999999	999999	0	0	0
+2342	6PGLter	6-phospho-D-glucono-1,5-lactone endoplasmic reticular transport via diffusion	Reversible	-999999	999999	0	-.0008348105407416445	0
+1749	8AONNt2	8-Amino-7-oxononanoate reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+3463	AABTN	4-acetamidobutyrate deacetylase	Irreversible	0	999999	0	0	0
+11706	AACTOOR	Aminoacetone:oxygen oxidoreductase(deaminating)(flavin-containing)	Irreversible	0	999999	0	0	-.05315814404713075
+3261	AASAD1	L-aminoadipate-semialdehyde dehydrogenase (NADPH)	Irreversible	0	999999	0	0	-.004157620204803508
+2673	AASAD2	L-aminoadipate-semialdehyde dehydrogenase (NADH)	Irreversible	0	999999	0	.08238716440008918	0
+2663	AATA	2-aminoadipate transaminase	Reversible	-999999	999999	0	.08238716440008918	0
+374	ABTA	4-aminobutyrate transaminase	Irreversible	0	999999	0	0	0
+2053	ABTt	L-arabinitol transport via passive diffusion	Reversible	-999999	999999	0	0	0
+1405	ABUTDm	Aminobutyraldehyde dehydrogenase, mitochondrial	Irreversible	0	999999	0	0	0
+11687	ABUTt2r	4-aminobutyrate reversible transport in via proton symport	Reversible	-999999	999999	0	0	0
+2	ACACT1	acetyl-CoA C-acetyltransferase	Irreversible	0	999999	0	0	-.055830899893076005
+1464	ACACT1m	acetyl-CoA C-acetyltransferase, mitochondrial	Irreversible	0	999999	0	.0037998272888930024	0
+3081	ACACT4p	acetyl-CoA C-acetyltransferase (octanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2077	ACACT5p	acetyl-CoA C-acyltransferase (decanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2076	ACACT6p	acetyl-CoA C-acetyltransferase (dodecanoyl), peroxisomal	Irreversible	0	999999	0	0	0
+3078	ACACT7p	acetyl-CoA acyltransferase (tetradecanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2074	ACACT8p	acetyl-CoA acyltransferase (hexadecanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+3077	ACACT9p	acetyl-CoA acyltransferase (tetracosanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+19459	ACALDCD	Acetaldehyde condensation	Irreversible	0	999999	0	0	-.002177801059658985
+1564	ACALDt	acetaldehyde reversible transport	Reversible	-999999	999999	0	0	0
+5533	ACALDtm	acetaldehyde mitochondrial diffusion	Reversible	-999999	999999	0	-1.011776948245426	0
+1425	ACCOACr	acetyl-CoA carboxylase, reversible reaction	Reversible	-999999	999999	0	.11445540379271656	0
+12714	ACCOACrm	Acetyl-Coa carboxylase, mitochondrial	Reversible	-999999	999999	0	0	0
+1534	ACCOAtn	acetyl-CoA transport, nuclear	Reversible	-999999	999999	0	0	0
+19472	ACESt	acetic ester transport (extracellular)	Irreversible	0	999999	0	0	-.02395581165624891
+3566	ACGAM6PS	N-acetylglucosamine-6-phosphate synthase	Reversible	-999999	999999	0	0	0
+1447	ACGAMPM	phosphoacetylglucosamine mutase	Reversible	-999999	999999	0	0	0
+2965	ACGKm	acetylglutamate kinase, mitochondrial	Irreversible	0	999999	0	.04626001858523526	0
+3464	ACGSm	N-acteylglutamate synthase, mitochondrial	Irreversible	0	999999	0	0	-.02870737760459574
+1323	ACHBSm	2-aceto-2-hydroxybutanoate synthase, mitochondrial	Irreversible	0	999999	0	.055471721103763756	0
+19054	ACHLE1	Isoamyl acetate-hydrolyzing esterase	Irreversible	0	999999	0	0	-.023757829741734463
+19055	ACHLE2	Isobutyl acetate-hydrolyzing esterase	Irreversible	0	999999	0	0	-.023757829741734463
+19056	ACHLE3	Ethyl acetate-hydrolyzing esterase	Irreversible	0	999999	0	0	-.023757829741734463
+1324	ACLSm	acetolactate synthase, mitochondrial	Irreversible	0	999999	0	.16149265977795257	0
+3818	ACOAHim	acetyl-CoA hydrolase, mitochondrial (irreversible)	Irreversible	0	999999	0	0	-.00712734892252033
+2067	ACOAO4p	acyl-CoA oxidase (decanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2066	ACOAO5p	acyl-CoA oxidase (dodecanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2064	ACOAO6p	acyl-CpA oxidase (tetradecanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2063	ACOAO7p	acyl-CoA oxidase (hexadecanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2065	ACOAO8p	acyl-CoA oxidase (octadecanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2058	ACOAO9p	acyl-CoA oxidase (hexacanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+3280	ACOATA	Acetyl-CoA ACP transacylase	Reversible	-999999	999999	0	0	0
+3279	ACOATAm	Acetyl-CoA ACP transacylase	Reversible	-999999	999999	0	0	0
+12554	ACON3MT	trans-aconitate 3-methyltransferase	Irreversible	0	999999	0	0	-.04217014779157863
+285	ACONT	aconitase	Reversible	-999999	999999	0	.26605460241022727	0
+20495	ACONT3m	aconitase, mitochondrial	Reversible	-999999	999999	0	0	0
+241	ACONTm	Aconitate hydratase	Reversible	-999999	999999	0	.2632243994669516	0
+1339	ACOTAim	acteylornithine transaminase, irreversible, mitochondrial	Irreversible	0	999999	0	.04626001858523526	0
+1823	ACP1e	acid phosphatase, extracellular (secreted)	Irreversible	0	999999	0	0	0
+1723	ACPSm	acyl carrier protein synthase, mitochondrial	Irreversible	0	999999	0	-.0000000000000008881784197001252	0
+2996	ACRNtm	O-acetylcarnintine transport into mitochondria via diffusion	Irreversible	0	999999	0	0	-.019600209536930938
+2167	ACRNtp	acetylcarnitine transport out of peroxisome	Irreversible	0	999999	0	0	0
+291	ACS	acetyl-CoA synthetase	Irreversible	0	999999	0	.1470705880223815	0
+699	ACSm	acetyl-CoA synthetase	Irreversible	0	999999	0	0	-.010691023383780474
+1173	ACSp	acetyl-CoA synthetase	Irreversible	0	999999	0	0	0
+1557	ACt2r	acetate reversible transport via proton symport	Reversible	-999999	999999	0	-1.5064415286816892	0
+873	ACtm	acetate transport, mitochondrial	Reversible	-999999	999999	0	0	0
+1528	ACtp	acetate transport, peroxisomal	Reversible	-999999	999999	0	0	0
+1010	ACtr	acetate transporter	Reversible	-999999	999999	0	1.5064415286816892	0
+3513	ADA	Adenosine deaminase	Irreversible	0	999999	0	0	-.016036535075670738
+3621	ADCL	4-aminobenzoate synthase	Irreversible	0	999999	0	0	-.079390747720296
+3619	ADCS	4-amino-4-deoxychorismate synthase	Irreversible	0	999999	0	0	0
+3515	ADD	adenine deaminase	Irreversible	0	999999	0	0	-.016036535075670738
+573	ADEt2	adenine transport in via proton symport	Irreversible	0	999999	0	0	0
+1519	ADEtm	adenine reversible transport, mitochondria	Reversible	-999999	999999	0	0	0
+1959	ADHAPR_SC	acyldihydroxyacetonephosphate reductase, yeast-specific	Irreversible	0	999999	0	0	0
+181	ADK1	adenylate kinase	Reversible	-999999	999999	0	.7157118631482016	0
+1572	ADK1m	adenylate kinase, mitochondrial	Reversible	-999999	999999	0	0	0
+4682	ADK3	adentylate kinase (GTP)	Reversible	-999999	999999	0	-.2669062018173327	0
+1573	ADK3m	adentylate kinase (GTP)	Reversible	-999999	999999	0	0	0
+1080	ADK4	adentylate kinase (ITP)	Reversible	-999999	999999	0	0	0
+2984	ADK4m	adentylate kinase (ITP), mitochondrial	Reversible	-999999	999999	0	0	0
+303	ADMDC	adenosylmethionine decarboxylase	Irreversible	0	999999	0	0	0
+2539	ADNCYC	adenylate cyclase	Irreversible	0	999999	0	0	0
+179	ADNK1	adenosine kinase	Irreversible	0	999999	0	.0053830886592650855	0
+1143	ADNUC	adenosine hydrolase	Irreversible	0	999999	0	0	-.01187891487086723
+575	ADNt2	adenosine transport in via proton symport	Irreversible	0	999999	0	0	0
+178	ADPT	adenine phosphoribosyltransferase	Irreversible	0	999999	0	0	-.011878914870867285
+2867	ADSK	adenylyl-sulfate kinase	Irreversible	0	999999	0	.01649470482224008	0
+1077	ADSL1r	adenylsuccinate lyase	Reversible	-999999	999999	0	.03336363505930216	0
+1309	ADSL2r	adenylosuccinate lyase	Reversible	-999999	999999	0	.028495826009667248	0
+3516	ADSS	adenylosuccinate synthase	Irreversible	0	999999	0	.03336363505930216	0
+3577	AGAT_SC	1-Acyl-glycerol-3-phosphate acyltransferase, yeast-specific	Irreversible	0	999999	0	.007110282881489179	0
+1338	AGPRim	N-acetyl-g-glutamyl-phosphate reductase, irreversible, mitochondrial	Irreversible	0	999999	0	.04626001858523526	0
+21737	AGTi	Alanine glyoxylate aminotransferase (irreversible)	Irreversible	0	999999	0	.015000681820009486	0
+1521	AHCYStm	S-adenosyl-L-homocysteine reversible transport, mitochondrial	Reversible	-999999	999999	0	0	0
+3004	AHCi	adenosylhomocysteinase	Irreversible	0	999999	0	.0053830886592650855	0
+812	AHMMPS	4-amino-5-hydroxymethyl-2-methylpyrimidine synthetase	Irreversible	0	999999	0	0	-.13106402740856796
+1594	AHSERL	O-acetylhomoserine (thiol)-lyase	Irreversible	0	999999	0	0	0
+1595	AHSERL2	O-acetylhomoserine (thiol)-lyase	Irreversible	0	999999	0	.01649470482224008	0
+396	AICART	phosphoribosylaminoimidazolecarboxamide formyltransferase	Reversible	-999999	999999	0	.04758132216524347	0
+1429	AIRCr	phosphoribosylaminoimidazole carboxylase	Reversible	-999999	999999	0	.028495826009667248	0
+496	AKGDam	oxoglutarate dehydrogenase (lipoamide)	Reversible	-999999	999999	0	.22100074112351853	0
+491	AKGDbm	oxoglutarate dehydrogenase (dihydrolipoamide S-succinyltransferase)	Irreversible	0	999999	0	.22100074112351853	0
+1550	AKGMAL	alpha-ketoglutarate/malate transporter	Reversible	-999999	999999	0	0	0
+1954	AKGt2n	2-oxoglutarate nuclear transport via proton symport	Reversible	-999999	999999	0	0	0
+1563	AKGt2r	2-oxoglutarate reversible transport via symport	Reversible	-999999	999999	0	0	0
+15151	AKGtp	AKG transporter, peroxisome	Reversible	-999999	999999	0	0	0
+68	AKP1	alkaline phosphatase (Dihydroneopterin)	Irreversible	0	999999	0	0	-.2142164315046386
+1818	ALASm	5-aminolevulinate synthase	Irreversible	0	999999	0	0	-.0322710520658559
+299	ALATA_L	L-alanine transaminase	Reversible	-999999	999999	0	-.1470734666794117	0
+1465	ALATA_Lm	L-alanine transaminase, mitochondrial	Reversible	-999999	999999	0	0	0
+2919	ALATRS	Alanyl-tRNA synthetase	Irreversible	0	999999	0	0	-.027915449946537996
+1357	ALAt2r	L-alanine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+21740	ALAtmi	Alanine transport from mitochondia to cytoplasm	Irreversible	0	999999	0	0	-.002969728717716799
+3073	ALCD19y	alcohol dehydrogenase (glycerol, NADP)	Irreversible	0	999999	0	0	0
+20473	ALCD22xi	aldehyde dehydrogenase (2-methylbutanol, NAD)	Irreversible	0	999999	0	0	-.041576202048035284
+20474	ALCD22xim	aldehyde dehydrogenase (2-methylbutanol, NAD), mitochondrial	Irreversible	0	999999	0	0	-.041576202048035284
+20475	ALCD22yi	aldehyde dehydrogenase (2-methylbutanol, NADP)	Irreversible	0	999999	0	0	-.045733822252838806
+20476	ALCD23xi	aldehyde dehydrogenase (isobutyl alcohol, NAD)	Irreversible	0	999999	0	0	-.007127348922520321
+20477	ALCD23xim	aldehyde dehydrogenase (isobutyl alcohol, NAD), mitochondrial	Irreversible	0	999999	0	0	-.007127348922520321
+20478	ALCD23yi	aldehyde dehydrogenase (isobutyl alcohol, NADP)	Irreversible	0	999999	0	0	-.011284969127323845
+20479	ALCD24xi	aldehyde dehydrogenase (isoamyl alcohol, NAD)	Irreversible	0	999999	0	0	-.016630480819214068
+20480	ALCD24xim	aldehyde dehydrogenase (isoamyl alcohol, NAD), mitochondrial	Irreversible	0	999999	0	0	-.01663048081921407
+20481	ALCD24yi	aldehyde dehydrogenase (isoamyl alcohol, NADP)	Irreversible	0	999999	0	0	-.020788101024017593
+20482	ALCD25xi	aldehyde dehydrogenase (2-phenylethanol, NAD)	Irreversible	0	999999	0	0	-.06751183284942877
+20483	ALCD25xim	aldehyde dehydrogenase (2-phenylethanol, NAD), mitochondrial	Irreversible	0	999999	0	0	-.06751183284942877
+20484	ALCD25yi	aldehyde dehydrogenase (2-phenylethanol, NADP)	Irreversible	0	999999	0	0	-.0716694530542323
+20485	ALCD26xi	aldehyde dehydrogenase (tryptophol, NAD)	Irreversible	0	999999	0	0	-.12512456997313487
+20486	ALCD26xim	aldehyde dehydrogenase (tryptophol, NAD), mitochondrial	Irreversible	0	999999	0	0	-.12512456997313487
+1211	ALCD2if	alcohol dehydrogenase, forward rxn (ethanol -> acetaldehyde)	Irreversible	0	999999	0	0	0
+1212	ALCD2ir	alcohol dehydrogenase, reverse rxn (acetaldehyde -> ethanol)	Irreversible	0	999999	0	0	0
+1214	ALCD2irm	alcohol dehydrogenase, reverse rxn (acetaldehyde -> ethanol), mitochondrial	Irreversible	0	999999	0	1.011776948245426	0
+247	ALCD2x	alcohol dehydrogenase (ethanol)	Reversible	-999999	999999	0	-14.803697870958526	0
+2522	ALDD19x	aldehyde dehydrogenase (phenylacetaldehyde, NAD)	Irreversible	0	999999	0	0	-.07186743496874673
+2392	ALDD20xm	aldehyde dehydrogenase (indole-3-acetaldehyde, NAD), mitochondrial	Irreversible	0	999999	0	0	-.13244990081016964
+2390	ALDD20y	aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)	Irreversible	0	999999	0	0	-.12532255188764932
+3215	ALDD20ym	aldehyde dehydrogenase (indole-3-acetaldehyde, NADP), mitochondrial	Irreversible	0	999999	0	0	-.1282922806053661
+20497	ALDD22x	aldehyde dehydrogenase (3-aminopropanal, NAD)	Irreversible	0	999999	0	0	0
+1524	ALDD2xm	aldehyde dehydrogenase (acetylaldehyde, NAD), mitochondrial	Irreversible	0	999999	0	0	-.007127348922520321
+249	ALDD2y	aldehyde dehydrogenase (acetaldehyde, NADP)	Irreversible	0	999999	0	.1305758832001414	0
+1525	ALDD2ym	aldehyde dehydrogenase (acetylaldehyde, NADP), mitochondrial	Irreversible	0	999999	0	0	-.002969728717716797
+2641	ALLTAHr	Allantoate amidinohydrolase, reversible	Reversible	-999999	999999	0	0	0
+1426	ALLTNr	allantoinase, reversible reaction	Reversible	-999999	999999	0	0	0
+1384	ALLTNti	allantoin irreversible uniport	Irreversible	0	999999	0	0	0
+1385	ALLTTti	allantoate irreversible uniport	Irreversible	0	999999	0	0	0
+3876	ALPHNH	allophanate hydrolase	Irreversible	0	999999	0	0	-.07543110943000689
+1652	AMAOTr	adenosylmethionine-8-amino-7-oxononanoate transaminase	Reversible	-999999	999999	0	0	0
+1374	AMETt2	S-adenosyl-L-methionine transport in via proton symport	Irreversible	0	999999	0	0	0
+1520	AMETtm	S-Adenosyl-L-methionine reversible transport, mitochondrial	Reversible	-999999	999999	0	0	0
+3495	AMID	amidase	Irreversible	0	999999	0	0	0
+3664	AMID2	amidase	Irreversible	0	999999	0	0	0
+3666	AMID3	amidase	Irreversible	0	999999	0	0	0
+3569	AMPDA	Adenosine monophosphate deaminase	Irreversible	0	999999	0	0	-.01603653507567071
+2927	AMPN	AMP nucleosidase	Irreversible	0	999999	0	0	-.011878914870867202
+20515	AMPtn	AMP transport via diffusion (cytosol to nucleus)	Reversible	-999999	999999	0	0	0
+330	ANPRT	anthranilate phosphoribosyltransferase	Irreversible	0	999999	0	.008175385985194036	0
+329	ANS	anthranilate synthase	Irreversible	0	999999	0	.008175385985194036	0
+2802	AOBUTDs	L-2-amino-3-oxobutanoate decarboxylation (spontaneous)	Irreversible	0	999999	0	0	0
+3255	AP4AHr	Ap4A hydrolase, reversible	Reversible	-999999	999999	0	0	0
+2980	APRTO2	N-acetylputrescine: oxygen oxireductase (deaminating)	Irreversible	0	999999	0	0	0
+1356	ARAB-Dt	D-arabinose reversible transport	Reversible	-999999	999999	0	0	0
+2401	ARAB-Lt	L-arabinoase extracellular transport	Reversible	-999999	999999	0	0	0
+19458	ARAB14LO	D-arabinono-1,4-lactone oxidase	Reversible	-999999	999999	0	0	0
+2228	ARAB1D2	D-arabinose 1-dehydrogenase (NADP)	Irreversible	0	999999	0	0	0
+2051	ARABR	arabinose reductase	Irreversible	0	999999	0	0	-.0019798191451445386
+373	ARGN	arginase	Irreversible	0	999999	0	0	0
+2851	ARGSL	argininosuccinate lyase	Reversible	-999999	999999	0	.04626001858523526	0
+1341	ARGSSr	argininosuccinate synthase, reversible	Reversible	-999999	999999	0	.04626001858523526	0
+1343	ARGTRS	Arginyl-tRNA synthetase	Irreversible	0	999999	0	0	-.12156089551187457
+2968	ARGTRSm	Arginyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.1156214380764409
+1945	ARGt2m	arginine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1358	ARGt2r	L-arganine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+18733	ARGt6	L-arginine transport in via proton antiport (vacuolar)	Irreversible	0	999999	0	0	-.09780306577014011
+2372	ARMT	hnRNP arginine N-methyltransferase	Irreversible	0	999999	0	0	-.15818754969704857
+1586	ASADi	aspartate-semialdehyde dehydrogenase, irreversible	Irreversible	0	999999	0	.12516400797050586	0
+3521	ASNN	L-asparaginase	Irreversible	0	999999	0	0	-.035636744612601676
+3522	ASNNe	L-asparaginase, extracellular	Irreversible	0	999999	0	0	-.035636744612601676
+259	ASNS1	asparagine synthase (glutamine-hydrolysing)	Irreversible	0	999999	0	.029275942066698358	0
+1034	ASNTRS	Asparaginyl-tRNA synthetase	Irreversible	0	999999	0	0	-.07543110943000689
+1691	ASNTRSm	asparaginyl-tRNA synthetase, miotchondrial	Irreversible	0	999999	0	0	-.06949165199457323
+1940	ASNt2m	asparagine mitochondrial transport via proton transport	Reversible	-999999	999999	0	0	0
+1359	ASNt2r	L-asparagine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+18737	ASNt6	L-asparagine transport in via proton antiport (vacuolar)	Irreversible	0	999999	0	0	0
+18744	ASNt7	L-asparagine transport out via proton symport, vacuolar	Irreversible	0	999999	0	0	0
+3524	ASPCT	aspartate carbamoyltransferase	Irreversible	0	999999	0	.031837946829664086	0
+20573	ASPGLU2m	Aspartate-glutamate transporter	Irreversible	0	999999	0	0	-.002969728717716797
+2231	ASPGLUtp	aspartate-glutamate peroxisomal shuttle	Reversible	-999999	999999	0	0	0
+1585	ASPKi	aspartate kinase, irreversible	Irreversible	0	999999	0	.12516400797050586	0
+7868	ASPOcm	aspartate oxidase	Irreversible	0	999999	0	0	0
+260	ASPTA	aspartate transaminase	Reversible	-999999	999999	0	-.3861339359015967	0
+1453	ASPTAm	aspartate transaminase	Reversible	-999999	999999	0	.006096512528579123	0
+1467	ASPTAp	aspartate transaminase, peroxisomal	Reversible	-999999	999999	0	0	0
+1033	ASPTRS	Aspartyl-tRNA synthetase	Irreversible	0	999999	0	0	-.0397943648174052
+3001	ASPTRSm	Aspartyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.03385490738197154
+1952	ASPt2m	aspartate mitochondrial transport via proton symport	Reversible	-999999	999999	0	.006096512528579123	0
+2237	ASPt2n	aspartate nuclear transport via proton symport	Reversible	-999999	999999	0	0	0
+1360	ASPt2r	L-aspartate reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+20514	ASPt5n	L-aspartate nuclear transport via diffusion	Reversible	-999999	999999	0	0	0
+18740	ASPt7	L-aspartate transport out via proton symport, vacuolar	Irreversible	0	999999	0	0	0
+13921	ATHRDHr	L-allo-threonine dehydrogenase	Reversible	-999999	999999	0	0	0
+3766	ATP2tp_H	AMP/ATP transporter, peroxisomal	Irreversible	0	999999	0	0	-.01187891487086723
+2654	ATPATF1	ATP adenylyltransferase	Irreversible	0	999999	0	0	-.01187891487086723
+3460	ATPATF2	ATP adenylyltransferase	Irreversible	0	999999	0	0	-.3888364801063864
+4135	ATPATF3	ATP adenylyltransferase	Irreversible	0	999999	0	0	-.41061449070297634
+13538	ATPH1	ATP diphosphohydrolase	Irreversible	0	999999	0	0	-.02375782974173446
+806	ATPM	ATP maintenance requirement	Irreversible	1	1	0	1	-.01187891487086723
+339	ATPPRT	ATP phosphoribosyltransferase	Irreversible	0	999999	0	.019085496155576216	0
+984	ATPS	ATPase, cytosolic	Irreversible	0	999999	0	0	-.01187891487086723
+1458	ATPS3g	ATP synthase, Golgi Apparatus	Irreversible	0	999999	0	0	0
+3187	ATPS3m	ATP synthase, mitochondrial	Irreversible	0	999999	0	4.281244254008018	0
+869	ATPS3v	ATP synthase, vacuole	Irreversible	0	999999	0	0	0
+3756	ATPtm-H	ADP/ATP transporter, mitochondrial	Irreversible	0	999999	0	4.455984976546304	0
+3765	ATPtp-H	ADP/ATP transporter, peroxisomal	Irreversible	0	999999	0	0	0
+5659	BACCL	biotin-[acetyl-CoA-carboxylase] ligase	Irreversible	0	999999	0	0	-.20134760706119906
+351	BPNT	3',5'-bisphosphate nucleotidase	Irreversible	0	999999	0	.016494704822239192	0
+661	BTDD-RR	(R,R)-butanediol dehydrogenase	Reversible	-999999	999999	0	0	0
+19448	BTDt-RR	(R,R)-butanediol transport	Reversible	-999999	999999	0	0	0
+3108	BTNt2i	Biotin uptake	Irreversible	0	999999	0	0	0
+1734	BTSr	biotin synthase	Reversible	-999999	999999	0	0	0
+1997	C14STR	C-14 sterol reductase	Irreversible	0	999999	0	.0006333045481488337	0
+2007	C22STDS	C-22 sterol desaturase (NADP)	Irreversible	0	999999	0	0	-.03504279886905824
+19284	C22STDSx	C-22 sterol desaturase (NAD)	Irreversible	0	999999	0	0	-.03088517866425472
+2012	C24STRer	C-s24 sterol reductase, endoplamic reticular	Irreversible	0	999999	0	.00020150599259281072	0
+3458	C3STDH1	C-3 sterol dehydrogenase (4-methylzymosterol)	Irreversible	0	999999	0	.0006333045481488337	0
+3457	C3STDH2	C-3 sterol dehydrogenase (zymosterol)	Irreversible	0	999999	0	.0006333045481488337	0
+2000	C3STKR1	C-3 sterol keto reductase (4-methylzymosterol)	Irreversible	0	999999	0	.0006333045481488337	0
+2003	C3STKR2	C-3 sterol keto reductase (zymosterol)	Irreversible	0	999999	0	.0006333045481488337	0
+3456	C4STMO1	C-4 sterol methyl oxidase (4,4-dimethylzymosterol)	Irreversible	0	999999	0	.0006333045481488337	0
+3455	C4STMO2	C-4 sterol methyl oxidase (4-methylzymosterol)	Irreversible	0	999999	0	.0006333045481488337	0
+2006	C5STDS	C-5 sterol desaturase	Irreversible	0	999999	0	0	0
+2005	C8STI	C-8 sterol isomerase	Irreversible	0	999999	0	0	0
+2544	CAT	catalase	Irreversible	0	999999	0	0	0
+3223	CATp	catalase A, peroxisomal	Irreversible	0	999999	0	0	0
+1416	CBASPtn	N-carbomoyl-L-aspartate transport, diffusion	Reversible	-999999	999999	0	0	0
+2852	CBPS	carbamoyl-phosphate synthase (glutamine-hydrolysing)	Irreversible	0	999999	0	.07809796541489936	0
+1275	CBPtn	carbamoyl phosphate nuclear transport via diffusion	Reversible	-999999	999999	0	0	0
+13271	CCP2m	Cytochrome c peroxidase, mitochondrial	Irreversible	0	999999	0	0	0
+3586	CDPDGPm_SC	CDP-diacylglycerol--serine O-phosphatidyltransferae, yeast-specific, mitochondrial	Reversible	-999999	999999	0	0	0
+2266	CDPtn	CDP nuclear transport	Reversible	-999999	999999	0	0	0
+5549	CER1_24ter	ceramide-1 (C24) endoplasmic reticular transport	Reversible	-999999	999999	0	0	0
+5550	CER1_26ter	ceramide-1 (C26) endoplasmic reticular transport	Reversible	-999999	999999	0	0	0
+5552	CER2_24ter	ceramide-2 (C24) endoplasmic reticular transport	Reversible	-999999	999999	0	0	0
+5551	CER2_26ter	ceramide-2 (C26) endoplasmic reticular transport	Reversible	-999999	999999	0	0	0
+5559	CERASE124er	alkaline ceramidase (ceramide-1), endoplasmic reticulum	Irreversible	0	999999	0	0	0
+5560	CERASE126er	alkaline ceramidase (ceramide-1), endoplasmic reticulum	Irreversible	0	999999	0	0	0
+5557	CERASE224er	alkaline ceramidase (ceramide-2), endoplasmic reticulum	Irreversible	0	999999	0	0	0
+5558	CERASE226er	alkaline ceramidase (ceramide-2), endoplasmic reticulum	Irreversible	0	999999	0	0	0
+3402	CERH124	Ceramide-1 hydroxylase (24C)	Irreversible	0	999999	0	0	-.033062979723913685
+3404	CERH126	Ceramide-1 hydroxylase (26C)	Irreversible	0	999999	0	0	-.033062979723913685
+3671	CERS124	Ceramide-1 synthase (24C)	Irreversible	0	999999	0	0	-.405268979011087
+5545	CERS124er	Ceramide-1 synthase (24C), endoplasmic reticular	Irreversible	0	999999	0	0	0
+3672	CERS126	Ceramide-1 synthase (26C)	Irreversible	0	999999	0	0	-.42902680875282145
+5546	CERS126er	Ceramide-1 synthase (26C), endoplasmic reticular	Irreversible	0	999999	0	0	0
+3405	CERS2'24	Ceramide-2' synthase (24C)	Irreversible	0	999999	0	0	-.033062979723913685
+3406	CERS2'26	Ceramide-2' synthase (26C)	Irreversible	0	999999	0	0	-.033062979723913685
+3668	CERS224	Ceramide-2 synthase (24C)	Irreversible	0	999999	0	0	-.4383319587350007
+5547	CERS224er	Ceramide-2 synthase (24C), endoplasmic reticular	Irreversible	0	999999	0	0	0
+3667	CERS226	Ceramide-2 synthase (26C)	Irreversible	0	999999	0	0	-.46208978847673515
+5548	CERS226er	Ceramide-2 synthase (26C), endoplasmic reticular	Irreversible	0	999999	0	0	0
+3407	CERS324	Ceramide-3 synthase (24C)	Irreversible	0	999999	0	0	0
+3408	CERS326	Ceramide-3 synthase (26C)	Irreversible	0	999999	0	0	0
+2382	CHLPCTD	choline phosphate cytididyltransferase	Irreversible	0	999999	0	0	0
+3722	CHLSTI	cholestenol delta-isomerase, lumped reaction	Irreversible	0	999999	0	.00020150599259281072	0
+3432	CHLt2	choline transport via proton symport	Irreversible	0	999999	0	0	0
+2383	CHOLK	Choline kinase	Irreversible	0	999999	0	0	0
+332	CHORM	chorismate mutase	Irreversible	0	999999	0	.06790751950377721	0
+333	CHORS	chorismate synthase	Irreversible	0	999999	0	.07608290548897124	0
+3000	CHRPL	Chorismate pyruvate lyase	Irreversible	0	999999	0	0	0
+1720	CHTNDA	chitin deacetylase	Irreversible	0	999999	0	0	0
+3663	CHTNS	chitin synthase	Irreversible	0	999999	0	0	-.08335038601058506
+1561	CITt2r	citrate reversible transport via symport	Reversible	-999999	999999	0	0	0
+763	CITtam	citrate transport, mitochondrial	Reversible	-999999	999999	0	-.18997169692125604	0
+2260	CITtap	citrate/malate antiport into peroxisome	Reversible	-999999	999999	0	0	0
+878	CITtbm	citrate transport, mitochondrial	Reversible	-999999	999999	0	-.07608290548897124	0
+2758	CITtcm	citrate transport, mitochondrial	Reversible	-999999	999999	0	0	0
+2258	CITtcp	citrate/isocitrate antiport into peroxisome	Reversible	-999999	999999	0	0	0
+3609	CLPNSm_SC	cardiolipin synthase, yeast-specific, mitochondrial	Irreversible	0	999999	0	0	-.6943740494999636
+1570	CMPN	CMP nucleosidase	Irreversible	0	999999	0	0	0
+1296	CO2t	CO2 transporter via diffusion	Reversible	-999999	999999	0	-18.021084337403053	0
+2157	CO2tg	CO2 Golgi transport	Reversible	-999999	999999	0	0	0
+2756	CO2tm	CO2 transport (diffusion), mitochondrial	Reversible	-999999	999999	0	-1.494988318482985	0
+1278	CO2tn	CO2 nuclear transport via diffusion	Reversible	-999999	999999	0	0	0
+2150	CO2tp	CO2 peroxisomal transport	Reversible	-999999	999999	0	0	0
+2156	CO2tv	CO2 vacuolar transport	Reversible	-999999	999999	0	0	0
+19244	COAHLp	CoA hydrolase (peroxisomal)	Irreversible	0	999999	0	0	0
+15294	COAtim	CoA transporter (mitochondrial), irreversible	Irreversible	0	999999	0	.0037998272888930124	0
+1535	COAtn	coenzyme A transport, nuclear	Reversible	-999999	999999	0	0	0
+14225	COUCOAFm	p-coumaroyl-CoA formation	Irreversible	0	999999	0	0	0
+1650	CPPPGO	coproporphyrinogen oxidase (O2 required)	Irreversible	0	999999	0	0	-.03108316057876915
+1512	CRNCARtm	carnithine-acetylcarnithine carrier, mitochondrial	Irreversible	0	999999	0	0	-.019600209536930938
+3221	CRNCARtp	carnitine-acetylcarnitine carrier, peroxisomal	Irreversible	0	999999	0	0	0
+2971	CRNt	L-carnitine reversible transport	Reversible	-999999	999999	0	0	0
+1518	CRNtim	L-carnitine transport out of mitochondria via diffusion	Irreversible	0	999999	0	0	0
+2166	CRNtp	carnitine transport into peroxsiome	Irreversible	0	999999	0	0	0
+8411	CSNATm	carnitine O-aceyltransferase, mitochondrial	Reversible	-999999	999999	0	0	0
+4168	CSNATp	carnitine O-acetyltransferase, reverse direction, peroxisomal	Reversible	-999999	999999	0	0	0
+4163	CSNATr	carnitine O-acetyltransferase	Reversible	-999999	999999	0	0	0
+3526	CSND	Cytosine deaminase	Irreversible	0	999999	0	0	-.023757829741734404
+577	CSNt2	cytosine transport in via proton symport	Irreversible	0	999999	0	0	0
+12	CSm	citrate synthase	Irreversible	0	999999	0	.5292790018771789	0
+2834	CSp	citrate synthase	Irreversible	0	999999	0	0	-.004751565948346914
+3571	CTPS1	CTP synthase (NH3)	Irreversible	0	999999	0	.012867596955569483	0
+2696	CTPS2	CTP synthase (glutamine)	Irreversible	0	999999	0	0	-.01187891487086723
+20524	CTPtm	CTP/CMP antiport	Irreversible	0	999999	0	0	-.005939457435433421
+729	CYOOm	cytochrome c oxidase, mitochondrial	Irreversible	0	999999	0	1.9839543656755383	0
+1782	CYOR_u6m	ubiquinol-6 cytochrome c reductase	Irreversible	0	999999	0	3.9679087313510766	0
+350	CYSS	cysteine synthase	Irreversible	0	999999	0	0	-.011878914870867233
+1592	CYSTGL	cystathionine g-lyase	Irreversible	0	999999	0	.0018999136444465012	0
+2870	CYSTL	cystathionine b-lyase	Irreversible	0	999999	0	0	-.016036535075670745
+1853	CYSTLp	cystathione b-lyase, peroxisomal	Irreversible	0	999999	0	0	-.039794364817405205
+1028	CYSTRS	Cysteinyl-tRNA synthetase	Irreversible	0	999999	0	0	-.08552818707024404
+1588	CYSTS	cystathionine beta-synthase	Irreversible	0	999999	0	.0018999136444465012	0
+2230	CYSTtp	cystathione peroxisomal transport	Reversible	-999999	999999	0	0	0
+1361	CYSt2r	L-cysteine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+3527	CYTD	cytidine deaminase	Irreversible	0	999999	0	0	-.023757829741734404
+439	CYTDK2	cytidine kinase (GTP)	Irreversible	0	999999	0	0	-.01187891487086723
+574	CYTDt2	cytidine transport in via proton symport	Irreversible	0	999999	0	0	0
+184	CYTK1	cytidylate kinase (CMP)	Reversible	-999999	999999	0	-.007829947140749215	0
+185	CYTK2	cytidylate kinase (dCMP)	Reversible	-999999	999999	0	0	0
+4630	D-LACDcm	D-lactate dehydrogenase, cytosolic/mitochondrial	Irreversible	0	999999	0	0	-.004454593076575196
+1194	D-LACDm	D-lactate dehydrogenase, mitochondrial	Irreversible	0	999999	0	0	-.004454593076575194
+2056	D-LACt2	D-lactate transport via proton symport	Reversible	-999999	999999	0	0	0
+19300	D-LACt2m	D-lactate/pyruvate antiport, mitochondrial	Reversible	-999999	999999	0	0	-.00000000000000000043368086899420177
+1078	D-LACtm	D-lactate transport, mitochondrial	Reversible	-999999	999999	0	0	0
+3514	DADA	Deoxyadenosine deaminase	Irreversible	0	999999	0	0	-.016036535075670738
+183	DADK	deoxyadenylate kinase	Reversible	-999999	999999	0	-.0010363165333344552	0
+576	DADNt2	deoxyadenosine transport in via proton symport	Irreversible	0	999999	0	0	0
+2267	DADPtn	DADP nuclear transport	Reversible	-999999	999999	0	0	0
+3605	DAGCPT_SC	diacylglycerol cholinephosphotransferase, yeast-specific	Irreversible	0	999999	0	0	0
+3581	DAGPYP_SC	diacylglycerol pyrophosphate phosphatase, yeast-specific	Irreversible	0	999999	0	.0018999136444465012	0
+1748	DANNt2	7,8-Diaminononanoate reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+3579	DASYN_SC	CDP-Diacylglycerol synthetase, yeast-specific	Reversible	-999999	999999	0	.0050376498148202685	0
+3580	DASYNm_SC	CDP-Diacylglycerol synthetase, yeast-specific, mitochondrial	Reversible	-999999	999999	0	0	0
+118	DB4PS	3,4-Dihydroxy-2-butanone-4-phosphate synthase	Irreversible	0	999999	0	.0005699740933339504	0
+3530	DBTSr	dethiobiotin synthase	Reversible	-999999	999999	0	0	0
+2268	DCDPtn	dCDP nuclear transport	Reversible	-999999	999999	0	0	0
+3567	DCMPDA	dCMP deaminase	Reversible	-999999	999999	0	-.0006908776888896367	0
+3531	DCTPD	dCTP deaminase	Irreversible	0	999999	0	0	0
+3528	DCYTD	deoxycytidine deaminase	Irreversible	0	999999	0	0	-.01187891487086723
+578	DCYTt2	deoxycytidine transport in via proton symport	Irreversible	0	999999	0	0	0
+3851	DDPA	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	Irreversible	0	999999	0	0	.000000000000000001734723475976807
+2977	DDPAm	2-deoxy-D-arabino-heptulosonate 7-phosphate synthetase, mitochondrial	Irreversible	0	999999	0	.07608290548897124	0
+3801	DESAT14	Myristicoyl-CoA desaturase (n-C14:0CoA -> n-C14:1CoA)	Irreversible	0	999999	0	0	-.03504279886905827
+1901	DESAT16	Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA)	Irreversible	0	999999	0	.002740481499262226	0
+1902	DESAT18	stearoyl-CoA desaturase (n-C18:0CoA -> n-C18:1CoA)	Irreversible	0	999999	0	0	-.000000000000000016479873021779667
+3804	DESAT18_2	Oleoyl-CoA desaturase (n-C18:1CoA -> n-C18:2CoA)	Irreversible	0	999999	0	.0014508431466682373	0
+2269	DGDPtn	dGDP nuclear transport	Reversible	-999999	999999	0	0	0
+1261	DGGH	alpha-D-glucoside glucohydrase	Irreversible	0	999999	0	0	0
+2814	DGK1	deoxyguanylate kinase (dGMP:ATP)	Reversible	-999999	999999	0	-.0006908776888896367	0
+580	DGSNt2	deoxyguanosine transport in via proton symport	Irreversible	0	999999	0	0	0
+1328	DHAD1m	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate), mitochondrial	Irreversible	0	999999	0	.16149265977795257	0
+1329	DHAD2m	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate), mitochondrial	Irreversible	0	999999	0	.055471721103763756	0
+2014	DHAK	dihydroxyacetone kinase	Irreversible	0	999999	0	0	0
+883	DHAPtm	dihydroxyacetone phosphate transport, mitochondrial	Irreversible	0	999999	0	3.700069361577884	0
+1736	DHFRi	dihydrofolate reductase (irreversible)	Irreversible	0	999999	0	.0010363165333344552	0
+1735	DHFRim	dihydrofolate reductase, mitochondrial	Irreversible	0	999999	0	0	0
+7825	DHFS	dihydrofolate synthase	Irreversible	0	999999	0	0	0
+1758	DHFtm	dihydrofolate reversible mitochondrial transport	Reversible	-999999	999999	0	0	0
+3693	DHNPAm	dihydroneopterin aldolase	Irreversible	0	999999	0	0	0
+1767	DHNPTtm	dhnpt mitochondrial transport	Reversible	-999999	999999	0	0	0
+20572	DHORD4i	dihydoorotic acid (ubiquinone-6), irreversible	Irreversible	0	999999	0	.031837946829664086	0
+21386	DHORDfum	Fumarate dependent DHORD	Irreversible	0	999999	0	0	.00000000000000006418476861114186
+20571	DHORDi	dihydoorotic acid dehydrogenase (irreversible)	Irreversible	0	999999	0	0	-.013363779229725526
+444	DHORTS	dihydroorotase	Reversible	-999999	999999	0	-.031837946829664086	0
+1826	DHPSm	dihydropteroate synthase, mitochondrial	Irreversible	0	999999	0	0	-.035240780783572734
+2399	DHPTtm	Dihydropteroate mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+2859	DHQS	3-dehydroquinate synthase	Irreversible	0	999999	0	.07608290548897124	0
+1386	DHQTi	3-dehydroquinate dehydratase, irreversible	Irreversible	0	999999	0	.07608290548897124	0
+3488	DIAT	diamine transaminase	Irreversible	0	999999	0	0	0
+587	DINSt2	deoxyinosine transport in via proton symport	Irreversible	0	999999	0	0	0
+3493	DIPS	diphthine synthase	Irreversible	0	999999	0	0	-.04217014779157863
+1984	DKMPPD2	2,3-diketo-5-methylthio-1-phosphopentane degradation reaction	Irreversible	0	999999	0	0	0
+108	DMATT	dimethylallyltranstransferase	Irreversible	0	999999	0	.0012666090962976675	0
+1832	DNMPPA	Dihydroneopterin monophosphate dephosphorylase	Irreversible	0	999999	0	0	0
+1831	DNTPPA	Dihydroneopterin triphosphate pyrophosphatase	Irreversible	0	999999	0	0	-.2142164315046386
+3068	DOLK	Dolichol kinase	Irreversible	0	999999	0	0	-.059394574354336205
+2013	DOLPMMer	Dolichyl-phosphate-mannose--protein mannosyltransferase, endoplasmic reticular	Irreversible	0	999999	0	.23256670202247395	0
+3685	DOLPMTcer	Dolichyl-phosphate D-mannosyltransferase	Irreversible	0	999999	0	.23256670202247395	0
+2247	DOLPt2er	dolichol phosphate endoplasmic reticular transport via proton symport	Reversible	-999999	999999	0	-.23256670202247395	0
+2790	DPCOAK	dephospho-CoA kinase	Irreversible	0	999999	0	0	0
+1744	DPCOAKm	dephospho-CoA kinase, mitochondrial	Irreversible	0	999999	0	-.0000000000000008881784197001252	0
+3110	DPGM	Diphosphoglyceromutase	Reversible	-999999	999999	0	0	0
+106	DPMVD	diphosphomevalonate decarboxylase	Irreversible	0	999999	0	.0037998272888930024	0
+81	DPR	2-dehydropantoate 2-reductase	Irreversible	0	999999	0	0	-.01583855316115631
+3024	DPRm	2-dehydropantoate 2-reductase, mitochondrial	Irreversible	0	999999	0	0	-.01583855316115631
+2023	DRBK	Deoxyribokinase	Irreversible	0	999999	0	0	-.01187891487086723
+8667	DROPPRy	2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase (nadph)	Irreversible	0	999999	0	.0002849870466669752	0
+8668	DRTPPD	2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase	Irreversible	0	999999	0	.0002849870466669752	0
+2815	DTMPK	dTMP kinase	Reversible	-999999	999999	0	0	0
+1644	DTTPt	dTTP reversible uniport	Reversible	-999999	999999	0	0	0
+2271	DUMPtn	dUMP nuclear transport	Reversible	-999999	999999	0	0	0
+2691	DURIK1	deoxyuridine kinase (ATP:Deoxyuridine)	Irreversible	0	999999	0	0	0
+1084	DURIPP	deoxyuridine phosphorylase	Reversible	-999999	999999	0	0	0
+2720	DURIt2	deoxyuridine transport in via proton symport	Irreversible	0	999999	0	0	0
+189	DUTPDP	dUTP diphosphatase	Irreversible	0	999999	0	0	-.02375782974173446
+1781	DXHPScm	deoxyhypusine synthase, cytosolic/mitochondrial	Irreversible	0	999999	0	0	0
+1673	E4HGLUtm	L-erythro-4-hydroxyglutamate mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+1315	E4HGLUtp	L-erythro-4-hydroxyglutamate peroxisomal transport via diffusion	Reversible	-999999	999999	0	0	0
+1677	E4Ptm	D-erythrose 4-phosphate mtiochondrial transport via diffusion	Reversible	-999999	999999	0	.07608290548897124	0
+2059	ECOAH11p	3-hydroxyacyl-CoA dehydratase (3-hydroxyhexacosyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+2071	ECOAH4p	3-hydroxyacyl-CoA dehydratase (3-hydroxydecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+2068	ECOAH5p	3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+2070	ECOAH6p	3-hydroxyacyl-CoA dehydratase (3-hydroxytetradecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+2069	ECOAH7p	3-hydroxyacyl-CoA dehydratase (3-hydroxyhexadecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+2075	ECOAH8p	3-hydroxyacyl-CoA dehydratase (3-hydroxyoctadecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+1844	EHGLAT	L-erythro-4-Hydroxyglutamate:2-oxoglutarate aminotransferase	Irreversible	0	999999	0	0	0
+1842	EHGLATm	L-erythro-4-Hydroxyglutamate:2-oxoglutarate aminotransferase, mitochondrial	Irreversible	0	999999	0	0	0
+1843	EHGLATp	L-erythro-4-Hydroxyglutamate:2-oxoglutarate aminotransferase, peroxisomal	Irreversible	0	999999	0	0	0
+266	ENO	enolase	Reversible	-999999	999999	0	17.874155518290195	0
+19465	EPGALURSe	Endopolygalacturonase (extracellular)	Irreversible	0	999999	0	0	0
+15168	EPISTAT_SC	Acyl-CoA:episterol acyltransferase, yeast-specific	Irreversible	0	999999	0	0	0
+15206	EPISTESTH_SC	episterol ester hydrolase, yeast-specific	Irreversible	0	999999	0	0	-.02495760014369204
+15215	EPISTESTH_SCe	episterol ester hydrolase, yeast-specific (extracellular)	Irreversible	0	999999	0	0	0
+15218	EPISTt	episterol reversible transport	Reversible	-999999	999999	0	0	0
+1263	EPMGH	Epimelibiose galactohydrolase	Reversible	-999999	999999	0	0	0
+15162	ERGSTAT_SC	Acyl-CoA:ergosterol acyltransferase, yeast-specific	Irreversible	0	999999	0	0	0
+15212	ERGSTESTH_SC	ergosterol ester hydrolase, yeast-specific	Irreversible	0	999999	0	0	-.02495760014369207
+15211	ERGSTESTH_SCe	ergosterol ester hydrolase, yeast-specific (extracellular)	Irreversible	0	999999	0	0	0
+18749	ERGSTGLCT	UDP-glucose:ergosterol glucosyltransferase	Irreversible	0	999999	0	0	-.7869781101949525
+1921	ERGSTt	ergosterol reversible transport	Reversible	-999999	999999	0	0	0
+2208	ERGSTter	ergosterol endoplasmic reticular transport	Reversible	-999999	999999	0	.00020150599259281072	0
+2207	ERGTETROLter	Ergosta-5,6,22,24,(28)-tetraen-3beta-ol endoplamic reticular transport	Reversible	-999999	999999	0	.00020150599259281072	0
+2384	ETHAK	Ethanolamine kinase	Irreversible	0	999999	0	0	0
+3592	ETHAPT_SC	Ethanolaminephosphotransferase, yeast-specific	Reversible	-999999	999999	0	0	0
+20490	ETHAt	ethanolamine transport via diffusion (extracellular)	Reversible	-999999	999999	0	0	0
+1558	ETOHt	ethanol reversible transport	Reversible	-999999	999999	0	-15.815474819203953	0
+1294	ETOHtm	ethanol transport to mitochondria (diffusion)	Reversible	-999999	999999	0	-1.011776948245426	0
+2199	FA100tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	-.06414614030268306
+3282	FA120ACPH	fatty-acyl-ACP hydrolase	Reversible	-999999	999999	0	0	0
+2430	FA120ACPtm	fatty-acyl-ACP mitochondrial transport	Irreversible	0	999999	0	0	-.10215866788945815
+2198	FA120tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	-.08018267537835383
+3283	FA140ACPH	fatty-acyl-ACP hydrolase	Reversible	-999999	999999	0	0	0
+2431	FA140ACPtm	fatty-acyl-ACP mitochondrial transport	Irreversible	0	999999	0	0	-.07958872963481037
+2175	FA140COAabcp	fatty acid peroxisomal transport via ABC system	Irreversible	0	999999	0	0	0
+2201	FA140tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	-.09621921045402454
+3285	FA141ACPH	fatty-acyl-ACP hydrolase	Reversible	-999999	999999	0	0	0
+2432	FA141ACPtm	fatty-acyl-ACP mitochondrial transport	Irreversible	0	999999	0	0	0
+2176	FA141COAabcp	fatty acid peroxisomal transport via ABC system	Irreversible	0	999999	0	0	0
+2202	FA141tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	-.09621921045402451
+3286	FA160ACPH	fatty-acyl-ACP hydrolase	Reversible	-999999	999999	0	0	0
+3595	FA160ACPtm	fatty-acyl-ACP mitochondrial transport	Irreversible	0	999999	0	0	-.02256993825464776
+2177	FA160COAabcp	fatty acyl-CoA peroxisomal transport via ABC system	Irreversible	0	999999	0	0	-.01603653507567077
+2203	FA160tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	-.11225574552969528
+3289	FA161ACPH	fatty-acyl-ACP hydrolase	Reversible	-999999	999999	0	0	0
+2433	FA161ACPtm	fatty-acyl-ACP mitochondrial transport	Irreversible	0	999999	0	0	0
+3178	FA161COAabcp	fatty acyl-CoA peroxisomal transport via ABC system	Irreversible	0	999999	0	0	-.05107933394472902
+2204	FA161tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	-.14729854439875356
+3287	FA180ACPH	fatty-acyl-ACP hydrolase	Reversible	-999999	999999	0	0	0
+3222	FA180ACPtm	fatty-acyl-ACP mitochondrial transport	Irreversible	0	999999	0	0	0
+2179	FA180COAabcp	fatty acyl-CoA transport via ABC system	Irreversible	0	999999	0	0	-.03207307015134153
+3290	FA181ACPH	fatty-acyl-ACP hydrolase	Reversible	-999999	999999	0	0	0
+3597	FA181ACPtm	fatty-acyl-ACP mitochondrial transport	Irreversible	0	999999	0	0	0
+2178	FA181COAabcp	fatty acyl-CoA peroxisomal transport via ABC system	Irreversible	0	999999	0	0	0
+3291	FA182ACPH	fatty-acyl-ACP hydrolase	Reversible	-999999	999999	0	0	0
+2434	FA182ACPtm	fatty-acyl-ACP mitochondrial transport	Irreversible	0	999999	0	0	0
+2180	FA182COAabcp	fatty acyl-CoA peroxisomal transport via ABC system	Irreversible	0	999999	0	0	0
+2183	FA240tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	-.1764018858323783
+2197	FA260tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	0
+2200	FA80tp	fatty acid peroxisomal transport	Irreversible	0	999999	0	0	-.07186743496874672
+2115	FACOAL100p	fatty-acid--CoA ligase (decanoate), peroxisomal	Reversible	-999999	999999	0	0	0
+2116	FACOAL120p	fatty-acid--CoA ligase (dodecanoate), peroxisomal	Reversible	-999999	999999	0	0	0
+2113	FACOAL140	fatty-acid--CoA ligase (tetradecanoate)	Reversible	-999999	999999	0	-.013218793114088384	0
+2897	FACOAL140p	fatty-acid--CoA ligase (tetradecanoate), peroxisomal	Reversible	-999999	999999	0	0	0
+2895	FACOAL141	fatty-acid--CoA ligase (tetradecenoate)	Reversible	-999999	999999	0	0	0
+2117	FACOAL141p	fatty-acid--CoA ligase (tetradecenoate), peroxisomal	Reversible	-999999	999999	0	0	0
+2112	FACOAL160	fatty-acid--CoA ligase (hexadecanoate)	Reversible	-999999	999999	0	.007093010939266938	0
+2118	FACOAL160p	fatty-acid--CoA ligase (hexadecanoate), peroxisomal	Reversible	-999999	999999	0	0	0
+2894	FACOAL161	fatty-acid--CoA ligase (hexadecenoate)	Reversible	-999999	999999	0	0	0
+2898	FACOAL161p	fatty-acid--CoA ligase (hexadecenoate), peroxisomal	Reversible	-999999	999999	0	0	0
+2111	FACOAL180	fatty-acid--CoA ligase (octadecanoate)	Reversible	-999999	999999	0	.000806023970371243	0
+2110	FACOAL181	fatty-acid--CoA ligase (octadecenoate)	Reversible	-999999	999999	0	.005319758204450204	0
+3292	FACOAL182	fatty-acid--CoA ligase (octadecynoate)	Reversible	-999999	999999	0	0	0
+2182	FACOAL240p	fatty-acid--CoA ligase (n-C24:0), peroxisomal	Reversible	-999999	999999	0	0	0
+3180	FACOAL260p	fatty-acid--CoA ligase (n-C26:0), peroxisomal	Reversible	-999999	999999	0	0	0
+2022	FACOAL80p	fatty-acid--CoA ligase (octanoate), peroxisomal	Reversible	-999999	999999	0	0	0
+1754	FADFMNtm	FAD/FMN antiport	Irreversible	0	999999	0	0	0
+2373	FALDH	formaldehyde dehydrogenase	Reversible	-999999	999999	0	0	0
+2169	FAO141p_even	fatty acid oxidation	Irreversible	0	999999	0	0	0
+3888	FAO141p_odd	Fatty acid oxidation	Irreversible	0	999999	0	0	0
+2170	FAO161p_even	Fatty acid oxidation	Irreversible	0	999999	0	0	0
+3885	FAO161p_odd	Fatty acid oxidation	Irreversible	0	999999	0	0	0
+2172	FAO181p_even	Fatty acid oxidation	Irreversible	0	999999	0	0	-.06711586902039979
+3884	FAO181p_odd	Fatty acid oxidation	Irreversible	0	999999	0	0	-.06711586902039976
+2173	FAO182p_even/even	Fatty acid oxidation	Irreversible	0	999999	0	0	-.10215866788945802
+3889	FAO182p_even/odd	Fatty acid oxidation	Irreversible	0	999999	0	0	-.10215866788945802
+3887	FAO182p_odd/odd	Fatty acid oxidation	Irreversible	0	999999	0	0	-.102158667889458
+2062	FAO240p	fatty acid oxidation (tetradecansoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+2061	FAO80p	fatty acid oxidation (octanoyl-CoA), peroxisomal	Irreversible	0	999999	0	0	0
+1882	FAS100	fatty acid synthase (n-C10:0)	Irreversible	0	999999	0	0	-.023757829741734397
+3357	FAS100ACPm	fatty-acyl-ACP synthase (n-C10:0ACP), mitochondrial	Irreversible	0	999999	0	0	0
+3049	FAS100COA	fatty acyl-CoA synthase (n-C10:0CoA)	Irreversible	0	999999	0	.01612047940742486	0
+1886	FAS120	fatty acid synthase (n-C12:0)	Irreversible	0	999999	0	0	0
+3359	FAS120ACPm	fatty-acyl-ACP synthase (n-C12:0ACP), mitochondrial	Irreversible	0	999999	0	0	-.07424321794291991
+3051	FAS120COA	fatty-acyl-CoA synthase (n-C12:0CoA)	Irreversible	0	999999	0	.015798069819276363	0
+1887	FAS140	fatty acid synthase (n-C14:0)	Irreversible	0	999999	0	0	0
+3360	FAS140ACPm	fatty-acyl-ACP synthase (n-C14:0ACP), mitochondrial	Irreversible	0	999999	0	0	0
+3052	FAS140COA	fatty-acyl-CoA synthase (n-C14:0CoA)	Irreversible	0	999999	0	.01483084105483087	0
+3390	FAS141	fatty acid synthase (n-C14:1)	Irreversible	0	999999	0	0	-.03504279886905832
+3384	FAS141ACPm	fatty-acyl-ACP synthase (n-C14:1ACP), mitochondrial	Irreversible	0	999999	0	0	-.11463152850386868
+1893	FAS160	fatty acid synthase (n-C16:0)	Irreversible	0	999999	0	.013218793114088384	0
+3381	FAS160ACPm	fatty-acyl-ACP synthase (n-C16:0ACP), mitochondrial	Irreversible	0	999999	0	0	-.03444885312551482
+3053	FAS160COA	fatty-acyl-CoA synthase (n-C16:0CoA)	Irreversible	0	999999	0	0	.000000000000000008673617379884035
+3395	FAS161	fatty acid synthase (n-C16:1)	Irreversible	0	999999	0	0	-.00000000000000002168404344971009
+3387	FAS161ACPm	fatty-acyl-ACP synthase (n-C16:1ACP), mitochondrial	Irreversible	0	999999	0	0	-.05701879138016257
+1896	FAS180	fatty acid synthase (n-C18:0)	Irreversible	0	999999	0	.000806023970371243	0
+3382	FAS180ACPm	fatty-acyl-ACP synthase (n-C18:0ACP), mitochondrial	Irreversible	0	999999	0	0	.00000000000000005551115123125783
+3055	FAS180COA	fatty-acyl-CoA synthase (n-C18:0CoA)	Irreversible	0	999999	0	0	.000000000000000008673617379884035
+3397	FAS181	fatty acid synthase (n-C18:1)	Irreversible	0	999999	0	.005319758204450204	0
+3386	FAS181ACPm	fatty-acyl-ACP synthase (n-C18:1ACP), mitochondrial	Irreversible	0	999999	0	0	0
+3389	FAS182ACPm	fatty-acyl-ACP synthase (n-C18:2ACP), mitochondrial	Irreversible	0	999999	0	0	.000000000000000013877787807814457
+3179	FAS240_L	fatty acid synthase (n-C24:0), lumped reaction	Irreversible	0	999999	0	0	0
+2181	FAS260	fatty acid synthase (n-C26:0)	Irreversible	0	999999	0	0	-.19243842090804908
+3383	FAS80ACPm_L	fatty acyl-ACP synthase (n-C8:0ACP), mitochondrial, lumped reaction	Irreversible	0	999999	0	0	0
+3050	FAS80COA_L	fatty acyl-CoA synthase (n-C8:0CoA), lumped reaction	Irreversible	0	999999	0	.01612047940742486	0
+1885	FAS80_L	fatty acid synthase (n-C8:0), lumped reaction	Irreversible	0	999999	0	0	0
+268	FBA	fructose-bisphosphate aldolase	Reversible	-999999	999999	0	8.924879730095055	0
+2403	FBA2	D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase	Reversible	-999999	999999	0	0	0
+2404	FBA3	Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase	Reversible	-999999	999999	0	0	0
+263	FBP	fructose-bisphosphatase	Irreversible	0	999999	0	0	-.011878914870867237
+1040	FBP26	Fructose-2,6-bisphosphate 2-phosphatase	Irreversible	0	999999	0	0	0
+1784	FCLTm	Ferrochelatase, mitochondrial	Irreversible	0	999999	0	0	-.005939457435433596
+2846	FDH	formate dehydrogenase	Irreversible	0	999999	0	0	-.002177801059658985
+1783	FDNG	formate  dehydrogenase, cytosolic/mitochondrial	Irreversible	0	999999	0	0	-.0021778010596590347
+13175	FE2t	iron (II) transport	Irreversible	0	999999	0	0	0
+20487	FE2utm	iron (II) uptake (mitochondrial)	Irreversible	0	999999	0	0	0
+15166	FECOSTAT_SC	Acyl-CoA:fecosterol acyltransferase, yeast-specific	Irreversible	0	999999	0	0	0
+15214	FECOSTESTH_SC	fecosterol ester hydrolase, yeast-specific	Irreversible	0	999999	0	0	-.02495760014369202
+15207	FECOSTESTH_SCe	fecosterol ester hydrolase, yeast-specific (extracellular	Irreversible	0	999999	0	0	0
+15217	FECOSTt	fecosterol reversible transport	Reversible	-999999	999999	0	0	0
+13174	FEtm	iron (II) transport	Irreversible	0	999999	0	0	0
+2371	FKYNH	N-Formyl-L-kynurenine amidohydrolase	Irreversible	0	999999	0	0	0
+3858	FMETTRSm	Methionyl-tRNA formyltransferase, mitochondrial	Irreversible	0	999999	0	0	-.005543493606404724
+140	FMNAT	FMN adenylyltransferase	Irreversible	0	999999	0	0	-.04157620204803522
+1725	FMNATm	FMN adenylyltransferase	Irreversible	0	999999	0	0	0
+2562	FMNRx	FMN reductase	Irreversible	0	999999	0	0	0
+2561	FMNRx2	FMN reductase	Irreversible	0	999999	0	0	-.004157620204803524
+1825	FOLD3m	dihydropteroate synthase, mitochondrial	Irreversible	0	999999	0	0	0
+2934	FORt	formate transport via diffusion	Reversible	-999999	999999	0	-.0014882656881497593	0
+4308	FORtm	formate mitochondrial transport	Irreversible	0	999999	0	0	0
+20498	FRDPtm	farnesyl diphosphate transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+2920	FRDcm	fumarate reductase, cytosolic/mitochondrial	Irreversible	0	999999	0	0	0
+520	FRDm	fumarate reductase	Irreversible	0	999999	0	0	0
+110	FRTT	farnesyltranstransferase	Irreversible	0	999999	0	0	0
+2820	FRUK	fructose-1-phosphate kinase	Irreversible	0	999999	0	0	-.007721294666063722
+1544	FRUt2	D-fructose transport in via proton symport	Irreversible	0	999999	0	0	0
+3757	FTHFCL	5-formethyltetrahydrofolate cyclo-ligase	Irreversible	0	999999	0	0	-.009305149982179295
+3758	FTHFCLm	5-formethyltetrahydrofolate cyclo-ligase, mitochondrial	Irreversible	0	999999	0	0	-.008909186153150395
+7848	FTHFI	5-Formyltetrahydrofolate:10-Formyltetrahydrofolate isomerase	Irreversible	0	999999	0	0	-.009305149982179295
+5063	FTHFLi	formate-tetrahydrofolate ligase	Irreversible	0	999999	0	0	-.009305149982179295
+21745	FTHFLmi	formate-tetrahydrofolate ligase, mitochondrial irreversible	Irreversible	0	999999	0	0	-.00336569254674568
+542	FUM	fumarase	Reversible	-999999	999999	0	.12312016147421416	0
+2670	FUMAC	fumarylacetoacetase	Irreversible	0	999999	0	0	0
+544	FUMm	fumarase, mitochondrial	Reversible	-999999	999999	0	.22100074112351853	0
+1562	FUMt2r	fumarate reversible transport via symport	Reversible	-999999	999999	0	0	0
+3673	G12MT1g	Glycolipid 1,2-alpha-D-mannosyltransferase, Golgi apparatus	Irreversible	0	999999	0	0	0
+3676	G12MT2g	Glycolipid 1,2-alpha-D-mannosyltransferase, Golgi apparatus	Irreversible	0	999999	0	0	0
+3677	G13MTg	Glycolipid 1,3-alpha-D-mannosyltransferase, Golgi apparatus	Irreversible	0	999999	0	0	0
+3678	G16MTg	Glycolipid 1,6-alpha-D-mannosyltransferase, Golgi apparatus	Irreversible	0	999999	0	0	0
+15198	G3PCt	glycero-3-phosphocholine transport (extracellular to cytosol)	Reversible	-999999	999999	0	0	0
+1870	G3PD1ir	glycerol-3-phosphate dehydrogenase (NAD)	Irreversible	0	999999	0	3.7071796444593734	0
+2015	G3PD1irm	glycerol-3-phosphate dehydrogenase (NAD), mitochondrial	Irreversible	0	999999	0	0	-.0000000000000000013010426069826053
+2016	G3PDm	glycerol-3-phosphate dehydrogenase (FAD), mitochondrial	Irreversible	0	999999	0	3.700069361577884	0
+15197	G3PIt	glycero-3-phospho-1-inositol transport (extracellular to cytosol)	Reversible	-999999	999999	0	0	0
+1822	G3PT	glycerol-3-phosphatase	Irreversible	0	999999	0	0	0
+3574	G5SADr	L-glutamate 5-semialdehyde dehydratase, reversible	Reversible	-999999	999999	0	.047411481400051324	0
+3649	G5SADrm	L-glutamate 5-semialdehyde dehydratase, reversible, mitochondrial	Reversible	-999999	999999	0	0	0
+315	G5SD	glutamate-5-semialdehyde dehydrogenase	Irreversible	0	999999	0	0	-.004157620204803525
+2981	G5SD2	glutamate-5-semialdehyde dehydrogenase	Irreversible	0	999999	0	.047411481400051324	0
+246	G6PDA	glucosamine-6-phosphate deaminase	Irreversible	0	999999	0	0	-.011878914870867237
+279	G6PDH2	glucose 6-phosphate dehydrogenase	Irreversible	0	999999	0	.8016352161803473	0
+2340	G6PDH2er	glucose 6-phosphate dehydrogenase, endoplasmic reticulum	Irreversible	0	999999	0	.0008348105407416445	0
+1786	G6PI	Glucose-6-phosphate isomerase	Reversible	-999999	999999	0	0	0
+20491	G6PI3	Glucose-6-phosphate isomerase	Reversible	-999999	999999	0	0	0
+2341	G6Pter	glucose 6-phosphate endoplasmic reticular transport via diffusion	Reversible	-999999	999999	0	.0008348105407416445	0
+2958	GALIGH	1-alpha-D-Galactosyl-myo-inositol galactohydrolase	Reversible	-999999	999999	0	0	0
+2818	GALK	galactokinase	Irreversible	0	999999	0	0	0
+1198	GALS3	a-galactosidase (melibiose)	Irreversible	0	999999	0	0	0
+199	GALT	galactose-1-phosphate uridylyltransferase	Reversible	-999999	999999	0	.48266442540052246	0
+201	GALU	UTP-glucose-1-phosphate uridylyltransferase	Reversible	-999999	999999	0	0	0
+679	GALt2	D-galactose transport in via proton symport	Irreversible	0	999999	0	0	0
+1646	GAM6Pt	D-glucosamine 6-phosphate reversible uniport	Reversible	-999999	999999	0	0	0
+2841	GAPD	glyceraldehyde-3-phosphate dehydrogenase	Reversible	-999999	999999	0	18.03820442551705	0
+3639	GARFTi	phosphoribosylglycinamide formyltransferase, irreversible	Irreversible	0	999999	0	.028495826009667248	0
+3655	GAT1_SC	glycerol 3-phosphate acyltransferase (glycerol 3-phosphate), yeast-specific	Irreversible	0	999999	0	.007110282881489179	0
+3578	GAT2_SC	glycerol 3-phosphate acyltransferase (glycerone phosphate), yeast-specific	Irreversible	0	999999	0	0	-.004157620204803439
+3348	GBEZ	1,4-alpha-glucan branching enzyme	Irreversible	0	999999	0	0	0
+1923	GCALDt	Glycoaldehydye reversible transport	Reversible	-999999	999999	0	0	0
+3219	GCALDtm	glycoaldehyde mitochondrial transport	Reversible	-999999	999999	0	0	0
+3714	GCC2am	glycine-cleavage complex (lipoamide), mitochondrial	Reversible	-999999	999999	0	0	0
+3713	GCC2bim	glycine-cleavage system (lipoamide) irreversible, mitochondrial	Irreversible	0	999999	0	0	-.011284969127323796
+2283	GCC2cm	glycine-cleavage complex (lipoamide), mitochondrial	Reversible	-999999	999999	0	.22100074112351853	0
+3715	GCCam	glycine-cleavage complex (lipoylprotein), mitochondrial	Reversible	-999999	999999	0	0	0
+3716	GCCbim	glycine-cleavage complex (lipoylprotein) irreversible, mitochondrial	Irreversible	0	999999	0	0	-.011284969127323793
+2282	GCCcm	glycine-cleavage complex (lipoylprotein), mitochondrial	Reversible	-999999	999999	0	0	0
+20520	GDPMANNtg	GDP-mannose antiport	Irreversible	0	999999	0	0	-.05939457435433615
+3107	GDPt3g	GDP Golgi transport via proton anitport	Reversible	-999999	999999	0	0	0
+2272	GDPtn	GDP nuclear transport	Reversible	-999999	999999	0	0	0
+3537	GF6PTA	glutamine-fructose-6-phosphate transaminase	Irreversible	0	999999	0	0	0
+1264	GGLGH	Galactosylglycerol galactohydrolase	Reversible	-999999	999999	0	0	0
+810	GGTT	geranylgeranyltranstransferase	Irreversible	0	999999	0	0	0
+1584	GHMT2r	glycine hydroxymethyltransferase, reversible	Reversible	-999999	999999	0	.09709134454530381	0
+1583	GHMT2rm	glycine hydroxymethyltransferase, reversible, mitochondrial	Reversible	-999999	999999	0	0	0
+186	GK1	guanylate kinase (GMP:ATP)	Reversible	-999999	999999	0	-.000060451797777855734	0
+187	GK2	guanylate kinase (GMP:dATP)	Reversible	-999999	999999	0	.0010363165333344552	0
+7160	GLCGSD	glucan 1,4-alpha-glucosidase	Irreversible	0	999999	0	0	-.023757829741734467
+14454	GLCGSDv	glucan 1,4-alpha-glucosidase, vacuole	Irreversible	0	999999	0	0	-.023757829741734467
+19299	GLCNtv	Glycogen vacuolar 'transport' via autophagy	Irreversible	0	999999	0	0	0
+735	GLCP	glycogen phosphorylase	Irreversible	0	999999	0	0	-.011878914870867237
+2740	GLCS2	glycogen synthase (UDPGlc)	Irreversible	0	999999	0	.14925836737053194	0
+497	GLCt1	glucose transport (uniport)	Irreversible	0	999999	0	10	0
+1542	GLCtv	glucose transport, vacuolar	Reversible	-999999	999999	0	0	0
+3539	GLNS	glutamine synthetase	Irreversible	0	999999	0	.23618517391804694	0
+1030	GLNTRS	Glutaminyl-tRNA synthetase	Irreversible	0	999999	0	0	-.057018791380162664
+1946	GLNt2n	glutamine nuclear transport via proton symport	Reversible	-999999	999999	0	0	0
+1363	GLNt2r	L-glutamine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+18736	GLNt6	L-glutamine transport in via proton antiport (vacuolar)	Irreversible	0	999999	0	0	0
+18743	GLNt7	L-glutamine transport out via proton symport, vacuolar	Irreversible	0	999999	0	0	0
+1408	GLPT	glycylpeptide N-tetradecanoyltransferase	Irreversible	0	999999	0	0	-.26272200056068024
+2854	GLU5K	glutamate 5-kinase	Irreversible	0	999999	0	.047411481400051324	0
+3540	GLUCYS	gamma-glutamylcysteine synthetase	Irreversible	0	999999	0	0	0
+2960	GLUDC	Glutamate Decarboxylase	Irreversible	0	999999	0	0	0
+1452	GLUDxi	glutamate dehydrogenase (NAD)	Irreversible	0	999999	0	0	-.004157620204803524
+6160	GLUDyi	glutamate dehydrogenase (NADP)	Irreversible	0	999999	0	1.4170419557393321	0
+2229	GLUK	Glucokinase	Irreversible	0	999999	0	0	0
+3541	GLUN	glutaminase	Irreversible	0	999999	0	0	-.01187891487086723
+3542	GLUPRT	glutamine phosphoribosyldiphosphate amidotransferase	Irreversible	0	999999	0	.028495826009667248	0
+3864	GLUSx	glutamate synthase (NADH2)	Irreversible	0	999999	0	0	-.0077212946660637025
+1029	GLUTRS	Glutamyl-tRNA synthetase	Irreversible	0	999999	0	0	-.045139876509295435
+1692	GLUTRSm	glutamyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.03623069035614497
+1948	GLUt2n	glutamate nuclear transport via proton symport	Reversible	-999999	999999	0	0	0
+1522	GLUt2r	L-glutamate transport via proton symport, reversible	Reversible	-999999	999999	0	0	0
+1510	GLUt5m	L-glutamate transport into mitochondria via hydroxide ion antiport	Irreversible	0	999999	0	0	-.002969728717716797
+18741	GLUt7	L-glutamate transport out via proton symport, vacuolar	Irreversible	0	999999	0	0	0
+14590	GLUt7m	Glutamate transport (uniporter), mitochondrial	Irreversible	0	999999	0	.0864235246418914	0
+21794	GLXt	glyoxylate transport	Reversible	-999999	999999	0	0	0
+1526	GLXtp	glyoxylate transport, peroxisomal	Reversible	-999999	999999	0	0	0
+1054	GLYATi	glycine C-acetyltransferase (irreversible)	Irreversible	0	999999	0	0	0
+1930	GLYC3Ptm	glycerol-3-phosphate shuttle	Irreversible	0	999999	0	3.700069361577884	0
+13230	GLYCDy	Glycerol dehydrogenase (NADP-dependent)	Irreversible	0	999999	0	0	-.007721294666063705
+3002	GLYCLm	glycine cleavage system, mitochondrial	Irreversible	0	999999	0	0	-.011284969127323794
+1551	GLYCt	glycerol transport via channel	Reversible	-999999	999999	0	0	0
+15295	GLYCt2	glycerol transport via symport	Irreversible	0	999999	0	0	0
+3354	GLYGS	glycogen (starch) synthase	Irreversible	0	999999	0	0	0
+256	GLYK	glycerol kinase	Irreversible	0	999999	0	0	-.01187891487086723
+455	GLYOX	hydroxyacylglutathione hydrolase	Irreversible	0	999999	0	0	0
+456	GLYOXm	hydroxyacylglutathione hydrolase, mitochondrial	Irreversible	0	999999	0	0	0
+1038	GLYTRS	Glycyl-tRNA synthetase	Irreversible	0	999999	0	0	-.03741858184323174
+2186	GLYt2m	glycine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1362	GLYt2r	glycine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+2926	GMPS2	GMP synthase	Irreversible	0	999999	0	.014217687105941304	0
+2843	GND	phosphogluconate dehydrogenase	Irreversible	0	999999	0	.8024700267210889	0
+1144	GNNUC	gnnuc	Irreversible	0	999999	0	0	-.01187891487086723
+2531	GPDDA1	Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)	Irreversible	0	999999	0	0	-.08315240409607072
+109	GRTT	geranyltranstransferase	Irreversible	0	999999	0	.0012666090962976675	0
+2928	GSNK	guanosine kinase	Irreversible	0	999999	0	0	0
+579	GSNt2	guanosine transport in via proton symport	Irreversible	0	999999	0	0	0
+1935	GSNt2m	guanosine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1411	GTHO	glutathione oxidoreductase	Irreversible	0	999999	0	0	-.017521399434529114
+1647	GTHOXti	oxidized glutathione irreversible uniport	Irreversible	0	999999	0	0	0
+4913	GTHOm	glutathione oxidoreductase	Irreversible	0	999999	0	0	-.008612213281378718
+1410	GTHP	glutathione peridoxase	Reversible	-999999	999999	0	0	0
+4914	GTHPm	glutathione peroxidase, mitochondria	Reversible	-999999	999999	0	0	0
+19247	GTHRDabcv	Reduced glutathione via ABC system (vacuolar)	Irreversible	0	999999	0	0	0
+2567	GTHRDt2	glutathione transport	Irreversible	0	999999	0	0	0
+3545	GTHS	glutathione synthetase	Irreversible	0	999999	0	0	-.1205709859393023
+3669	GTMLT	g-glutamyltransferase	Irreversible	0	999999	0	0	-.004157620204803524
+7819	GTPCI	GTP cyclohydrolase I	Irreversible	0	999999	0	0	0
+3878	GTPCII	GTP cyclohydrolase II	Irreversible	0	999999	0	.0002849870466669752	0
+15248	GTPH1	GTP diphosphohydrolase	Irreversible	0	999999	0	0	-.02375782974173446
+14173	GTPt2m	GTP/GDP translocase, mitochondrial (electroneutral)	Irreversible	0	999999	0	0	-.005939457435433643
+3312	GUAD	guanine deaminase	Irreversible	0	999999	0	0	-.04751565948346895
+2808	GUAPRT	guanine phosphoribosyltransferase	Irreversible	0	999999	0	0	-.011878914870867258
+1378	GUAt2r	guanine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+1747	GUAtm	guanine mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+19550	H2O2tn	hydrogen peroxide nuclear transport	Reversible	-999999	999999	0	0	0
+868	H2Ot	H2O transport via diffusion	Reversible	-999999	999999	0	-5.640454760022918	0
+2159	H2Oter	H2O endoplasmic reticulum transport	Reversible	-999999	999999	0	-.0006333045481488337	0
+875	H2Otm	H2O transport, mitochondrial	Reversible	-999999	999999	0	-7.468244331484293	0
+777	H2Otn	H2O transport, nuclear	Reversible	-999999	999999	0	0	0
+2153	H2Otp	H2O transport, peroxisomal	Reversible	-999999	999999	0	.0000000000000000030357660829594124	0
+1539	H2Otv	H2O transport, vacuolar	Reversible	-999999	999999	0	0	0
+2060	HACD10p	3-hydroxyacyl-CoA dehydrogenase (3-oxohexacosyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+2072	HACD4p	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+2020	HACD5p	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+4687	HACD6p	3-Hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+4688	HACD7p	3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+3080	HACD8p	3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA), peroxisomal	Reversible	-999999	999999	0	0	0
+3299	HACNHm	homoacontinate hydratase, mitochondrial	Reversible	-999999	999999	0	.08238716440008918	0
+19563	HBZOPT6m	Hydroxybenzoate octaprenyltransferase, mitochondrial	Irreversible	0	999999	0	0	0
+704	HCITSm	homocitrate synthase	Irreversible	0	999999	0	.08238716440008918	0
+1175	HCITSn	homocitrate synthase	Irreversible	0	999999	0	0	-.04335803927866534
+917	HCO3E	HCO3 equilibration reaction	Reversible	-999999	999999	0	.7577488918600795	0
+2911	HCO3Em	HCO3 equilibration reaction	Reversible	-999999	999999	0	0	0
+1276	HCO3En	HCO3 equilibrium reaction, nuclear	Reversible	-999999	999999	0	0	0
+20512	HCO3tn	bicarbonate nuclear transport via diffusion	Reversible	-999999	999999	0	0	0
+1466	HCYSMT	homocysteine S-methyltransferase	Irreversible	0	999999	0	0	-.035636744612601634
+2426	HCYSt2p	Homocysteine peroxisomal transport via proton symport	Reversible	-999999	999999	0	0	0
+1925	HDCAt	Hexadecanoate (n-C16:0) transport in via uniport	Irreversible	0	999999	0	0	0
+1926	HDCEAt	hexadecenoate (n-C16:1) transport in via uniport	Irreversible	0	999999	0	0	0
+20489	HEMEOMOm	Heme O monooxygenase, mitochondrial	Irreversible	0	999999	0	0	-.031875088236826964
+20488	HEMEOSm	Heme O synthase, mitochondrial	Irreversible	0	999999	0	0	-.16392902521796757
+2791	HETZK	hydroxyethylthiazole kinase	Irreversible	0	999999	0	0	0
+2842	HEX1	hexokinase (D-glucose:ATP)	Irreversible	0	999999	0	10	0
+666	HEX4	hexokinase (D-mannose:ATP)	Irreversible	0	999999	0	0	0
+669	HEX7	hexokinase (D-fructose:ATP)	Irreversible	0	999999	0	0	0
+19030	HEXCCOAtx	fatty acid intracellular transport	Reversible	-999999	999999	0	0	0
+19565	HEXDPtm	all-trans-hexaprenyl diphosphate transport, mitochondrial	Reversible	-999999	999999	0	0	0
+2672	HGNTOR	Homogentisate:oxygen 1,2-oxidoreductase (decyclizing)	Irreversible	0	999999	0	0	-.03108316057876915
+3298	HICITDm	homoisocitrate dehydrogenase	Reversible	-999999	999999	0	.08238716440008918	0
+340	HISTD	histidinol dehydrogenase	Irreversible	0	999999	0	.019085496155576216	0
+2863	HISTP	histidinol-phosphatase	Irreversible	0	999999	0	.019085496155576216	0
+1035	HISTRS	Histidyl-tRNA synthetase	Irreversible	0	999999	0	0	-.1397752316472044
+1493	HISTRSm	histidyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.13383577421177073
+1943	HISt2m	histidine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1364	HISt2r	L-histidine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+18732	HISt6	L-histidine transport in via proton antiport (vacuolar)	Irreversible	0	999999	0	0	-.11601740190546994
+2668	HKYNH	3-Hydroxy-L-kynurenine hydrolase	Irreversible	0	999999	0	0	0
+4	HMBS	hydroxymethylbilane synthase	Irreversible	0	999999	0	0	0
+3061	HMGCOAR	Hydroxymethylglutaryl CoA reductase	Reversible	-999999	999999	0	-.0037998272888930024	0
+1911	HMGCOAS	Hydroxymethylglutaryl CoA synthase	Reversible	-999999	999999	0	0	0
+3182	HMGCOASm	Hydroxymethylglutaryl CoA synthase, mitochondrial	Reversible	-999999	999999	0	-.0037998272888930024	0
+1933	HMGCOAtm	Hydroxymethylglutaryl-CoA reversible mitochondrial transport	Reversible	-999999	999999	0	-.0037998272888930024	0
+128	HMPK1	hydroxymethylpyrimidine kinase (ATP)	Irreversible	0	999999	0	0	0
+1824	HPPKm	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase, mitochondrial	Irreversible	0	999999	0	0	-.05305915308987352
+3686	HPROa	L-hydroxyproline reductase (NAD)	Irreversible	0	999999	0	0	0
+3687	HPROb	L-hydroxyproline reductase (NADP)	Irreversible	0	999999	0	0	-.004157620204803524
+3560	HPROxm	L-hydroxyproline dehydrogenase (NAD), mitochondrial	Irreversible	0	999999	0	0	-.004157620204803522
+3563	HPROym	L-hydroxyproline dehydrogenase (NADP), mitochondrial	Irreversible	0	999999	0	0	0
+1587	HSDxi	homoserine dehydrogenase (NADH), irreversible	Irreversible	0	999999	0	.12516400797050586	0
+3003	HSDyi	homoserine dehydrogenase (NADP), irreversible	Irreversible	0	999999	0	0	-.004157620204803525
+3005	HSERTA	homoserine O-trans-acetylase	Reversible	-999999	999999	0	.01649470482224008	0
+361	HSK	homoserine kinase	Irreversible	0	999999	0	.10866930314826578	0
+342	HSTPT	histidinol-phosphate transaminase	Irreversible	0	999999	0	.019085496155576216	0
+1379	HXANt2r	hypoxanthine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+441	HXPRT	hypoxanthine phosphoribosyltransferase (Hypoxanthine)	Irreversible	0	999999	0	0	-.011878914870867258
+1732	HYPOE	hypothetical enyme	Irreversible	0	999999	0	0	-.011878914870867233
+19470	IAMACt	Isoamyl acetate transport (extracellular)	Irreversible	0	999999	0	0	-.02395581165624891
+19477	IAMOHt	isoamyl alcohol transport (extracellular)	Reversible	-999999	999999	0	0	0
+19490	IAMOHtm	isoamyl alcohol transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+19471	IBUTACt	Isobutyl acetate transport (extracellular)	Irreversible	0	999999	0	0	-.02395581165624891
+19476	IBUTOHt	isobutyl alcohol transport (extracellular)	Reversible	-999999	999999	0	0	0
+19489	IBUTOHtm	isobutyl alcohol transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+486	ICDHxm	Isocitrate dehydrogenase (NAD+)	Irreversible	0	999999	0	0	-.004157620204803524
+3109	ICDHy	isocitrate dehydrogenase (NADP)	Irreversible	0	999999	0	.2510539205902178	0
+493	ICDHym	Isocitrate dehydrogenase (NADP+)	Irreversible	0	999999	0	.2632243994669516	0
+489	ICDHyp	Isocitrate dehydrogenase (NADP+)	Irreversible	0	999999	0	0	-.011878914870867213
+546	ICL	Isocitrate lyase	Irreversible	0	999999	0	.015000681820009486	0
+19487	ID3ACALDt	Indoleacetaldehyde transport (extracellular)	Reversible	-999999	999999	0	0	0
+1671	ID3ACALDtm	indole-3-acetaldehyde mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+1020	IG3PS	Imidazole-glycerol-3-phosphate synthase	Irreversible	0	999999	0	.019085496155576216	0
+341	IGPDH	imidazoleglycerol-phosphate dehydratase	Irreversible	0	999999	0	.019085496155576216	0
+334	IGPS	indole-3-glycerol-phosphate synthase	Irreversible	0	999999	0	.008175385985194036	0
+319	ILETA	isoleucine transaminase	Reversible	-999999	999999	0	-.055471721103763756	0
+1326	ILETAm	isoleucine transaminase, mitochondrial	Reversible	-999999	999999	0	0	0
+1025	ILETRS	Isoleucyl-tRNA synthetase	Irreversible	0	999999	0	0	-.06949165199457327
+1695	ILETRSm	isoleucyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.06058246584142281
+1365	ILEt2r	L-isoleucine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+18738	ILEt6	L-isoleucine transport in via proton antiport (vacuolar)	Irreversible	0	999999	0	0	0
+18745	ILEt7	L-isoleucine transport out via proton symport, vacuolar	Irreversible	0	999999	0	0	0
+21741	ILEtmi	Isoleucine transport from mitochondria to cytosol	Irreversible	0	999999	0	0	-.000000000000000006938893903907228
+399	IMPC	IMP cyclohydrolase	Reversible	-999999	999999	0	-.04758132216524347	0
+400	IMPD	IMP dehydrogenase	Irreversible	0	999999	0	.014217687105941304	0
+2389	IND3ACtm	indole-3-acetate mitochondrial transport via diffusion	Reversible	-999999	999999	0	0	0
+19478	IND3ETHt	Tryptophol transport (extracellular	Reversible	-999999	999999	0	0	0
+19491	IND3ETHtm	Tryptophol transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+3216	INDPYRD	Indole-3-pyruvate decarboxylase	Reversible	-999999	999999	0	0	0
+1082	INSK	insosine kinase	Irreversible	0	999999	0	0	0
+572	INSTt2	inositol transport in via proton symport	Irreversible	0	999999	0	0	0
+2721	INSt2	inosine transport in via proton symport	Irreversible	0	999999	0	0	0
+18498	IPC124PLC_SC	inositol phosphorylceramide, ceramide-1 (24C) phospholipase C	Irreversible	0	999999	0	0	-.02375782974173469
+18499	IPC126PLC_SC	inositol phosphorylceramide, ceramide-1 (26C) phospholipase C	Irreversible	0	999999	0	0	-.02375782974173469
+18500	IPC224PLC_SC	inositol phosphorylceramide, ceramide-2 (24C) phospholipase C	Irreversible	0	999999	0	0	-.02375782974173469
+18501	IPC226PLC_SC	inositol phosphorylceramide, ceramide-2 (26C) phospholipase C	Irreversible	0	999999	0	0	-.02375782974173469
+18502	IPC324PLC_SC	inositol phosphorylceramide, ceramide-3 (24C) phospholipase C	Irreversible	0	999999	0	0	-.023757829741734703
+18503	IPC326PLC_SC	inositol phosphorylceramide, ceramide-3 (26C) phospholipase C	Irreversible	0	999999	0	0	-.023757829741734703
+1637	IPCS124_SC	Inositol phosphorylceramide synthase (ceramide-1, 24C), yeast-specific	Irreversible	0	999999	0	0	0
+1636	IPCS126_SC	Inositol phosphorylceramide synthase (ceramide-1, 26C), yeast-specific	Irreversible	0	999999	0	0	0
+1635	IPCS224_SC	Inositol phosphorylceramide synthase (ceramide-2, 24C), yeast-specific	Irreversible	0	999999	0	0	0
+3010	IPCS226_SC	Inositol phosphoryceramide synthase (ceramide-2, 26C), yeast-specific	Irreversible	0	999999	0	0	0
+3093	IPCS324_SC	Inositol phosphorylceramide synthase (ceramide-3, 24C), yeast-specific	Irreversible	0	999999	0	0	0
+3008	IPCS326_SC	Inositol phosphorylceramide synthase (ceramide-3, 26C), yeast-specific	Irreversible	0	999999	0	0	0
+107	IPDDI	isopentenyl-diphosphate D-isomerase	Reversible	-999999	999999	0	.0012666090962976675	0
+19589	IPDPtm	Isopentenyl diphosphate transport, mitochondrial	Reversible	-999999	999999	0	0	0
+318	IPMD	3-isopropylmalate dehydrogenase	Irreversible	0	999999	0	.08532339457787014	0
+322	IPPMIa	3-isopropylmalate dehydratase	Reversible	-999999	999999	0	-.08532339457787014	0
+323	IPPMIb	2-isopropylmalate hydratase	Reversible	-999999	999999	0	-.08532339457787014	0
+2858	IPPS	2-isopropylmalate synthase	Irreversible	0	999999	0	0	-.016630480819214144
+1327	IPPSm	2-isopropylmalate synthase, mitochondrial	Irreversible	0	999999	0	.08532339457787014	0
+3271	ITCOALm	Itaconate--CoA ligase (ADP-forming), mitochondrial	Reversible	-999999	999999	0	0	0
+1325	KARA1im	acetohydroxy acid isomeroreductase, mitochondrial	Irreversible	0	999999	0	.16149265977795257	0
+2962	KARA2im	ketol-acid reductoisomerase (2-Aceto-2-hydroxybutanoate), mitochondrial	Irreversible	0	999999	0	.055471721103763756	0
+2675	KYN	kynureninase	Irreversible	0	999999	0	0	-.076816982831608
+3489	KYN3OX	kynurenine 3-monooxygenase	Irreversible	0	999999	0	0	-.4890153288507002
+1830	Kt2r	potassium reversible transport  via proton symport	Reversible	-999999	999999	0	0	0
+20457	L-LACD2cm	L-Lactate dehydrogenase, cytosolic/mitochondrial	Irreversible	0	999999	0	0	-.00861221328137872
+1552	L-LACt2r	L-lactate reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+1295	L-LACtm	L-lactate transport, mitochondrial	Reversible	-999999	999999	0	0	0
+14004	LALDO3	L-Lactaldehyde:NADP+ 1-oxidoreductase	Irreversible	0	999999	0	0	0
+15161	LANOSTAT_SC	Acyl-CoA:lanosterol acyltransferase, yeast-specific	Irreversible	0	999999	0	0	0
+15210	LANOSTESTH_SC	lanosterol ester hydrolase, yeast-specific	Irreversible	0	999999	0	0	-.024957600143692082
+15209	LANOSTESTH_SCe	lanosterol ester hydrolase, yeast-specific (extracellular)	Irreversible	0	999999	0	0	0
+15216	LANOSTt	lanosterol reversible transport	Reversible	-999999	999999	0	0	0
+2949	LCADi	lactaldehyde dehydrogenase	Irreversible	0	999999	0	0	0
+19561	LCYSTintv	L-cystine transport via proton symport (vacuolar)	Irreversible	0	999999	0	0	0
+82	LEUTA	leucine transaminase	Reversible	-999999	999999	0	-.08532339457787014	0
+705	LEUTAm	leucine transaminase, mitochondrial	Reversible	-999999	999999	0	0	0
+2915	LEUTRS	Leucyl-tRNA synthetase	Irreversible	0	999999	0	0	-.044545930765752056
+1696	LEUTRSm	leucyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.01682846273372851
+2969	LEUt2r	L-leucine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+18739	LEUt6	L-leucine transport in via proton antiport (vacuolar)	Irreversible	0	999999	0	0	0
+18746	LEUt7	L-leucine transport out via proton symport, vacuolar	Irreversible	0	999999	0	0	0
+457	LGTHL	lactoylglutathione lyase	Irreversible	0	999999	0	0	0
+3410	LNS14DM	cytochrome P450 lanosterol 14-alpha-demethylase (NADP)	Irreversible	0	999999	0	0	-.01247286061441058
+19287	LNS14DMx	cytochrome P450 lanosterol 14-alpha-demethylase (NAD)	Irreversible	0	999999	0	.0006333045481488337	0
+1995	LNSTLS	lanosterol synthase	Irreversible	0	999999	0	.0006333045481488337	0
+13836	LPCAT_SC	Lyso-phosphatidylcholine acyltransferase acyltransferase, yeast-specific	Irreversible	0	999999	0	.0018999136444465014	0
+3784	LPP_SC	lipid phosphate phosphatase, yeast-specific	Irreversible	0	999999	0	0	-.01187891487086723
+13924	LSERDHr	L-serine dehydrogenase	Reversible	-999999	999999	0	0	0
+2918	LYSTRS	Lysyl-tRNA synthetase	Irreversible	0	999999	0	0	-.07939074772029595
+1337	LYSTRSm	Lysyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.07345129028486229
+1941	LYSt2m	Lysine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1373	LYSt2r	L-lysine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+18734	LYSt6	L-lysine transport in via proton antiport (vacuolar)	Irreversible	0	999999	0	0	-.055632917978561486
+2669	MACACI	maleylacetoacetate isomerase	Irreversible	0	999999	0	0	0
+2165	MALOAAtp	malate/oxaloacetate shuttle	Reversible	-999999	999999	0	0	0
+2717	MALS	malate synthase	Irreversible	0	999999	0	0	-.023757829741734418
+1169	MALSp	malate synthase	Irreversible	0	999999	0	0	-.011878914870867192
+690	MALT	alpha-glucosidase	Irreversible	0	999999	0	0	0
+1546	MALTt2	maltose transport in via proton symport	Irreversible	0	999999	0	0	0
+1549	MALt2r	L-malate reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+985	MALtm	malate transport, mitochondrial	Reversible	-999999	999999	0	-.41097243804477457	0
+3674	MAN1PT	mannose-1-phosphate guanylyltransferase	Irreversible	0	999999	0	.23256670202247395	0
+244	MAN6PI	mannose-6-phosphate isomerase	Reversible	-999999	999999	0	-.23256670202247395	0
+2317	MANNANter	mannan endoplasmic reticulum transport via diffusion	Reversible	-999999	999999	0	-.23256670202247395	0
+1545	MANt2	D-mannose transport in via proton symport	Irreversible	0	999999	0	0	0
+1331	MCITDm	2-methylcitrate dehydratase, mitochondrial	Reversible	-999999	999999	0	.08238716440008918	0
+20493	MCITL2m	methylisocitrate lyase	Irreversible	0	999999	0	0	0
+20494	MCITSm	2-methylcitrate synthase	Irreversible	0	999999	0	0	-.04098225630449191
+3441	MCOATA	Malonyl-CoA-ACP transacylase	Reversible	-999999	999999	0	0	0
+3337	MCOATAm	Malonyl-CoA-ACP transacylase, mitochondrial	Reversible	-999999	999999	0	0	0
+541	MDH	malate dehydrogenase	Reversible	-999999	999999	0	.34412090259773265	0
+543	MDHm	malate dehydrogenase, mitochondrial	Reversible	-999999	999999	0	0	-.0000000000000000013010426069826053
+2716	MDHp	malate dehydrogenase, peroxisomal	Reversible	-999999	999999	0	0	0
+1630	MDRPD	5-Methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase	Irreversible	0	999999	0	0	0
+2942	ME1m	malic enzyme (NAD), mitochondrial	Irreversible	0	999999	0	0	-.008909186153150428
+540	ME2m	malic enzyme (NADP), mitochondrial	Irreversible	0	999999	0	0	-.004751565948346904
+1553	MELIBt2	melibiose transport in via symport	Irreversible	0	999999	0	0	0
+1265	MELTGH	Melibiitol galactohydrolase	Reversible	-999999	999999	0	0	0
+369	METAT	methionine adenosyltransferase	Irreversible	0	999999	0	.0053830886592650855	0
+2957	METB1	metb1	Irreversible	0	999999	0	0	-.011878914870867233
+7846	METS	methionine synthase	Irreversible	0	999999	0	.019977879837058662	0
+1026	METTRS	Methionyl-tRNA synthetase	Irreversible	0	999999	0	0	-.11344363701678206
+1693	METTRSm	methionyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.10750417958134839
+1939	METt2m	methionine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1366	METt2r	L-methionine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+105	MEVK1	mevalonate kinase (atp)	Irreversible	0	999999	0	0	-.000000000000000027755575615628914
+1912	MEVK2	mevalonate kinase (ctp)	Irreversible	0	999999	0	0	-.00000000000000008326672684688674
+1913	MEVK3	mevalonate kinase (gtp)	Irreversible	0	999999	0	0	-.000000000000000027755575615628914
+1914	MEVK4	mevalonate kinase (utp)	Irreversible	0	999999	0	.0037998272888930024	0
+3599	MFAPS_SC	methylene-fatty-acyl-phospholipid synthase, yeast-specific	Irreversible	0	999999	0	.0017271942222240916	0
+269	MGSA	methylglyoxal synthase	Irreversible	0	999999	0	0	-.02375782974173446
+1591	MHPGLUT	5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase	Irreversible	0	999999	0	0	0
+13720	MI13456PKn	inositol-1,3,4,5,6-pentakisphosphate 2-kinase, nuclear	Irreversible	0	999999	0	0	0
+10980	MI1345PKn	inositol-1,3,4,5-triphosphate 6-kinase, nucleus	Irreversible	0	999999	0	0	0
+10981	MI1456PKn	inositol-1,4,5,6- tetrakisphosphate 3-kinase, nucleus	Irreversible	0	999999	0	0	0
+10978	MI145P6Kn	inositol-1,4,5-triphosphate 6-kinase, nucleus	Irreversible	0	999999	0	0	0
+10979	MI145PKn	inositol-1,4,5-trisphosphate 3-kinase, nucleus	Irreversible	0	999999	0	0	0
+20513	MI145Ptn	1D-myo-Inositol 1,4,5-trisphosphate nuclear transport via diffusion	Reversible	-999999	999999	0	0	0
+2540	MI1PP	myo-inositol 1-phosphatase	Irreversible	0	999999	0	.001525688229631281	0
+2656	MI1PS	myo-Inositol-1-phosphate synthase	Irreversible	0	999999	0	.001525688229631281	0
+19592	MINOHPtn	inositol hexakisphosphate nuclear transport (diffusion)	Reversible	-999999	999999	0	0	0
+18522	MIP2C124PLC_SC	Mannose-(inositol-P)2-ceramide, ceramide-1 (24C) phospholipase C	Irreversible	0	999999	0	0	-.033062979723913685
+18527	MIP2C126PLC_SC	Mannose-(inositol-P)2-ceramide, ceramide-1 (26C) phospholipase C	Irreversible	0	999999	0	0	-.033062979723913685
+18528	MIP2C224PLC_SC	Mannose-(inositol-P)2-ceramide, ceramide-2 (24C) phospholipase C	Irreversible	0	999999	0	0	-.033062979723913685
+18529	MIP2C226PLC_SC	Mannose-(inositol-P)2-ceramide, ceramide-2 (26C) phospholipase C	Irreversible	0	999999	0	0	-.033062979723913685
+18530	MIP2C324PLC_SC	Mannose-(inositol-P)2-ceramide, ceramide-3 (24C) phospholipase C	Irreversible	0	999999	0	0	0
+18533	MIP2C326PLC_SC	Mannose-(inositol-P)2-ceramide, ceramide-3 (26C) phospholipase C	Irreversible	0	999999	0	0	0
+1889	MIP2CS124_SC	mannose-(inositol-P)2-ceramide synthase (ceramide-1, 24C), yeast-specific	Irreversible	0	999999	0	0	-.05939457435433637
+3097	MIP2CS126_SC	mannose-(inositol-P)2-ceramide synthase (ceramide-1, 26C), yeast-specific	Irreversible	0	999999	0	0	-.05939457435433637
+3058	MIP2CS224_SC	mannose-(inositol-P)2-ceramide synthase (ceramide-2, 26C), yeast specific	Irreversible	0	999999	0	0	-.05939457435433637
+1903	MIP2CS226_SC	mannose-(inositol-P)2-ceramide synthase (ceramide-2, 24C), yeast-specific	Irreversible	0	999999	0	0	-.05939457435433637
+1904	MIP2CS324_SC	mannose-(inositol-P)2-ceramide synthase (ceramide-3, 24C), yeast specific	Irreversible	0	999999	0	0	-.05939457435433637
+3059	MIP2CS326_SC	mannose-(inositol-P)2-ceramide synthase (ceramide-3, 26C), yeast-specific	Irreversible	0	999999	0	0	-.05939457435433637
+18508	MIPC124PLC_SC	Mannose-inositol phosphorylceramide, ceramide-1 (24C) phospholipase C	Irreversible	0	999999	0	0	-.033062979723913685
+18509	MIPC126PLC_SC	Mannose-inositol phosphorylceramide, ceramide-1 (26C) phospholipase C	Irreversible	0	999999	0	0	-.033062979723913685
+18510	MIPC224PLC_SC	Mannose-inositol phosphorylceramide, ceramide-2 (24C) phospholipase C	Irreversible	0	999999	0	0	-.033062979723913685
+18511	MIPC226PLC_SC	Mannose-inositol phosphorylceramide, ceramide-2 (26C) phospholipase C	Irreversible	0	999999	0	0	-.033062979723913685
+18513	MIPC324PLC_SC	Mannose-inositol phosphorylceramide, ceramide-3 (24C) phospholipase C	Irreversible	0	999999	0	0	0
+18515	MIPC326PLC_SC	Mannose-inositol phosphorylceramide, ceramide-3 (26C) phospholipase C	Irreversible	0	999999	0	0	0
+3610	MIPCS124_SC	mannose-inositiol phophorylceramide synthase (ceramide-1, 24C), yeast-specific	Irreversible	0	999999	0	0	-.10691023383780532
+3611	MIPCS126_SC	mannose-inositol phosphorylceramide synthase (ceramide-1, 26C), yeast-specific	Irreversible	0	999999	0	0	-.10691023383780532
+3613	MIPCS224_SC	mannose-inositol phosphorylceramide synthase (ceramide-2, 24C), yeast-specific	Irreversible	0	999999	0	0	-.10691023383780532
+3612	MIPCS226_SC	mannose-inositol phosphorylceramide synthase (ceramide-2, 26C), yeast-specific	Irreversible	0	999999	0	0	-.10691023383780532
+3614	MIPCS324_SC	mannose-inositol phosphorylceramide synthase (ceramide-3, 24C), yeast-specific	Irreversible	0	999999	0	0	-.13997321356171902
+3615	MIPCS326_SC	mannose-inositol phosphorylceramide synthase (ceramide-3, 26C), yeast-specific	Irreversible	0	999999	0	0	-.13997321356171902
+2422	MMETt2	S-methylmethionine permease	Irreversible	0	999999	0	0	0
+2786	MOHMT	3-methyl-2-oxobutanoate hydroxymethyltransferase	Irreversible	0	999999	0	0	0
+7109	MTAP	5'-methylthioadenosine phosphorylase	Irreversible	0	999999	0	0	0
+7850	MTHFC	methenyltetrahydrofolate cyclohydrolase	Reversible	-999999	999999	0	.0760771481749107	0
+7852	MTHFCm	methenyltetrahydrifikate cyclohydrolase, mitochondrial	Reversible	-999999	999999	0	0	0
+7853	MTHFD	methylenetetrahydrofolate dehydrogenase (NADP)	Reversible	-999999	999999	0	.0760771481749107	0
+7854	MTHFD2i	methylenetetrahydrofolate dehydrogenase (NAD)	Irreversible	0	999999	0	0	-.004157620204803524
+7855	MTHFDm	methylenetetrahydrofolate dehydrogenase (NADP), mitochondrial	Reversible	-999999	999999	0	0	0
+7858	MTHFR3	5,10-methylenetetrahydrofolatereductase (NADPH)	Irreversible	0	999999	0	.019977879837058662	0
+301	MTRI	5-methylthioribose-1-phosphate isomerase	Reversible	-999999	999999	0	0	0
+1414	NABTNO	N4-Acetylaminobutanal:NAD+ oxidoreductase	Irreversible	0	999999	0	0	0
+21800	NACt	Nicotinic acid transport	Reversible	-999999	999999	0	0	0
+1856	NADDPp	NAD diphosphatase, peroxisomal	Irreversible	0	999999	0	0	0
+1765	NADH2-u6cm	NADH dehydrogenase, cytosolic/mitochondrial	Irreversible	0	999999	0	0	-.000000000000000049873299934333204
+3030	NADH2-u6m	NADH dehydrogenase, mitochondrial	Irreversible	0	999999	0	0	-.000000000000000049873299934333204
+33	NADK	NAD kinase	Irreversible	0	999999	0	0	-.01187891487086723
+2999	NADKm	NAD kinase, mitochondrial	Irreversible	0	999999	0	0	-.008909186153150395
+171	NADN	NAD nucleosidase	Irreversible	0	999999	0	0	0
+1817	NADNm	NAD nucleosidase, mitochondrial	Irreversible	0	999999	0	0	-.002969728717716798
+811	NADPPPS	NADP phosphatase	Irreversible	0	999999	0	0	0
+1574	NADPPPSm	NADP phosphatase	Irreversible	0	999999	0	.000000000000000006938893903907228	0
+21798	NADPt	NADP transporter	Reversible	-999999	999999	0	-.000000000000009728329253277934	0
+3546	NADS1	NAD synthase (nh3)	Irreversible	0	999999	0	0	0
+5531	NADS1n	NAD synthase (nh3), nuclear	Irreversible	0	999999	0	0	0
+19526	NADtn	NAD transport, nuclear through pores	Reversible	-999999	999999	0	0	0
+1745	NAPRT	NAPRTase	Irreversible	0	999999	0	0	-.2686614579961134
+1816	NAPRTm	NAPRTase, mitochondrial	Irreversible	0	999999	0	0	-.27163118671383024
+1085	NAt3_1	sodium proton antiporter (H:NA is 1:1)	Reversible	-999999	999999	0	0	0
+796	NDP1	nucleoside-diphosphatase (ADP)	Irreversible	0	999999	0	0	-.01187891487086723
+798	NDP3	nucleoside-diphosphatase (GDP)	Irreversible	0	999999	0	0	-.01187891487086723
+1857	NDP3g	nucleoside-diphosphatase (GDP), Golgi	Irreversible	0	999999	0	0	-.19936778791605456
+799	NDP4	nucleoside-diphosphatase (dGDP)	Irreversible	0	999999	0	0	-.01187891487086723
+802	NDP7	nucleoside-diphosphatase (UDP)	Irreversible	0	999999	0	0	-.01187891487086723
+2816	NDPK1	nucleoside-diphosphate kinase (ATP:GDP)	Reversible	-999999	999999	0	0	0
+190	NDPK2	nucleoside-diphosphate kinase (ATP:UDP)	Reversible	-999999	999999	0	.501059043867209	0
+191	NDPK3	nucleoside-diphosphate kinase (ATP:CDP)	Reversible	-999999	999999	0	-.007829947140749215	0
+192	NDPK4	nucleoside-diphosphate kinase (ATP:dTDP)	Reversible	-999999	999999	0	0	0
+443	NDPK5	nucleoside-diphosphate kinase (ATP:dGDP)	Reversible	-999999	999999	0	-.0006908776888896367	0
+132	NDPK6	nucleoside-diphosphate kinase (ATP:dUDP)	Reversible	-999999	999999	0	-.001727194222224092	0
+2801	NDPK7	nucleoside-diphosphate kinase (ATP:dCDP)	Reversible	-999999	999999	0	0	0
+133	NDPK8	nucleoside-diphosphate kinase (ATP:dADP)	Reversible	-999999	999999	0	0	0
+1438	NDPK9	nucleoside-diphosphate kinase (ATP:IDP)	Reversible	-999999	999999	0	0	0
+19438	NFORTYRt	N,N-bisformyl-dityrosine transport (extracellular)	Irreversible	0	999999	0	0	0
+19436	NFTYROX	N-formyltyrosine oxidase	Irreversible	0	999999	0	0	0
+1382	NH4t	ammonia reversible transport	Reversible	-999999	999999	0	1.6110288961514074	0
+18462	NH4ti	ammonia transport (efflux, cytosol to extracellular)	Irreversible	0	999999	0	0	0
+1417	NH4tm	NH3 mitochondrial transport	Reversible	-999999	999999	0	0	0
+19374	NH4tn	ammonia nuclear transport	Reversible	-999999	999999	0	0	0
+2280	NH4tp	ammonia peroxisomal transport	Reversible	-999999	999999	0	0	0
+146	NMNAT	nicotinamide-nucleotide adenylyltransferase	Irreversible	0	999999	0	0	-.1775897773194646
+1811	NMNATm	nicotinamide-nucleotide adenylyltransferase, mitochondrial	Irreversible	0	999999	0	0	-.13898330398914616
+1154	NMNTP	nmntp	Irreversible	0	999999	0	0	-.01187891487086723
+2276	NMNt2m	NMN mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+2277	NMNt2p	NMN peroxisomal transport via proton symport	Reversible	-999999	999999	0	0	0
+3317	NNAMr	nicotinamidase, reversible	Reversible	-999999	999999	0	0	0
+3316	NNAMrm	nicotinamidase, reversible, mitochondrial	Reversible	-999999	999999	0	0	0
+173	NNAT	nicotinate-nucleotide adenylyltransferase	Irreversible	0	999999	0	0	0
+1810	NNATm	nicotinate-nucleotide adenylyltransferase, mitochondrial	Irreversible	0	999999	0	0	0
+2769	NNDPR	nicotinate-nucleotide diphosphorylase (carboxylating)	Irreversible	0	999999	0	0	0
+1809	NNDPRm	nicotinate-nucleotide diphosphorylase (carboxylating), mitochondrial	Irreversible	0	999999	0	0	0
+10512	NNMT	Nicotinamide N-methyltransferase	Irreversible	0	999999	0	0	-.04217014779157863
+2697	NTD1	5'-nucleotidase (dUMP)	Irreversible	0	999999	0	0	-.01187891487086723
+175	NTD10	5'-nucleotidase (XMP)	Irreversible	0	999999	0	0	-.023757829741734487
+176	NTD11	5'-nucleotidase (IMP)	Irreversible	0	999999	0	0	-.01187891487086723
+448	NTD2	5'-nucleotidase (UMP)	Irreversible	0	999999	0	0	-.01187891487086723
+449	NTD3	5'-nucleotidase (dCMP)	Irreversible	0	999999	0	0	0
+450	NTD4	5'-nucleotidase (CMP)	Irreversible	0	999999	0	0	0
+451	NTD5	5'-nucleotidase (dTMP)	Irreversible	0	999999	0	0	0
+452	NTD6	5'-nucleotidase (dAMP)	Irreversible	0	999999	0	0	-.011878914870867202
+2698	NTD7	5'-nucleotidase (AMP)	Irreversible	0	999999	0	0	-.011878914870867202
+453	NTD8	5'-nucleotidase (dGMP)	Irreversible	0	999999	0	0	-.011878914870867202
+174	NTD9	5'-nucleotidase (GMP)	Irreversible	0	999999	0	0	-.01187891487086723
+748	NTP3	nucleoside-triphosphatase (GTP)	Irreversible	0	999999	0	0	-.01187891487086723
+2745	NTP4	nucleoside-triphosphatase (dGTP)	Irreversible	0	999999	0	0	-.011878914870867258
+3865	NTRLASE	nitrilase	Irreversible	0	999999	0	0	0
+3670	NTRLASE2	nitrilase	Irreversible	0	999999	0	0	0
+3866	NTRLASE3	nitrilase	Irreversible	0	999999	0	0	0
+1298	O2t	o2 transport (diffusion)	Reversible	-999999	999999	0	2	0
+2158	O2ter	O2  transport, endoplasmic reticulum	Reversible	-999999	999999	0	.0006333045481488337	0
+762	O2tm	O2 transport (diffusion)	Reversible	-999999	999999	0	1.9839543656755383	0
+21797	OAAt	Oxaloacetate transport	Reversible	-999999	999999	0	0	0
+2760	OAAt2m	oxaloacetate transport, mitochondrial	Reversible	-999999	999999	0	.5231824893485998	0
+8371	OBDHm	2-Oxobutanoate dehydrogenase	Irreversible	0	999999	0	0	0
+3550	OCBTi	ornithine carbamoyltransferase, irreversible	Irreversible	0	999999	0	.04626001858523526	0
+1927	OCDCAt	Octadecanoate (n-C18:0) transport in via uniport	Irreversible	0	999999	0	0	0
+1928	OCDCEAt	Octadecenoate (n-C18:1) transport in via uniport	Irreversible	0	999999	0	0	0
+1929	OCDCYAt	Octadecynoate (n-C18:2) transport in via uniport	Irreversible	0	999999	0	0	0
+19029	OHACT1	Alcohol Acetyltransferase (ethanol)	Irreversible	0	999999	0	0	0
+19034	OHACT2	Alcohol Acetyltransferase (isoamyl alcohol)	Irreversible	0	999999	0	0	0
+19045	OHACT3	Alcohol Acetyltransferase (2-methylbutanol)	Irreversible	0	999999	0	0	-.02395581165624891
+19050	OHACT4	Alcohol Acetyltransferase (isobutyl alcohol)	Irreversible	0	999999	0	0	0
+19051	OHACT5	Alcohol Acetyltransferase (Phenylethanol alcohol)	Irreversible	0	999999	0	0	-.02395581165624891
+1731	OHPBAT	O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase	Reversible	-999999	999999	0	0	0
+912	OMCDC	2-Oxo-4-methyl-3-carboxypentanoate decarboxylation	Irreversible	0	999999	0	.08532339457787014	0
+2961	OMCDCm	2-oxo-4-methyl-3-carboxypentanoate decarboxylation	Irreversible	0	999999	0	0	-.015838553161156257
+446	OMPDC	orotidine-5'-phosphate decarboxylase	Irreversible	0	999999	0	.031837946829664086	0
+1218	ORNDC	Ornithine Decarboxylase	Irreversible	0	999999	0	0	0
+311	ORNTA	ornithine transaminase	Irreversible	0	999999	0	0	-.0011878914870866904
+2966	ORNTACim	ornithine transacetylase, irreversible, mitochondrial	Irreversible	0	999999	0	.04626001858523526	0
+1375	ORNt2r	orntithine reversible transport in via proton symport	Reversible	-999999	999999	0	0	0
+2435	ORNt3m	ornithine mitochondrial transport via proton antiport	Reversible	-999999	999999	0	.04626001858523526	0
+447	ORPT	orotate phosphoribosyltransferase	Reversible	-999999	999999	0	-.031837946829664086	0
+2665	OXAGm	non-enzymatic reaction	Reversible	-999999	999999	0	.08238716440008918	0
+1514	OXO2Ctm	2-oxodicarboylate transporter, mitochondrial	Reversible	-999999	999999	0	0	0
+3319	P5CDm	1-pyrroline-5-carboxylate dehydrogenase, mitochondrial	Irreversible	0	999999	0	0	-.019006263793387546
+3629	P5CR	pyrroline-5-carboxylate reductase	Irreversible	0	999999	0	.047411481400051324	0
+19485	PACALDt	Phenylacetaldehyde transport (extracellular)	Reversible	-999999	999999	0	0	0
+19486	PACALDtm	Phenylacetaldehyde transport (mitochondrial)	Reversible	-999999	999999	0	0	0
+3787	PAK_SC	phosphatidate kinase, yeast-specific	Irreversible	0	999999	0	0	0
+1757	PAN4Ptm	panthetheine 4'-phosphate reversible mitochondrial transport	Reversible	-999999	999999	0	0	0
+3551	PANTS	pantothenate synthase	Irreversible	0	999999	0	0	0
+1768	PANTtm	pantothenate mitochondrial transport	Reversible	-999999	999999	0	0	0
+352	PAPSR	phosphoadenylyl-sulfate reductase (thioredoxin)	Irreversible	0	999999	0	.01649470482224008	0
+1643	PAPt	PAP reversible uniport	Reversible	-999999	999999	0	0	0
+3194	PAPtm	Adenosine 3',5'-bisphosphate mitochondrial transport	Reversible	-999999	999999	0	.0000000000000008881784197001252	0
+1931	PAtm_SC	phosphatidate reversible transport, mitochondrial, yeast-specific	Reversible	-999999	999999	0	0	0
+2840	PC	pyruvate carboxylase	Irreversible	0	999999	0	.5651955226524636	0
+13834	PCDAGAT	phosphatidylcholine-diacylglycerol acyltransferase	Irreversible	0	999999	0	.000018999136444465012	0
+2655	PDE1	3',5'-cyclic-nucleotide phosphodiesterase	Irreversible	0	999999	0	0	-.02375782974173446
+2666	PDE2	3',5'-cyclic-nucleotide phosphodiesterase	Irreversible	0	999999	0	0	0
+2667	PDE3	3',5'-cyclic-nucleotide phosphodiesterase	Irreversible	0	999999	0	0	0
+4690	PDE4	3',5'-cyclic-nucleotide phosphodiesterase	Irreversible	0	999999	0	0	0
+3259	PDE5	3',5'-cyclic-nucleotide phosphodiesterase	Irreversible	0	999999	0	0	0
+233	PDHcm	pyruvate dehydrogenase (dihydrolipoamide dehydrogenase)	Irreversible	0	999999	0	0	0
+11	PDHm	pyruvate dehydrogenase	Irreversible	0	999999	0	.7083890427218172	0
+1729	PDX5PO	pyridoxine 5'-phosphate oxidase	Reversible	-999999	999999	0	0	0
+19590	PENDPtm	all-trans-Pentaprenyl diphosphate transport, mitochondrial	Reversible	-999999	999999	0	0	0
+3868	PEPAT	Peptide alpha-N-acetyltransferase	Irreversible	0	999999	0	0	-.02395581165624891
+1788	PEPDt3	peptide transport in via proton symport	Irreversible	0	999999	0	0	0
+2385	PETHCT	phosphoethanolamine cytidyltransferase	Irreversible	0	999999	0	0	0
+3598	PETOHM_SC	phosphatidylethanolamine N-methyltransferase, yeast-specific	Irreversible	0	999999	0	.0017271942222240916	0
+2221	PEtg_SC	phosphatidylethanolamine Golgi transport, yeast-specific	Reversible	-999999	999999	0	0	0
+2223	PEtm_SC	phosphatidylethanolamine mitochondrial transport, yeast-specific	Reversible	-999999	999999	0	-.00003022589888892161	0
+2222	PEtv_SC	phosphatidylethanolamine vacuolar transport, yeast-specific	Reversible	-999999	999999	0	0	0
+267	PFK	phosphofructokinase	Irreversible	0	999999	0	8.924879730095055	0
+698	PFK26	6-phosphofructo-2-kinase	Irreversible	0	999999	0	0	-.01187891487086723
+1208	PFK_2	Phosphofructokinase	Irreversible	0	999999	0	0	-.01187891487086723
+1238	PFK_3	phosphofructokinase (s7p)	Irreversible	0	999999	0	0	0
+475	PGAMT	phosphoglucosamine mutase	Reversible	-999999	999999	0	0	0
+2865	PGCD	phosphoglycerate dehydrogenase	Irreversible	0	999999	0	.16404890722685778	0
+271	PGI	glucose-6-phosphate isomerase	Reversible	-999999	999999	0	8.706603802182084	0
+273	PGK	phosphoglycerate kinase	Reversible	-999999	999999	0	-18.03820442551705	0
+278	PGL	6-phosphogluconolactonase	Irreversible	0	999999	0	.8024700267210889	0
+272	PGM	phosphoglycerate mutase	Reversible	-999999	999999	0	-17.874155518290195	0
+2819	PGMT	phosphoglucomutase	Reversible	-999999	999999	0	-.48266442540052246	0
+3585	PGPPAm_SC	phosphatidylglycerol phosphate phosphatase A, yeast-specific, mitochondrial	Irreversible	0	999999	0	0	-.7129843494643223
+3492	PHCDm	L-1-pyrroline-3-hydroxy-5-carboxylate dehydrogenase	Irreversible	0	999999	0	0	.00000000000000000043368086899420177
+3565	PHCHGSm	L-1-Pyrroline-3-hydroxy-5-carboxylate spontaneous conversion to L-4-Hydroxyglutamate semialdehyde, mitochondrial	Reversible	-999999	999999	0	0	0
+19474	PHEACt	Phenethyl acetate transport (extracellular)	Irreversible	0	999999	0	0	0
+2860	PHETA1	phenylalanine transaminase	Reversible	-999999	999999	0	-.03854521772596765	0
+1036	PHETRS	Phenylalanyl-tRNA synthetase	Irreversible	0	999999	0	0	-.09542728279596675
+1698	PHETRSm	phenylalanyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.08948782536053308
+1938	PHEt2m	Phenylalanine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1367	PHEt2r	L-phenylalanine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+13904	PI35BP5P_SC	1-phosphatidylinositol-3,5-bisphosphate 5-phosphatase, yeast-specific	Irreversible	0	999999	0	0	0
+3623	PI3P4K_SC	phosphatidylinositol-3-phosphate 4-kinase, yeast-specific	Irreversible	0	999999	0	0	-.7567383525720165
+13739	PI3P5K_SC	phosphatidylinositol-3-phosphate 5-kinase, yeast-specfic	Irreversible	0	999999	0	0	-.01187891487086723
+13718	PI45BP5P_SC	1-phosphatidylinositol-4,5-bisphosphate 5-phosphatase, yeast-specific	Irreversible	0	999999	0	0	-.01187891487086723
+3626	PI45BPP_SC	1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase, yeast-specific	Irreversible	0	999999	0	0	0
+3624	PI4P5K_SC	phosphatidylinositol-4-phosphate 5-kinase, yeast-specfic	Irreversible	0	999999	0	0	0
+3618	PIN3K_SC	1-phosphatidylinositol 3-kinase, yeast-specific	Irreversible	0	999999	0	0	0
+3620	PIN4K_SC	phosphatidylinositol 4-kinase, yeast-specific	Irreversible	0	999999	0	0	-.01187891487086723
+3622	PIN4Kn_SC	phosphatidylinositol 4-kinase, nuclear, yeast-specifc	Irreversible	0	999999	0	0	0
+3616	PINOS_SC	phosphatidylinositol synthase, yeast-specific	Irreversible	0	999999	0	.001525688229631281	0
+2757	PIt2m	phosphate transporter, mitochondrial	Reversible	-999999	999999	0	3.968929633012557	0
+2154	PIt2n	phosphate nuclear transport via proton symport	Reversible	-999999	999999	0	0	0
+2427	PIt2p	phosphate peroxisomal transport via proton symport	Reversible	-999999	999999	0	0	0
+1560	PIt2r	phosphate reversible transport via symport	Reversible	-999999	999999	0	.05691104962229865	0
+2485	PIt2v	phosphate vacuolar transport via proton symport	Reversible	-999999	999999	0	0	0
+2994	PIt5m	phosphate transport via hydroxide ion symport, mitochondrial	Reversible	-999999	999999	0	0	0
+15194	PLBP1I_SCe	phospholipase B (phosphatidylinositol), yeast-specific (extracellular)	Irreversible	0	999999	0	0	0
+15182	PLBPC_SC	phospholipase B (phosphatidylcholine), yeast-specific	Irreversible	0	999999	0	0	0
+15190	PLBPC_SCe	phospholipase B (phosphatidylcholine), yeast-specific (extracellular)	Irreversible	0	999999	0	0	0
+13107	PLD_SC	phospholipase D, yeast-specific	Irreversible	0	999999	0	0	-.035636744612601745
+243	PMANM	phosphomannomutase	Reversible	-999999	999999	0	-.23256670202247395	0
+808	PMDPHT	pyrimidine phosphatase	Irreversible	0	999999	0	.0002849870466669752	0
+3601	PMETM_SC	Phosphatidyl-N-methylethanolamine N-methyltransferase, yeast-specific	Irreversible	0	999999	0	.0017271942222240916	0
+2795	PMEVK	phosphomevalonate kinase	Irreversible	0	999999	0	.0037998272888930024	0
+10983	PMI12346PH	5-diphosphoinositol-1,2,3,4,6-pentakisphosphate diphosphohydrolase	Irreversible	0	999999	0	0	-.01187891487086723
+13734	PMI12346PS	5-diphosphoinositol-1,2,3,4,6-pentakisphosphate synthase	Irreversible	0	999999	0	0	0
+10984	PMI1346PH	diphosphoinositol-1,3,4,6-tetrakisphosphate diphosphohydrolase	Irreversible	0	999999	0	0	-.01187891487086723
+13729	PMI1346PS	diphosphoinositol-1,3,4,6-tetrakisphosphate synthase	Irreversible	0	999999	0	0	0
+2781	PMPK	phosphomethylpyrimidine kinase	Irreversible	0	999999	0	0	0
+15045	PNP	purine-nucleoside phosphorylase	Reversible	-999999	999999	0	0	0
+2788	PNTK	pantothenate kinase	Irreversible	0	999999	0	0	0
+3027	PNTOt2	Pantothenate reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+1401	POLYAO	polyamine oxidase	Irreversible	0	999999	0	0	0
+3433	POLYAO2	poylamine oxidase	Irreversible	0	999999	0	0	-.17234325658483185
+13231	POLYAO3	poylamine oxidase	Irreversible	0	999999	0	0	-.11077088117083678
+295	PPA	inorganic diphosphatase	Irreversible	0	999999	0	1.1556282315486652	0
+458	PPAm	inorganic diphosphatase	Irreversible	0	999999	0	-.0000000000000008881784197001252	0
+3553	PPBNGS	porphobilinogen synthase	Irreversible	0	999999	0	0	0
+87	PPCDC	phosphopantothenoylcysteine decarboxylase	Irreversible	0	999999	0	0	0
+296	PPCK	phosphoenolpyruvate carboxykinase	Irreversible	0	999999	0	0	-.01187891487086723
+258	PPM	phosphopentomutase	Reversible	-999999	999999	0	0	0
+3555	PPNCL2	phosphopantothenate-cysteine ligase	Irreversible	0	999999	0	0	-.377155547150034
+2861	PPND	prephenate dehydrogenase	Irreversible	0	999999	0	0	-.004157620204803527
+1388	PPND2	prephenate dehydrogenase (NADP)	Irreversible	0	999999	0	.02936230177780956	0
+3849	PPNDH	prephenate dehydratase	Irreversible	0	999999	0	.03854521772596765	0
+1761	PPPG9tm	protoporphyrinogen IX mitochondrial transport	Reversible	-999999	999999	0	0	0
+3296	PPPGOm	protoporphyrinogen oxidase, mitochondrial	Irreversible	0	999999	0	0	-.09324948173630745
+19564	PPTTm	trans-pentaprenyltranstransferase, mitochondrial	Irreversible	0	999999	0	0	0
+18957	PPYRDC	Phenylpyruvate decarboxylase	Irreversible	0	999999	0	0	0
+3556	PRAGSr	phosphoribosylglycinamide synthase	Reversible	-999999	999999	0	.028495826009667248	0
+3640	PRAIS	phosphoribosylaminoimidazole synthase	Irreversible	0	999999	0	.028495826009667248	0
+1051	PRAIi	phosphoribosylanthranilate isomerase (irreversible)	Irreversible	0	999999	0	.008175385985194036	0
+2864	PRAMPC	phosphoribosyl-AMP cyclohydrolase	Irreversible	0	999999	0	.019085496155576216	0
+3641	PRASCS	phosphoribosylaminoimidazolesuccinocarboxamide synthase	Reversible	-999999	999999	0	.028495826009667248	0
+344	PRATPP	phosphoribosyl-ATP pyrophosphatase	Irreversible	0	999999	0	.019085496155576216	0
+3558	PRFGS	phosphoribosylformylglycinamidine synthase	Irreversible	0	999999	0	.028495826009667248	0
+1052	PRMICIi	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase (irreversible)	Irreversible	0	999999	0	.019085496155576216	0
+3652	PRO1xm	proline oxidase (NAD), mitochondrial	Irreversible	0	999999	0	0	0
+2917	PROTRS	Prolyl-tRNA synthetase	Irreversible	0	999999	0	0	-.056820809465648214
+1368	PROt2r	L-proline reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+1502	PROtm	L-proline transport, mitochondrial	Reversible	-999999	999999	0	0	0
+343	PRPPS	phosphoribosylpyrophosphate synthetase	Reversible	-999999	999999	0	.08759465498010159	0
+1507	PRPPtm	PRPP reversible transport, mitochondrial	Reversible	-999999	999999	0	0	0
+1387	PSCVTi	3-phosphoshikimate 1-carboxyvinyltransferase, irreversible	Irreversible	0	999999	0	.07608290548897124	0
+3589	PSERDg_SC	phosphatidylserine decarboxylase, yeast-specific, Golgi	Irreversible	0	999999	0	0	-.0029697287177168352
+3590	PSERDm_SC	phosphatidylserine decarboxylase, yeast-specific, mitochondrial	Irreversible	0	999999	0	.003022589888892161	0
+3591	PSERDv_SC	phosphatidylserine decarboxylase, yeast-specific, vacuolar	Irreversible	0	999999	0	0	-.0029697287177168352
+3588	PSERS_SC	phosphatidylserine synthase, yeast-specific	Reversible	-999999	999999	0	.003511961585188987	0
+3587	PSERSm_SC	phosphatidylserine synthase, yeast-specific, mitochondrial	Reversible	-999999	999999	0	0	0
+913	PSERT	phosphoserine transaminase	Irreversible	0	999999	0	.16404890722685778	0
+5554	PSPH1Pter	phytosphinganine 1-phosphate endoplasmic reticular transport	Irreversible	0	999999	0	0	0
+2387	PSPHPL	phytosphingosine phosphate lyase	Irreversible	0	999999	0	0	0
+1880	PSPHS	Phytosphingosine synthesis	Irreversible	0	999999	0	0	0
+4642	PSP_L	phosphoserine phosphatase (L-serine)	Irreversible	0	999999	0	.16404890722685778	0
+2218	PStg_SC	phosphatidylserine Golgi transport, yeast-specific	Reversible	-999999	999999	0	0	0
+2220	PStm_SC	phosphatidylserine mitochondrial  transport, yeast-specific	Reversible	-999999	999999	0	.00003022589888892161	0
+2219	PStv_SC	phosphatidylserine vacuolar transport, yeast-specific	Reversible	-999999	999999	0	0	0
+2225	PTD1INOtn_SC	phosphatidyl-1D-myo-insoitol nuclear transport, yeast-specific	Reversible	-999999	999999	0	0	0
+2226	PTD4INOtn_SC	phosphatidyl-1D-myo-4-inositol nuclear transport, yeast-specific	Reversible	-999999	999999	0	0	0
+18872	PTE10x	peroxisomal acyl-CoA thioesterase	Irreversible	0	999999	0	0	-.01187891487086723
+18873	PTE11x	peroxisomal acyl-CoA thioesterase	Irreversible	0	999999	0	0	-.01187891487086723
+18874	PTE12x	peroxisomal acyl-CoA thioesterase	Irreversible	0	999999	0	0	-.01187891487086723
+13833	PTE2x	peroxisomal acyl-CoA thioesterase	Irreversible	0	999999	0	0	-.01187891487086723
+18869	PTE7x	peroxisomal acyl-CoA thioesterase	Irreversible	0	999999	0	0	-.01187891487086723
+18870	PTE8x	peroxisomal acyl-CoA thioesterase	Irreversible	0	999999	0	0	-.2021395347192574
+18871	PTE9x	peroxisomal acyl-CoA thioesterase	Irreversible	0	999999	0	0	-.01187891487086723
+1836	PTPATi	pantetheine-phosphate adenylyltransferase	Irreversible	0	999999	0	0	-.04157620204803528
+1743	PTPATim	panthetheine-phosphate adenylyltransferase	Irreversible	0	999999	0	-.0000000000000008881784197001252	0
+18430	PTRCt3i	putrescine transport in via proton antiport, irreversible	Irreversible	0	999999	0	0	0
+18431	PTRCtex2	putrescine excretion (cytosol to extracellular)	Irreversible	0	999999	0	0	0
+134	PUNP1	purine-nucleoside phosphorylase (Adenosine)	Reversible	-999999	999999	0	0	0
+1813	PUNP1m	purine-nucleoside phosphorylase (Adenosine), mitochondrial	Reversible	-999999	999999	0	0	0
+135	PUNP2	purine-nucleoside phosphorylase (Deoxyadenosine)	Reversible	-999999	999999	0	0	0
+136	PUNP3	purine-nucleoside phosphorylase (Guanosine)	Reversible	-999999	999999	0	0	0
+1814	PUNP3m	purine-nucleoside phosphorylase (Guanosine), mitochondrial	Reversible	-999999	999999	0	0	0
+137	PUNP4	purine-nucleoside phosphorylase (Deoxyguanosine)	Reversible	-999999	999999	0	0	0
+420	PUNP5	purine-nucleoside phosphorylase (Inosine)	Reversible	-999999	999999	0	0	0
+421	PUNP6	purine-nucleoside phosphorylase (Deoxyinosine)	Reversible	-999999	999999	0	0	0
+422	PUNP7	purine-nucleoside phosphorylase (Xanthosine)	Reversible	-999999	999999	0	0	0
+1728	PYAM5PO	pyridoxamine 5'-phosphate oxidase	Irreversible	0	999999	0	0	-.011878914870867233
+1727	PYDAMK	pyridoxamine kinase	Irreversible	0	999999	0	0	0
+3019	PYDXK	pyridoxal kinase	Irreversible	0	999999	0	0	-.01187891487086723
+1726	PYDXNK	pyridoxine kinase	Irreversible	0	999999	0	0	-.01187891487086723
+1730	PYDXNO	pyridoxine oxidase	Reversible	-999999	999999	0	0	0
+3020	PYDXO	pyridoxal oxidase	Reversible	-999999	999999	0	0	0
+265	PYK	pyruvate kinase	Irreversible	0	999999	0	17.72198970731225	0
+1083	PYNP2r	pyrimidine-nucleoside phosphorylase (uracil)	Reversible	-999999	999999	0	0	0
+1992	PYR5CDm	D1-pyrroline-5-carboxylate dehydrogenase, mitochondrial	Irreversible	0	999999	0	0	-.014848643588584017
+700	PYRDC	pyruvate decarboxylase	Irreversible	0	999999	0	15.946050702404094	0
+19460	PYRDC2	pyruvate decarboxylase (acetoin-forming)	Irreversible	0	999999	0	0	-.002177801059658985
+5602	PYRt	Pyruvate exchange, diffusion	Irreversible	0	999999	0	0	0
+588	PYRt2	pyruvate transport in via proton symport	Irreversible	0	999999	0	0	0
+876	PYRt2m	pyruvate mitochondrial transport via proton symport	Reversible	-999999	999999	0	1.0868460833814861	0
+2279	PYRt2p	pyruvate peroxisomal transport via proton symport	Reversible	-999999	999999	0	0	0
+9495	QUILSYN	Quinolinate Synthase (Eukaryotic)	Irreversible	0	999999	0	0	0
+7869	QULNS	quinolinate synthase	Irreversible	0	999999	0	0	-.3106336238731776
+1759	QULNtm	Quinolinate reversible mitochondrial transport	Reversible	-999999	999999	0	0	0
+1262	RAFGH	Raffinose galactohydrolase	Irreversible	0	999999	0	0	0
+119	RBFK	riboflavin kinase	Irreversible	0	999999	0	0	-.28845964944755875
+1724	RBFKm	riboflavin kinase, mitochondrial	Irreversible	0	999999	0	0	0
+1001	RBFSa	riboflavin synthase	Irreversible	0	999999	0	.0005699740933339504	0
+121	RBFSb	riboflavin synthase	Irreversible	0	999999	0	.0002849870466669752	0
+255	RBK	ribokinase	Irreversible	0	999999	0	0	0
+3026	RIBFLVt2	riboflavin transport in via proton symport	Irreversible	0	999999	0	0	0
+1755	RIBFLVtm	Riboflavin reversible mitochondrial transport	Reversible	-999999	999999	0	0	0
+1554	RIBt2	ribose transport in via proton symporter	Irreversible	0	999999	0	0	0
+423	RNDR1	ribonucleoside-diphosphate reductase (ADP)	Irreversible	0	999999	0	0	0
+1439	RNDR1n	ribonucleoside-diphosphate reductase, nuclear	Irreversible	0	999999	0	0	0
+424	RNDR2	ribonucleoside-diphosphate reductase (GDP)	Irreversible	0	999999	0	0	-.000000000000000027755575615628914
+1440	RNDR2n	ribonucleoside-diphosphate reductase (GDP), nuclear	Irreversible	0	999999	0	0	-.17758977731946463
+425	RNDR3	ribonucleoside-diphosphate reductase (CDP)	Irreversible	0	999999	0	0	-.011878914870867188
+2985	RNDR3n	ribonucleoside-diphosphate reductase (CDP), nuclear	Irreversible	0	999999	0	0	-.18946869219033177
+426	RNDR4	ribonucleoside-diphosphate reductase (UDP)	Irreversible	0	999999	0	0	-.000000000000000013877787807814457
+1441	RNDR4n	ribonucleoside-diphosphate reductase (UDP), nuclear	Irreversible	0	999999	0	0	-.1775897773194646
+144	RNMK	ribosylnicotinamide kinase	Irreversible	0	999999	0	0	-.05543493606404706
+427	RNTR1	ribonucleoside-triphosphate reductase (ATP)	Irreversible	0	999999	0	.0010363165333344552	0
+428	RNTR2	ribonucleoside-triphosphate reductase (GTP)	Irreversible	0	999999	0	.0006908776888896367	0
+429	RNTR3	ribonucleoside-triphosphate reductase (CTP)	Irreversible	0	999999	0	0	-.01187891487086723
+430	RNTR4	ribonucleoside-triphosphate reductase (UTP)	Irreversible	0	999999	0	.001727194222224092	0
+281	RPE	ribulose 5-phosphate 3-epimerase	Reversible	-999999	999999	0	.4508426299354452	0
+280	RPI	ribose-5-phosphate isomerase	Reversible	-999999	999999	0	-.35105742269230983	0
+3257	SACCD1	saccharopine dehydrogenase (NADP, L-glutamate forming)	Reversible	-999999	999999	0	.08238716440008918	0
+2657	SACCD2	saccharopine dehydrogenase (NAD, L-lysine forming)	Reversible	-999999	999999	0	.08238716440008918	0
+2866	SADT	sulfate adenylyltransferase	Irreversible	0	999999	0	0	-.01187891487086723
+2004	SAM24MT	S-adenosyl-methionine delta-24-sterol-c-methyltransferase	Irreversible	0	999999	0	0	0
+5555	SBPP1er	sphingoid base-phosphate phosphatase (sphinganine 1-phosphatase), endoplasmic reticulum	Irreversible	0	999999	0	0	0
+5556	SBPP2er	sphingoid base-phosphate phosphatase (phytosphingosine 1-phosphate), endoplasmic reticulum	Irreversible	0	999999	0	0	0
+2050	SBTD_D2	D-sorbitol dehydrogenase (D-fructose producing)	Irreversible	0	999999	0	0	-.004157620204803517
+1920	SBTD_L	L-sorbitol dehydrogenase (L-sorbose-producing)	Irreversible	0	999999	0	0	-.002177801059658985
+3355	SBTR	D-sorbitol reductase	Irreversible	0	999999	0	0	0
+2054	SBT_Dt	D-sorbitol transport via passive diffusion	Reversible	-999999	999999	0	0	0
+2055	SBT_Lt	L-sorbitol transport via passive diffusion	Reversible	-999999	999999	0	0	0
+3006	SERATi	serine O-acetyltransferase, irreversible	Irreversible	0	999999	0	0	0
+390	SERD_L	L-serine deaminase	Irreversible	0	999999	0	0	-.016036535075670752
+1878	SERPT	serine C-palmitoyltransferase	Irreversible	0	999999	0	0	-.3227105206585597
+1031	SERTRS	Seryl-tRNA synthetase	Irreversible	0	999999	0	0	-.041972165877064205
+2188	SERt2m	serine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1371	SERt2r	L-serine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+2374	SFGTH	S-Formylglutathione hydralase	Reversible	-999999	999999	0	0	0
+2767	SHCHD	sirohydrochlorin dehydrogenase	Irreversible	0	999999	0	0	0
+3702	SHCHF	sirohydrochlorin ferrochetalase	Irreversible	0	999999	0	0	0
+915	SHK3D	shikimate dehydrogenase	Irreversible	0	999999	0	.07608290548897124	0
+336	SHKK	shikimate kinase	Irreversible	0	999999	0	.07608290548897124	0
+2871	SHSL1	O-succinylhomoserine lyase (L-cysteine)	Irreversible	0	999999	0	0	.000000000000000003469446951953614
+1593	SHSL4r	O-succinylhomoserine lyase (elimination), reversible	Reversible	-999999	999999	0	0	0
+2395	SLCBK1	sphingolipid long chain base kinase (sphinganine)	Irreversible	0	999999	0	0	-.01187891487086723
+2396	SLCBK2	sphingolipid long chain base kinase (phytosphingosine)	Irreversible	0	999999	0	0	-.0449418945947809
+1597	SLFAT	sulfate adenylyltransferase (ADP)	Reversible	-999999	999999	0	.01649470482224008	0
+18461	SO3ti	sulfite transport (efflux, cytosol to extracellular)	Irreversible	0	999999	0	0	-.025737648886878996
+1383	SO4ti	sulfate irreversible uniport	Irreversible	0	999999	0	.022252018896320388	0
+5553	SPH1Pter	sphinganine 1-phosphate endoplasmic reticular transport	Irreversible	0	999999	0	0	0
+3214	SPHPL	sphinganine phosphate lyase	Irreversible	0	999999	0	0	0
+3320	SPMDAT1	Spermidine acetyltransferase	Irreversible	0	999999	0	0	-.06157237541399507
+18429	SPMDt3i	spermidine transport in via proton antiport	Irreversible	0	999999	0	0	0
+18432	SPMDtex2	spermidine excretion (cytosol to extracellular)	Irreversible	0	999999	0	0	0
+312	SPMS	spermidine synthase	Irreversible	0	999999	0	0	-.10354454129105922
+1342	SPRMS	spermine synthase	Irreversible	0	999999	0	0	0
+18425	SPRMt2i	spermine transport via proton antiport irreversible	Irreversible	0	999999	0	0	0
+2206	SQ23EPXter	Squalene-2,3-epoxide endoplamic reticular transport	Reversible	-999999	999999	0	.0006333045481488337	0
+2011	SQLEr	Squalene epoxidase, endoplasmic reticular (NADP)	Irreversible	0	999999	0	.0006333045481488337	0
+19286	SQLErx	Squalene epoxidase, endoplasmic reticular (NAD)	Irreversible	0	999999	0	0	0
+1993	SQLS	Squalene synthase	Irreversible	0	999999	0	.0006333045481488337	0
+2205	SQLter	squalene endoplamic reticular transport	Reversible	-999999	999999	0	.0006333045481488337	0
+1922	SRB_Lt	L-sorbose reversible transport	Reversible	-999999	999999	0	0	0
+2873	SSALy	succinate-semialdehyde dehydrogenase (NADP)	Irreversible	0	999999	0	0	-.0077212946660636566
+2261	SUCCt2r	succinate transport via proton symport	Reversible	-999999	999999	0	0	0
+1304	SUCCtm	succinate transport, mitochondrial	Irreversible	0	999999	0	0	.0000000000000000008673617379884035
+1176	SUCD1m	succinate dehydrogenase	Reversible	-999999	999999	0	-3.700069361577884	0
+1763	SUCD2_u6m	succinate dehydrogenase (ubiquinone-6), mitochondrial	Reversible	-999999	999999	0	3.9360707845214127	0
+1764	SUCD3-u6m	succinate dehydrogenase (ubiquinone-6), mitochondrial	Reversible	-999999	999999	0	0	-.00000000000000005551115123125783
+1305	SUCFUMtm	succinate-fumarate transport, mitochondrial	Irreversible	0	999999	0	.015000681820009486	0
+2761	SUCOASm	Succinate--CoA ligase (ADP-forming)	Reversible	-999999	999999	0	-.22100074112351853	0
+1547	SUCRe	sucrose hydrolyzing enxyme, extracellular	Irreversible	0	999999	0	0	0
+1548	SUCRt2	sucrose transport in via proton symport	Irreversible	0	999999	0	0	-.04751565948346891
+730	SULR	sulfite reductase (NADPH2)	Reversible	-999999	999999	0	-.01649470482224008	0
+14224	T4HCINNMFM	4-hydroxycinnamate formation	Irreversible	0	999999	0	0	0
+15221	TAGL_SC	Triacylglycerol lipase, yeast-specific	Irreversible	0	999999	0	0	-.023757829741734612
+282	TALA	transaldolase	Reversible	-999999	999999	0	.2634627677122082	0
+3192	TAUDO	Taurine dioxygenase	Irreversible	0	999999	0	0	-.015046625503098345
+18730	TAURt	taurine transport	Reversible	-999999	999999	0	0	0
+19246	TCHOLAabcv	Taurcholate via ABC system (vacuolar)	Irreversible	0	999999	0	0	0
+3759	THFATm	tetrahydrofolate aminomethyltransferase, mitochondrial	Irreversible	0	999999	0	0	0
+3737	THFGLUS	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)	Reversible	-999999	999999	0	0	0
+20701	THIORDXi	hydrogen peroxide reductase (thioredoxin)	Irreversible	0	999999	0	0	-.017521399434529114
+18584	THIORDXm	hydrogen peroxide reductase (thioredoxin), mitochondrial	Reversible	-999999	999999	0	0	0
+21746	THIORDXni	Thioredoxin, nuclear, irreversible	Irreversible	0	999999	0	0	-.1951111767539937
+18583	THIORDXp	hydrogen peroxide reductase (thioredoxin), peroxisomal	Reversible	-999999	999999	0	-.0000000000000000015178830414797062	0
+3869	THMDPe	thiamin diphosphatase, extracellular	Irreversible	0	999999	0	0	0
+584	THMDt2	thymidine transport in via proton symport	Irreversible	0	999999	0	0	0
+3625	THMP	thiamin phosphatase	Irreversible	0	999999	0	0	0
+14591	THMPPt2m	Thiamine diphosphate transport, mitochondria	Irreversible	0	999999	0	0	-.1350236656988575
+3628	THMPe	thiamin phosphatase, extracellular	Irreversible	0	999999	0	0	0
+1751	THMt2	Thiamine transport in via proton symport	Irreversible	0	999999	0	0	0
+14677	THRA2i	L-allo-Threonine Aldolase	Irreversible	0	999999	0	0	-.023757829741734453
+20726	THRAi	Threonine aldolase	Irreversible	0	999999	0	0	-.023757829741734487
+324	THRD_L	L-threonine deaminase	Irreversible	0	999999	0	.05357180745931726	0
+1590	THRD_Lm	L-threonine deaminase, mitochondrial	Irreversible	0	999999	0	0	-.0029697287177168005
+365	THRS	threonine synthase	Irreversible	0	999999	0	.10866930314826578	0
+1032	THRTRS	Threonyl-tRNA synthetase	Irreversible	0	999999	0	0	-.06335421264462521
+1694	THRTRSm	threonyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.05741475520919155
+2189	THRt2m	threonine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1372	THRt2r	L-threonine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+2262	THYMt3r	thymine reversible transport via proton antiport	Reversible	-999999	999999	0	0	0
+3720	THZPSN1_SC	thiazole phosphate synthesis (xylulose 5-phosphate), yeast-specific	Irreversible	0	999999	0	0	0
+3721	THZPSN2_SC	thiazole phosphate synthesis (ribose 5-phosphate), yeast-specifc	Irreversible	0	999999	0	0	.000000000000000008673617379884035
+283	TKT1	transketolase	Reversible	-999999	999999	0	.2634627677122082	0
+4641	TKT2	transketolase	Reversible	-999999	999999	0	.18737986222323696	0
+432	TMDK1	thymidine kinase (ATP:thymidine)	Irreversible	0	999999	0	0	-.01187891487086723
+3871	TMDPK	thiamine diphosphokinase	Irreversible	0	999999	0	0	-.01187891487086723
+435	TMDPP	thymidine phosphorylase	Reversible	-999999	999999	0	0	0
+3352	TMDPPK	thiamine-diphosphate kinase	Irreversible	0	999999	0	0	-.14690258056972472
+431	TMDS	thymidylate synthase	Irreversible	0	999999	0	.0010363165333344552	0
+3872	TMN	thiaminase	Irreversible	0	999999	0	0	0
+3293	TMPKr	thiamine-phosphate kinase	Reversible	-999999	999999	0	0	0
+62	TMPPP	thiamine-phosphate diphosphorylase	Irreversible	0	999999	0	0	-.03563674461260169
+276	TPI	triose-phosphate isomerase	Reversible	-999999	999999	0	8.917769447213566	0
+20525	TRDOXtp	oxidized thioredoxin peroxisomal transport via diffusion	Reversible	-999999	999999	0	.0000000000000000015178830414797062	0
+2817	TRDR	thioredoxin reductase (NADPH)	Irreversible	0	999999	0	.019949093266688263	0
+20526	TRDRDtp	reduced thioredoxin peroxisomal transport via diffusion	Reversible	-999999	999999	0	-.0000000000000000015178830414797062	0
+1436	TRDRm	thioredoxin reductase (NADPH)	Irreversible	0	999999	0	0	-.008612213281378718
+2727	TRE6PP	trehalose-phosphatase	Irreversible	0	999999	0	.006736057466673958	0
+692	TRE6PS	alpha,alpha-trehalose-phosphate synthase (UDP-forming)	Irreversible	0	999999	0	.006736057466673958	0
+695	TREH	alpha,alpha-trehalase	Irreversible	0	999999	0	0	-.0356367446126017
+1172	TREHv	alpha,alpha-trehalase (vacuolar)	Irreversible	0	999999	0	0	-.0356367446126017
+1555	TREt2	trehalose transport in via proton symporter	Irreversible	0	999999	0	0	0
+1947	TREt2v	trehalose vacuolar transport via proton symport	Reversible	-999999	999999	0	0	0
+3617	TRIGS_SC	triglycerol synthesis	Irreversible	0	999999	0	0	.00000000000000015265566588595902
+1389	TRPO2	L-Tryptophan:oxygen 2,3-oxidoreductase (decyclizing)	Irreversible	0	999999	0	0	0
+2862	TRPS1	tryptophan synthase (indoleglycerol phosphate)	Irreversible	0	999999	0	.008175385985194036	0
+8711	TRPTA	tryptophan transaminase	Reversible	-999999	999999	0	0	0
+2916	TRPTRS	Tryptophanyl-tRNA synthetase	Irreversible	0	999999	0	0	-.15304001991967284
+1399	TRPTRSm	Tryptophanyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.14710056248423917
+1944	TRPt2m	tryptophan mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1369	TRPt2r	L-tryptophan reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+20516	TTCCOAtx	fatty acid intracellular transport	Reversible	-999999	999999	0	0	0
+21560	TTDCAtr	fatty acid transport	Reversible	-999999	999999	0	0	0
+19437	TYRNFT	L-tyrosine N-formyltransferase	Irreversible	0	999999	0	0	-.07325330837034795
+1404	TYRTAi	tyrosine transaminase, irreversible	Irreversible	0	999999	0	.02936230177780956	0
+21213	TYRTAim	tyrosine transaminase, irreversible (mitochondrial)	Irreversible	0	999999	0	0	.000000000000000003469446951953614
+21212	TYRTAip	tyrosine transaminase, irreversible (peroxisomal)	Irreversible	0	999999	0	0	.000000000000000003469446951953614
+1689	TYRTRS	tyrosyl-tRNA synthetase	Irreversible	0	999999	0	0	-.09344746365082221
+3017	TYRTRSm	tyrosyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.08750800621538854
+1950	TYRt2m	tyrosine mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+1951	TYRt2p	tyrosine peroxisomal transport via proton symport	Reversible	-999999	999999	0	0	0
+1370	TYRt2r	L-tyrosine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+18735	TYRt6	L-tyrosine transport in via proton antiport (vacuolar)	Irreversible	0	999999	0	0	0
+18742	TYRt7	L-tyrosine transport out via proton symport, vacuolar	Irreversible	0	999999	0	0	0
+3873	UDPACGLP	UDP-N-acetylglucosamine diphosphorylase	Reversible	-999999	999999	0	0	0
+200	UDPG4E	UDPglucose 4-epimerase	Reversible	-999999	999999	0	0	0
+18433	UDPGALt2g	UDPgalactose transport (Golgi apparatus)	Irreversible	0	999999	0	0	-.16868059116631473
+1171	UGLT	UDPglucose--hexose-1-phosphate uridylyltransferase	Reversible	-999999	999999	0	-.48266442540052246	0
+3435	UGLYCHr	Ureidoglycolate hydrolase	Reversible	-999999	999999	0	0	0
+2813	UMPK	UMP kinase	Reversible	-999999	999999	0	.014594791177793567	0
+1446	UMPKn	UMP kinase, nuclear	Reversible	-999999	999999	0	0	0
+2273	UMPtn	UMP nuclear transport	Reversible	-999999	999999	0	0	0
+3645	UNK3	2-keto-4-methylthiobutyrate transamination	Irreversible	0	999999	0	0	0
+3701	UPP3MT	uroporphyrinogen methyltransferase	Irreversible	0	999999	0	0	-.08434029558315725
+5	UPP3S	uroporphyrinogen-III synthase	Irreversible	0	999999	0	0	0
+6	UPPDC1	uroporphyrinogen decarboxylase (uroporphyrinogen III)	Irreversible	0	999999	0	0	0
+2692	UPPRT	uracil phosphoribosyltransferase	Irreversible	0	999999	0	0	-.011878914870867258
+581	URAt2	uracil transport in via proton symport	Irreversible	0	999999	0	0	0
+1752	UREA2t2	urea reversible transport via proton symport (2 H+)	Reversible	-999999	999999	0	0	0
+3875	UREASE	urea carboxylase	Reversible	-999999	999999	0	0	0
+1567	URIDK2r	uridylate kinase (dUMP)	Reversible	-999999	999999	0	-.001727194222224092	0
+1445	URIDK2rn	uridylate kinase (dUMP), nuclear	Reversible	-999999	999999	0	0	0
+436	URIK1	uridine kinase (ATP:Uridine)	Irreversible	0	999999	0	0	0
+437	URIK2	uridine kinase (GTP:Uridine)	Irreversible	0	999999	0	0	0
+582	URIt2	uridine transport in via proton symport	Irreversible	0	999999	0	0	0
+15249	UTPH1	UTP diphosphohydrolase	Irreversible	0	999999	0	0	-.02375782974173446
+20523	UTPtm	UTP/UMP antiport	Irreversible	0	999999	0	0	-.02969728717716806
+320	VALTA	valine transaminase	Reversible	-999999	999999	0	-.07616926520008245	0
+21216	VALTAim	valine transaminase, mitochondiral	Irreversible	0	999999	0	0	-.002969728717716797
+1027	VALTRS	Valyl-tRNA synthetase	Irreversible	0	999999	0	0	-.03504279886905831
+1697	VALTRSm	valyl-tRNA synthetase, mitochondrial	Irreversible	0	999999	0	0	-.02910334143362464
+1936	VALt2m	Valine reversible mitochondrial transport via proton symport	Reversible	-999999	999999	0	0	0
+2970	VALt2r	L-valine reversible transport via proton symport	Reversible	-999999	999999	0	0	0
+1380	XANt	xanthine reversible transport	Reversible	-999999	999999	0	0	0
+440	XPPT	xanthine phosphoribosyltransferase	Irreversible	0	999999	0	0	0
+1381	XTSNt2	xanthosine transport in via proton symport	Irreversible	0	999999	0	0	0
+254	XYLK	xylulokinase	Irreversible	0	999999	0	0	0
+2049	XYLR	xylose reductase	Irreversible	0	999999	0	0	0
+2227	XYLTD_D	xylitol dehydrogenase (D-xyulose-forming)	Irreversible	0	999999	0	0	0
+2052	XYLTt	Xylitol transport via passive diffusion	Reversible	-999999	999999	0	0	0
+1556	XYLt	D-xylose reversible transport	Reversible	-999999	999999	0	0	0
+2393	YUMPS	yUMP synthetase	Reversible	-999999	999999	0	0	0
+15164	ZYMSTAT_SC	Acyl-CoA:zymosterol acyltransferase, yeast-specific	Irreversible	0	999999	0	0	0
+15203	ZYMSTESTH_SC	zymosterol ester hydrolase, yeast-specific	Irreversible	0	999999	0	0	-.024957600143692103
+15213	ZYMSTESTH_SCe	zymosterol ester hydrolase, yeast-specific (extracellular)	Irreversible	0	999999	0	0	0
+1919	ZYMSTt	zymosterol reversible transport	Reversible	-999999	999999	0	0	0

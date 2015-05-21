@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community>
+  <Organism>
+    <Model name="Bifidobacterium adolescents L2-32" ID="bif" file="iBif452.xlsx" />
+    <export metName="Acetate" flux="ACtex"/>
+    <uptake metName="Glucose" flux="GLCtexi"/>
+  </Organism>
+  <Organism>
+     <Model name="Faecalibacterium prausnitzii  A2-165" ID="fap"  file="iFap484.xlsx" />
+    <uptake metName="Acetate" flux="ACtex"/>
+    <uptake metName="Glucose" flux="GLCtexi"/>
+  </Organism>
+   <Media>
+      <component met="Glucose" relation="Competition" amount ="1"/>
+      <component met="Acetate" relation="Commensalism" amount ="0"/>
+  </Media>
+</Community>

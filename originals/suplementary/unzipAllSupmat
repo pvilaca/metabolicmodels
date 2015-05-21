@@ -3,3 +3,9 @@ find . -name '*.zip' -exec sh -c 'unzip -o -d "${0%.*}" "$0"' '{}' ';'
 find . -name '*.zip' -exec sh -c 'unzip -o -d "${0%/*}" "${0%}"' '{}' ';'
 
 find . -name '*.xml' -exec sh -c 'cp --parents "${0%}" ../sbml/' '{}' ';'
+find . -name '*.xls' -exec sh -c 'cp --parents "${0%}" ../excel/' '{}' ';'
+find . -name '*.xlsx' -exec sh -c 'cp --parents "${0%}" ../excel/' '{}' ';'
+
+
+# replace all file terminations to lowercase
+find . -name '*.*' -exec sh -c 'a=$(echo "$0" | sed -r "s/([^.]*)\$/\L\1/"); [ "$a" != "$0" ] && mv "$0" "$a" ' {} \;

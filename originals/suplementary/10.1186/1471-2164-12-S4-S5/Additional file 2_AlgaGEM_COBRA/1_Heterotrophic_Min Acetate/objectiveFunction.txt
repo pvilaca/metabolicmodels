@@ -1,0 +1,2 @@
+reactionID	coefficient	comments
+Ex10	0.01	Acetate_ext = Acetate_c

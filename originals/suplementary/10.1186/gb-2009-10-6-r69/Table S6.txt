@@ -1,0 +1,1182 @@
+Extra Oh et al reactions	Equation definition	EC	Oh et al peg	Roles assigned to pegs by SEED	Reason for not being included from iBsu model					
+rxn08043	H+ + Pyruvate + 2-Oxobutyrate => CO2 + S-2-Aceto-2-hydroxybutanoate	4.1.3.18	peg.2833+peg.2834|peg.3608	"Acetolactate synthase small subunit (EC 2.2.1.6)|Acetolactate synthase large subunit (EC 2.2.1.6)|Acetolactate synthase, catabolic (EC 2.2.1.6)"	Inconsistent with SEED annotation					
+rxn00003	CO2 + ALCTT <= H+ + 2 Pyruvate	2.2.1.6	peg.3608|peg.2833+peg.2834	"Acetolactate synthase, catabolic (EC 2.2.1.6)|Acetolactate synthase small subunit (EC 2.2.1.6)|Acetolactate synthase large subunit (EC 2.2.1.6)"	Lumped reaction					
+rxn09886	O-Acetyl-L-serine + Selenide <=> H+ + ACET + L-Selenocysteine	4.2.99.8	peg.73	Cysteine synthase (EC 2.5.1.47)	Inconsistent with SEED annotation					
+rxn09888	SAM + Cytosine <=> H+ + S-Adenosylhomocysteine + 5-Methylcytosine	2.1.1.37	peg.2030	Modification methylase Phi3TI	Inconsistent with SEED annotation					
+rxn03433	H2O + (S)-3-Hydroxyisobutyryl-CoA => H+ + CoA + 3-Hydroxyisobutyrate	3.1.2.4	NONE	NONE	Difference in gap filling reactions					
+rxn00859	H2O + 2 NAD + L-Histidinol => 3 H+ + 2 NADH + L-Histidine	1.1.1.23	peg.3497	Histidinol dehydrogenase (EC 1.1.1.23)	Lumped reaction					
+rxn09896	H2O + NAD + L-Isoleucine <=> H+ + NADH + NH3 + (R)-2-Oxo-3-methylpentanoate	1.4.1.9	peg.2412	Leucine dehydrogenase (EC 1.4.1.9)	Difference in stereochemistry					
+rxn09897	ATP + 2 Gly => H+ + ADP + Phosphate + Glycylglycine	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09898	ATP + 2 threonine => H+ + ADP + Phosphate + Thr-Thr	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09899	ATP + ALA + L-Valine => H+ + ADP + Phosphate + Ala-Val	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09900	ATP + Serine + L-Valine => H+ + ADP + Phosphate + Ser-Val	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09901	ATP + Gly + L-Leucine => H+ + ADP + Phosphate + Gly-Leu	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09902	ATP + Serine + L-Leucine => H+ + ADP + Phosphate + Ser-Leu	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09903	ATP + ALA + L-Leucine => H+ + ADP + Phosphate + Ala-Leu	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09904	ATP + threonine + L-Leucine => H+ + ADP + Phosphate + Thr-Leu	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09905	ATP + ALA + L-Isoleucine => H+ + ADP + Phosphate + Ala-Ile	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09906	ATP + Serine + L-Isoleucine => H+ + ADP + Phosphate + Ser-Ile	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09908	ATP + ALA + Gly => H+ + ADP + Phosphate + L-alanylglycine	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09909	ATP + ALA + Methionine => H+ + ADP + Phosphate + Ala-Met	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09910	ATP + Serine + Methionine => H+ + ADP + Phosphate + Ser-Met	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09911	ATP + Methionine + threonine => H+ + ADP + Phosphate + Thr-Met	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09912	ATP + 2 Methionine => H+ + ADP + Phosphate + Met-Met	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09913	ATP + Gly + L-Phenylalanine => H+ + ADP + Phosphate + Gly-Phe	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09914	ATP + ALA + L-Phenylalanine => H+ + ADP + Phosphate + Ala-Phe	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09915	ATP + Serine + L-Phenylalanine => H+ + ADP + Phosphate + Ser-Phe	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09916	ATP + threonine + L-Phenylalanine => H+ + ADP + Phosphate + Thr-Phe	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09917	ATP + Methionine + L-Phenylalanine => H+ + ADP + Phosphate + Met-Phe	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09918	ATP + Gly + Tyrosine => H+ + ADP + Phosphate + Gly-Try	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09919	ATP + Serine + Gly => H+ + ADP + Phosphate + L-Serylglycine	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09920	ATP + ALA + Tyrosine => H+ + ADP + Phosphate + Ala-Tyr	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09921	ATP + Serine + Tyrosine => H+ + ADP + Phosphate + Ser-Tyr	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09922	ATP + Methionine + Tyrosine => H+ + ADP + Phosphate + Met-Tyr	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09923	ATP + ALA + Tryptophan => H+ + ADP + Phosphate + Ala-Trp	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09924	ATP + Serine + Tryptophan => H+ + ADP + Phosphate + Ser-Trp	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09926	ATP + ALA + L-Glutamine => H+ + ADP + Phosphate + Ala-Gln	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09927	ATP + L-Glutamine + Serine => H+ + ADP + Phosphate + Ser-Gln	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09928	ATP + L-Glutamine + threonine => H+ + ADP + Phosphate + Thr-Gln	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09929	ATP + ALA + L-Asparagine => H+ + ADP + Phosphate + Ala-Asn	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09930	ATP + Gly + threonine => H+ + ADP + Phosphate + Thr-Gly	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09931	ATP + ALA + L-Histidine => H+ + ADP + Phosphate + Ala-His	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09932	ATP + Serine + L-Histidine => H+ + ADP + Phosphate + Ser-His	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09933	ATP + Methionine + L-Histidine => H+ + ADP + Phosphate + Met-His	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09934	ATP + 2 ALA => H+ + ADP + Phosphate + Ala-Ala	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09935	ATP + ALA + Serine => H+ + ADP + Phosphate + Ser-Ala	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09936	ATP + ALA + Serine => H+ + ADP + Phosphate + Ala-Ser	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09937	ATP + 2 Serine => H+ + ADP + Phosphate + Ser-Ser	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09938	ATP + L-Cysteine + Gly => H+ + ADP + Phosphate + Gly-Cys	NONE	peg.3777	Alanine-anticapsin ligase BacD	Inconsistent with SEED annotation					
+rxn09941	H2O2 + Methionine => H2O + L-methionine R-oxide	NONE	peg.2174	Peptide methionine sulfoxide reductase msrB (EC 1.8.4.12)	Inconsistent with SEED annotation					
+rxn09942	H2O2 + Methionine => H2O + L-Methionine S-oxide	NONE	peg.2175	Peptide methionine sulfoxide reductase msrA (EC 1.8.4.11)	Inconsistent with SEED annotation					
+rxn01231	H+ + L-Cysteate => CO2 + Taurine	4.1.1.15|4.1.1.29	NONE	NONE	Difference in gap filling reactions					
+rxn00433	H2O + O2 + Sarcosine => H2O2 + Gly + Methanal	1.5.3.1	peg.1168	Glycine oxidase ThiO (EC 1.4.3.19)	Inconsistent with SEED annotation					
+rxn05957	H2S + O-Succinyl-L-homoserine => L-Homocysteine + Succinate	2.5.1.48	peg.1188	Cystathionine gamma-synthase (EC 2.5.1.48)	Difference in specificity					
+rxn09948	O-Succinyl-L-homoserine + MTTL => H+ + Methionine + Succinate	4.2.99.9	peg.1188	Cystathionine gamma-synthase (EC 2.5.1.48)	Difference in specificity					
+rxn02246	O-Acetyl-L-serine + H2S2O3 => ACET + S-sulfocysteine	2.5.1.47|2.5.1.48	peg.73|peg.1188	Cysteine synthase (EC 2.5.1.47)|Cystathionine gamma-synthase (EC 2.5.1.48)	Difference in specificity					
+rxn09950	Aspartate + 4-methylthio 2-oxobutyrate => Oxaloacetate + Methionine	NONE	peg.1360	Glutamine-dependent 2-keto-4-methylthiobutyrate transaminase	Inconsistent with SEED annotation					
+rxn09952	Starch => Dextrin	3.2.1.1	peg.305	alternate gene name: amyA	Inconsistent with SEED annotation					
+rxn00674	ATP + H+ + CoA + Propanoate => PPi + AMP + Propanoyl-CoA	6.2.1.17|6.2.1.1	peg.2971	Acetyl-coenzyme A synthetase (EC 6.2.1.1)	Inconsistent with SEED annotation					
+rxn08094	2-Oxoglutarate + CoA + NAD => CO2 + NADH + Succinyl-CoA	Undetermined	peg.1463|peg.1941|BG10272	Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4)|Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61)	Lumped reaction					
+rxn00765	TPN + GLYC <=> H+ + TPNH + D-Glyceraldehyde	1.1.1.1|1.1.1.2|1.1.1.21|1.1.1.72	peg.3983|peg.953	Oxidoreductase ion channel|putative aldo/keto reductase	Inconsistent with SEED annotation					
+rxn09954	H+ + TPNH + L-Glycerose <=> TPN + GLYC	NONE	peg.953|peg.3983	putative aldo/keto reductase|Oxidoreductase ion channel	Inconsistent with SEED annotation					
+rxn00536	TPN + ETOH <=> H+ + TPNH + AALD	1.1.1.2|1.1.1.71	peg.2699|peg.2743	alcohol dehydrogenase|Alanyl-tRNA synthetase (EC 6.1.1.7)	Inconsistent with SEED annotation					
+rxn09956	H2O + NAD + Decanal => 2 H+ + NADH + Decanoate	NONE	peg.3991|peg.3888|peg.1936	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09957	H2O + NAD + undecanal => 2 H+ + NADH + undecanoate	NONE	peg.3991|peg.1936|peg.3888	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09958	H2O + NAD + Dodecanal => 2 H+ + NADH + ddca	NONE	peg.1936|peg.3888|peg.3991	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09959	H2O + NAD + Tridecanal => 2 H+ + NADH + Tridecanoate	NONE	peg.1936|peg.3991|peg.3888	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09960	H2O + NAD + tetradecanal => 2 H+ + NADH + Myristic acid	NONE	peg.1936|peg.3888|peg.3991	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09961	H2O + NAD + Pentadecanal => 2 H+ + NADH + pentadecanoate (C15:0)	NONE	peg.3991|peg.3888|peg.1936	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn01247	H2O + NAD + Hexadecanal => 2 H+ + NADH + Palmitate	1.2.1.48	peg.3991|peg.1936|peg.3888	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09963	H2O + NAD + heptadecanal => 2 H+ + NADH + heptadecanoate (C17:0)	NONE	peg.3991|peg.3888|peg.1936	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09964	H2O + NAD + Octadecanal => 2 H+ + NADH + Stearate	NONE	peg.3991|peg.1936|peg.3888	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn00429	H2O + NAD + Methanal => 2 H+ + NADH + FORM	1.2.1.46	peg.1936|peg.3888|peg.3991	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09967	H2O + NAD + Propanal => 2 H+ + NADH + Propanoate	NONE	peg.3991|peg.3888|peg.1936	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn02122	2 H2O + NAD + Glucurone => 3 H+ + NADH + D-Glucarate	1.2.1.3	peg.3888|peg.1936|peg.3991	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn08111	H2O + NAD + Butanal => 2 H+ + NADH + Butyrate	NONE	peg.1936|peg.3991|peg.3888	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn02729	H2O + NAD + 2-Methyl-3-oxopropanoate => 2 H+ + NADH + Methylmalonate	1.2.1.3	peg.1936|peg.3888|peg.3991	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09972	H2O + NAD + pentanal => 2 H+ + NADH + Valerate	NONE	peg.3888|peg.3991|peg.1936	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09973	H2O + NAD + hexanal => 2 H+ + NADH + Hexanoate	NONE	peg.3888|peg.1936|peg.3991	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09974	H2O + NAD + Heptanal => 2 H+ + NADH + HPA	NONE	peg.3888|peg.3991|peg.1936	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09975	H2O + NAD + octanal => 2 H+ + NADH + octanoate	NONE	peg.1936|peg.3991|peg.3888	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn09977	H2O + NAD + nonanal => 2 H+ + NADH + Nonanoate	NONE	peg.1936|peg.3991|peg.3888	Aldehyde dehydrogenase (EC 1.2.1.3)	Difference in specificity					
+rxn01291	TPN + L-Lyxitol <=> H+ + TPNH + L-Arabinose	1.1.1.21	peg.2908|peg.3346	"oxidoreductase of aldo/keto reductase family, subgroup 1"	Inconsistent with SEED annotation					
+rxn00374	H2O + Formamide => NH3 + FORM	3.5.1.49	NONE	NONE	Difference in gap filling reactions					
+rxn00217	NAD + Glucose => H+ + NADH + Gluconolactone	1.1.1.118	peg.394	Glucose 1-dehydrogenase (EC 1.1.1.47)	Inconsistent with SEED annotation					
+rxn00013	"2 Cori ester => Glucose + D-Glucose 1,6-biphosphate"	2.7.1.41	peg.3461	Beta-phosphoglucomutase (EC 5.4.2.6)	Inconsistent with SEED annotation					
+rxn09983	H2O + Galactomannan => GALC	3.2.1.22	peg.3033	Alpha-galactosidase (EC 3.2.1.22)	Difference in stoichiometry					
+rxn09984	H2O + Galactose oligosaccharide => GALC	3.2.1.22	peg.3033	Alpha-galactosidase (EC 3.2.1.22)	Difference in stoichiometry					
+rxn01990	5-Dehydro-4-deoxy-D-glucarate => Pyruvate + Tartronate semialdehyde	4.1.2.20	NONE	NONE	Difference in gap filling reactions					
+rxn00010	H+ + 2 Glyoxylate => CO2 + Tartronate semialdehyde	4.1.1.47	peg.434	"Pyruvate oxidase [ubiquinone, cytochrome] (EC 1.2.2.2)"	Inconsistent with SEED annotation					
+rxn00198	TPN + Isocitrate <=> 2-Oxoglutarate + CO2 + TPNH	1.1.1.42	peg.2916	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)	Lumped reaction					
+rxn05743	ATP + 2-Inosose => H+ + ADP + 3-Oxopropanoate + Glycerone phosphate	NONE	peg.3980|peg.3972|peg.3978|peg.3979|peg.3977	5-keto-2-deoxygluconokinase B (EC 2.7.1.92)|5-keto-2-deoxy-D-gluconate-6 phosphate aldolase (EC 4.1.2.29)|Epi-inositol hydrolase|5-keto-2-deoxygluconokinase (EC 2.7.1.92)|Inosose dehydratase (EC 4.2.1.44)	Lumped reaction					
+rxn05745	2-Methylcitrate <=> Methylisocitrate	Undetermined	peg.2417	2-methylcitrate dehydratase (EC 4.2.1.79)	Inconsistent with SEED annotation					
+rxn08933	H2O + Maltotetraose => Glucose + Maltotriose	NONE	peg.3462	"Oligo-1,6-glucosidase (EC 3.2.1.10)"	Difference in stoichiometry					
+rxn08934	H2O + Maltopentaose => Glucose + Maltotetraose	NONE	peg.3462	"Oligo-1,6-glucosidase (EC 3.2.1.10)"	Difference in stoichiometry					
+rxn08935	H2O + Maltohexaose => Glucose + Maltopentaose	NONE	peg.3462	"Oligo-1,6-glucosidase (EC 3.2.1.10)"	Difference in stoichiometry					
+rxn08936	H2O + Maltoheptaose => Glucose + Maltohexaose	NONE	peg.3462	"Oligo-1,6-glucosidase (EC 3.2.1.10)"	Difference in stoichiometry					
+rxn10401	2 H2O + Dextrin => 2 Glucose	NONE	peg.3462	"Oligo-1,6-glucosidase (EC 3.2.1.10)"	Difference in stoichiometry					
+rxn00154	CoA + Pyruvate + NAD => Acetyl-CoA + CO2 + NADH	1.2.4.1|1.8.1.4|2.3.1.12	peg.1463|peg.1460+peg.1461|peg.1462	Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4)|Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1)|Pyruvate dehydrogenase E1 component beta subunit (EC 1.2.4.1)|Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)	Lumped reaction					
+rxn09991	"H2O + Phytate => H+ + Phosphate + Inositol 1,3,4,5,6-pentakisphosphate"	3.1.3.8	peg.1984	alternate gene name: yzxA	Inconsistent with SEED annotation					
+rxn02092	H+ + Sorbitol + FAD <=> L-Sorbose + FADH2	1.1.99.21	NONE	NONE	Difference in gap filling reactions					
+rxn05749	2 H+[e] + Menaquinone 7 + FADH2 => 3 H+ + mql7 + FAD	"Undetermined,"	peg.2846+peg.2847+peg.2848	Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)|Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)|Succinate dehydrogenase cytochrome b558 subunit	Inconsistent with SEED annotation					
+rxn09995	"H2O + 1,4-beta-D-Xylan => D-Xylose"	3.2.1.37	peg.2854	Alpha-N-arabinofuranosidase 2 (EC 3.2.1.55)	Inconsistent with SEED annotation					
+rxn05258	2400 UDPglucose + 2400 CDPglycerol + d12dg_BS => 4800 H+ + 2400 UDP + 2400 CMP + lipo1-24_BS	NONE	NONE	NONE	Difference in gap filling reactions					
+rxn05259	2400 UDP-N-acetylglucosamine + 2400 CDPglycerol + d12dg_BS => 4800 H+ + 2400 UDP + 2400 CMP + lipo2-24_BS	NONE	NONE	NONE	Difference in gap filling reactions					
+rxn05264	2400 ATP + 2400 H2O + 2400 D-Ala + 2400 CDPglycerol + d12dg_BS => 4800 H+ + 2400 PPi + 2400 AMP + 2400 CMP + lipo3-24_BS	NONE	peg.3855|peg.3856|peg.3858|peg.3857	D-alanine--poly(phosphoribitol) ligase subunit 1 (EC 6.1.1.13)|D-alanyl transfer protein DltB|Poly(glycerophosphate chain) D-alanine transfer protein DltD|D-alanine--poly(phosphoribitol) ligase subunit 2 (EC 6.1.1.13)	Lumped reaction					
+rxn05257	2400 CDPglycerol + d12dg_BS => 2400 H+ + 2400 CMP + lipo4-24_BS	NONE	NONE	NONE	Difference in gap filling reactions					
+rxn05265	Undecaprenyl-diphospho-N-acetylmuramoyl--N-acetylglucosamine-L-ala-D-glu-meso-2-6-diaminopimeloyl-D-ala-D-ala => H+ + Undecaprenyldiphosphate + peptido_BS	NONE	NONE	NONE	Difference in gap filling reactions					
+rxn05260	UDP-N-acetylglucosamine + UDP-N-acetyl-D-mannosamine + 45 CDPglycerol => 46 H+ + UDP + 45 CMP + UMP + gtca1-45_BS	Undetermined	peg.3582|peg.3583|peg.3559|peg.3578|peg.3577|peg.3579	"N-acetylmannosaminyltransferase (EC 2.4.1.187)|CDP-glycerol: N-acetyl-beta-D-mannosaminyl-1,4-N-acetyl-D-glucosaminyldiphosphoundecaprenyl glycerophosphotransferase|Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)|Teichoic acid translocation permease protein tagG|Teichoic acid export ATP-binding protein tagH (EC 3.6.3.40)|CDP-glycerol:poly(glycerophosphate) glycerophosphotransferase (EC 2.7.8.12)"	Lumped reaction					
+rxn05262	45 ATP + 45 H2O + 45 D-Ala + UDP-N-acetylglucosamine + UDP-N-acetyl-D-mannosamine + 45 CDPglycerol => 91 H+ + 45 PPi + 45 AMP + UDP + 45 CMP + UMP + gtca2-45_BS	Undetermined	peg.3582|peg.3855|peg.3856|peg.3858|peg.3583|peg.3857|peg.3559|peg.3578|peg.3577|peg.3579	"N-acetylmannosaminyltransferase (EC 2.4.1.187)|D-alanine--poly(phosphoribitol) ligase subunit 1 (EC 6.1.1.13)|D-alanyl transfer protein DltB|Poly(glycerophosphate chain) D-alanine transfer protein DltD|CDP-glycerol: N-acetyl-beta-D-mannosaminyl-1,4-N-acetyl-D-glucosaminyldiphosphoundecaprenyl glycerophosphotransferase|D-alanine--poly(phosphoribitol) ligase subunit 2 (EC 6.1.1.13)|Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)|Teichoic acid translocation permease protein tagG|Teichoic acid export ATP-binding protein tagH (EC 3.6.3.40)|CDP-glycerol:poly(glycerophosphate) glycerophosphotransferase (EC 2.7.8.12)"	Lumped reaction					
+rxn05261	H2O + UDP-N-acetylglucosamine + UDP-N-acetyl-D-mannosamine + 45 UDPglucose + 45 CDPglycerol => 46 UDP + 45 CMP + UMP + gtca3-45_BS	Undetermined	peg.3582|peg.3583|peg.3580|peg.3559|peg.3578|peg.3577|peg.3579	"N-acetylmannosaminyltransferase (EC 2.4.1.187)|CDP-glycerol: N-acetyl-beta-D-mannosaminyl-1,4-N-acetyl-D-glucosaminyldiphosphoundecaprenyl glycerophosphotransferase|Poly(glycerol-phosphate) alpha-glucosyltransferase (EC 2.4.1.52)|Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)|Teichoic acid translocation permease protein tagG|Teichoic acid export ATP-binding protein tagH (EC 3.6.3.40)|CDP-glycerol:poly(glycerophosphate) glycerophosphotransferase (EC 2.7.8.12)"	Lumped reaction					
+rxn05263	30 H2O + 30 UDP-N-acetyl-D-galactosamine + 30 UDPglucose => 60 H+ + 30 UDP + 30 UMP + tcam	NONE	peg.3575|peg.3574	Minor teichoic acid biosynthesis protein ggaA|Minor teichoic acid biosynthesis protein ggaB	Difference in stoichiometry					
+rxn09997	H2O + AIR => 2 H+ + Phosphate + 0.5 O2 + Glycolaldehyde + Toxopyrimidine	NONE	peg.878	Thiamin biosynthesis protein ThiC	Inconsistent with SEED annotation					
+rxn00262	H2O + Aspartate + O2 => NH3 + Oxaloacetate + H2O2	1.4.3.2|1.4.3.16	peg.2790	L-aspartate oxidase (EC 1.4.3.16)	Lumped reaction					
+rxn00796	2 S + Dethiobiotin => H2S + BIOT	2.8.1.6	peg.3023	Biotin synthase (EC 2.8.1.6)	Inconsistent with SEED annotation					
+rxn02303	2 H+ + O2 + CoproporphyrinogenIII => 2 CO2 + 2 H2O + ProtoporphyrinogenIX	1.3.3.3	peg.984|peg.2553	"Coproporphyrinogen III oxidase, oxygen-independent (EC 1.3.99.22)|Putative coproporphyrinogen III oxidase of BS HemN-type, oxygen-independent (EC 1.3.99.22), in heat shock gene cluster"	Difference in stoichiometry					
+rxn02484	ATP + Toxopyrimidine => ADP + 4-Amino-2-methyl-5-phosphomethylpyrimidine	2.7.1.49	peg.1172|peg.3807	Phosphomethylpyrimidine kinase (EC 2.7.4.7)	Inconsistent with SEED annotation					
+rxn02898	"Succinylbenzoyl-CoA => CoA + 1,4-Dihydroxy-2-naphthoate"	4.1.3.36	peg.3083	Naphthoate synthase (EC 4.1.3.36)	Inconsistent with SEED annotation					
+rxn02130	H2O + Pantetheine => PAN + Cysteamine	3.5.1.92	peg.302	amidohydrolase	Inconsistent with SEED annotation					
+rxn09179	1.5 O2 + ProtoporphyrinogenIX => 3 H2O + Protoporphyrin	1.3.3.4	peg.1014	"Protoporphyrinogen IX oxidase, aerobic (EC 1.3.3.4)"	Difference in stoichiometry					
+rxn02128	ATP + Pantetheine <=> ADP + Phosphopantetheine	2.7.1.33|2.7.1.34	peg.2381	Pantothenate kinase (EC 2.7.1.33)	Difference in stoichiometry					
+rxn02986	"7,8-Dihydroneopterin 3'-triphosphate => H+ + Triphosphate + 6-Pyruvoyltetrahydropterin"	4.2.3.12	peg.1375	"Queuosine biosynthesis QueD, PTPS-I"	Inconsistent with SEED annotation					
+rxn10005	L-Glutamine + Glyceraldehyde3-phosphate + Ribose 5-phosphate => Pyridoxal phosphate + unknown 2	NONE	peg.12|peg.11	"Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)|Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)"	Incomplete reaction					
+rxn10006	2 H+ + NAD + Sirohydrochlorin => NADH + Sirochlorin	NONE	peg.1565	Precorrin-2 oxidase (EC 1.3.1.76)|Siroheme synthase	Difference in stoichiometry					
+rxn10007	Fe2+ + Sirochlorin => 3 H+ + Siroheme	NONE	peg.1564	Sirohydrochlorin ferrochelatase (EC 4.99.1.4)	Difference in stoichiometry					
+rxn10008	H+ + Pyruvate + 2 H2O + Oxaloacetate => 3 O2 + Pimelate	NONE	NONE	NONE	Difference in gap filling reactions					
+rxn00533	ATP + Acetyl-CoA + HCO3- => H+ + ADP + Phosphate + Malonyl-CoA	6.4.1.2	peg.2248|peg.2439|peg.2924+peg.2923|peg.2438	Biotin operon repressor|Biotin-protein ligase (EC 6.3.4.15)|Biotin carboxyl carrier protein of acetyl-CoA carboxylase|Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2)|Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)|Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14)	Lumped reaction					
+rxn06022	H2O + ACP => Phosphopantetheine + apo-ACP	3.1.4.14	peg.1927	FMN-dependent NADH-azoreductase	Inconsistent with SEED annotation					
+rxn10403	0.03 Myristoyl-CoA + 0.1 Palmitoyl-CoA + 0.03 strcoa + 0.01 1ag3p_BS + 0.07 Iso-C17:0 CoA + 0.17 Anteiso-C17:0 CoA + 0.01 Iso-C14:0 CoA + 0.2 Iso-C15:0 CoA + 0.34 Anteiso-C15:0 CoA + 0.05 Iso-C16:0 CoA <=> CoA + 0.01 12dag3p_BS	2.3.1.51	peg.954	1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)	Lumped reaction					
+rxn05268	GLYC-3-P + 0.01 cdpdag_BS => H+ + CMP + 0.01 pglyp_BS	NONE	peg.1695	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)	Lumped reaction					
+rxn05281	Serine + 0.01 cdpdag_BS => H+ + CMP + 0.01 ps_BS	2.7.8.8	peg.228	CDP-diacylglycerol--serine O-phosphatidyltransferase (EC 2.7.8.8)	Lumped reaction					
+rxn05286	0.02 pgly_BS => GLYC + 0.01 cdlp_BS	NONE	peg.3731|peg.3726|peg.3666	Cardiolipin synthetase (EC 2.7.8.-)|Uncharacterized protein ywjE	Lumped reaction					
+rxn10018	ATP + 0.01 12dgr_BS => H+ + ADP + 0.01 12dag3p_BS	2.7.1.107	peg.2534	Diacylglycerol kinase (EC 2.7.1.107)	Lumped reaction					
+rxn08352	H+ + NADH + 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate => H2O + NAD + DMAPP	NONE	peg.2520	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	Difference in stoichiometry					
+rxn10404	ATP + H+ + CoA + fa1 <=> PPi + AMP + Iso-C14:0 CoA	6.2.1.3	peg.1036|peg.1027|peg.1829|peg.2859	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)|Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)	Lumped reaction					
+rxn10405	ATP + H+ + CoA + fa4 <=> PPi + AMP + Anteiso-C15:0 CoA	6.2.1.3	peg.1829|peg.1036|peg.1027|peg.2859	Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)	Lumped reaction					
+rxn10406	ATP + H+ + CoA + fa3 <=> PPi + AMP + Iso-C15:0 CoA	6.2.1.3	peg.2859|peg.1036|peg.1829|peg.1027	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)|Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)	Lumped reaction					
+rxn10407	ATP + H+ + CoA + fa6 <=> PPi + AMP + Iso-C16:0 CoA	6.2.1.3	peg.2859|peg.1036|peg.1027|peg.1829	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)|Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)	Lumped reaction					
+rxn10408	ATP + H+ + CoA + fa12 <=> PPi + AMP + Anteiso-C17:0 CoA	6.2.1.3	peg.2859|peg.1027|peg.1036|peg.1829	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)|Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)	Lumped reaction					
+rxn10409	ATP + H+ + CoA + fa11 <=> PPi + AMP + Iso-C17:0 CoA	6.2.1.3	peg.1027|peg.1829|peg.1036|peg.2859	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)|Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)	Lumped reaction					
+rxn10410	GLYC-3-P + 0.03 Myristoyl-CoA + 0.1 Palmitoyl-CoA + 0.03 strcoa + 0.07 Iso-C17:0 CoA + 0.17 Anteiso-C17:0 CoA + 0.01 Iso-C14:0 CoA + 0.2 Iso-C15:0 CoA + 0.34 Anteiso-C15:0 CoA + 0.05 Iso-C16:0 CoA => CoA + 0.01 1ag3p_BS	2.3.1.15	NONE	NONE	Difference in gap filling reactions					
+rxn08756	H+ + NADH + 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate => H2O + NAD + Isopentenyldiphosphate	NONE	peg.2520	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	Difference in cofactors					
+rxn05274	14 H+ + 10 TPNH + 5 Malonyl-CoA + Isobutyryl-CoA => 6 CoA + 5 CO2 + 4 H2O + 10 TPN + fa1	2.3.1.41	peg.3644|peg.1135|peg.1593|peg.864|peg.1017|peg.1592|peg.1173|peg.1135|peg.1593|BG11225|peg.1134|peg.1592	"(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)"	Lumped reaction					
+rxn10026	16 H+ + 11 TPNH + 6 Malonyl-CoA + 2-Methylbutyryl-CoA => 7 CoA + 6 CO2 + 5 H2O + 11 TPN + Fatty acid (Anteiso-C17:1)	2.3.1.41	peg.3644|peg.1135|peg.1593|peg.1017|peg.864|peg.1592|peg.1173|peg.1135|peg.1593|BG11225|peg.1134|peg.1592	"(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)"	Lumped reaction					
+rxn05275	17 H+ + 12 TPNH + 6 Malonyl-CoA + Isovaleryl-CoA => 7 CoA + 6 CO2 + 5 H2O + 12 TPN + fa11	2.3.1.41	peg.1135|peg.1173|peg.1593|BG11225|peg.1134|peg.1592|peg.1135|peg.3644|peg.1593|peg.1017|peg.864|peg.1592	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)"	Lumped reaction					
+rxn05276	17 H+ + 12 TPNH + 6 Malonyl-CoA + 2-Methylbutyryl-CoA => 7 CoA + 6 CO2 + 5 H2O + 12 TPN + fa12	2.3.1.41	peg.1135|peg.1173|peg.1593|BG11225|peg.1592|peg.1135|peg.3644|peg.1593|peg.1017|peg.864|peg.1592	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)"	Lumped reaction					
+rxn10029	23 H+ + Acetyl-CoA + 16 TPNH + 8 Malonyl-CoA => 9 CoA + 8 CO2 + 7 H2O + 16 TPN + Stearate	2.3.1.41	peg.1135|peg.3644|peg.1593|peg.864|peg.1017|peg.1592|peg.1173|peg.1135|peg.1593|BG11225|peg.1134|peg.1592	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)"	Lumped reaction					
+rxn10030	22 H+ + Acetyl-CoA + 15 TPNH + 8 Malonyl-CoA => 9 CoA + 8 CO2 + 7 H2O + 15 TPN + octadecenoate	2.3.1.41	peg.1173|peg.1135|peg.1593|BG11225|peg.1134|peg.1592|peg.3644|peg.1135|peg.1593|peg.1017|peg.864|peg.1592	"Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)"	Lumped reaction					
+rxn05744	17 H+ + Acetyl-CoA + 12 TPNH + 6 Malonyl-CoA => 7 CoA + 6 CO2 + 5 H2O + 12 TPN + Myristic acid	2.3.1.41	peg.1135|peg.1173|peg.1593|BG11225|peg.1134|peg.1592|peg.3644|peg.1135|peg.1593|peg.864|peg.1017|peg.3891	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|UDP-glucose 4-epimerase (EC 5.1.3.2)"	Lumped reaction					
+rxn05278	14 H+ + 10 TPNH + 5 Malonyl-CoA + Isovaleryl-CoA => 6 CoA + 5 CO2 + 4 H2O + 10 TPN + fa3	2.3.1.41	peg.1135|peg.3644|peg.1593|peg.864|peg.1017|peg.1592|peg.1173|peg.1135|peg.1593|BG11225|peg.1134|peg.1592	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)"	Lumped reaction					
+rxn05279	14 H+ + 10 TPNH + 5 Malonyl-CoA + 2-Methylbutyryl-CoA => 6 CoA + 5 CO2 + 4 H2O + 10 TPN + fa4	2.3.1.41	peg.1135|peg.3644|peg.1593|peg.1017|peg.864|peg.1592|peg.1135|peg.1173|peg.1593|BG11225|peg.1134|peg.1592	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)"	Lumped reaction					
+rxn10034	16 H+ + 11 TPNH + 6 Malonyl-CoA + Isobutyryl-CoA => 7 CoA + 6 CO2 + 5 H2O + 11 TPN + Fatty acid (Iso-C16:1)	2.3.1.41	peg.1135|peg.3644|peg.1593|peg.1017|peg.864|peg.1592|peg.1173|peg.1135|peg.1593|BG11225|peg.1134|peg.1592	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)"	Lumped reaction					
+rxn05280	17 H+ + 12 TPNH + 6 Malonyl-CoA + Isobutyryl-CoA => 7 CoA + 6 CO2 + 5 H2O + 12 TPN + fa6	2.3.1.41	peg.3644|peg.1135|peg.1593|peg.1017|peg.864|peg.1592|peg.1135|peg.1173|peg.1593|BG11225|peg.1134|peg.1592	"(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)"	Lumped reaction					
+rxn10036	19 H+ + Acetyl-CoA + 13 TPNH + 7 Malonyl-CoA => 8 CoA + 7 CO2 + 6 H2O + 13 TPN + hexadecenoate	2.3.1.41	peg.1135|peg.1173|peg.1593|BG11225|peg.1134|peg.1592|peg.1135|peg.3644|peg.1593|peg.1017|peg.864|peg.1592	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)"	Lumped reaction					
+rxn05291	20 H+ + Acetyl-CoA + 14 TPNH + 7 Malonyl-CoA => 8 CoA + 7 CO2 + 6 H2O + 14 TPN + Palmitate	2.3.1.41	peg.3644|peg.1135|peg.1593|peg.864|peg.1017|peg.1592|peg.1173|peg.1135|peg.1593|BG11225|peg.1592	"(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)"	Lumped reaction					
+rxn10038	16 H+ + 11 TPNH + 6 Malonyl-CoA + Isovaleryl-CoA => 7 CoA + 6 CO2 + 5 H2O + 11 TPN + Fatty acid (Iso-C17:1)	2.3.1.41	peg.1135|peg.1173|peg.1593|BG11225|peg.1134|peg.1592|peg.3644|peg.1135|peg.1593|peg.1017|peg.864|peg.1592	"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)|3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)|3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)|Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)|(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)|3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)|Enoyl-[acyl-carrier-protein] reductase [NADPH] (EC 1.3.1.10)"	Lumped reaction					
+rxn05285	ATP + Lysine + 0.01 pgly_BS => H+ + PPi + AMP + 0.01 lysylpgly_BS	NONE	peg.843	"membrane protein, putative"	Lumped reaction					
+rxn05293	H+ + NADH + 2-C-methyl-D-erythritol2-4-cyclodiphosphate => H2O + NAD + 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate	NONE	peg.2511	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase (EC 1.17.4.3)	Inconsistent with SEED annotation					
+rxn01207	CoA + NAD + 4MOP <=> CO2 + NADH + Isovaleryl-CoA	1.2.1.25	peg.2407|peg.2408|peg.2409|peg.2410	"Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex (EC 2.3.1.168)|Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit (EC 1.2.4.4)|Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit (EC 1.2.4.4)|Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase (EC 1.8.1.4)"	Inconsistent with SEED annotation					
+rxn00899	CoA + NAD + 3MOB => CO2 + NADH + Isobutyryl-CoA	1.2.1.25	peg.2407|peg.2408|peg.2409|peg.2410	"Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex (EC 2.3.1.168)|Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit (EC 1.2.4.4)|Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit (EC 1.2.4.4)|Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase (EC 1.8.1.4)"	Inconsistent with SEED annotation					
+rxn02269	CoA + NAD + 3MOP => CO2 + NADH + 2-Methylbutyryl-CoA	1.2.1.25	peg.2407|peg.2408|peg.2409|peg.2410	"Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex (EC 2.3.1.168)|Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit (EC 1.2.4.4)|Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit (EC 1.2.4.4)|Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase (EC 1.8.1.4)"	Inconsistent with SEED annotation					
+rxn05270	H2O + 0.01 12dag3p_BS => Phosphate + 0.01 12dgr_BS	NONE	NONE	NONE	Difference in gap filling reactions					
+rxn05271	H2O + 0.01 pglyp_BS => Phosphate + 0.01 pgly_BS	3.1.3.27	NONE	NONE	Difference in gap filling reactions					
+rxn05272	H+ + CTP + 0.01 12dag3p_BS => PPi + 0.01 cdpdag_BS	2.7.7.41	peg.1657	Phosphatidate cytidylyltransferase (EC 2.7.7.41)	Lumped reaction					
+rxn05273	0.01 ps_BS => CO2 + 0.01 Cephalin	4.1.1.65	peg.230	Phosphatidylserine decarboxylase (EC 4.1.1.65)	Lumped reaction					
+rxn05282	2 UDPglucose + 0.01 12dgr_BS => 2 H+ + 2 UDP + 0.01 d12dg_BS	NONE	peg.2198	diglucosyldiacylglycerol synthase (LTA membrane anchor synthesis)	Lumped reaction					
+rxn05283	UDPglucose + 0.01 12dgr_BS => H+ + UDP + 0.01 m12dg_BS	NONE	peg.2198	diglucosyldiacylglycerol synthase (LTA membrane anchor synthesis)	Lumped reaction					
+rxn05284	3 UDPglucose + 0.01 12dgr_BS => 3 H+ + 3 UDP + 0.01 t12dg_BS	NONE	peg.2198	diglucosyldiacylglycerol synthase (LTA membrane anchor synthesis)	Lumped reaction					
+rxn00741	NAD + 2-Hydroxybutyrate <=> H+ + 2-Oxobutyrate + NADH	1.1.1.27	peg.306	L-lactate dehydrogenase (EC 1.1.1.27)	Inconsistent with SEED annotation					
+rxn01220	ATP + Deoxycytidine => ADP + dCMP	2.7.1.74	peg.14	Deoxyadenosine kinase (EC 2.7.1.76)|Deoxyguanosine kinase (EC 2.7.1.113)	Inconsistent with SEED annotation					
+rxn10052	H+ + AMP + Triphosphate <=> ADP + PPi	2.7.4.3	peg.137	Adenylate kinase (EC 2.7.4.3)	Inconsistent with SEED annotation					
+rxn00134	ATP + Adenosine => ADP + AMP	2.7.1.20|2.7.1.74	peg.14	Deoxyadenosine kinase (EC 2.7.1.76)|Deoxyguanosine kinase (EC 2.7.1.113)	Inconsistent with SEED annotation					
+rxn10053	ATP + CO2 + H2O + AIR => 2 H+ + ADP + Phosphate + 5'-Phosphoribosyl-4-carboxy-5-aminoimidazole	Undetermined	peg.644|peg.643	Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)|Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)	Difference in stoichiometry					
+rxn01746	H2O + Allantoate <=> Urea + Ureidoglycolate	3.5.3.4	NONE	NONE	Difference in gap filling reactions					
+rxn01368	H+ + H2O + Cytidine => NH3 + Uridine	3.5.4.5	peg.2533	Cytidine deaminase (EC 3.5.4.5)	Removed in gap generation					
+rxn10054	H+ + H2O + CMP => NH3 + UMP	3.5.4.12	peg.2561	dCMP deaminase (EC 3.5.4.12)|late competence protein comEB	Removed in gap generation					
+rxn10055	ATP + Deoxyinosine => ADP + dIMP	NONE	peg.15	Deoxyadenosine kinase (EC 2.7.1.76)|Deoxyguanosine kinase (EC 2.7.1.113)	Inconsistent with SEED annotation					
+rxn01025	H+ + H2O + 5-Methylcytosine <=> NH3 + Thymine	3.5.4.1	peg.18	tRNA-specific adenosine-34 deaminase (EC 3.5.4.-)	Inconsistent with SEED annotation					
+rxn09370	2 H2O + O2 + Urate => CO2 + H2O2 + Allantoin	1.7.3.3	peg.3251|peg.3252	Uricase (EC 1.7.3.3)|Transthyretin-like protein pucM	Difference in stoichiometry					
+rxn06538	10-Formyl-THF + L-Methionyl-tRNA => H+ + THF + N-Formylmethionyl-tRNA	2.1.2.9	peg.1575	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	Not modeling tRNA					
+rxn06937	GLU + ATP + H+ + tRNA-Glu => PPi + AMP + L-Glutamyl-tRNA-Glu	6.1.1.17|6.1.1.24	peg.92	Glutamyl-tRNA synthetase (EC 6.1.1.17)|Glutamyl-tRNA(Gln) synthetase	Not modeling tRNA					
+rxn06443	ATP + H+ + Methionine + tRNA(Met) => PPi + AMP + L-Methionyl-tRNA	6.1.1.10	peg.38	Methionyl-tRNA synthetase (EC 6.1.1.10)	Not modeling tRNA					
+rxn10063	H+ + H2O + Penam => FORM + 6-Aminopenicillanate	3.5.1.11	peg.3959	Choloylglycine hydrolase (EC 3.5.1.24)	Inconsistent with SEED annotation					
+rxn05489	ATP + H2O + ACTN[e] => H+ + ADP + Phosphate + ACTN	NONE	peg.3044|peg.3048|peg.3045|peg.3047|peg.3046	"ABC transporter, permease protein|ABC transporter, ATP-binding protein|Methionine ABC transporter ATP-binding protein|YTRC|YTRD"	Inconsistent with SEED annotation					
+rxn05490	ATP + H2O + ACTN => H+ + ADP + Phosphate + ACTN[e]	NONE	peg.3044|peg.3048|peg.3045|peg.3047|peg.3046	"ABC transporter, permease protein|ABC transporter, ATP-binding protein|Methionine ABC transporter ATP-binding protein|YTRC|YTRD"	Inconsistent with SEED annotation					
+rxn05496	H+[e] + ALA[e] => H+ + ALA	NONE	peg.2784|peg.1815|peg.243	sodium/alanine symporter family protein|amino acid carrier protein|Sodium/glutamine symporter glnT	Inconsistent with SEED annotation					
+rxn05154	ATP + H2O + L-Arginine[e] => H+ + ADP + Phosphate + L-Arginine	TC-3.A.1.3|3.A.1.3	peg.2401|peg.2402|peg.2400	"amino acid ABC transporter, permease protein|amino acid ABC transporter, amino acid-binding protein|ATP-binding protein"	Inconsistent with SEED annotation					
+rxn05510	Na+[e] + Bile salt[e] => Na+ + Bile salt	TC-2.A.28|2.A.28	peg.1940	Sodium-dependent transporter	Inconsistent with SEED annotation					
+rxn05520	H+[e] + Citrate[e] + Mn2+[e] => H+ + Citrate + Mn2+	NONE	peg.761	Mg(2+) Citrate transporter (TC 2.A.11.1.1)	Difference in specificity					
+rxn05521	H+[e] + Citrate[e] + Ni2+[e] => H+ + Citrate + Ni2+	NONE	peg.761	Mg(2+) Citrate transporter (TC 2.A.11.1.1)	Difference in specificity					
+rxn05522	H+[e] + Citrate[e] + Co2+[e] => H+ + Citrate + Co2+	NONE	peg.761	Mg(2+) Citrate transporter (TC 2.A.11.1.1)	Difference in specificity					
+rxn05523	H+[e] + Citrate[e] + Zinc[e] => H+ + Citrate + Zinc	NONE	peg.761	Mg(2+) Citrate transporter (TC 2.A.11.1.1)	Difference in specificity					
+rxn05586	Hg2+[e] <=> Hg2+	NONE	peg.3357	Copper(I) chaperone copZ	Inconsistent with SEED annotation					
+rxn05589	H+[e] + Isocitrate[e] + Mg[e] => H+ + Isocitrate + Mg	NONE	peg.761	Mg(2+) Citrate transporter (TC 2.A.11.1.1)	Difference in specificity					
+rxn05590	H+[e] + Isocitrate[e] <=> H+ + Isocitrate	NONE	peg.761	Mg(2+) Citrate transporter (TC 2.A.11.1.1)	Difference in specificity					
+rxn05596	H+[e] + K+ => H+ + K+[e]	TC-2.A.37|2.A.37	peg.3163|peg.3169|BG12345|peg.3168|peg.3165|peg.3164	Na(+) H(+) antiporter subunit A (TC 2.A.63.1.2)|Na(+) H(+) antiporter subunit G (TC 2.A.63.1.2)|Na(+) H(+) antiporter subunit F (TC 2.A.63.1.2)|Na(+) H(+) antiporter subunit C (TC 2.A.63.1.2)|Na(+) H(+) antiporter subunit B (TC 2.A.63.1.2)	Difference in specificity					
+rxn05604	2 H+[e] + MALA[e] + LCTT + Na+ => 2 H+ + MALA + LCTT[e] + Na+[e]	NONE	peg.2361	Malate Na(+) symporter	Difference in specificity					
+rxn05613	ATP + H2O + L-Methionine S-oxide[e] => H+ + ADP + Phosphate + L-Methionine S-oxide	NONE	peg.3278|peg.3280|peg.3279|peg.2938|peg.2937|peg.2939|peg.2941|peg.2940	"Methionine ABC transporter substrate-binding protein|Methionine ABC transporter ATP-binding protein|Methionine ABC transporter permease protein|Probable amino-acid ABC transporter permease protein ytmM|Histidine ABC transporter, ATP-binding protein HisP (TC 3.A.1.3.1)|putative periplasmic binding transport protein"	Difference in specificity					
+rxn05614	ATP + H2O + L-methionine R-oxide[e] => H+ + ADP + Phosphate + L-methionine R-oxide	NONE	peg.3278|peg.3280|peg.3279|peg.2938|peg.2937|peg.2939|peg.2941|peg.2940	"Methionine ABC transporter substrate-binding protein|Methionine ABC transporter ATP-binding protein|Methionine ABC transporter permease protein|Probable amino-acid ABC transporter permease protein ytmM|Histidine ABC transporter, ATP-binding protein HisP (TC 3.A.1.3.1)|putative periplasmic binding transport protein"	Difference in specificity					
+rxn05615	H+[e] + Methionine => H+ + Methionine[e]	NONE	NONE	NONE	Difference in gap filling reactions					
+rxn05306	H+[e] + L-Phenylalanine[e] <=> H+ + L-Phenylalanine	TC-2.A.3.1|2.A.3.1	NONE	NONE	Difference in gap filling reactions					
+rxn05638	H+[e] + L-Proline[e] => H+ + L-Proline	NONE	peg.323|peg.1962|peg.667|peg.3056	Proline/sodium symporter PutP (TC 2.A.21.2.1)|Propionate/sodium symporter|Na+/solute symporter|Sodium/proline symporter|amino acid permease family protein	Inconsistent with SEED annotation					
+rxn05652	H+[e] + Spermidine => H+ + Spermidine[e]	NONE	peg.2661	multidrug-efflux transporter	Inconsistent with SEED annotation					
+rxn05659	H+[e] + Thymine[e] <=> H+ + Thymine	NONE	NONE	NONE	Difference in gap filling reactions					
+rxn10003	2 H2O + Heme => 5 H+ + Heme D	NONE	NONE	NONE	Difference in stoichiometry					
+rxn09557	2 SAM + UroporphyrinogenIII => 4 H+ + 2 S-Adenosylhomocysteine + Sirohydrochlorin	2.1.1.107	peg.1563|peg.329	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)|Uroporphyrinogen-III synthase (EC 4.2.1.75)	Difference in stoichiometry					
+rxn10019	ATP + CoA + Fatty acid (Iso-C16:1) <=> PPi + AMP + Iso-C16:1 CoA	6.2.1.3	peg.1829|peg.2859|peg.1027|peg.1036	Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)|Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)	Difference in specificity					
+rxn10020	ATP + CoA + Fatty acid (Anteiso-C17:1) <=> PPi + AMP + Anteiso-C17:1 CoA	6.2.1.3	peg.2859|peg.1027|peg.1036|peg.1829	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)|Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)	Difference in specificity					
+rxn10021	ATP + CoA + Fatty acid (Iso-C17:1) <=> PPi + AMP + Iso-C17:1 CoA	6.2.1.3	peg.2859|peg.1829|peg.1036|peg.1027	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)|Acetoacetyl-CoA synthetase [leucine] (EC 6.2.1.16)	Difference in specificity					
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										

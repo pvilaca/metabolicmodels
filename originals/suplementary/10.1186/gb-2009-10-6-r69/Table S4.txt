@@ -1,0 +1,31 @@
+ESSENTIAL GENE	ASSOCIATED REACTION	FUNCTIONAL ROLE	HOMOLOG 1	BLAST E-SCORE	HOMOLOG 2	BLAST E-SCORE	HOMOLOG 3	BLAST E-SCORE	HOMOLOG 4	BLAST E-SCORE
+peg.1592	"rxn05408,rxn05383,rxn05456,rxn05455,rxn05458,rxn05453,rxn05451,rxn05358,rxn05457,rxn05465,rxn05452,rxn05454,rxn05459"	Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)	peg.1712	1.40E-44	peg.1714	1.40E-44				
+peg.178	rxn00555	Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)	peg.190	(nonsimilar gene with identical function)						
+peg.1743	"rxn06076,rxn05233,rxn05231,rxn06075"	"Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)"	peg.2009	2.00E-102						
+peg.1742	"rxn06076,rxn05233,rxn05231,rxn06075"	"Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)"	peg.2011	5.00E-114						
+peg.1741	"rxn06076,rxn05233,rxn05231,rxn06075"	Ribonucleotide reduction protein NrdI	peg.2012	5.40E-22						
+peg.2279	rxn05266	Ubiquinone/menaquinone biosynthesis methyltransferase UbiE/COQ5 (EC 2.1.1.-)	peg.317	(nonsimilar gene with identical function)						
+peg.2283	rxn05294	DNA-binding protein HBsu	peg.2111	2.30E-29						
+peg.2842	rxn00193	Glutamate racemase (EC 5.1.1.3)	peg.2683	3.50E-30						
+peg.2923	rxn06673	Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)	peg.2396	(nonsimilar gene with identical function)						
+peg.2924	rxn06673	Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2)	peg.2396	(nonsimilar gene with identical function)						
+peg.1593	"rxn05422,rxn05426,rxn05364,rxn05372,rxn05430,rxn05341,rxn05410,rxn05376,rxn05342,rxn05337,rxn05385,rxn05339,rxn05401,rxn05338,rxn05397,rxn05360,rxn05340,rxn05414,rxn05461,rxn05405,rxn05368,rxn05418,rxn05393,rxn05389,rxn05380,rxn05336"	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	peg.2945	(nonsimilar gene with identical function)	peg.3296					
+peg.3217	rxn05289	Thioredoxin reductase (EC 1.8.1.9)	peg.328	1.00E-80	peg.3485	2.30E-24				
+peg.3714	rxn05296	LSU ribosomal protein L31p	peg.3073	4.70E-07						
+peg.3683	rxn00461	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)	peg.3717	2.00E-121						
+peg.2970	rxn05296	Tyrosyl-tRNA synthetase (EC 6.1.1.1)	peg.3851	2.10E-34						
+peg.4096	rxn05294	Single-stranded DNA-binding protein	peg.3638	2.20E-33						
+peg.607	rxn05294	DNA-cytosine methyltransferase (EC 2.1.1.37)	peg.2030	3.50E-09						
+peg.129	rxn05296	SSU ribosomal protein S14p (S29e)	peg.887	1.80E-09						
+peg.1162	rxn10057|rxn10060|rxn10056|rxn10058|rxn10059|rxn00077	NAD kinase (EC 2.7.1.23)	peg.2957	4.70E-32						
+peg.1421	rxn01972	"N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)"	peg.2932	7.30E-65	peg.3952	2.70E-59	peg.1007	9.20E-52		
+peg.1460	rxn00011|rxn02342	Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1)	peg.2409	5.20E-55	peg.2409	5.20E-55	peg.806	1.00E-31	peg.806	1.00E-31
+peg.3081	rxn02832	O-succinylbenzoate-CoA synthase (EC 4.2.1.-)	peg.1300	3.20E-28						
+peg.3082	rxn02831	O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26)	peg.1027	3.90E-64	peg.2859	8.00E-57				
+peg.31	rxn05294	DNA polymerase III delta prime subunit (EC 2.7.7.7)	peg.19	1.70E-19						
+peg.3559	rxn10307|rxn10308|rxn10311|rxn10312|rxn10310|rxn10314|rxn10315|rxn10309|rxn08040|rxn10313	Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)	peg.1521	2.50E-27						
+peg.3577	rxn10195|rxn10194|rxn10196	Teichoic acid export ATP-binding protein TagH (EC 3.6.3.40)	peg.276	1.60E-21						
+peg.3719	rxn01870|rxn00786|rxn01334	Fructose-bisphosphate aldolase class II (EC 4.1.2.13)	peg.3972	3.10E-88						
+peg.4046	rxn05295	Two-component sensor kinase SA14-24	peg.2315	3.80E-70						
+peg.4047	rxn05295	Two-component response regulator SA14-24	peg.2914	3.70E-64						
+peg.464	rxn00283	Alanine racemase (EC 5.1.1.1)	peg.1768	2.30E-77						

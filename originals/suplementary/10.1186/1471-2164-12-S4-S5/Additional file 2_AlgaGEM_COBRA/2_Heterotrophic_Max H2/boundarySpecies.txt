@@ -1,0 +1,26 @@
+hv_ext
+CO2_ext
+HCO3-_ext
+H2O_ext
+Oxygen_ext
+Nitrate_ext
+NH3_ext
+Hydrogen sulfide_ext
+Enzyme N6-(dihydrolipoyl)lysine_m
+Glucose_ext
+Biomass_biomass
+Sucrose_ext
+Acyl-carrier protein_c
+Acyl-carrier protein_p
+Acetate_ext
+Orthophosphate_ext
+Hydrogen_ext
+Glycolate_ext
+L-Glutamate_ext
+L-Glutamine_ext
+L-Aspartate_ext
+L-Alanine_ext
+L-Serine_ext
+Formate_ext
+(R)-Lactate_ext
+Ethanol_ext

@@ -1,0 +1,45 @@
+reactionID	lb	ub	comment
+Ex1	-1000	4.8	CO2 uptake rate [free]
+Ex10	0	2.4	Acetate uptake
+Ex14	0	0	HCO3- ext input
+Ex8	0	0	Glucose_ext input 
+Ex11	5	45	Limit photons (avarage of max illumination=65mE/m2/s
+Ex17	0	0	Less starch accumulated
+Ex4	0	0	"Only NH3 as N source, NO3 = 0"
+Ex12	0	0	Sucrose_ext input
+TCP30	0	0	Constrained citruline transporter
+R03140_c	0	0	"this reaction is not active in cytoplasm, only in plastid"
+R01752_c	0	0	reactions set to zero to correct high negative flux
+R03157_c	0	0	reactions set to zero to correct high negative flux
+R02086_c	0	0	reactions set to zero to correct high negative flux
+R04430_c	0	0	reactions set to zero to correct high negative flux
+R04956_c	0	0	reactions set to zero to correct high negative flux
+R04958_c	0	0	reactions set to zero to correct high negative flux
+R04961_c	0	0	reactions set to zero to correct high negative flux
+R04966_c	0	0	reactions set to zero to correct high negative flux
+R04970_c	0	0	reactions set to zero to correct high negative flux
+R00243_c	0	1000	Reversibility;Isoenzymes
+R00243_m	0	1000	Reversibility;Isoenzymes
+R00253_p	0	1000	Reversibility;Isoenzymes
+R00253_m	0	1000	Reversibility;Isoenzymes
+R00267_m	0	0	"Isoenzyme isocitrate dehydrogebase, NADPH dependent"
+R00472_x	0	1000	Reversibility;Isoenzymes (malate synthase)
+R03545_c	0	0	alternative fermentative pathway
+REner02_p	0	0	alternative Cyclic ETC (test)
+REner03_p	0	0	alternative Cyclic ETC (test)
+REner04_p	0	0	alternative Cyclic ETC (test)
+REner05_m	0	0	alternative electron trasnport chain (test)
+R00132N_c	0	0	constrained carbonic anhydrase
+R00132N_m	0	0	constrained carbonic anhydrase
+R00086_c	0	1000	ATP hydrolysis only (not ATP generation in the cytosol)
+Ex17	0	0	Glutamate transport (input)
+Ex18	0	0	Glutamine transport (input)
+Ex19	0	0	Aspartate transport (input)
+Ex20	0	0	Alanine transport (input)
+Ex21	0	0	Serine transport (input)
+Ex22	0	1000	Formate transporter
+Ex23	0	1000	Lactate transporter
+Ex24	0	1000	Ethanol transporter
+Ex15	0	1000	Glycolate input/output
+REner06_p	0	1000	Irreversible reaction
+BIO	0.066	0.066	growth rate mixotrophic

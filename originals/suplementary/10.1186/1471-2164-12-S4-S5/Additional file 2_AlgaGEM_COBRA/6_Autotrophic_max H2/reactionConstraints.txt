@@ -1,0 +1,37 @@
+reactionID	lb	ub	comment
+Ex1	0	2.04	CO2 uptake rate (literature)
+Ex10	-1000	0	Acetate input = 0
+Ex11	17.3	18	Photons absorbed (range)
+Ex14	0	0	HCO3- ext input
+Ex8	0	0	Glucose_ext input 
+Ex17	0	0	Less starch accumulated
+Ex4	0	0	"Only NH3 as N source, NO3 = 0"
+Ex12	0	0	Sucrose_ext input
+BIO_ls	0.059	0.059	"Biomass autotrophic, specific growth rate [hr^-1]"
+TCP30	0	0	Constrained citruline transporter
+R03140_c	0	0	"this reaction is not active in cytoplasm, only in plastid"
+R01752_c	0	0	reactions set to zero to correct high negative flux
+R03157_c	0	0	reactions set to zero to correct high negative flux
+R02086_c	0	0	reactions set to zero to correct high negative flux
+R04430_c	0	0	reactions set to zero to correct high negative flux
+R04956_c	0	0	reactions set to zero to correct high negative flux
+R04958_c	0	0	reactions set to zero to correct high negative flux
+R04961_c	0	0	reactions set to zero to correct high negative flux
+R04966_c	0	0	reactions set to zero to correct high negative flux
+R04970_c	0	0	reactions set to zero to correct high negative flux
+R00243_c	0	1000	Reversibility;Isoenzymes
+R00243_m	0	1000	Reversibility;Isoenzymes
+R00253_p	0	1000	Reversibility;Isoenzymes
+R00253_m	0	1000	Reversibility;Isoenzymes
+R00267_m	0	0	"Isoenzyme isocitrate dehydrogebase, NADPH dependent"
+R00472_x	0	1000	Reversibility;Isoenzymes (malate synthase)
+R05875_p	0	0	Constrained during Dark/heterotrophic condition
+R00114_c	0	0	Constrained during Dark/heterotrophic condition
+R03545_c	0	0	alternative fermentative pathway
+REner02_p	0	0	alternative Ciclic ETC
+REner03_p	0	0	alternative Ciclic ETC
+REner04_p	0	0	alternative Ciclic ETC
+REner05_m	0	0	alternative electron trasnport chain
+R00132N_c	0	0	constrained carbonic anhydrase
+R00132N_m	0	0	constrained carbonic anhydrase
+R00086_c	0	1000	ATP hydrolysis only (not ATP generation in the cytosol)
